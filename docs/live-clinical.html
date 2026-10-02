@@ -3,73 +3,130 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Live Clinical Trial Registry Dashboard — ClinicalTrials.gov</title>
+<title>Live Clinical Trials Intelligence — ClinicalTrials.gov Registry Dashboard</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
-  :root{--navy:#0F2B46;--teal:#12808A;--amber:#F2A93B;--red:#C0392B;--muted:#5A6C7D;--bg:#F4F6F8;--line:#D9E2EC}
-  *{box-sizing:border-box}body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--navy)}
-  header{background:var(--navy);color:#fff;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
-  header h1{font-size:20px;margin:0}.sub{font-size:10px;letter-spacing:.08em;opacity:.85}
+  :root{--navy:#0F2B46;--teal:#12808A;--amber:#F2A93B;--red:#C0392B;--muted:#5A6C7D;--bg:#EEF2F5;--line:#D9E2EC}
+  *{box-sizing:border-box} body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--navy)}
+  header{background:linear-gradient(90deg,#0F2B46,#123B61);color:#fff;padding:12px 22px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+  header h1{font-size:19px;margin:0} .sub{font-size:9px;letter-spacing:.1em;opacity:.8}
   .live{display:flex;align-items:center;gap:8px;font-size:12px}
   .dot{width:10px;height:10px;border-radius:50%;background:#2ECC71;animation:pulse 1.6s infinite}
-  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(46,204,113,.5)}70%{box-shadow:0 0 0 9px rgba(46,204,113,0)}100%{box-shadow:0 0 0 0 rgba(46,204,113,0)}}
-  .wrap{max-width:1320px;margin:0 auto;padding:14px}
-  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:12px}
-  .kpi{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}
-  .kpi .v{font-size:24px;font-weight:700}.kpi .l{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
-  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.full{grid-column:1/-1}
-  @media (max-width:980px){.grid{grid-template-columns:1fr}}
-  .card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}
-  .card h3{margin:2px 0 10px;font-size:14px}
-  table{width:100%;border-collapse:collapse;font-size:12px}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
-  th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
-  a{color:var(--teal)}footer{font-size:11px;color:var(--muted);padding:8px 2px 20px}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(46,204,113,.45)}70%{box-shadow:0 0 0 9px rgba(46,204,113,0)}100%{box-shadow:0 0 0 0 rgba(46,204,113,0)}}
+  .wrap{max-width:1360px;margin:0 auto;padding:12px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:9px;margin-bottom:12px}
+  .kpi{background:#fff;border:1px solid var(--line);border-left:4px solid var(--teal);border-radius:7px;padding:10px 12px}
+  .kpi .v{font-size:22px;font-weight:700} .kpi .l{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+  .kpi .s{font-size:11px;color:var(--teal);margin-top:2px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}.two{grid-column:span 2}.full{grid-column:1/-1}
+  @media (max-width:1100px){.grid{grid-template-columns:1fr 1fr}.two{grid-column:span 2}}
+  @media (max-width:720px){.grid{grid-template-columns:1fr}.two{grid-column:span 1}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:7px;padding:11px 12px}
+  .card h3{margin:0 0 3px;font-size:13px;display:flex;justify-content:space-between;align-items:center}
+  .badge{font-size:9px;padding:2px 7px;border-radius:10px;background:#E8F4F3;color:var(--teal);letter-spacing:.04em}
+  .badge.smp{background:#FFF4DE;color:#9A6B14}
+  canvas{max-height:250px}
+  table{width:100%;border-collapse:collapse;font-size:12px}th,td{padding:5px 7px;border-bottom:1px solid var(--line);text-align:left}
+  th{font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+  td.n{text-align:right}.scroll{overflow:auto;max-height:420px}
+  .fun{display:flex;flex-direction:column;gap:6px;margin-top:6px}
+  .funrow{display:flex;align-items:center;gap:10px}
+  .funbar{height:26px;border-radius:4px;display:flex;align-items:center;padding:0 10px;color:#fff;font-size:12px;font-weight:600;min-width:110px;transition:width .4s}
+  .funlbl{font-size:12px;color:var(--muted);width:220px}
+  a{color:var(--teal)}footer{font-size:11px;color:var(--muted);padding:10px 2px 20px}
 </style>
 </head>
 <body>
 <header>
-  <h1>Live Clinical Trial Registry Dashboard</h1>
   <div>
-    <div class="live"><span class="dot"></span><span id="stamp">loading live data…</span></div>
-    <div class="sub">SOURCE: CLINICALTRIALS.GOV API V2 · AUTO-REFRESHED EVERY ~3 HOURS VIA GITHUB ACTIONS</div>
+    <h1>Live Clinical Trials Intelligence</h1>
+    <div class="sub">CLINICALTRIALS.GOV REGISTRY · EXACT TOTALS + 3,000-RECORD LIVE SAMPLE · AUTO-REFRESH EVERY ~3H</div>
   </div>
+  <div class="live"><span class="dot"></span><span id="stamp">loading live data…</span></div>
 </header>
 <div class="wrap">
   <div class="kpis" id="kpis"></div>
   <div class="grid">
-    <div class="card"><h3>Registry by Phase (all studies)</h3><canvas id="cPhase"></canvas></div>
-    <div class="card"><h3>Registry by Status (all studies)</h3><canvas id="cStatus"></canvas></div>
-    <div class="card"><h3>Top Conditions — recently updated sample</h3><canvas id="cCond"></canvas></div>
-    <div class="card"><h3>Top Countries — recently updated sample</h3><canvas id="cCtry"></canvas></div>
-    <div class="card"><h3>Sponsor Type (lead sponsor class)</h3><canvas id="cSpon"></canvas></div>
-    <div class="card"><h3>Top Sponsors — recently updated sample</h3><canvas id="cSponTop"></canvas></div>
-    <div class="card full"><h3>Most Recently Updated Trials (live from registry)</h3><table id="tRecent"></table></div>
+
+    <div class="card two"><h3>New Trials Started per Year, 2014–2026 <span class="badge">EXACT REGISTRY TOTALS</span></h3><canvas id="cYear"></canvas></div>
+    <div class="card"><h3>Registry by Status <span class="badge">EXACT TOTALS</span></h3><canvas id="cStatus"></canvas></div>
+
+    <div class="card"><h3>Registry by Phase <span class="badge">EXACT TOTALS</span></h3><canvas id="cPhase"></canvas></div>
+    <div class="card"><h3>Lead Sponsor Type <span class="badge">EXACT TOTALS</span></h3><canvas id="cSponClass"></canvas></div>
+    <div class="card"><h3>Enrollment Size Distribution <span class="badge smp">SAMPLE</span></h3><canvas id="cEnroll"></canvas></div>
+
+    <div class="card two"><h3>Phase × Status Cross-Tab (live sample) <span class="badge smp">SAMPLE</span></h3><div class="scroll" id="tCross"></div></div>
+    <div class="card"><h3>Registry Funnel <span class="badge">EXACT TOTALS</span></h3><div class="fun" id="funnel"></div></div>
+
+    <div class="card"><h3>Top Conditions <span class="badge smp">SAMPLE</span></h3><canvas id="cCond"></canvas></div>
+    <div class="card"><h3>Top Countries <span class="badge smp">SAMPLE</span></h3><canvas id="cCtry"></canvas></div>
+    <div class="card"><h3>Intervention Types <span class="badge smp">SAMPLE</span></h3><canvas id="cInter"></canvas></div>
+
+    <div class="card"><h3>Eligibility — Sex <span class="badge smp">SAMPLE</span></h3><canvas id="cSex"></canvas></div>
+    <div class="card"><h3>Eligibility — Minimum Age <span class="badge smp">SAMPLE</span></h3><canvas id="cAge"></canvas></div>
+    <div class="card"><h3>Study Type Mix <span class="badge smp">SAMPLE</span></h3><canvas id="cType"></canvas></div>
+
+    <div class="card two"><h3>Largest Trials in Live Sample (planned enrollment) <span class="badge smp">SAMPLE</span></h3><div class="scroll" id="tLarge"></div></div>
+    <div class="card"><h3>Top Sponsors <span class="badge smp">SAMPLE</span></h3><div class="scroll" id="tSpon"></div></div>
+
+    <div class="card full"><h3>Most Recently Updated Trials — live from registry <span class="badge">LIVE FEED</span></h3><div class="scroll" id="tRecent"></div></div>
   </div>
   <footer id="foot"></footer>
 </div>
+
 <script>
 const NAVY='#0F2B46',TEAL='#12808A',AMBER='#F2A93B',RED='#C0392B',GRAY='#8FA6B8',LTEAL='#37B6A2';
-let CH={}; function chart(id,cfg){ if(CH[id])CH[id].destroy(); CH[id]=new Chart(document.getElementById(id),cfg); }
-function bar(id,labels,data,color,opts){ chart(id,{type:'bar',data:{labels,datasets:[{data,backgroundColor:color}]},options:Object.assign({indexAxis:'y',plugins:{legend:{display:false}}},opts||{})}); }
+Chart.defaults.font.size=11;
+let CH={};
+function chart(id,cfg){ if(CH[id])CH[id].destroy(); CH[id]=new Chart(document.getElementById(id),cfg); }
+function barH(id,labels,data,color){ chart(id,{type:'bar',data:{labels,datasets:[{data,backgroundColor:color}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{ticks:{maxTicksLimit:6}}}}}); }
+function donut(id,m){ const cols=[TEAL,NAVY,AMBER,RED,GRAY,LTEAL,'#5B7C99','#34495E','#B0BEC5','#7FB3B0']; chart(id,{type:'doughnut',data:{labels:Object.keys(m),datasets:[{data:Object.values(m),backgroundColor:cols}]},options:{plugins:{legend:{position:'bottom',labels:{boxWidth:9}}}}}); }
+const P=(a,b)=>b?(100*a/b).toFixed(1)+'% of registry':'';
+
 fetch('live-data.json').then(r=>r.json()).then(d=>{
   document.getElementById('stamp').textContent='LIVE · refreshed '+new Date(d.generatedAt).toLocaleString();
-  const k=d.kpis;
-  const cards=[['Total studies in registry',k.totalStudies],['Recruiting now',k.recruiting],
-    ['Updated in last 30 days',k.updated30d],['Started in last 12 months',k.started365d],
-    ['Completed (all time)',k.completed],['Terminated',k.terminated],
-    ['With posted results',k.withResults],['Sampled live records',k.sampledRecords],
-    ['Sample enrollment (sum)',k.sampleEnrollment]];
-  document.getElementById('kpis').innerHTML=cards.map(([l,v])=>`<div class="kpi"><div class="v">${(v??'—').toLocaleString()}</div><div class="l">${l}</div></div>`).join('');
-  bar('cPhase',Object.keys(d.byPhase),Object.values(d.byPhase),TEAL,{indexAxis:'x'});
-  chart('cStatus',{type:'doughnut',data:{labels:Object.keys(d.byStatus),datasets:[{data:Object.values(d.byStatus),backgroundColor:[TEAL,NAVY,AMBER,RED,GRAY,LTEAL,'#5B7C99','#34495E','#B0BEC5']}]}});
-  bar('cCond',d.sample.topConditions.map(x=>x[0]),d.sample.topConditions.map(x=>x[1]),NAVY);
-  bar('cCtry',d.sample.topCountries.map(x=>x[0]),d.sample.topCountries.map(x=>x[1]),TEAL);
-  chart('cSpon',{type:'bar',data:{labels:Object.keys(d.bySponsorClass),datasets:[{data:Object.values(d.bySponsorClass),backgroundColor:AMBER}]},options:{indexAxis:'y',plugins:{legend:{display:false}}}});
-  bar('cSponTop',d.sample.topSponsors.map(x=>x[0]),d.sample.topSponsors.map(x=>x[1]),LTEAL);
-  document.getElementById('tRecent').innerHTML='<tr><th>NCT ID</th><th>Title</th><th>Status</th><th>Phase</th><th>Lead sponsor</th><th>Enrollment</th><th>Last updated</th></tr>'+
-    d.recent.map(r=>`<tr><td><a href="https://clinicaltrials.gov/study/${r.nct}" target="_blank" rel="noopener">${r.nct}</a></td><td>${r.title}</td><td>${r.status}</td><td>${r.phase}</td><td>${r.sponsor}</td><td>${(r.enrollment??'—')}</td><td>${r.updated}</td></tr>`).join('');
-  document.getElementById('foot').textContent=`Data: ${d.source}. Registry-wide KPIs/phases/status are exact totals from the registry; condition/country/sponsor charts use the ${k.sampledRecords.toLocaleString()} most recently updated studies. Pipeline: scripts/fetch_live.py → docs/live-data.json, refreshed by GitHub Actions on a 3-hour schedule.`;
-}).catch(()=>{document.getElementById('stamp').textContent='live data unavailable';});
+  const k=d.kpis, tot=k.totalStudies;
+  const cards=[
+    ['Total Studies in Registry',tot,'the full registry'],
+    ['Currently Recruiting',k.recruiting,P(k.recruiting,tot)],
+    ['Active, Not Recruiting',d.byStatus['Active Not Recruiting']||0,''],
+    ['Updated (last 30 days)',k.updated30d,'registry is moving daily'],
+    ['Started (last 12 months)',k.started365d,'new trials launched'],
+    ['Completed (all time)',k.completed,P(k.completed,tot)],
+    ['With Posted Results',k.withResults,P(k.withResults,tot)],
+    ['Terminated',k.terminated,'ended early'],
+    ['Median Enrollment (sample)',k.medianEnrollment,(k.sampledRecords||0).toLocaleString()+' live records sampled'],
+  ];
+  document.getElementById('kpis').innerHTML=cards.map(([l,v,s])=>`<div class="kpi"><div class="v">${(v??'—').toLocaleString()}</div><div class="l">${l}</div><div class="s">${s||''}</div></div>`).join('');
+
+  chart('cYear',{type:'bar',data:{labels:Object.keys(d.startedByYear),datasets:[{data:Object.values(d.startedByYear),backgroundColor:TEAL}]},options:{plugins:{legend:{display:false}},scales:{y:{ticks:{callback:v=>(v/1000)+'k'}}}}});
+  donut('cStatus',d.byStatus);
+  barH('cPhase',Object.keys(d.byPhase),Object.values(d.byPhase),NAVY);
+  barH('cSponClass',Object.keys(d.bySponsorClass),Object.values(d.bySponsorClass),AMBER);
+  chart('cEnroll',{type:'bar',data:{labels:Object.keys(d.sample.enrollmentBins),datasets:[{data:Object.values(d.sample.enrollmentBins),backgroundColor:LTEAL}]},options:{plugins:{legend:{display:false}}}});
+
+  const ps=d.sample.phaseStatus, statuses=[...new Set(Object.values(ps).flatMap(o=>Object.keys(o)))];
+  document.getElementById('tCross').innerHTML='<table><tr><th>Phase</th>'+statuses.slice(0,7).map(s=>`<th style="text-align:right">${s.replace('_',' ')}</th>`).join('')+'</tr>'+
+    Object.entries(ps).map(([p,o])=>`<tr><td>${p}</td>`+statuses.slice(0,7).map(s=>`<td class="n">${(o[s]||0).toLocaleString()}</td>`).join('')+'</tr>').join('')+'</table>';
+
+  const maxF=Math.max(tot,k.recruiting,k.withResults);
+  document.getElementById('funnel').innerHTML=[['All registered studies',tot,NAVY],['Recruiting now',k.recruiting,TEAL],['With posted results',k.withResults,AMBER]]
+    .map(([l,v,c])=>`<div class="funrow"><div class="funlbl">${l}</div><div class="funbar" style="background:${c};width:${Math.max(12,100*v/maxF)}%">${v.toLocaleString()}</div></div>`).join('');
+
+  barH('cCond',d.sample.topConditions.map(x=>x[0]),d.sample.topConditions.map(x=>x[1]),TEAL);
+  barH('cCtry',d.sample.topCountries.map(x=>x[0]),d.sample.topCountries.map(x=>x[1]),NAVY);
+  barH('cInter',d.sample.topInterventions.map(x=>x[0]),d.sample.topInterventions.map(x=>x[1]),AMBER);
+  donut('cSex',d.sample.eligSex); donut('cAge',d.sample.minAge); donut('cType',d.sample.studyType);
+
+  document.getElementById('tLarge').innerHTML='<table><tr><th>NCT</th><th>Title</th><th>Status</th><th style="text-align:right">Enrollment</th><th>Sponsor</th></tr>'+
+    d.largest.map(r=>`<tr><td><a href="https://clinicaltrials.gov/study/${r.nct}" target="_blank" rel="noopener">${r.nct}</a></td><td>${r.title}</td><td>${r.status}</td><td class="n">${(r.enrollment||0).toLocaleString()}</td><td>${r.sponsor}</td></tr>`).join('')+'</table>';
+  document.getElementById('tSpon').innerHTML='<table><tr><th>Sponsor</th><th style="text-align:right">Trials in sample</th></tr>'+
+    d.sample.topSponsors.map(x=>`<tr><td>${x[0]}</td><td class="n">${x[1]}</td></tr>`).join('')+'</table>';
+  document.getElementById('tRecent').innerHTML='<table><tr><th>NCT ID</th><th>Title</th><th>Status</th><th>Phase</th><th>Lead sponsor</th><th style="text-align:right">Enrollment</th><th>Last updated</th></tr>'+
+    d.recent.map(r=>`<tr><td><a href="https://clinicaltrials.gov/study/${r.nct}" target="_blank" rel="noopener">${r.nct}</a></td><td>${r.title}</td><td>${r.status}</td><td>${r.phase}</td><td>${r.sponsor}</td><td class="n">${(r.enrollment??'—')}</td><td>${r.updated}</td></tr>`).join('')+'</table>';
+
+  document.getElementById('foot').textContent=`Data: ${d.source}. Registry-wide totals are exact live counts; sample-based visuals use the ${k.sampledRecords.toLocaleString()} most recently updated studies (refreshed every ~3 hours by scripts/fetch_live.py via GitHub Actions). Synthetic in-browser demo dashboard: live.html · Power BI build guide: index.`;
+}).catch(()=>{document.getElementById('stamp').textContent='live data unavailable — retry shortly';});
 </script>
 </body>
 </html>
