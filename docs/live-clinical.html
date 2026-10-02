@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Live Clinical Trial Registry Dashboard — ClinicalTrials.gov</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{--navy:#0F2B46;--teal:#12808A;--amber:#F2A93B;--red:#C0392B;--muted:#5A6C7D;--bg:#F4F6F8;--line:#D9E2EC}
+  *{box-sizing:border-box}body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--navy)}
+  header{background:var(--navy);color:#fff;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+  header h1{font-size:20px;margin:0}.sub{font-size:10px;letter-spacing:.08em;opacity:.85}
+  .live{display:flex;align-items:center;gap:8px;font-size:12px}
+  .dot{width:10px;height:10px;border-radius:50%;background:#2ECC71;animation:pulse 1.6s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(46,204,113,.5)}70%{box-shadow:0 0 0 9px rgba(46,204,113,0)}100%{box-shadow:0 0 0 0 rgba(46,204,113,0)}}
+  .wrap{max-width:1320px;margin:0 auto;padding:14px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:12px}
+  .kpi{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}
+  .kpi .v{font-size:24px;font-weight:700}.kpi .l{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.full{grid-column:1/-1}
+  @media (max-width:980px){.grid{grid-template-columns:1fr}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}
+  .card h3{margin:2px 0 10px;font-size:14px}
+  table{width:100%;border-collapse:collapse;font-size:12px}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+  th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+  a{color:var(--teal)}footer{font-size:11px;color:var(--muted);padding:8px 2px 20px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Live Clinical Trial Registry Dashboard</h1>
+  <div>
+    <div class="live"><span class="dot"></span><span id="stamp">loading live data…</span></div>
+    <div class="sub">SOURCE: CLINICALTRIALS.GOV API V2 · AUTO-REFRESHED EVERY ~3 HOURS VIA GITHUB ACTIONS</div>
+  </div>
+</header>
+<div class="wrap">
+  <div class="kpis" id="kpis"></div>
+  <div class="grid">
+    <div class="card"><h3>Registry by Phase (all studies)</h3><canvas id="cPhase"></canvas></div>
+    <div class="card"><h3>Registry by Status (all studies)</h3><canvas id="cStatus"></canvas></div>
+    <div class="card"><h3>Top Conditions — recently updated sample</h3><canvas id="cCond"></canvas></div>
+    <div class="card"><h3>Top Countries — recently updated sample</h3><canvas id="cCtry"></canvas></div>
+    <div class="card"><h3>Sponsor Type (lead sponsor class)</h3><canvas id="cSpon"></canvas></div>
+    <div class="card"><h3>Top Sponsors — recently updated sample</h3><canvas id="cSponTop"></canvas></div>
+    <div class="card full"><h3>Most Recently Updated Trials (live from registry)</h3><table id="tRecent"></table></div>
+  </div>
+  <footer id="foot"></footer>
+</div>
+<script>
+const NAVY='#0F2B46',TEAL='#12808A',AMBER='#F2A93B',RED='#C0392B',GRAY='#8FA6B8',LTEAL='#37B6A2';
+let CH={}; function chart(id,cfg){ if(CH[id])CH[id].destroy(); CH[id]=new Chart(document.getElementById(id),cfg); }
+function bar(id,labels,data,color,opts){ chart(id,{type:'bar',data:{labels,datasets:[{data,backgroundColor:color}]},options:Object.assign({indexAxis:'y',plugins:{legend:{display:false}}},opts||{})}); }
+fetch('live-data.json').then(r=>r.json()).then(d=>{
+  document.getElementById('stamp').textContent='LIVE · refreshed '+new Date(d.generatedAt).toLocaleString();
+  const k=d.kpis;
+  const cards=[['Total studies in registry',k.totalStudies],['Recruiting now',k.recruiting],
+    ['Updated in last 30 days',k.updated30d],['Started in last 12 months',k.started365d],
+    ['Completed (all time)',k.completed],['Terminated',k.terminated],
+    ['With posted results',k.withResults],['Sampled live records',k.sampledRecords],
+    ['Sample enrollment (sum)',k.sampleEnrollment]];
+  document.getElementById('kpis').innerHTML=cards.map(([l,v])=>`<div class="kpi"><div class="v">${(v??'—').toLocaleString()}</div><div class="l">${l}</div></div>`).join('');
+  bar('cPhase',Object.keys(d.byPhase),Object.values(d.byPhase),TEAL,{indexAxis:'x'});
+  chart('cStatus',{type:'doughnut',data:{labels:Object.keys(d.byStatus),datasets:[{data:Object.values(d.byStatus),backgroundColor:[TEAL,NAVY,AMBER,RED,GRAY,LTEAL,'#5B7C99','#34495E','#B0BEC5']}]}});
+  bar('cCond',d.sample.topConditions.map(x=>x[0]),d.sample.topConditions.map(x=>x[1]),NAVY);
+  bar('cCtry',d.sample.topCountries.map(x=>x[0]),d.sample.topCountries.map(x=>x[1]),TEAL);
+  chart('cSpon',{type:'bar',data:{labels:Object.keys(d.bySponsorClass),datasets:[{data:Object.values(d.bySponsorClass),backgroundColor:AMBER}]},options:{indexAxis:'y',plugins:{legend:{display:false}}}});
+  bar('cSponTop',d.sample.topSponsors.map(x=>x[0]),d.sample.topSponsors.map(x=>x[1]),LTEAL);
+  document.getElementById('tRecent').innerHTML='<tr><th>NCT ID</th><th>Title</th><th>Status</th><th>Phase</th><th>Lead sponsor</th><th>Enrollment</th><th>Last updated</th></tr>'+
+    d.recent.map(r=>`<tr><td><a href="https://clinicaltrials.gov/study/${r.nct}" target="_blank" rel="noopener">${r.nct}</a></td><td>${r.title}</td><td>${r.status}</td><td>${r.phase}</td><td>${r.sponsor}</td><td>${(r.enrollment??'—')}</td><td>${r.updated}</td></tr>`).join('');
+  document.getElementById('foot').textContent=`Data: ${d.source}. Registry-wide KPIs/phases/status are exact totals from the registry; condition/country/sponsor charts use the ${k.sampledRecords.toLocaleString()} most recently updated studies. Pipeline: scripts/fetch_live.py → docs/live-data.json, refreshed by GitHub Actions on a 3-hour schedule.`;
+}).catch(()=>{document.getElementById('stamp').textContent='live data unavailable';});
+</script>
+</body>
+</html>

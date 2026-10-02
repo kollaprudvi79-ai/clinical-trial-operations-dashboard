@@ -1,0 +1,31 @@
+name: Refresh live ClinicalTrials.gov data
+
+on:
+  schedule:
+    - cron: "23 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch live data
+        run: python scripts/fetch_live.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- docs/live-data.json; then
+            git add docs/live-data.json
+            git commit -m "Live data refresh $(date -u +%FT%TZ)"
+            git push
+          else
+            echo "No change in live data."
+          fi

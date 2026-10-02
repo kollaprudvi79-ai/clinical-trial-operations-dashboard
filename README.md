@@ -3,7 +3,8 @@
 Portfolio-grade clinical trial operations dashboard built in **Power BI Desktop**, driven by 100% synthetic trial data — no real patient information.
 
 **📖 Full click-by-click build guide:** https://kollaprudvi79-ai.github.io/clinical-trial-operations-dashboard/
-**▶ Live interactive dashboard (same data, in-browser):** https://kollaprudvi79-ai.github.io/clinical-trial-operations-dashboard/live.html
+**▶ Live interactive dashboard (synthetic v2, in-browser):** https://kollaprudvi79-ai.github.io/clinical-trial-operations-dashboard/live.html
+**🔴 REAL live registry dashboard (ClinicalTrials.gov, auto-refresh ~3h):** https://kollaprudvi79-ai.github.io/clinical-trial-operations-dashboard/live-clinical.html
 **📊 Tracker this complements:** [Career Radar](https://kollaprudvi79-ai.github.io/company-career-job-tracker/)
 
 ## What it shows
