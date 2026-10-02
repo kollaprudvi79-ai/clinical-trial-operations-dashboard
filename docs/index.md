@@ -2,6 +2,8 @@
 
 **What you are building:** a portfolio-grade, 5-page clinical trial operations dashboard in Power BI Desktop, driven by synthetic (fake) trial data. Every measure, relationship, and visual below is specified exactly — click-by-click steps and copy-paste DAX. No real patient data is used anywhere.
 
+**▶ Live interactive preview (same data, works in your browser):** [Live dashboard](live.html) — slicers and tabs included, no Power BI needed. Use it to see the finished numbers before you build, or to sanity-check your .pbix against it.
+
 **Skill level:** beginner-to-intermediate. You should already know how to open Power BI Desktop and drag a field onto a visual. Everything else is spelled out.
 
 ---

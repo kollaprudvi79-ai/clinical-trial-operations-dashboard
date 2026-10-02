@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clinical Trial Operations Dashboard — Live (Synthetic Data)</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{--navy:#0F2B46;--teal:#12808A;--amber:#F2A93B;--red:#C0392B;--muted:#5A6C7D;--bg:#F4F6F8;--line:#D9E2EC;--good:#E8F4F3}
+  *{box-sizing:border-box} body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--navy)}
+  header{background:var(--navy);color:#fff;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+  header h1{font-size:20px;margin:0} header .sub{font-size:10px;letter-spacing:.08em;opacity:.85}
+  .wrap{max-width:1280px;margin:0 auto;padding:14px}
+  .filters{display:flex;gap:10px;flex-wrap:wrap;background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-bottom:12px}
+  .filters label{font-size:11px;color:var(--muted);display:block;margin-bottom:3px;text-transform:uppercase;letter-spacing:.05em}
+  select{padding:6px 8px;border:1px solid var(--line);border-radius:6px;min-width:170px;background:#fff}
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+  .tabs button{border:1px solid var(--navy);background:#fff;color:var(--navy);padding:8px 14px;border-radius:20px;cursor:pointer;font-size:13px}
+  .tabs button.on{background:var(--navy);color:#fff}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:12px}
+  .kpi{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}
+  .kpi .v{font-size:26px;font-weight:700} .kpi .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px} .full{grid-column:1/-1}
+  @media (max-width:900px){.grid{grid-template-columns:1fr}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}
+  .card h3{margin:2px 0 10px;font-size:14px}
+  table{width:100%;border-collapse:collapse;font-size:12px}
+  th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+  th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+  td.n,th.n{text-align:right} .bad{background:var(--red);color:#fff} .warn{background:var(--amber)} .good{background:var(--good)}
+  .scroll{overflow:auto;max-height:420px}
+  footer{font-size:11px;color:var(--muted);padding:8px 2px 20px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Clinical Trial Operations Dashboard</h1>
+  <div class="sub">PROTOCOL XYZ-101 · LIVE INTERACTIVE PREVIEW · 100% SYNTHETIC DATA · REFERENCE DATE 30 SEP 2026</div>
+</header>
+<div class="wrap">
+  <div class="filters">
+    <div><label>Region</label><select id="fRegion"></select></div>
+    <div><label>Site</label><select id="fSite"></select></div>
+    <div><label>Subject status</label><select id="fStatus"></select></div>
+    <div><label>Treatment arm</label><select id="fArm"></select></div>
+  </div>
+  <div class="tabs" id="tabs"></div>
+  <div class="kpis" id="kpis"></div>
+  <div id="pages"></div>
+  <footer>Synthetic data generated for portfolio purposes — no real patients. KPIs and visuals mirror the Power BI build guide measures exactly (Screen Failure Rate, Enrollment Achievement %, Average Open Query Age, Form Completion %, SAEs, Open Major Deviations).</footer>
+</div>
+
+<script>
+let DATA=null, CH={};
+const $=s=>document.querySelector(s);
+const pct=(a,b)=>b? (100*a/b):0;
+const fmtP=x=>x.toFixed(1)+'%';
+const NAVY='#0F2B46',TEAL='#12808A',AMBER='#F2A93B',RED='#C0392B',GRAY='#8FA6B8';
+
+function siteSet(){
+  const region=$('#fRegion').value, site=$('#fSite').value;
+  return new Set(DATA.sites.filter(s=>(region==='All'||s.region===region)&&(site==='All'||s.id===site)).map(s=>s.id));
+}
+function cur(){
+  const ss=siteSet(), st=$('#fStatus').value, arm=$('#fArm').value;
+  const subs=DATA.subjects.filter(x=>ss.has(x.site)&&(st==='All'||x.status===st)&&(arm==='All'||x.arm===arm));
+  const subIds=new Set(subs.map(x=>x.id));
+  return {
+    subs,
+    visits: DATA.visits.filter(x=>ss.has(x.site)),
+    formsAgg: DATA.formsAgg.filter(x=>ss.has(x.site)),
+    queries: DATA.queries.filter(x=>ss.has(x.site) && subIds.has(x.subj) ),
+    openQ: DATA.queries.filter(x=>ss.has(x.site) && subIds.has(x.subj) && x.status==='Open'),
+    aes: DATA.aes.filter(x=>ss.has(x.site)),
+    devs: DATA.devs.filter(x=>ss.has(x.site)),
+    sites: DATA.sites.filter(s=>ss.has(s.id))
+  };
+}
+function measures(c){
+  const screened=c.subs.length;
+  const rand=c.subs.filter(x=>x.randYM).length;
+  const sf=c.subs.filter(x=>x.status==='Screen Failure').length;
+  const target=c.sites.reduce((a,s)=>a+s.target,0);
+  const openQ=c.openQ.length;
+  const avgAge=openQ? c.openQ.reduce((a,q)=>a+q.ageDays,0)/openQ : 0;
+  const overdue=c.visits.filter(v=>v.status==='Overdue').length;
+  const comp=c.formsAgg.reduce((a,f)=>a+f.completed,0), miss=c.formsAgg.reduce((a,f)=>a+f.missing,0);
+  return { screened, rand, sf, sfRate:pct(sf,screened), target, ach:pct(rand,target),
+    openQ, avgAge, overdue, missForms:miss, formPct:pct(comp,comp+miss),
+    aes:c.aes.length, saes:c.aes.filter(a=>a.serious==='Yes').length,
+    omd:c.devs.filter(d=>d.sev==='Major'&&d.status==='Open').length };
+}
+function bucket(q){ const a=q.ageDays; return a<=7?'1) 0-7 days':a<=14?'2) 8-14 days':a<=30?'3) 15-30 days':'4) 30+ days'; }
+function siteName(id){ const s=DATA.sites.find(x=>x.id===id); return s? s.name.replace(/^Site \d+ - /,'')+', '+s.country : id; }
+function chart(id,cfg){ if(CH[id]) CH[id].destroy(); const el=document.getElementById(id); if(el) CH[id]=new Chart(el,cfg); }
+
+const PAGES=[
+ {id:'p1',name:'Study Overview'},
+ {id:'p2',name:'Site Performance'},
+ {id:'p3',name:'Visit & Form Completion'},
+ {id:'p4',name:'Query Management'},
+ {id:'p5',name:'Safety & Deviations'}];
+let page='p1';
+
+function renderKPIs(m){
+  const cards=[
+    ['Randomized',m.rand],['Total Screened',m.screened],['Screen Failure Rate',fmtP(m.sfRate)],
+    ['Enrollment Achievement',fmtP(m.ach)],['Enrollment Target',m.target],
+    ['Open Queries',m.openQ],['Avg Open Query Age (days)',m.avgAge.toFixed(1)],
+    ['Overdue Visits',m.overdue],['Missing Forms',m.missForms],['Form Completion %',fmtP(m.formPct)],
+    ['Adverse Events',m.aes],['SAEs',m.saes],['Open Major Deviations',m.omd]];
+  $('#kpis').innerHTML=cards.map(([l,v])=>`<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+}
+function ymCounts(subs,key){
+  const map={}; subs.forEach(x=>{ if(x[key]) map[x[key]]=(map[x[key]]||0)+1; });
+  const labels=Object.keys(map).sort();
+  return {labels, values: labels.map(l=>map[l])};
+}
+function render(){
+  const c=cur(), m=measures(c); renderKPIs(m);
+  const P={};
+  if(page==='p1'){
+    const r=ymCounts(c.subs,'randYM'), s=ymCounts(c.subs,'screenYM');
+    const byStatus={}; c.subs.forEach(x=>byStatus[x.status]=(byStatus[x.status]||0)+1);
+    const bySite={}; c.subs.filter(x=>x.randYM).forEach(x=>bySite[x.site]=(bySite[x.site]||0)+1);
+    P.html=`<div class="grid">
+      <div class="card"><h3>Enrollment by Month (Randomized vs Screened)</h3><canvas id="cTrend"></canvas></div>
+      <div class="card"><h3>Subjects by Status</h3><canvas id="cStatus"></canvas></div>
+      <div class="card full"><h3>Randomized Subjects by Site (per-site target 40)</h3><canvas id="cSite"></canvas></div></div>`;
+    $('#pages').innerHTML=P.html;
+    chart('cTrend',{type:'line',data:{labels:r.labels,datasets:[
+      {label:'Randomized',data:r.values,borderColor:TEAL,tension:.2},
+      {label:'Screened',data:s.labels.map(l=>{const i=s.labels.indexOf(l);return s.values[i]||0;}),borderColor:NAVY,tension:.2}]}});
+    chart('cStatus',{type:'doughnut',data:{labels:Object.keys(byStatus),datasets:[{data:Object.values(byStatus),backgroundColor:[TEAL,NAVY,AMBER,RED,GRAY]}]}});
+    chart('cSite',{type:'bar',data:{labels:Object.keys(bySite).map(siteName),datasets:[{label:'Randomized',data:Object.values(bySite),backgroundColor:TEAL}]},
+      options:{scales:{y:{suggestedMax:45}}}});
+  }
+  if(page==='p2'){
+    const rows=c.sites.map(s=>{
+      const ss=c.subs.filter(x=>x.site===s.id);
+      const rand=ss.filter(x=>x.randYM).length, sf=ss.filter(x=>x.status==='Screen Failure').length;
+      const oq=c.openQ.filter(q=>q.site===s.id).length;
+      const od=c.visits.filter(v=>v.site===s.id&&v.status==='Overdue').length;
+      const mf=c.formsAgg.filter(f=>f.site===s.id).reduce((a,f)=>a+f.missing,0);
+      const md=c.devs.filter(d=>d.site===s.id&&d.sev==='Major'&&d.status==='Open').length;
+      const sfr=ss.length?sf/ss.length:0;
+      const risk=(sfr>0.30||oq>25||od>10||md>2)?'High':'Normal';
+      const cf=(v,hi,mid)=> v>=hi?'bad':(v>=mid?'warn':'');
+      return `<tr><td>${s.name}</td><td class="n">${rand}</td>
+        <td class="n ${sfr>=.30?'bad':sfr>=.25?'warn':''}">${(100*sfr).toFixed(1)}%</td>
+        <td class="n ${cf(oq,25,15)}">${oq}</td><td class="n ${cf(od,10,5)}">${od}</td>
+        <td class="n ${mf>=300?'warn':''}">${mf}</td><td class="n ${md>=2?'bad':md===1?'warn':''}">${md}</td>
+        <td class="${risk==='High'?'bad':'good'}">${risk}</td></tr>`;}).join('');
+    const sfrSite=c.sites.map(s=>{const ss=c.subs.filter(x=>x.site===s.id); const sf=ss.filter(x=>x.status==='Screen Failure').length; return {n:s.name,v:ss.length?100*sf/ss.length:0};});
+    P.html=`<div class="grid"><div class="card full"><h3>Site Performance &amp; Risk (conditional formatting: amber = watch · red = breach)</h3>
+      <div class="scroll"><table><tr><th>Site</th><th class="n">Randomized</th><th class="n">Screen Fail %</th><th class="n">Open Queries</th><th class="n">Overdue Visits</th><th class="n">Missing Forms</th><th class="n">Open Major Devs</th><th>Risk</th></tr>${rows}</table></div></div>
+      <div class="card full"><h3>Screen Failure Rate by Site (30% risk threshold)</h3><canvas id="cSfr"></canvas></div></div>`;
+    $('#pages').innerHTML=P.html;
+    chart('cSfr',{type:'bar',data:{labels:sfrSite.map(x=>x.n),datasets:[{data:sfrSite.map(x=>x.v),backgroundColor:sfrSite.map(x=>x.v>=30?RED:x.v>=25?AMBER:TEAL)}]},
+      options:{scales:{y:{ticks:{callback:v=>v+'%'}}}}});
+  }
+  if(page==='p3'){
+    const visits=['Screening','Baseline','Week 2','Week 4','Week 8','Week 12','Week 24'];
+    const odV=visits.map(v=>c.visits.filter(x=>x.name===v&&x.status==='Overdue').length);
+    const forms=['Demographics','Vital Signs','Laboratory Results','ECG','Concomitant Medications','Efficacy Assessment'];
+    const mf=forms.map(f=>c.formsAgg.filter(x=>x.form===f).reduce((a,x)=>a+x.missing,0));
+    const heat=(pctv)=> pctv<70?'bad':pctv<90?'warn':'good';
+    const head='<tr><th>Site</th>'+visits.map(v=>`<th class="n">${v}</th>`).join('')+'</tr>';
+    const rows=c.sites.map(s=>{ const cells=visits.map(v=>{ const cell=c.formsAgg.filter(f=>f.site===s.id&&f.visit===v); const cp=cell.reduce((a,f)=>a+f.completed,0), mp=cell.reduce((a,f)=>a+f.missing,0); const p=cp+mp?100*cp/(cp+mp):100; return `<td class="n ${heat(p)}">${p.toFixed(0)}%</td>`;}).join(''); return `<tr><td>${s.name}</td>${cells}</tr>`;}).join('');
+    P.html=`<div class="grid">
+      <div class="card"><h3>Overdue Visits by Study Visit</h3><canvas id="cOd"></canvas></div>
+      <div class="card"><h3>Missing eCRFs by Form</h3><canvas id="cMf"></canvas></div>
+      <div class="card full"><h3>Form Completion % by Site and Visit (red &lt;70% · amber &lt;90% · teal ≥90%)</h3><div class="scroll"><table>${head}${rows}</table></div></div></div>`;
+    $('#pages').innerHTML=P.html;
+    chart('cOd',{type:'bar',data:{labels:visits,datasets:[{data:odV,backgroundColor:RED}]}});
+    chart('cMf',{type:'bar',data:{labels:forms,datasets:[{data:mf,backgroundColor:AMBER}]},options:{indexAxis:'y'}});
+  }
+  if(page==='p4'){
+    const bs=['1) 0-7 days','2) 8-14 days','3) 15-30 days','4) 30+ days'];
+    const bv=bs.map(b=>c.openQ.filter(q=>bucket(q)===b).length);
+    const forms=['Demographics','Vital Signs','Laboratory Results','ECG','Concomitant Medications','Efficacy Assessment'];
+    const fq=forms.map(f=>c.openQ.filter(q=>q.form===f).length);
+    const oldest=[...c.openQ].sort((a,b)=>a.open<b.open?-1:1).slice(0,25)
+      .map(q=>`<tr><td>${q.subj}</td><td>${siteName(q.site)}</td><td>${q.form}</td><td>${q.open}</td><td>${q.ageDays}d</td><td>${q.text}</td></tr>`).join('');
+    P.html=`<div class="grid">
+      <div class="card"><h3>Open Queries by Age</h3><canvas id="cAge"></canvas></div>
+      <div class="card"><h3>Open Queries by eCRF</h3><canvas id="cQf"></canvas></div>
+      <div class="card full"><h3>Open Queries — Oldest First (top 25)</h3><div class="scroll"><table><tr><th>Subject</th><th>Site</th><th>Form</th><th>Open date</th><th>Age</th><th>Query text</th></tr>${oldest||'<tr><td colspan=6>No open queries in current filter.</td></tr>'}</table></div></div></div>`;
+    $('#pages').innerHTML=P.html;
+    chart('cAge',{type:'bar',data:{labels:bs.map(b=>b.slice(3)),datasets:[{data:bv,backgroundColor:[TEAL,'#E8C547',AMBER,RED]}]}});
+    chart('cQf',{type:'bar',data:{labels:forms,datasets:[{data:fq,backgroundColor:TEAL}]},options:{indexAxis:'y'}});
+  }
+  if(page==='p5'){
+    const terms={}; c.aes.forEach(a=>terms[a.term]=(terms[a.term]||0)+1);
+    const topT=Object.entries(terms).sort((a,b)=>b[1]-a[1]).slice(0,10);
+    const grades=[1,2,3,4,5];
+    const gNS=grades.map(g=>c.aes.filter(a=>a.grade===g&&a.serious==='No').length);
+    const gS =grades.map(g=>c.aes.filter(a=>a.grade===g&&a.serious==='Yes').length);
+    const omdSite=c.sites.map(s=>({n:s.name,v:c.devs.filter(d=>d.site===s.id&&d.sev==='Major'&&d.status==='Open').length}));
+    const saeRows=c.aes.filter(a=>a.serious==='Yes').slice(0,30)
+      .map(a=>`<tr><td>${a.subj}</td><td>${siteName(a.site)}</td><td>${a.term}</td><td>${a.start}</td><td>${a.grade}</td><td>${a.outcome}</td><td>${a.related}</td></tr>`).join('');
+    P.html=`<div class="grid">
+      <div class="card"><h3>Adverse Events by Term (Top 10)</h3><canvas id="cAe"></canvas></div>
+      <div class="card"><h3>AEs by CTCAE Grade (red = serious)</h3><canvas id="cGrade"></canvas></div>
+      <div class="card full"><h3>Open Major Deviations by Site</h3><canvas id="cDev"></canvas></div>
+      <div class="card full"><h3>Serious Adverse Events (detail)</h3><div class="scroll"><table><tr><th>Subject</th><th>Site</th><th>Term</th><th>Start</th><th>Grade</th><th>Outcome</th><th>Related</th></tr>${saeRows||'<tr><td colspan=7>No SAEs in current filter.</td></tr>'}</table></div></div></div>`;
+    $('#pages').innerHTML=P.html;
+    chart('cAe',{type:'bar',data:{labels:topT.map(x=>x[0]),datasets:[{data:topT.map(x=>x[1]),backgroundColor:TEAL}]},options:{indexAxis:'y'}});
+    chart('cGrade',{type:'bar',data:{labels:grades.map(g=>'Grade '+g),datasets:[{label:'Non-serious',data:gNS,backgroundColor:TEAL},{label:'Serious (SAE)',data:gS,backgroundColor:RED}]},options:{scales:{x:{stacked:true},y:{stacked:true}}}});
+    chart('cDev',{type:'bar',data:{labels:omdSite.map(x=>x.n),datasets:[{data:omdSite.map(x=>x.v),backgroundColor:RED}]}});
+  }
+}
+function buildFilters(){
+  const opts=(arr)=>['All',...arr].map(v=>`<option>${v}</option>`).join('');
+  $('#fRegion').innerHTML=opts([...new Set(DATA.sites.map(s=>s.region))]);
+  $('#fSite').innerHTML=opts(DATA.sites.map(s=>s.id)).replace(/<option>(S\d+)<\/option>/g,(m,id)=>{const s=DATA.sites.find(x=>x.id===id);return `<option value="${id}">${s.name}</option>`;});
+  $('#fStatus').innerHTML=opts([...new Set(DATA.subjects.map(s=>s.status))]);
+  $('#fArm').innerHTML=opts([...new Set(DATA.subjects.map(s=>s.arm))]);
+  ['fRegion','fSite','fStatus','fArm'].forEach(id=>document.getElementById(id).addEventListener('change',render));
+  $('#tabs').innerHTML=PAGES.map(p=>`<button data-p="${p.id}" class="${p.id===page?'on':''}">${p.name}</button>`).join('');
+  document.querySelectorAll('#tabs button').forEach(b=>b.addEventListener('click',()=>{page=b.dataset.p; document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('on',x===b)); render();}));
+}
+fetch('dashboard-data.json').then(r=>r.json()).then(d=>{ DATA=d; buildFilters(); render(); })
+  .catch(e=>{ document.body.innerHTML='<p style="padding:20px">Could not load dashboard-data.json — make sure it sits next to this page.</p>'; });
+</script>
+</body>
+</html>
