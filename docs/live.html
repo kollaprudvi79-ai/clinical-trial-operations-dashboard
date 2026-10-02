@@ -30,6 +30,20 @@
   td.n,th.n{text-align:right} .bad{background:var(--red);color:#fff} .warn{background:var(--amber)} .good{background:var(--good)}
   .scroll{overflow:auto;max-height:420px}
   footer{font-size:11px;color:var(--muted);padding:8px 2px 20px}
+  .ctype{position:absolute;top:8px;right:10px;font-size:11px;padding:3px 6px;border:1px solid var(--line);border-radius:5px;background:#fff;color:var(--muted)}
+  .chardwrap{position:relative}
+  .searchbar{display:flex;gap:10px;flex-wrap:wrap;background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:12px 0}
+  .searchbar input{flex:1;min-width:240px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;font-size:14px}
+  .pager{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);margin-top:8px}
+  .pager button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:5px 10px;cursor:pointer}
+  tr.rowlink{cursor:pointer} tr.rowlink:hover{background:#F0F6F8}
+  .sub360{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px;margin-top:12px}
+  .sub360 h3{margin:0 0 8px}
+  .dax{background:#0F2B46;color:#D6E7F5;font-family:Consolas,monospace;font-size:12px;padding:12px;border-radius:6px;white-space:pre-wrap;overflow:auto}
+  .daxrow h4{margin:10px 0 4px;font-size:13px;display:flex;justify-content:space-between;align-items:center}
+  .copybtn{font-size:11px;border:1px solid var(--teal);color:var(--teal);background:#fff;border-radius:5px;padding:3px 9px;cursor:pointer}
+  details.srcd{margin-top:10px} details.srcd summary{cursor:pointer;font-size:12px;color:var(--teal)}
+  .chip{display:inline-block;font-size:10px;background:#E8F4F3;color:var(--teal);padding:2px 7px;border-radius:9px;margin-right:4px}
 </style>
 </head>
 <body>
@@ -49,6 +63,25 @@
   <div class="tabs" id="tabs"></div>
   <div class="kpis" id="kpis"></div>
   <div id="pages"></div>
+  <div class="searchbar">
+    <input id="gSearch" type="text" placeholder="Global search — subject ID (e.g. SUB-1001), site city, AE term…">
+    <span id="gHits" style="font-size:12px;color:var(--muted);align-self:center"></span>
+  </div>
+  <div class="card"><h3>Data Explorer — Patient / Subject Search (click a row for Subject 360)</h3>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
+      <select id="xSite"><option value="">All sites</option></select>
+      <select id="xStatus"><option value="">All statuses</option></select>
+      <select id="xArm"><option value="">All arms</option></select>
+      <input id="xQ" type="text" placeholder="Filter by Subject ID…" style="padding:6px 8px;border:1px solid var(--line);border-radius:6px">
+    </div>
+    <div class="scroll"><table id="xTable"></table></div>
+    <div class="pager"><button id="xPrev">← Prev</button><span id="xInfo"></span><button id="xNext">Next →</button></div>
+    <div id="x360"></div>
+  </div>
+  <div class="card" style="margin-top:12px"><h3>DAX Measure Library — the actual formulas behind every KPI (search + copy)</h3>
+    <input id="daxQ" type="text" placeholder="Search measures — try 'screen failure' or 'query'…" style="width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;margin-bottom:6px">
+    <div id="daxList"></div>
+  </div>
   <footer>100% synthetic data — no real patients. Measures mirror the Power BI build guide (Screen Failure Rate, Enrollment Achievement %, Average Open Query Age, Form Completion % on due forms, Window Compliance %, SAEs, Open Major Deviations, Dose Compliance %).</footer>
 </div>
 
@@ -262,6 +295,128 @@ function buildFilters(){
 }
 fetch('dashboard-data.json').then(r=>r.json()).then(d=>{DATA=d;buildFilters();render();})
  .catch(e=>{document.body.innerHTML='<p style="padding:20px">Could not load dashboard-data.json.</p>';});
+</script>
+
+<script>
+/* ---------- Chart-type switcher (bar / line / doughnut / pie / polar) ---------- */
+const CFGS = {};
+const PALETTE = ['#12808A','#0F2B46','#F2A93B','#C0392B','#8FA6B8','#37B6A2','#5B7C99','#34495E'];
+(function(){
+  const orig = chart;
+  chart = function(id, cfg){
+    CFGS[id] = cfg;
+    orig(id, cfg);
+    const cv = document.getElementById(id); if(!cv) return;
+    const card = cv.closest('.card'); if(!card || card.querySelector('.ctype')) return;
+    card.classList.add('chardwrap');
+    const sel = document.createElement('select'); sel.className='ctype';
+    sel.innerHTML = ['bar','line','doughnut','pie','polarArea'].map(t=>`<option value="${t}" ${t===cfg.type?'selected':''}>${t}</option>`).join('');
+    sel.addEventListener('change', ()=>{
+      const base = CFGS[id]; const c = JSON.parse(JSON.stringify(base)); c.type = sel.value;
+      if(['doughnut','pie','polarArea'].includes(c.type)){
+        c.data.datasets = c.data.datasets.map(ds=>({data: ds.data, backgroundColor: ds.data.map((_,i)=>PALETTE[i%PALETTE.length])}));
+        delete c.options;
+      } else {
+        if(c.options && c.type!=='bar'){ delete c.options.indexAxis; }
+      }
+      orig(id, c);
+    });
+    card.appendChild(sel);
+  };
+})();
+
+/* ---------- Data Explorer: patient search + Subject 360 ---------- */
+const XP = { page: 0, size: 25 };
+function xFiltered(){
+  const site = $('#xSite').value, st = $('#xStatus').value, arm = $('#xArm').value, q = ($('#xQ').value||'').toLowerCase();
+  return DATA.subjects.filter(s => (!site || s.site===site) && (!st || s.status===st) && (!arm || s.arm===arm) && (!q || s.id.toLowerCase().includes(q) || (DATA.sites.find(x=>x.id===s.site)||{}).city?.toLowerCase().includes(q)));
+}
+function xRender(){
+  const rows = xFiltered(); const pages = Math.max(1, Math.ceil(rows.length/XP.size));
+  XP.page = Math.min(XP.page, pages-1);
+  const slice = rows.slice(XP.page*XP.size, XP.page*XP.size+XP.size);
+  const siteN = id => { const s = DATA.sites.find(x=>x.id===id); return s ? s.id+' '+s.city : id; };
+  $('#xTable').innerHTML = '<tr><th>Subject</th><th>Site</th><th>Status</th><th>Arm</th><th>Screened</th><th>Randomized</th><th>Age</th><th>Sex</th><th>Stage</th></tr>' +
+    slice.map(s=>`<tr class="rowlink" data-sub="${s.id}"><td>${s.id}</td><td>${siteN(s.site)}</td><td>${s.status}</td><td>${s.arm}</td><td>${s.screenYM||''}</td><td>${s.randYM||'—'}</td><td>${s.age}</td><td>${s.sex}</td><td>${s.stage}</td></tr>`).join('');
+  $('#xInfo').textContent = `Page ${XP.page+1} of ${pages} · ${rows.length.toLocaleString()} subjects`;
+  document.querySelectorAll('#xTable tr.rowlink').forEach(tr=>tr.addEventListener('click', ()=>x360(tr.dataset.sub)));
+}
+function x360(subj){
+  const s = DATA.subjects.find(x=>x.id===subj); if(!s) return;
+  const site = DATA.sites.find(x=>x.id===s.site)||{};
+  const qs = DATA.queries.filter(q=>q.subj===subj);
+  const aes = DATA.aes.filter(a=>a.subj===subj);
+  const dvs = DATA.devs.filter(dd=>dd.subj===subj);
+  const card = (t,rows,cols,empty)=>`<div class="card" style="margin-top:10px"><h3>${t}</h3>` + (rows.length? `<div class="scroll" style="max-height:220px"><table><tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr>${rows}</table></div>` : `<p style="font-size:12px;color:var(--muted)">${empty}</p>`) + `</div>`;
+  $('#x360').innerHTML = `<div class="sub360"><h3>Subject 360 — ${s.id}</h3>
+    <p style="font-size:13px;margin:4px 0">
+      <span class="chip">${site.id||''} ${site.city||''}, ${site.country||''}</span>
+      <span class="chip">Status: ${s.status}</span><span class="chip">Arm: ${s.arm}</span>
+      <span class="chip">Age ${s.age} (${s.ageG})</span><span class="chip">${s.sex}</span>
+      <span class="chip">Race: ${s.race}</span><span class="chip">Stage: ${s.stage}</span>
+      <span class="chip">Screened: ${s.screenYM||'—'}</span><span class="chip">Randomized: ${s.randYM||'—'}</span></p>
+    <p style="font-size:12px;color:var(--muted)">${qs.length} queries · ${aes.length} adverse events (${aes.filter(a=>a.serious==='Yes').length} serious) · ${dvs.length} deviations (${dvs.filter(dd=>dd.sev==='Major').length} major)</p></div>` +
+    card('Queries for this subject', qs.map(q=>`<tr><td>${q.form}</td><td>${q.visit}</td><td>${q.cat}</td><td>${q.status}</td><td>${q.open}</td><td>${q.text}</td></tr>`).join(''), ['Form','Visit','Category','Status','Opened','Text'], 'No queries raised.') +
+    card('Adverse events', aes.map(a=>`<tr><td>${a.term}</td><td>${a.soc}</td><td>Grade ${a.grade}</td><td>${a.serious==='Yes'?'SAE':'—'}</td><td>${a.outcome}</td><td>${a.start}</td></tr>`).join(''), ['Term','SOC','Grade','Serious','Outcome','Started'], 'No adverse events.') +
+    card('Protocol deviations', dvs.map(dd=>`<tr><td>${dd.cat}</td><td>${dd.sev}</td><td>${dd.status}</td><td>${dd.root}</td><td>${dd.date}</td></tr>`).join(''), ['Category','Severity','Status','Root cause','Date'], 'No deviations.');
+  $('#x360').scrollIntoView({behavior:'smooth', block:'nearest'});
+}
+function xInit(){
+  const sites = [...new Set(DATA.subjects.map(s=>s.site))];
+  $('#xSite').innerHTML = '<option value="">All sites</option>' + sites.map(id=>{const s=DATA.sites.find(x=>x.id===id);return `<option value="${id}">${id} ${s?s.city:''}</option>`;}).join('');
+  $('#xStatus').innerHTML = '<option value="">All statuses</option>' + [...new Set(DATA.subjects.map(s=>s.status))].map(v=>`<option>${v}</option>`).join('');
+  $('#xArm').innerHTML = '<option value="">All arms</option>' + [...new Set(DATA.subjects.map(s=>s.arm))].map(v=>`<option>${v}</option>`).join('');
+  ['xSite','xStatus','xArm'].forEach(id=>document.getElementById(id).addEventListener('change', ()=>{XP.page=0;xRender();}));
+  $('#xQ').addEventListener('input', ()=>{XP.page=0;xRender();});
+  $('#xPrev').addEventListener('click', ()=>{XP.page=Math.max(0,XP.page-1);xRender();});
+  $('#xNext').addEventListener('click', ()=>{XP.page++;xRender();});
+  xRender();
+}
+/* Global search: routes into the explorer */
+document.getElementById('gSearch').addEventListener('input', e=>{
+  const v = e.target.value.trim().toLowerCase();
+  const subj = DATA.subjects.filter(s=>s.id.toLowerCase().includes(v)||((DATA.sites.find(x=>x.id===s.site)||{}).city||'').toLowerCase().includes(v)).length;
+  const ae = DATA.aes.filter(a=>a.term.toLowerCase().includes(v)).length;
+  const qq = DATA.queries.filter(q=>q.text.toLowerCase().includes(v)||q.form.toLowerCase().includes(v)).length;
+  $('#gHits').textContent = v? `${subj} subjects · ${qq} queries · ${ae} AE-term hits — refine below in the Data Explorer` : '';
+  if(v){ $('#xQ').value = v.length>2? v : ''; XP.page=0; xRender(); }
+});
+
+/* ---------- DAX Measure Library ---------- */
+const MEASURES = [
+ ['Total Subjects','COUNTROWS ( Subjects )'],
+ ['Randomized Subjects','CALCULATE (\n    COUNTROWS ( Subjects ),\n    NOT ( ISBLANK ( Subjects[RandomizationDate] ) )\n)'],
+ ['Screen Failures','CALCULATE (\n    COUNTROWS ( Subjects ),\n    Subjects[Status] = "Screen Failure"\n)'],
+ ['Screen Failure Rate','DIVIDE ( [Screen Failures], [Screened Subjects] )'],
+ ['Enrollment Target','SUM ( Sites[EnrollmentTarget] )'],
+ ['Enrollment Achievement %','DIVIDE ( [Randomized Subjects], [Enrollment Target] )'],
+ ['Open Queries','CALCULATE (\n    COUNTROWS ( Queries ),\n    Queries[QueryStatus] = "Open"\n)'],
+ ['Average Open Query Age','AVERAGEX (\n    FILTER ( Queries, Queries[QueryStatus] = "Open" ),\n    DATEDIFF ( Queries[QueryOpenDate], TODAY (), DAY )\n)'],
+ ['Overdue Visits','CALCULATE (\n    COUNTROWS ( Visits ),\n    Visits[VisitStatus] = "Overdue"\n)'],
+ ['Window Compliance %','DIVIDE (\n    CALCULATE ( COUNTROWS ( Visits ), Visits[VisitStatus] = "Completed", Visits[WindowStatus] = "In Window" ),\n    CALCULATE ( COUNTROWS ( Visits ), Visits[VisitStatus] = "Completed" )\n)'],
+ ['Missing Forms (due)','CALCULATE (\n    COUNTROWS ( Forms ),\n    Forms[FormStatus] = "Missing", Forms[DueDate] <= TODAY ()\n)'],
+ ['Form Completion % (due)','DIVIDE (\n    CALCULATE ( COUNTROWS ( Forms ), Forms[FormStatus] = "Completed", Forms[DueDate] <= TODAY () ),\n    CALCULATE ( COUNTROWS ( Forms ), Forms[DueDate] <= TODAY (), Forms[FormStatus] IN { "Completed", "Missing" } )\n)'],
+ ['Total AEs','COUNTROWS ( AdverseEvents )'],
+ ['Total SAEs','CALCULATE (\n    COUNTROWS ( AdverseEvents ),\n    AdverseEvents[Serious] = "Yes"\n)'],
+ ['Open Major Deviations','CALCULATE (\n    COUNTROWS ( Deviations ),\n    Deviations[Severity] = "Major",\n    Deviations[DeviationStatus] = "Open"\n)'],
+ ['Critical Labs','CALCULATE (\n    COUNTROWS ( Labs ),\n    Labs[CriticalFlag] = "Yes"\n)'],
+ ['Dose Compliance %','DIVIDE (\n    CALCULATE ( COUNTROWS ( Dosing ), Dosing[DoseEvent] = "Dose Taken" ),\n    COUNTROWS ( Dosing )\n)'],
+ ['Site Risk','IF (\n    [Screen Failure Rate] > 0.30\n        || [Open Queries] > 25\n        || [Overdue Visits] > 10\n        || [Open Major Deviations] > 2,\n    "High",\n    "Normal"\n)'],
+];
+function daxRender(filter){
+  const f = (filter||'').toLowerCase();
+  $('#daxList').innerHTML = MEASURES.filter(([n])=>!f||n.toLowerCase().includes(f)).map(([n,code],i)=>
+    `<div class="daxrow"><h4>${n}<button class="copybtn" data-dax="${i}">Copy DAX</button></h4><div class="dax">${code.replace(/\\n/g,'\n')}</div></div>`).join('') || '<p style="font-size:12px;color:var(--muted)">No measure matches that search.</p>';
+  document.querySelectorAll('.copybtn').forEach(b=>b.addEventListener('click',()=>{
+    navigator.clipboard.writeText(MEASURES[+b.dataset.dax][1].replace(/\\n/g,'\n')); b.textContent='Copied ✓'; setTimeout(()=>b.textContent='Copy DAX',1500);
+  }));
+}
+document.getElementById('daxQ').addEventListener('input', e=>daxRender(e.target.value));
+
+/* Hook explorer init to data load */
+(function(){
+  const iv = setInterval(()=>{ if(typeof DATA!=='undefined' && DATA && document.getElementById('xSite')){ clearInterval(iv); xInit(); daxRender(''); } }, 300);
+})();
 </script>
 </body>
 </html>

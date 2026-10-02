@@ -69,7 +69,11 @@
     <div class="card two"><h3>Largest Trials in Live Sample (planned enrollment) <span class="badge smp">SAMPLE</span></h3><div class="scroll" id="tLarge"></div></div>
     <div class="card"><h3>Top Sponsors <span class="badge smp">SAMPLE</span></h3><div class="scroll" id="tSpon"></div></div>
 
+    <div class="card full"><h3>Trial Search <span class="badge">LIVE FEED</span></h3>
+      <input id="qSearch" type="text" placeholder="Search NCT number, trial title, sponsor, condition, status or phase…" style="width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px">
+      <div id="qCount" style="font-size:11px;color:var(--muted);margin-top:4px"></div></div>
     <div class="card full"><h3>Most Recently Updated Trials — live from registry <span class="badge">LIVE FEED</span></h3><div class="scroll" id="tRecent"></div></div>
+    <div class="card full"><h3>Measure Definitions — how every number is computed</h3><div id="mDefs"></div></div>
   </div>
   <footer id="foot"></footer>
 </div>
@@ -125,6 +129,20 @@ fetch('live-data.json').then(r=>r.json()).then(d=>{
   document.getElementById('tRecent').innerHTML='<table><tr><th>NCT ID</th><th>Title</th><th>Status</th><th>Phase</th><th>Lead sponsor</th><th style="text-align:right">Enrollment</th><th>Last updated</th></tr>'+
     d.recent.map(r=>`<tr><td><a href="https://clinicaltrials.gov/study/${r.nct}" target="_blank" rel="noopener">${r.nct}</a></td><td>${r.title}</td><td>${r.status}</td><td>${r.phase}</td><td>${r.sponsor}</td><td class="n">${(r.enrollment??'—')}</td><td>${r.updated}</td></tr>`).join('')+'</table>';
 
+  const MD=[['Total Studies','ClinicalTrials.gov /stats/size — exact registry-wide count of all registered studies.'],
+    ['Currently Recruiting','countTotal with AREA[OverallStatus]RECRUITING.'],
+    ['Updated (last 30 days)','countTotal with AREA[LastUpdatePostDate]RANGE[last 30 days, today].'],
+    ['Started (last 12 months)','countTotal with AREA[StartDate]RANGE[last 365 days, today].'],
+    ['Data sampling','Sample panels use the 3,000 most recently updated studies (sort = LastUpdatePostDate:desc, 3 pages &#215; 1,000).'],
+    ['Median Enrollment','Median of enrollmentInfo.count across sampled studies with a reported count.'],
+    ['Refresh','GitHub Actions runs scripts/fetch_live.py every ~3 hours and commits docs/live-data.json when it changes.']];
+  document.getElementById('mDefs').innerHTML='<table><tr><th>Measure</th><th>Definition</th></tr>'+MD.map(m=>`<tr><td>${m[0]}</td><td>${m[1]}</td></tr>`).join('')+'</table>';
+  document.getElementById('qSearch').addEventListener('input', e=>{
+    const v=e.target.value.trim().toLowerCase();
+    let n=0;
+    document.querySelectorAll('#tRecent table tr').forEach((tr,i)=>{ if(!i) return; const hit=!v||tr.textContent.toLowerCase().includes(v); tr.style.display=hit?'':'none'; if(hit)n++; });
+    document.getElementById('qCount').textContent = v? n+' matching trials (in the live feed)':'';
+  });
   document.getElementById('foot').textContent=`Data: ${d.source}. Registry-wide totals are exact live counts; sample-based visuals use the ${k.sampledRecords.toLocaleString()} most recently updated studies (refreshed every ~3 hours by scripts/fetch_live.py via GitHub Actions). Synthetic in-browser demo dashboard: live.html · Power BI build guide: index.`;
 }).catch(()=>{document.getElementById('stamp').textContent='live data unavailable — retry shortly';});
 </script>
