@@ -1,0 +1,159 @@
+DeviationID,SubjectID,DeviationDate,Category,Severity,DeviationStatus
+DEV0001,SUB-0009,2026-08-15,Study Drug Dosing,Major,Closed
+DEV0002,SUB-0010,2026-08-14,Visit Window,Minor,Closed
+DEV0003,SUB-0012,2026-03-27,Laboratory Procedure,Minor,Closed
+DEV0004,SUB-0012,2026-07-15,Visit Window,Minor,Closed
+DEV0005,SUB-0013,2025-11-24,Laboratory Procedure,Major,Closed
+DEV0006,SUB-0018,2026-07-04,Prohibited Medication,Minor,Open
+DEV0007,SUB-0019,2026-02-15,Visit Window,Minor,Closed
+DEV0008,SUB-0019,2026-02-07,Inclusion/Exclusion Criteria,Minor,Open
+DEV0009,SUB-0020,2026-05-07,Inclusion/Exclusion Criteria,Minor,Open
+DEV0010,SUB-0020,2026-06-23,Prohibited Medication,Minor,Closed
+DEV0011,SUB-0034,2026-09-20,Inclusion/Exclusion Criteria,Minor,Closed
+DEV0012,SUB-0038,2026-09-14,Prohibited Medication,Minor,Closed
+DEV0013,SUB-0040,2026-02-26,Visit Window,Minor,Open
+DEV0014,SUB-0041,2025-07-28,Informed Consent,Minor,Open
+DEV0015,SUB-0043,2026-08-24,Inclusion/Exclusion Criteria,Minor,Closed
+DEV0016,SUB-0045,2026-07-30,Inclusion/Exclusion Criteria,Minor,Open
+DEV0017,SUB-0045,2026-06-29,Visit Window,Major,Closed
+DEV0018,SUB-0054,2026-05-18,Study Drug Dosing,Minor,Open
+DEV0019,SUB-0058,2026-05-05,Informed Consent,Major,Closed
+DEV0020,SUB-0066,2026-09-18,Inclusion/Exclusion Criteria,Minor,Closed
+DEV0021,SUB-0066,2026-09-25,Informed Consent,Minor,Closed
+DEV0022,SUB-0079,2025-08-16,Prohibited Medication,Major,Open
+DEV0023,SUB-0098,2026-03-27,Inclusion/Exclusion Criteria,Minor,Open
+DEV0024,SUB-0100,2025-10-16,Inclusion/Exclusion Criteria,Minor,Open
+DEV0025,SUB-0101,2026-09-14,Visit Window,Minor,Open
+DEV0026,SUB-0101,2026-09-09,Study Drug Dosing,Minor,Closed
+DEV0027,SUB-0105,2025-11-04,Informed Consent,Major,Closed
+DEV0028,SUB-0112,2026-03-30,Study Drug Dosing,Major,Closed
+DEV0029,SUB-0121,2026-09-25,Prohibited Medication,Minor,Closed
+DEV0030,SUB-0127,2026-09-13,Study Drug Dosing,Minor,Closed
+DEV0031,SUB-0127,2026-09-15,Inclusion/Exclusion Criteria,Major,Closed
+DEV0032,SUB-0128,2026-07-05,Study Drug Dosing,Minor,Open
+DEV0033,SUB-0129,2026-07-22,Prohibited Medication,Major,Closed
+DEV0034,SUB-0135,2025-12-13,Visit Window,Minor,Closed
+DEV0035,SUB-0140,2026-08-23,Visit Window,Minor,Open
+DEV0036,SUB-0141,2026-09-07,Prohibited Medication,Minor,Open
+DEV0037,SUB-0144,2026-04-06,Inclusion/Exclusion Criteria,Minor,Closed
+DEV0038,SUB-0148,2026-09-14,Visit Window,Major,Open
+DEV0039,SUB-0151,2026-02-09,Study Drug Dosing,Minor,Open
+DEV0040,SUB-0153,2025-08-19,Laboratory Procedure,Major,Open
+DEV0041,SUB-0156,2026-09-26,Study Drug Dosing,Minor,Closed
+DEV0042,SUB-0156,2026-09-25,Visit Window,Minor,Closed
+DEV0043,SUB-0162,2026-01-26,Study Drug Dosing,Major,Open
+DEV0044,SUB-0167,2026-09-23,Prohibited Medication,Minor,Open
+DEV0045,SUB-0168,2025-09-17,Prohibited Medication,Major,Open
+DEV0046,SUB-0171,2026-09-17,Informed Consent,Minor,Closed
+DEV0047,SUB-0172,2026-09-22,Laboratory Procedure,Minor,Open
+DEV0048,SUB-0173,2025-12-17,Laboratory Procedure,Major,Closed
+DEV0049,SUB-0176,2026-08-04,Prohibited Medication,Major,Open
+DEV0050,SUB-0182,2025-12-04,Informed Consent,Major,Open
+DEV0051,SUB-0188,2025-12-16,Prohibited Medication,Minor,Closed
+DEV0052,SUB-0192,2025-10-01,Informed Consent,Minor,Open
+DEV0053,SUB-0192,2025-08-17,Visit Window,Minor,Open
+DEV0054,SUB-0194,2026-01-22,Prohibited Medication,Minor,Closed
+DEV0055,SUB-0194,2026-01-18,Study Drug Dosing,Minor,Closed
+DEV0056,SUB-0210,2025-10-17,Prohibited Medication,Minor,Closed
+DEV0057,SUB-0214,2025-11-21,Prohibited Medication,Major,Open
+DEV0058,SUB-0215,2026-01-03,Study Drug Dosing,Minor,Open
+DEV0059,SUB-0218,2026-06-02,Informed Consent,Major,Open
+DEV0060,SUB-0219,2026-02-14,Informed Consent,Minor,Open
+DEV0061,SUB-0219,2026-03-01,Inclusion/Exclusion Criteria,Minor,Closed
+DEV0062,SUB-0222,2025-07-20,Informed Consent,Minor,Closed
+DEV0063,SUB-0232,2025-07-17,Visit Window,Major,Open
+DEV0064,SUB-0235,2026-06-12,Inclusion/Exclusion Criteria,Major,Closed
+DEV0065,SUB-0235,2026-06-10,Visit Window,Major,Closed
+DEV0066,SUB-0236,2026-04-30,Informed Consent,Major,Closed
+DEV0067,SUB-0238,2025-12-15,Informed Consent,Minor,Closed
+DEV0068,SUB-0239,2025-04-12,Visit Window,Major,Closed
+DEV0069,SUB-0239,2025-06-18,Informed Consent,Minor,Closed
+DEV0070,SUB-0248,2026-01-15,Inclusion/Exclusion Criteria,Minor,Open
+DEV0071,SUB-0250,2025-04-04,Inclusion/Exclusion Criteria,Minor,Closed
+DEV0072,SUB-0251,2025-06-17,Informed Consent,Major,Open
+DEV0073,SUB-0252,2026-03-10,Prohibited Medication,Major,Closed
+DEV0074,SUB-0255,2026-03-04,Informed Consent,Minor,Open
+DEV0075,SUB-0256,2026-02-14,Laboratory Procedure,Minor,Open
+DEV0076,SUB-0259,2026-07-06,Informed Consent,Major,Open
+DEV0077,SUB-0272,2025-08-04,Visit Window,Major,Open
+DEV0078,SUB-0279,2026-03-08,Informed Consent,Minor,Open
+DEV0079,SUB-0283,2026-09-24,Study Drug Dosing,Major,Open
+DEV0080,SUB-0285,2025-11-18,Laboratory Procedure,Major,Closed
+DEV0081,SUB-0289,2026-09-21,Laboratory Procedure,Minor,Open
+DEV0082,SUB-0294,2026-04-17,Prohibited Medication,Major,Open
+DEV0083,SUB-0295,2026-06-24,Study Drug Dosing,Minor,Closed
+DEV0084,SUB-0296,2025-09-30,Laboratory Procedure,Minor,Closed
+DEV0085,SUB-0303,2026-04-03,Informed Consent,Minor,Closed
+DEV0086,SUB-0309,2025-11-13,Visit Window,Minor,Closed
+DEV0087,SUB-0309,2025-11-12,Visit Window,Major,Closed
+DEV0088,SUB-0314,2025-11-28,Inclusion/Exclusion Criteria,Minor,Closed
+DEV0089,SUB-0317,2026-08-14,Prohibited Medication,Minor,Closed
+DEV0090,SUB-0317,2026-08-05,Inclusion/Exclusion Criteria,Minor,Open
+DEV0091,SUB-0321,2025-12-22,Prohibited Medication,Major,Open
+DEV0092,SUB-0326,2025-12-23,Prohibited Medication,Minor,Closed
+DEV0093,SUB-0338,2026-01-31,Laboratory Procedure,Minor,Open
+DEV0094,SUB-0341,2025-07-11,Informed Consent,Major,Open
+DEV0095,SUB-0343,2025-09-17,Inclusion/Exclusion Criteria,Major,Closed
+DEV0096,SUB-0343,2025-10-07,Laboratory Procedure,Minor,Closed
+DEV0097,SUB-0345,2026-01-27,Informed Consent,Minor,Open
+DEV0098,SUB-0350,2026-04-03,Visit Window,Minor,Open
+DEV0099,SUB-0358,2026-09-16,Visit Window,Minor,Closed
+DEV0100,SUB-0368,2025-06-13,Prohibited Medication,Minor,Open
+DEV0101,SUB-0369,2026-06-25,Informed Consent,Minor,Closed
+DEV0102,SUB-0375,2025-06-15,Visit Window,Minor,Closed
+DEV0103,SUB-0379,2026-02-16,Laboratory Procedure,Minor,Closed
+DEV0104,SUB-0380,2026-02-28,Study Drug Dosing,Minor,Open
+DEV0105,SUB-0381,2025-05-24,Informed Consent,Minor,Closed
+DEV0106,SUB-0383,2025-12-03,Study Drug Dosing,Major,Closed
+DEV0107,SUB-0390,2026-08-14,Visit Window,Minor,Closed
+DEV0108,SUB-0392,2025-09-14,Informed Consent,Minor,Closed
+DEV0109,SUB-0395,2025-07-29,Prohibited Medication,Minor,Closed
+DEV0110,SUB-0403,2026-07-01,Prohibited Medication,Major,Closed
+DEV0111,SUB-0404,2026-08-13,Visit Window,Minor,Open
+DEV0112,SUB-0404,2026-09-13,Inclusion/Exclusion Criteria,Major,Closed
+DEV0113,SUB-0405,2026-05-05,Informed Consent,Minor,Closed
+DEV0114,SUB-0405,2026-05-24,Study Drug Dosing,Minor,Closed
+DEV0115,SUB-0406,2026-01-14,Study Drug Dosing,Minor,Closed
+DEV0116,SUB-0407,2026-01-05,Inclusion/Exclusion Criteria,Minor,Closed
+DEV0117,SUB-0410,2026-04-29,Study Drug Dosing,Minor,Closed
+DEV0118,SUB-0410,2026-01-28,Informed Consent,Minor,Closed
+DEV0119,SUB-0413,2025-11-15,Study Drug Dosing,Minor,Closed
+DEV0120,SUB-0416,2026-03-21,Prohibited Medication,Minor,Closed
+DEV0121,SUB-0416,2026-04-23,Informed Consent,Minor,Closed
+DEV0122,SUB-0418,2026-07-15,Prohibited Medication,Minor,Open
+DEV0123,SUB-0422,2025-10-17,Visit Window,Minor,Open
+DEV0124,SUB-0424,2025-08-18,Study Drug Dosing,Minor,Closed
+DEV0125,SUB-0430,2026-09-26,Visit Window,Minor,Open
+DEV0126,SUB-0436,2025-11-23,Laboratory Procedure,Major,Open
+DEV0127,SUB-0437,2025-08-29,Informed Consent,Minor,Open
+DEV0128,SUB-0441,2025-08-25,Study Drug Dosing,Minor,Closed
+DEV0129,SUB-0443,2026-07-30,Informed Consent,Major,Closed
+DEV0130,SUB-0443,2026-09-24,Inclusion/Exclusion Criteria,Minor,Closed
+DEV0131,SUB-0444,2025-10-22,Inclusion/Exclusion Criteria,Minor,Open
+DEV0132,SUB-0448,2026-05-16,Informed Consent,Major,Closed
+DEV0133,SUB-0460,2026-08-16,Visit Window,Minor,Open
+DEV0134,SUB-0463,2025-12-20,Laboratory Procedure,Major,Closed
+DEV0135,SUB-0465,2026-01-17,Laboratory Procedure,Major,Open
+DEV0136,SUB-0466,2025-12-04,Study Drug Dosing,Minor,Open
+DEV0137,SUB-0478,2025-09-17,Visit Window,Major,Open
+DEV0138,SUB-0485,2026-08-17,Prohibited Medication,Minor,Open
+DEV0139,SUB-0489,2025-06-19,Inclusion/Exclusion Criteria,Minor,Closed
+DEV0140,SUB-0489,2025-07-19,Informed Consent,Minor,Closed
+DEV0141,SUB-0492,2026-09-27,Laboratory Procedure,Minor,Closed
+DEV0142,SUB-0500,2025-10-10,Visit Window,Major,Open
+DEV0143,SUB-0502,2025-08-23,Prohibited Medication,Minor,Open
+DEV0144,SUB-0503,2025-05-16,Visit Window,Minor,Closed
+DEV0145,SUB-0503,2025-08-16,Informed Consent,Minor,Open
+DEV0146,SUB-0509,2025-11-15,Laboratory Procedure,Minor,Closed
+DEV0147,SUB-0510,2026-02-10,Prohibited Medication,Major,Open
+DEV0148,SUB-0510,2025-12-01,Visit Window,Major,Closed
+DEV0149,SUB-0513,2025-11-02,Informed Consent,Major,Closed
+DEV0150,SUB-0514,2025-06-10,Prohibited Medication,Minor,Open
+DEV0151,SUB-0514,2025-04-21,Prohibited Medication,Minor,Closed
+DEV0152,SUB-0526,2025-12-01,Inclusion/Exclusion Criteria,Minor,Closed
+DEV0153,SUB-0535,2026-03-07,Prohibited Medication,Minor,Closed
+DEV0154,SUB-0540,2025-11-21,Informed Consent,Minor,Closed
+DEV0155,SUB-0541,2025-10-06,Inclusion/Exclusion Criteria,Minor,Open
+DEV0156,SUB-0542,2025-11-14,Study Drug Dosing,Major,Closed
+DEV0157,SUB-0542,2025-10-22,Visit Window,Minor,Closed
+DEV0158,SUB-0546,2025-08-29,Laboratory Procedure,Minor,Closed

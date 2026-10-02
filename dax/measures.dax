@@ -1,0 +1,130 @@
+# All DAX measures — Clinical Trial Operations Dashboard
+Create a measure table first: Modeling → New table → `Measures = {0}`.
+Then right-click the Measures table → New measure → paste each block.
+One supporting calculated column (Age Bucket) and one USERELATIONSHIP measure are at the end.
+
+Total Subjects =
+COUNTROWS ( Subjects )
+
+Randomized Subjects =
+CALCULATE (
+    COUNTROWS ( Subjects ),
+    NOT ( ISBLANK ( Subjects[RandomizationDate] ) )
+)
+
+Screen Failures =
+CALCULATE (
+    COUNTROWS ( Subjects ),
+    Subjects[Status] = "Screen Failure"
+)
+
+Screened Subjects =
+CALCULATE (
+    COUNTROWS ( Subjects ),
+    NOT ( ISBLANK ( Subjects[ScreenDate] ) )
+)
+
+Screen Failure Rate =
+DIVIDE ( [Screen Failures], [Screened Subjects] )
+
+Enrollment Target =
+SUM ( Sites[EnrollmentTarget] )
+
+Enrollment Achievement % =
+DIVIDE ( [Randomized Subjects], [Enrollment Target] )
+
+Open Queries =
+CALCULATE (
+    COUNTROWS ( Queries ),
+    Queries[QueryStatus] = "Open"
+)
+
+Average Open Query Age =
+AVERAGEX (
+    FILTER ( Queries, Queries[QueryStatus] = "Open" ),
+    DATEDIFF ( Queries[QueryOpenDate], TODAY (), DAY )
+)
+
+Overdue Visits =
+CALCULATE (
+    COUNTROWS ( Visits ),
+    Visits[VisitStatus] = "Overdue"
+)
+
+Missing Forms =
+CALCULATE (
+    COUNTROWS ( Forms ),
+    Forms[FormStatus] = "Missing"
+)
+
+Completed Forms =
+CALCULATE (
+    COUNTROWS ( Forms ),
+    Forms[FormStatus] = "Completed"
+)
+
+Form Completion % =
+DIVIDE ( [Completed Forms], COUNTROWS ( Forms ) )
+
+Total AEs =
+COUNTROWS ( AdverseEvents )
+
+Total SAEs =
+CALCULATE (
+    COUNTROWS ( AdverseEvents ),
+    AdverseEvents[Serious] = "Yes"
+)
+
+Open Major Deviations =
+CALCULATE (
+    COUNTROWS ( Deviations ),
+    Deviations[Severity] = "Major",
+    Deviations[DeviationStatus] = "Open"
+)
+
+Site Risk =
+IF (
+    [Screen Failure Rate] > 0.30
+        || [Open Queries] > 25
+        || [Overdue Visits] > 10
+        || [Open Major Deviations] > 2,
+    "High",
+    "Normal"
+)
+
+Screened Subjects (Screen Date) =
+CALCULATE (
+    [Screened Subjects],
+    USERELATIONSHIP ( Calendar[Date], Subjects[ScreenDate] )
+)
+
+--- Calculated column (on Queries table) ---
+
+Age Bucket =
+VAR Age = DATEDIFF ( Queries[QueryOpenDate], TODAY (), DAY )
+RETURN
+SWITCH (
+    TRUE (),
+    Queries[QueryStatus] <> "Open", "5) Closed/Answered",
+    Age <= 7, "1) 0-7 days",
+    Age <= 14, "2) 8-14 days",
+    Age <= 30, "3) 15-30 days",
+    "4) 30+ days"
+)
+
+--- Calendar table (Modeling → New table) ---
+
+Calendar =
+VAR MinDate = DATE ( 2025, 1, 1 )
+VAR MaxDate = TODAY ()
+RETURN
+ADDCOLUMNS (
+    CALENDAR ( MinDate, MaxDate ),
+    "Year", YEAR ( [Date] ),
+    "MonthNumber", MONTH ( [Date] ),
+    "Month", FORMAT ( [Date], "MMM" ),
+    "MonthYear", FORMAT ( [Date], "MMM YYYY" ),
+    "YearMonthSort", YEAR ( [Date] ) * 100 + MONTH ( [Date] ),
+    "Quarter", "Q" & FORMAT ( [Date], "Q" ),
+    "Weekday", FORMAT ( [Date], "ddd" )
+)

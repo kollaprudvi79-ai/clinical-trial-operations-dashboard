@@ -1,0 +1,317 @@
+AEID,SubjectID,AETerm,StartDate,SeverityGrade,Serious,Outcome,RelatedToStudyDrug
+AE00001,SUB-0001,Diarrhea,2025-07-16,2,No,Recovered with sequelae,Yes
+AE00002,SUB-0001,Decreased appetite,2025-11-17,3,No,Recovered with sequelae,Yes
+AE00003,SUB-0001,Rash,2025-07-25,2,No,Recovered,No
+AE00004,SUB-0002,Diarrhea,2025-05-05,1,No,Ongoing,No
+AE00005,SUB-0005,Elevated liver enzymes,2025-09-08,1,No,Recovered,Yes
+AE00006,SUB-0007,Nausea,2025-07-30,3,Yes,Recovered with sequelae,Yes
+AE00007,SUB-0007,Constipation,2025-08-07,1,No,Recovered,No
+AE00008,SUB-0008,Headache,2025-07-16,1,No,Recovering,Yes
+AE00009,SUB-0010,Rash,2026-08-14,1,No,Recovered with sequelae,No
+AE00010,SUB-0010,Upper respiratory tract infection,2026-05-02,2,No,Recovering,No
+AE00011,SUB-0011,Insomnia,2025-09-18,4,No,Recovered with sequelae,No
+AE00012,SUB-0011,Headache,2025-06-14,2,No,Ongoing,Yes
+AE00013,SUB-0011,Diarrhea,2025-06-28,3,No,Recovered with sequelae,No
+AE00014,SUB-0012,Injection site pain,2026-04-02,3,No,Recovering,Yes
+AE00015,SUB-0013,Elevated liver enzymes,2025-11-05,2,No,Recovered with sequelae,No
+AE00016,SUB-0013,Rash,2026-03-16,2,No,Recovering,No
+AE00017,SUB-0013,Insomnia,2026-03-20,1,No,Ongoing,Yes
+AE00018,SUB-0014,Hypertension,2025-02-14,1,No,Recovered with sequelae,No
+AE00019,SUB-0014,Diarrhea,2025-04-19,2,No,Ongoing,Yes
+AE00020,SUB-0016,Fatigue,2026-02-20,3,No,Recovered with sequelae,Yes
+AE00021,SUB-0018,Vomiting,2026-07-31,1,No,Recovering,No
+AE00022,SUB-0018,Dizziness,2026-09-17,1,No,Recovered with sequelae,No
+AE00023,SUB-0022,Myalgia,2025-09-19,3,Yes,Ongoing,Yes
+AE00024,SUB-0023,Myalgia,2025-05-16,1,No,Recovered with sequelae,No
+AE00025,SUB-0023,Diarrhea,2025-06-13,5,No,Recovered with sequelae,Yes
+AE00026,SUB-0024,Dizziness,2025-09-13,3,No,Ongoing,Yes
+AE00027,SUB-0026,Injection site pain,2026-08-16,2,No,Recovering,Yes
+AE00028,SUB-0026,Insomnia,2026-04-08,1,No,Recovering,No
+AE00029,SUB-0031,Constipation,2025-09-04,5,No,Recovered,No
+AE00030,SUB-0037,Dizziness,2025-12-17,2,No,Recovered with sequelae,Yes
+AE00031,SUB-0042,Injection site pain,2025-09-21,3,No,Recovered with sequelae,No
+AE00032,SUB-0044,Constipation,2026-08-09,1,No,Ongoing,No
+AE00033,SUB-0045,Constipation,2026-03-28,3,No,Ongoing,No
+AE00034,SUB-0045,Upper respiratory tract infection,2026-04-13,1,No,Recovering,Yes
+AE00035,SUB-0045,Myalgia,2026-06-13,1,No,Recovered with sequelae,No
+AE00036,SUB-0046,Injection site pain,2025-04-28,1,No,Recovering,Yes
+AE00037,SUB-0051,Myalgia,2025-06-14,1,No,Ongoing,No
+AE00038,SUB-0054,Upper respiratory tract infection,2026-04-10,2,No,Recovered,No
+AE00039,SUB-0054,Elevated liver enzymes,2026-06-13,3,Yes,Recovered with sequelae,No
+AE00040,SUB-0055,Back pain,2025-08-18,1,No,Recovered,No
+AE00041,SUB-0057,Decreased appetite,2026-09-15,1,No,Ongoing,Yes
+AE00042,SUB-0059,Headache,2026-07-08,2,No,Recovering,Yes
+AE00043,SUB-0060,Elevated liver enzymes,2026-04-18,1,No,Recovered,No
+AE00044,SUB-0065,Vomiting,2025-12-22,1,No,Recovered with sequelae,Yes
+AE00045,SUB-0067,Dizziness,2026-09-27,2,No,Recovering,No
+AE00046,SUB-0068,Insomnia,2025-12-28,1,No,Recovering,Yes
+AE00047,SUB-0071,Headache,2026-09-17,2,No,Ongoing,Yes
+AE00048,SUB-0079,Upper respiratory tract infection,2025-05-18,3,No,Ongoing,No
+AE00049,SUB-0084,Constipation,2026-06-09,3,Yes,Recovered,Yes
+AE00050,SUB-0084,Headache,2026-03-30,2,No,Recovered with sequelae,Yes
+AE00051,SUB-0087,Upper respiratory tract infection,2026-09-20,4,No,Recovered,No
+AE00052,SUB-0088,Diarrhea,2026-09-29,3,No,Recovered,No
+AE00053,SUB-0093,Headache,2026-03-23,3,Yes,Recovered,Yes
+AE00054,SUB-0096,Rash,2026-07-23,5,No,Ongoing,Yes
+AE00055,SUB-0105,Constipation,2025-11-04,2,No,Recovered with sequelae,No
+AE00056,SUB-0105,Anemia,2025-10-12,1,No,Recovering,No
+AE00057,SUB-0109,Dizziness,2026-01-01,3,Yes,Recovered with sequelae,No
+AE00058,SUB-0113,Anemia,2026-08-10,1,No,Recovered with sequelae,Yes
+AE00059,SUB-0113,Anemia,2026-04-01,1,No,Recovered with sequelae,Yes
+AE00060,SUB-0114,Injection site pain,2025-07-15,3,No,Ongoing,No
+AE00061,SUB-0116,Myalgia,2026-07-06,2,No,Ongoing,Yes
+AE00062,SUB-0121,Rash,2026-09-08,2,No,Recovered with sequelae,No
+AE00063,SUB-0121,Pyrexia,2026-09-18,2,No,Recovering,Yes
+AE00064,SUB-0124,Fatigue,2026-09-18,2,No,Recovering,Yes
+AE00065,SUB-0124,Myalgia,2026-08-07,1,No,Recovered,No
+AE00066,SUB-0125,Injection site pain,2026-01-28,1,No,Recovered with sequelae,No
+AE00067,SUB-0126,Constipation,2026-04-24,2,No,Ongoing,Yes
+AE00068,SUB-0126,Constipation,2026-07-24,3,No,Recovered,Yes
+AE00069,SUB-0129,Nausea,2026-04-09,1,No,Recovering,No
+AE00070,SUB-0132,Pyrexia,2025-10-30,1,No,Recovered with sequelae,Yes
+AE00071,SUB-0132,Injection site pain,2025-12-02,1,No,Ongoing,Yes
+AE00072,SUB-0135,Fatigue,2025-11-06,1,No,Recovered with sequelae,Yes
+AE00073,SUB-0139,Myalgia,2026-05-11,2,No,Recovered with sequelae,Yes
+AE00074,SUB-0140,Rash,2026-09-17,1,No,Recovered with sequelae,Yes
+AE00075,SUB-0140,Insomnia,2026-09-25,1,No,Recovered with sequelae,No
+AE00076,SUB-0140,Diarrhea,2026-09-15,1,No,Ongoing,Yes
+AE00077,SUB-0143,Constipation,2026-07-31,2,No,Recovered,Yes
+AE00078,SUB-0144,Diarrhea,2026-04-29,4,No,Ongoing,No
+AE00079,SUB-0148,Fatigue,2026-09-19,3,No,Ongoing,Yes
+AE00080,SUB-0151,Fatigue,2026-03-14,1,No,Recovered,No
+AE00081,SUB-0153,Rash,2025-10-21,3,No,Recovering,No
+AE00082,SUB-0153,Back pain,2025-10-11,2,No,Recovered,Yes
+AE00083,SUB-0157,Rash,2025-11-18,1,No,Recovered with sequelae,No
+AE00084,SUB-0157,Back pain,2025-08-28,1,No,Recovered,No
+AE00085,SUB-0157,Anemia,2025-09-12,2,No,Recovered with sequelae,No
+AE00086,SUB-0162,Injection site pain,2026-03-23,3,No,Recovering,Yes
+AE00087,SUB-0162,Myalgia,2026-03-24,5,No,Ongoing,Yes
+AE00088,SUB-0162,Elevated liver enzymes,2026-05-09,3,Yes,Ongoing,No
+AE00089,SUB-0163,Decreased appetite,2026-02-23,3,No,Recovered,Yes
+AE00090,SUB-0165,Constipation,2025-09-15,2,No,Recovering,No
+AE00091,SUB-0166,Nausea,2026-07-29,3,No,Ongoing,Yes
+AE00092,SUB-0166,Fatigue,2026-05-11,1,No,Recovered,No
+AE00093,SUB-0167,Upper respiratory tract infection,2026-09-29,2,No,Recovering,No
+AE00094,SUB-0170,Anemia,2026-07-05,5,No,Recovering,Yes
+AE00095,SUB-0182,Diarrhea,2025-09-28,2,No,Recovered,No
+AE00096,SUB-0182,Decreased appetite,2026-02-21,1,No,Recovered with sequelae,Yes
+AE00097,SUB-0182,Decreased appetite,2026-01-18,4,No,Ongoing,Yes
+AE00098,SUB-0183,Insomnia,2025-05-18,1,No,Recovering,Yes
+AE00099,SUB-0183,Hypertension,2025-07-31,2,No,Ongoing,Yes
+AE00100,SUB-0183,Nausea,2025-07-07,1,No,Recovering,No
+AE00101,SUB-0184,Back pain,2026-03-03,2,No,Ongoing,No
+AE00102,SUB-0188,Decreased appetite,2025-11-02,1,No,Recovered with sequelae,Yes
+AE00103,SUB-0188,Myalgia,2026-01-29,2,No,Ongoing,Yes
+AE00104,SUB-0188,Constipation,2026-01-19,2,No,Recovered with sequelae,Yes
+AE00105,SUB-0189,Myalgia,2025-07-03,2,No,Recovered,No
+AE00106,SUB-0190,Elevated liver enzymes,2025-06-16,2,No,Recovered,Yes
+AE00107,SUB-0194,Rash,2025-10-18,3,No,Recovered,Yes
+AE00108,SUB-0195,Hypertension,2026-06-28,2,No,Recovered with sequelae,No
+AE00109,SUB-0195,Decreased appetite,2026-03-02,1,No,Recovered with sequelae,No
+AE00110,SUB-0196,Elevated liver enzymes,2025-12-10,1,No,Recovered with sequelae,No
+AE00111,SUB-0197,Myalgia,2026-07-14,1,No,Ongoing,Yes
+AE00112,SUB-0197,Decreased appetite,2026-08-03,3,No,Ongoing,No
+AE00113,SUB-0200,Pyrexia,2025-06-29,2,No,Recovering,Yes
+AE00114,SUB-0200,Headache,2025-06-30,1,No,Recovering,Yes
+AE00115,SUB-0201,Fatigue,2026-09-15,1,No,Recovered with sequelae,No
+AE00116,SUB-0201,Vomiting,2026-09-22,2,No,Recovered with sequelae,No
+AE00117,SUB-0202,Hypertension,2026-09-04,3,No,Recovered with sequelae,Yes
+AE00118,SUB-0207,Nausea,2025-08-24,1,No,Recovered with sequelae,Yes
+AE00119,SUB-0207,Decreased appetite,2025-09-17,2,No,Recovered,Yes
+AE00120,SUB-0208,Hypertension,2025-07-23,1,No,Ongoing,Yes
+AE00121,SUB-0208,Dizziness,2025-08-17,3,Yes,Recovered with sequelae,Yes
+AE00122,SUB-0213,Anemia,2025-07-18,2,No,Recovering,Yes
+AE00123,SUB-0213,Rash,2025-05-01,1,No,Recovered with sequelae,Yes
+AE00124,SUB-0213,Diarrhea,2025-04-03,2,No,Ongoing,Yes
+AE00125,SUB-0222,Dizziness,2025-12-06,1,No,Ongoing,No
+AE00126,SUB-0224,Headache,2025-08-11,2,No,Recovered,Yes
+AE00127,SUB-0226,Back pain,2026-02-25,2,No,Ongoing,No
+AE00128,SUB-0229,Dizziness,2025-04-17,2,No,Ongoing,Yes
+AE00129,SUB-0232,Upper respiratory tract infection,2025-06-06,1,No,Recovering,Yes
+AE00130,SUB-0236,Diarrhea,2026-05-28,3,No,Recovering,Yes
+AE00131,SUB-0237,Decreased appetite,2026-04-22,3,Yes,Recovered with sequelae,No
+AE00132,SUB-0237,Injection site pain,2026-06-26,1,No,Recovered,Yes
+AE00133,SUB-0239,Headache,2025-05-06,4,No,Recovered with sequelae,No
+AE00134,SUB-0239,Back pain,2025-04-27,3,Yes,Recovered with sequelae,No
+AE00135,SUB-0239,Headache,2025-07-26,2,No,Recovered,No
+AE00136,SUB-0240,Pyrexia,2026-04-20,4,No,Recovered,Yes
+AE00137,SUB-0245,Decreased appetite,2025-12-16,3,No,Recovered,Yes
+AE00138,SUB-0250,Diarrhea,2025-04-30,1,No,Recovering,Yes
+AE00139,SUB-0251,Headache,2025-04-20,3,No,Recovering,Yes
+AE00140,SUB-0251,Decreased appetite,2025-06-10,2,No,Recovered,No
+AE00141,SUB-0251,Elevated liver enzymes,2025-06-10,1,No,Recovering,No
+AE00142,SUB-0256,Hypertension,2026-04-18,2,No,Recovered,No
+AE00143,SUB-0257,Hypertension,2026-04-04,1,No,Recovered,No
+AE00144,SUB-0258,Myalgia,2025-06-28,1,No,Recovering,Yes
+AE00145,SUB-0258,Diarrhea,2025-05-19,4,No,Ongoing,Yes
+AE00146,SUB-0260,Nausea,2026-03-07,1,No,Recovering,Yes
+AE00147,SUB-0261,Headache,2026-08-06,3,No,Recovered with sequelae,Yes
+AE00148,SUB-0261,Upper respiratory tract infection,2026-08-02,2,No,Recovered,Yes
+AE00149,SUB-0262,Nausea,2026-05-05,3,No,Recovered,No
+AE00150,SUB-0270,Insomnia,2025-08-02,1,No,Recovered,No
+AE00151,SUB-0270,Elevated liver enzymes,2025-07-19,1,No,Ongoing,Yes
+AE00152,SUB-0271,Elevated liver enzymes,2025-09-24,1,No,Recovered with sequelae,No
+AE00153,SUB-0278,Myalgia,2025-08-07,1,No,Ongoing,Yes
+AE00154,SUB-0278,Dizziness,2025-08-23,2,No,Recovered,Yes
+AE00155,SUB-0279,Diarrhea,2026-04-21,3,No,Recovering,Yes
+AE00156,SUB-0279,Back pain,2026-02-02,2,No,Ongoing,No
+AE00157,SUB-0279,Fatigue,2025-12-04,1,No,Ongoing,Yes
+AE00158,SUB-0283,Myalgia,2026-08-27,3,Yes,Ongoing,No
+AE00159,SUB-0286,Dizziness,2026-01-30,3,No,Ongoing,Yes
+AE00160,SUB-0286,Pyrexia,2026-02-01,2,No,Recovering,No
+AE00161,SUB-0286,Decreased appetite,2026-03-17,1,No,Recovered,Yes
+AE00162,SUB-0289,Anemia,2026-09-23,4,No,Recovered,No
+AE00163,SUB-0291,Hypertension,2025-06-09,4,No,Recovered with sequelae,Yes
+AE00164,SUB-0291,Nausea,2025-05-27,1,No,Ongoing,No
+AE00165,SUB-0295,Pyrexia,2026-09-14,2,No,Recovering,No
+AE00166,SUB-0296,Back pain,2026-01-23,1,No,Recovered with sequelae,Yes
+AE00167,SUB-0296,Fatigue,2025-09-15,1,No,Recovering,No
+AE00168,SUB-0299,Pyrexia,2025-08-22,1,No,Recovering,No
+AE00169,SUB-0313,Fatigue,2025-04-19,4,No,Ongoing,Yes
+AE00170,SUB-0313,Back pain,2025-05-16,1,No,Recovered,No
+AE00171,SUB-0314,Anemia,2025-09-13,2,No,Recovering,Yes
+AE00172,SUB-0314,Insomnia,2025-07-25,1,No,Recovered with sequelae,Yes
+AE00173,SUB-0315,Vomiting,2026-07-31,1,No,Recovered with sequelae,Yes
+AE00174,SUB-0317,Anemia,2026-06-27,3,No,Recovered with sequelae,No
+AE00175,SUB-0317,Headache,2026-09-15,3,Yes,Recovered with sequelae,No
+AE00176,SUB-0317,Vomiting,2026-09-23,2,No,Recovered,No
+AE00177,SUB-0322,Anemia,2026-08-01,1,No,Ongoing,No
+AE00178,SUB-0322,Vomiting,2026-03-21,3,No,Ongoing,No
+AE00179,SUB-0324,Back pain,2025-07-02,1,No,Recovering,Yes
+AE00180,SUB-0330,Fatigue,2026-03-20,2,No,Recovered,Yes
+AE00181,SUB-0331,Anemia,2025-11-11,5,No,Recovered with sequelae,No
+AE00182,SUB-0335,Myalgia,2025-10-05,2,No,Recovered,No
+AE00183,SUB-0335,Pyrexia,2025-06-09,1,No,Recovered with sequelae,No
+AE00184,SUB-0337,Elevated liver enzymes,2026-09-28,2,No,Recovering,No
+AE00185,SUB-0337,Dizziness,2026-09-27,2,No,Recovered,Yes
+AE00186,SUB-0337,Pyrexia,2026-09-27,2,No,Ongoing,No
+AE00187,SUB-0339,Fatigue,2025-08-08,2,No,Ongoing,Yes
+AE00188,SUB-0342,Back pain,2025-10-01,3,Yes,Ongoing,No
+AE00189,SUB-0344,Insomnia,2026-03-16,3,No,Recovered,No
+AE00190,SUB-0345,Headache,2026-03-09,3,Yes,Recovered,No
+AE00191,SUB-0347,Hypertension,2025-11-17,3,No,Recovering,No
+AE00192,SUB-0350,Myalgia,2026-03-10,1,No,Ongoing,No
+AE00193,SUB-0350,Anemia,2026-01-01,1,No,Recovered with sequelae,No
+AE00194,SUB-0353,Rash,2025-07-07,1,No,Ongoing,No
+AE00195,SUB-0354,Constipation,2025-11-19,1,No,Ongoing,No
+AE00196,SUB-0354,Constipation,2025-12-10,1,No,Recovering,No
+AE00197,SUB-0361,Nausea,2025-11-07,1,No,Ongoing,Yes
+AE00198,SUB-0361,Anemia,2025-11-30,3,No,Ongoing,Yes
+AE00199,SUB-0365,Decreased appetite,2026-03-30,3,No,Recovering,Yes
+AE00200,SUB-0374,Hypertension,2025-12-20,2,No,Recovered,No
+AE00201,SUB-0376,Rash,2025-12-12,1,No,Recovering,Yes
+AE00202,SUB-0376,Elevated liver enzymes,2025-10-23,1,No,Recovered,Yes
+AE00203,SUB-0376,Pyrexia,2025-08-08,3,No,Recovering,Yes
+AE00204,SUB-0378,Headache,2025-09-13,1,No,Recovering,Yes
+AE00205,SUB-0379,Upper respiratory tract infection,2026-01-31,2,No,Recovered with sequelae,Yes
+AE00206,SUB-0380,Nausea,2026-02-23,1,No,Recovered,No
+AE00207,SUB-0384,Constipation,2026-07-19,4,No,Ongoing,Yes
+AE00208,SUB-0384,Hypertension,2026-07-01,1,No,Recovered,No
+AE00209,SUB-0385,Dizziness,2026-05-01,1,No,Ongoing,No
+AE00210,SUB-0386,Anemia,2025-11-01,1,No,Ongoing,No
+AE00211,SUB-0386,Insomnia,2026-01-28,3,No,Recovered with sequelae,No
+AE00212,SUB-0387,Insomnia,2025-07-14,3,No,Ongoing,Yes
+AE00213,SUB-0387,Injection site pain,2025-08-05,2,No,Recovered,Yes
+AE00214,SUB-0388,Insomnia,2026-08-13,2,No,Recovered,No
+AE00215,SUB-0388,Headache,2026-07-18,3,Yes,Ongoing,Yes
+AE00216,SUB-0390,Myalgia,2026-09-23,2,No,Recovering,Yes
+AE00217,SUB-0390,Vomiting,2026-09-04,3,Yes,Recovered with sequelae,No
+AE00218,SUB-0390,Myalgia,2026-09-17,2,No,Ongoing,No
+AE00219,SUB-0393,Pyrexia,2026-01-26,1,No,Recovering,Yes
+AE00220,SUB-0402,Decreased appetite,2026-07-29,2,No,Recovering,Yes
+AE00221,SUB-0402,Fatigue,2026-06-29,2,No,Ongoing,Yes
+AE00222,SUB-0403,Injection site pain,2026-03-26,2,No,Recovered,No
+AE00223,SUB-0404,Hypertension,2026-09-28,2,No,Recovered,No
+AE00224,SUB-0412,Decreased appetite,2025-12-05,3,No,Recovered,No
+AE00225,SUB-0414,Diarrhea,2026-09-13,1,No,Recovering,Yes
+AE00226,SUB-0414,Myalgia,2026-09-15,2,No,Recovered with sequelae,Yes
+AE00227,SUB-0414,Headache,2026-07-07,1,No,Recovered,Yes
+AE00228,SUB-0416,Hypertension,2026-03-30,1,No,Recovered,No
+AE00229,SUB-0418,Anemia,2026-05-04,3,Yes,Recovered with sequelae,No
+AE00230,SUB-0420,Back pain,2026-09-29,1,No,Ongoing,No
+AE00231,SUB-0422,Decreased appetite,2025-11-17,4,No,Ongoing,No
+AE00232,SUB-0424,Nausea,2025-08-10,1,No,Recovered,No
+AE00233,SUB-0424,Hypertension,2025-08-27,1,No,Recovered,Yes
+AE00234,SUB-0429,Dizziness,2025-12-17,1,No,Recovered with sequelae,Yes
+AE00235,SUB-0430,Diarrhea,2026-07-09,1,No,Recovering,Yes
+AE00236,SUB-0434,Decreased appetite,2025-07-03,2,No,Recovered with sequelae,No
+AE00237,SUB-0434,Insomnia,2025-10-21,1,No,Recovered with sequelae,Yes
+AE00238,SUB-0434,Insomnia,2025-08-04,3,Yes,Ongoing,No
+AE00239,SUB-0437,Pyrexia,2025-11-07,1,No,Ongoing,Yes
+AE00240,SUB-0439,Upper respiratory tract infection,2026-09-15,1,No,Recovering,No
+AE00241,SUB-0441,Dizziness,2025-09-20,1,No,Ongoing,Yes
+AE00242,SUB-0447,Elevated liver enzymes,2026-09-29,2,No,Recovered with sequelae,Yes
+AE00243,SUB-0447,Hypertension,2026-09-16,1,No,Ongoing,Yes
+AE00244,SUB-0449,Rash,2025-12-12,2,No,Recovering,No
+AE00245,SUB-0449,Nausea,2026-02-22,2,No,Recovered,No
+AE00246,SUB-0450,Constipation,2025-04-15,1,No,Recovering,No
+AE00247,SUB-0450,Headache,2025-08-22,1,No,Ongoing,Yes
+AE00248,SUB-0450,Nausea,2025-09-12,1,No,Ongoing,No
+AE00249,SUB-0457,Nausea,2025-11-21,3,No,Ongoing,Yes
+AE00250,SUB-0458,Diarrhea,2026-01-04,5,No,Recovered with sequelae,No
+AE00251,SUB-0458,Nausea,2026-02-05,2,No,Recovered,No
+AE00252,SUB-0460,Constipation,2026-06-15,3,Yes,Recovering,No
+AE00253,SUB-0460,Dizziness,2026-08-07,1,No,Recovered,Yes
+AE00254,SUB-0464,Hypertension,2025-10-16,3,No,Recovered with sequelae,Yes
+AE00255,SUB-0470,Constipation,2026-03-08,1,No,Recovering,No
+AE00256,SUB-0472,Upper respiratory tract infection,2026-09-23,1,No,Recovered with sequelae,No
+AE00257,SUB-0473,Hypertension,2026-05-28,3,Yes,Recovering,No
+AE00258,SUB-0473,Rash,2026-02-17,1,No,Recovered,Yes
+AE00259,SUB-0473,Dizziness,2026-01-20,2,No,Recovered,Yes
+AE00260,SUB-0479,Vomiting,2026-01-03,3,Yes,Recovered with sequelae,Yes
+AE00261,SUB-0479,Vomiting,2026-01-09,2,No,Recovered,No
+AE00262,SUB-0480,Rash,2026-09-21,1,No,Recovering,Yes
+AE00263,SUB-0480,Insomnia,2026-09-24,3,Yes,Recovered,Yes
+AE00264,SUB-0483,Back pain,2026-09-18,3,Yes,Recovered,No
+AE00265,SUB-0487,Anemia,2025-06-18,4,No,Ongoing,No
+AE00266,SUB-0487,Upper respiratory tract infection,2025-06-22,1,No,Recovering,No
+AE00267,SUB-0487,Headache,2025-06-05,2,No,Recovered,No
+AE00268,SUB-0489,Injection site pain,2025-08-11,2,No,Recovered,Yes
+AE00269,SUB-0492,Injection site pain,2026-06-20,1,No,Recovered with sequelae,No
+AE00270,SUB-0492,Anemia,2026-06-26,2,No,Ongoing,No
+AE00271,SUB-0493,Elevated liver enzymes,2026-05-16,1,No,Recovered,No
+AE00272,SUB-0494,Diarrhea,2026-09-24,1,No,Recovered with sequelae,No
+AE00273,SUB-0494,Pyrexia,2026-07-25,1,No,Recovered with sequelae,Yes
+AE00274,SUB-0495,Nausea,2026-08-18,2,No,Recovering,No
+AE00275,SUB-0495,Pyrexia,2026-09-20,3,No,Ongoing,No
+AE00276,SUB-0496,Upper respiratory tract infection,2025-10-15,1,No,Recovering,Yes
+AE00277,SUB-0496,Fatigue,2025-11-29,2,No,Recovered,No
+AE00278,SUB-0496,Constipation,2025-10-06,5,No,Ongoing,No
+AE00279,SUB-0502,Nausea,2025-12-14,1,No,Recovered,Yes
+AE00280,SUB-0502,Fatigue,2025-08-03,1,No,Recovering,No
+AE00281,SUB-0504,Injection site pain,2026-03-15,5,No,Ongoing,No
+AE00282,SUB-0505,Dizziness,2026-03-23,1,No,Recovered,Yes
+AE00283,SUB-0505,Fatigue,2026-03-31,1,No,Recovered with sequelae,Yes
+AE00284,SUB-0505,Injection site pain,2026-03-27,3,No,Recovered,No
+AE00285,SUB-0509,Fatigue,2025-12-06,2,No,Recovering,No
+AE00286,SUB-0514,Anemia,2025-07-16,2,No,Recovered,Yes
+AE00287,SUB-0520,Hypertension,2026-08-05,1,No,Ongoing,No
+AE00288,SUB-0520,Rash,2026-04-12,1,No,Recovering,Yes
+AE00289,SUB-0521,Anemia,2026-09-04,1,No,Recovering,No
+AE00290,SUB-0522,Pyrexia,2026-07-27,2,No,Recovered,No
+AE00291,SUB-0522,Back pain,2026-08-02,2,No,Ongoing,No
+AE00292,SUB-0523,Hypertension,2026-03-06,3,No,Recovered with sequelae,No
+AE00293,SUB-0523,Upper respiratory tract infection,2026-03-30,1,No,Recovered,Yes
+AE00294,SUB-0523,Decreased appetite,2025-12-22,1,No,Recovering,Yes
+AE00295,SUB-0524,Decreased appetite,2026-02-25,3,No,Recovered,Yes
+AE00296,SUB-0526,Anemia,2026-02-08,1,No,Recovering,Yes
+AE00297,SUB-0528,Upper respiratory tract infection,2026-08-02,3,Yes,Recovering,Yes
+AE00298,SUB-0528,Hypertension,2026-09-28,2,No,Ongoing,No
+AE00299,SUB-0528,Elevated liver enzymes,2026-07-12,2,No,Recovered,Yes
+AE00300,SUB-0530,Diarrhea,2026-07-29,2,No,Ongoing,No
+AE00301,SUB-0530,Anemia,2026-07-20,1,No,Recovered,No
+AE00302,SUB-0536,Decreased appetite,2026-09-19,3,No,Recovered,No
+AE00303,SUB-0536,Fatigue,2026-09-08,1,No,Recovered with sequelae,No
+AE00304,SUB-0536,Decreased appetite,2026-09-16,2,No,Recovered with sequelae,Yes
+AE00305,SUB-0538,Myalgia,2025-06-21,1,No,Ongoing,No
+AE00306,SUB-0538,Elevated liver enzymes,2025-04-10,1,No,Recovered with sequelae,No
+AE00307,SUB-0538,Nausea,2025-04-26,3,Yes,Recovered,No
+AE00308,SUB-0539,Diarrhea,2026-01-24,3,No,Recovering,Yes
+AE00309,SUB-0539,Hypertension,2026-04-12,2,No,Ongoing,Yes
+AE00310,SUB-0540,Fatigue,2025-11-20,3,No,Recovered with sequelae,No
+AE00311,SUB-0540,Headache,2025-09-11,1,No,Ongoing,No
+AE00312,SUB-0540,Insomnia,2025-07-01,3,Yes,Recovered,No
+AE00313,SUB-0541,Myalgia,2025-09-21,3,No,Recovered,Yes
+AE00314,SUB-0542,Constipation,2025-12-16,2,No,Ongoing,Yes
+AE00315,SUB-0542,Pyrexia,2025-09-07,2,No,Recovered,No
+AE00316,SUB-0548,Constipation,2025-05-11,2,No,Ongoing,No

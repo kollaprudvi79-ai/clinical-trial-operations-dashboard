@@ -1,0 +1,1621 @@
+QueryID,SubjectID,FormName,QueryText,QueryOpenDate,QueryCloseDate,QueryStatus
+Q00001,SUB-0001,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-21,,Open
+Q00002,SUB-0001,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-01-01,2026-01-16,Closed
+Q00003,SUB-0002,Concomitant Medications,Medication start date after stop date - please correct,2026-06-08,,Open
+Q00004,SUB-0002,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-07-17,2025-07-19,Closed
+Q00005,SUB-0002,Efficacy Assessment,Primary endpoint score missing - please enter,2025-10-27,2025-11-11,Answered
+Q00006,SUB-0003,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-06-05,2025-06-16,Answered
+Q00007,SUB-0003,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-06-23,2025-07-08,Answered
+Q00008,SUB-0003,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-07-04,2025-07-09,Answered
+Q00009,SUB-0003,ECG,ECG date is before visit date - please clarify,2025-07-22,2025-07-26,Answered
+Q00010,SUB-0003,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-06,,Open
+Q00011,SUB-0005,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-04-20,2025-04-24,Answered
+Q00012,SUB-0005,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-04-29,2025-05-09,Closed
+Q00013,SUB-0005,ECG,ECG date is before visit date - please clarify,2025-04-27,2025-05-14,Closed
+Q00014,SUB-0005,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-06-14,2025-06-27,Answered
+Q00015,SUB-0005,Demographics,Sex field blank - please complete,2025-07-18,2025-07-24,Answered
+Q00016,SUB-0005,Concomitant Medications,Medication start date after stop date - please correct,2025-07-22,2025-07-30,Closed
+Q00017,SUB-0006,ECG,ECG interpretation not recorded - please complete,2026-06-19,,Open
+Q00018,SUB-0006,Concomitant Medications,Indication for medication not specified - please add,2026-06-24,,Open
+Q00019,SUB-0006,Demographics,Sex field blank - please complete,2026-09-17,,Open
+Q00020,SUB-0006,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-16,,Open
+Q00021,SUB-0006,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-08,,Open
+Q00022,SUB-0006,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-15,,Open
+Q00023,SUB-0006,Concomitant Medications,Medication start date after stop date - please correct,2026-08-16,,Open
+Q00024,SUB-0006,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-05-18,2026-05-24,Answered
+Q00025,SUB-0006,Concomitant Medications,Medication start date after stop date - please correct,2026-05-04,2026-05-15,Answered
+Q00026,SUB-0007,Demographics,Sex field blank - please complete,2025-08-04,2025-08-14,Closed
+Q00027,SUB-0007,Concomitant Medications,Indication for medication not specified - please add,2025-08-12,2025-08-15,Answered
+Q00028,SUB-0007,ECG,ECG interpretation not recorded - please complete,2026-06-28,,Open
+Q00029,SUB-0007,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-10-15,2025-10-22,Closed
+Q00030,SUB-0007,Concomitant Medications,Indication for medication not specified - please add,2026-06-27,,Open
+Q00031,SUB-0007,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-01,,Open
+Q00032,SUB-0008,Demographics,Sex field blank - please complete,2025-05-04,2025-05-18,Answered
+Q00033,SUB-0008,Concomitant Medications,Indication for medication not specified - please add,2026-07-18,,Open
+Q00034,SUB-0008,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-12,,Open
+Q00035,SUB-0008,Demographics,Sex field blank - please complete,2026-08-19,,Open
+Q00036,SUB-0008,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-08-26,2025-08-29,Answered
+Q00037,SUB-0008,Concomitant Medications,Indication for medication not specified - please add,2025-09-02,2025-09-09,Answered
+Q00038,SUB-0009,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-13,2026-06-25,Answered
+Q00039,SUB-0009,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-26,2026-08-10,Closed
+Q00040,SUB-0009,ECG,ECG interpretation not recorded - please complete,2026-08-11,2026-08-16,Closed
+Q00041,SUB-0009,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-05,,Open
+Q00042,SUB-0009,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-28,2026-09-15,Closed
+Q00043,SUB-0009,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-10,2026-09-16,Answered
+Q00044,SUB-0009,ECG,ECG date is before visit date - please clarify,2026-07-05,,Open
+Q00045,SUB-0009,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-10,,Open
+Q00046,SUB-0009,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-07,,Open
+Q00047,SUB-0010,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-25,,Open
+Q00048,SUB-0010,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-10,,Open
+Q00049,SUB-0010,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-23,2026-07-08,Closed
+Q00050,SUB-0010,Demographics,Sex field blank - please complete,2026-07-17,2026-07-27,Closed
+Q00051,SUB-0010,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-06,,Open
+Q00052,SUB-0011,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-27,,Open
+Q00053,SUB-0011,Concomitant Medications,Indication for medication not specified - please add,2026-08-02,,Open
+Q00054,SUB-0012,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-02-28,2026-03-01,Answered
+Q00055,SUB-0012,ECG,ECG interpretation not recorded - please complete,2026-03-10,2026-03-13,Answered
+Q00056,SUB-0012,Concomitant Medications,Indication for medication not specified - please add,2026-05-28,2026-06-02,Answered
+Q00057,SUB-0012,Concomitant Medications,Medication start date after stop date - please correct,2026-09-03,2026-09-08,Answered
+Q00058,SUB-0013,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-05,,Open
+Q00059,SUB-0013,Demographics,Sex field blank - please complete,2026-01-30,2026-02-08,Closed
+Q00060,SUB-0014,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-28,,Open
+Q00061,SUB-0014,Demographics,Year of birth inconsistent with age at screening - please verify,2025-02-28,2025-03-14,Closed
+Q00062,SUB-0014,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-03-17,2025-03-21,Answered
+Q00063,SUB-0014,Efficacy Assessment,Primary endpoint score missing - please enter,2025-04-10,2025-04-22,Answered
+Q00064,SUB-0014,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-04-25,2025-05-04,Closed
+Q00065,SUB-0014,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-16,,Open
+Q00066,SUB-0014,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-28,,Open
+Q00067,SUB-0016,ECG,ECG date is before visit date - please clarify,2026-01-15,2026-01-28,Answered
+Q00068,SUB-0016,Concomitant Medications,Medication start date after stop date - please correct,2026-07-29,,Open
+Q00069,SUB-0016,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-03-23,2026-03-26,Answered
+Q00070,SUB-0018,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-11,2026-07-21,Answered
+Q00071,SUB-0018,Demographics,Sex field blank - please complete,2026-06-18,,Open
+Q00072,SUB-0018,ECG,ECG date is before visit date - please clarify,2026-08-15,,Open
+Q00073,SUB-0018,ECG,ECG date is before visit date - please clarify,2026-07-27,,Open
+Q00074,SUB-0019,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-11-23,2025-12-13,Closed
+Q00075,SUB-0019,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-12-10,2025-12-24,Closed
+Q00076,SUB-0020,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-03-14,2026-03-20,Closed
+Q00077,SUB-0020,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-27,,Open
+Q00078,SUB-0020,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-03,2026-09-13,Answered
+Q00079,SUB-0021,Demographics,Year of birth inconsistent with age at screening - please verify,2025-09-15,2025-09-21,Closed
+Q00080,SUB-0022,Concomitant Medications,Medication start date after stop date - please correct,2025-09-29,2025-10-07,Answered
+Q00081,SUB-0022,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-15,,Open
+Q00082,SUB-0022,ECG,ECG date is before visit date - please clarify,2026-09-18,,Open
+Q00083,SUB-0022,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-12-08,2025-12-19,Answered
+Q00084,SUB-0022,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-12-18,2026-01-05,Closed
+Q00085,SUB-0022,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-07,,Open
+Q00086,SUB-0023,Efficacy Assessment,Primary endpoint score missing - please enter,2025-04-15,2025-05-02,Closed
+Q00087,SUB-0023,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-05-17,2025-05-27,Answered
+Q00088,SUB-0023,Concomitant Medications,Medication start date after stop date - please correct,2025-05-24,2025-05-29,Closed
+Q00089,SUB-0023,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-06-13,2025-06-15,Answered
+Q00090,SUB-0024,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-05,,Open
+Q00091,SUB-0024,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-03-17,2026-03-27,Closed
+Q00092,SUB-0025,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-14,,Open
+Q00093,SUB-0026,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-03-30,2026-04-05,Closed
+Q00094,SUB-0026,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-04-27,2026-05-05,Answered
+Q00095,SUB-0026,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-24,,Open
+Q00096,SUB-0026,Concomitant Medications,Medication start date after stop date - please correct,2026-05-27,2026-05-28,Closed
+Q00097,SUB-0026,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-05,2026-07-07,Closed
+Q00098,SUB-0026,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-29,,Open
+Q00099,SUB-0029,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-05-17,2025-05-24,Answered
+Q00100,SUB-0029,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-17,,Open
+Q00101,SUB-0029,Demographics,Year of birth inconsistent with age at screening - please verify,2025-08-02,2025-08-13,Closed
+Q00102,SUB-0031,Demographics,Sex field blank - please complete,2026-09-11,,Open
+Q00103,SUB-0031,Concomitant Medications,Indication for medication not specified - please add,2025-09-27,2025-09-28,Answered
+Q00104,SUB-0031,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-29,,Open
+Q00105,SUB-0031,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-16,,Open
+Q00106,SUB-0031,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-16,,Open
+Q00107,SUB-0032,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-28,,Open
+Q00108,SUB-0032,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-07,2026-06-09,Closed
+Q00109,SUB-0032,Concomitant Medications,Medication start date after stop date - please correct,2026-08-24,2026-09-06,Answered
+Q00110,SUB-0032,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-14,2026-09-01,Closed
+Q00111,SUB-0033,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-02,,Open
+Q00112,SUB-0033,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-05-03,2025-05-04,Closed
+Q00113,SUB-0033,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-07-02,2025-07-12,Answered
+Q00114,SUB-0033,ECG,ECG date is before visit date - please clarify,2025-07-04,2025-07-08,Answered
+Q00115,SUB-0034,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-02,2026-07-11,Answered
+Q00116,SUB-0034,ECG,ECG date is before visit date - please clarify,2026-08-24,,Open
+Q00117,SUB-0034,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-25,,Open
+Q00118,SUB-0035,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-07-09,2025-07-21,Answered
+Q00119,SUB-0036,Concomitant Medications,Medication start date after stop date - please correct,2026-07-06,,Open
+Q00120,SUB-0036,Efficacy Assessment,Primary endpoint score missing - please enter,2025-06-03,2025-06-10,Closed
+Q00121,SUB-0036,ECG,ECG date is before visit date - please clarify,2026-06-22,,Open
+Q00122,SUB-0036,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-10-17,2025-10-29,Answered
+Q00123,SUB-0037,ECG,ECG interpretation not recorded - please complete,2026-08-03,,Open
+Q00124,SUB-0037,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-10-01,2025-10-02,Closed
+Q00125,SUB-0037,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-17,,Open
+Q00126,SUB-0037,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-12-17,2025-12-26,Answered
+Q00127,SUB-0037,Efficacy Assessment,Primary endpoint score missing - please enter,2026-03-12,2026-03-14,Closed
+Q00128,SUB-0038,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-03,,Open
+Q00129,SUB-0038,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-07,,Open
+Q00130,SUB-0038,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-14,2026-09-02,Closed
+Q00131,SUB-0038,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-12,,Open
+Q00132,SUB-0039,Concomitant Medications,Indication for medication not specified - please add,2025-06-16,2025-07-03,Closed
+Q00133,SUB-0039,Concomitant Medications,Indication for medication not specified - please add,2025-06-24,2025-07-08,Answered
+Q00134,SUB-0039,Concomitant Medications,Medication start date after stop date - please correct,2025-07-05,2025-07-12,Answered
+Q00135,SUB-0039,Concomitant Medications,Medication start date after stop date - please correct,2026-08-21,,Open
+Q00136,SUB-0039,ECG,ECG date is before visit date - please clarify,2025-12-04,2025-12-05,Answered
+Q00137,SUB-0040,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-12-27,2026-01-04,Answered
+Q00138,SUB-0040,Efficacy Assessment,Primary endpoint score missing - please enter,2026-01-20,2026-01-28,Answered
+Q00139,SUB-0040,ECG,ECG date is before visit date - please clarify,2026-08-03,,Open
+Q00140,SUB-0041,Concomitant Medications,Medication start date after stop date - please correct,2025-06-24,2025-07-06,Closed
+Q00141,SUB-0041,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-27,,Open
+Q00142,SUB-0041,ECG,ECG interpretation not recorded - please complete,2026-08-08,,Open
+Q00143,SUB-0041,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-05,,Open
+Q00144,SUB-0042,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-11-17,2025-11-29,Answered
+Q00145,SUB-0043,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-25,,Open
+Q00146,SUB-0043,ECG,ECG interpretation not recorded - please complete,2026-04-30,2026-05-08,Closed
+Q00147,SUB-0043,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-17,,Open
+Q00148,SUB-0043,ECG,ECG date is before visit date - please clarify,2026-08-31,,Open
+Q00149,SUB-0043,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-17,2026-09-24,Answered
+Q00150,SUB-0044,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-09,2026-06-22,Answered
+Q00151,SUB-0044,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-13,2026-06-25,Closed
+Q00152,SUB-0045,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-10,,Open
+Q00153,SUB-0045,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-03-10,2026-03-23,Closed
+Q00154,SUB-0045,ECG,ECG date is before visit date - please clarify,2026-08-30,,Open
+Q00155,SUB-0045,ECG,ECG date is before visit date - please clarify,2026-08-30,,Open
+Q00156,SUB-0045,Concomitant Medications,Indication for medication not specified - please add,2026-04-29,2026-05-05,Answered
+Q00157,SUB-0045,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-28,2026-08-30,Answered
+Q00158,SUB-0045,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-11,,Open
+Q00159,SUB-0046,Efficacy Assessment,Primary endpoint score missing - please enter,2025-06-02,2025-06-11,Closed
+Q00160,SUB-0046,Demographics,Sex field blank - please complete,2025-09-19,2025-09-20,Closed
+Q00161,SUB-0047,Demographics,Year of birth inconsistent with age at screening - please verify,2025-07-27,2025-08-08,Answered
+Q00162,SUB-0047,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-02,,Open
+Q00163,SUB-0047,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-08-13,2025-08-19,Answered
+Q00164,SUB-0047,ECG,ECG interpretation not recorded - please complete,2025-09-01,2025-09-12,Answered
+Q00165,SUB-0047,Demographics,Year of birth inconsistent with age at screening - please verify,2025-10-12,2025-10-24,Closed
+Q00166,SUB-0047,Concomitant Medications,Medication start date after stop date - please correct,2026-08-05,,Open
+Q00167,SUB-0047,Demographics,Year of birth inconsistent with age at screening - please verify,2025-11-01,2025-11-17,Closed
+Q00168,SUB-0049,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-11-06,2025-11-13,Answered
+Q00169,SUB-0049,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-12-04,2025-12-21,Closed
+Q00170,SUB-0049,Demographics,Sex field blank - please complete,2026-01-30,2026-02-16,Closed
+Q00171,SUB-0049,ECG,ECG interpretation not recorded - please complete,2026-09-13,,Open
+Q00172,SUB-0049,Demographics,Sex field blank - please complete,2026-04-17,2026-04-22,Answered
+Q00173,SUB-0050,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-24,,Open
+Q00174,SUB-0050,ECG,ECG date is before visit date - please clarify,2025-10-28,2025-11-13,Closed
+Q00175,SUB-0050,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-10-22,2025-10-26,Answered
+Q00176,SUB-0050,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-03-20,2026-04-01,Answered
+Q00177,SUB-0051,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-09,,Open
+Q00178,SUB-0051,ECG,ECG date is before visit date - please clarify,2025-09-15,2025-09-25,Answered
+Q00179,SUB-0052,Concomitant Medications,Indication for medication not specified - please add,2026-03-11,2026-03-13,Closed
+Q00180,SUB-0052,Demographics,Sex field blank - please complete,2026-06-20,,Open
+Q00181,SUB-0052,Demographics,Sex field blank - please complete,2026-03-22,2026-04-04,Answered
+Q00182,SUB-0052,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-07,,Open
+Q00183,SUB-0053,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-12,,Open
+Q00184,SUB-0053,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-10-23,2025-11-11,Closed
+Q00185,SUB-0054,ECG,ECG date is before visit date - please clarify,2026-06-06,,Open
+Q00186,SUB-0054,Demographics,Sex field blank - please complete,2026-08-04,,Open
+Q00187,SUB-0054,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-22,,Open
+Q00188,SUB-0056,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-01-08,2026-01-23,Answered
+Q00189,SUB-0056,ECG,ECG date is before visit date - please clarify,2026-09-17,,Open
+Q00190,SUB-0056,ECG,ECG date is before visit date - please clarify,2026-02-05,2026-02-20,Closed
+Q00191,SUB-0056,ECG,ECG interpretation not recorded - please complete,2026-07-21,,Open
+Q00192,SUB-0057,Demographics,Sex field blank - please complete,2026-04-27,2026-05-03,Answered
+Q00193,SUB-0057,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-01,,Open
+Q00194,SUB-0057,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-27,,Open
+Q00195,SUB-0057,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-21,,Open
+Q00196,SUB-0057,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-23,,Open
+Q00197,SUB-0057,Demographics,Sex field blank - please complete,2026-07-20,2026-07-26,Closed
+Q00198,SUB-0058,Demographics,Year of birth inconsistent with age at screening - please verify,2025-12-23,2025-12-29,Answered
+Q00199,SUB-0058,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-12-30,2026-01-02,Answered
+Q00200,SUB-0058,ECG,ECG date is before visit date - please clarify,2026-07-05,,Open
+Q00201,SUB-0058,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-18,2026-06-24,Answered
+Q00202,SUB-0059,Demographics,Sex field blank - please complete,2026-05-31,2026-06-13,Answered
+Q00203,SUB-0059,Demographics,Sex field blank - please complete,2026-07-01,2026-07-05,Answered
+Q00204,SUB-0059,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-28,2026-07-06,Answered
+Q00205,SUB-0059,Concomitant Medications,Indication for medication not specified - please add,2026-07-18,2026-07-20,Answered
+Q00206,SUB-0059,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-26,2026-09-29,Answered
+Q00207,SUB-0059,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-22,,Open
+Q00208,SUB-0060,ECG,ECG date is before visit date - please clarify,2025-12-26,2025-12-27,Answered
+Q00209,SUB-0060,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-14,,Open
+Q00210,SUB-0060,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-14,,Open
+Q00211,SUB-0060,Concomitant Medications,Medication start date after stop date - please correct,2026-01-12,2026-01-27,Answered
+Q00212,SUB-0060,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-03-11,2026-03-19,Closed
+Q00213,SUB-0060,ECG,ECG interpretation not recorded - please complete,2026-03-19,2026-03-26,Answered
+Q00214,SUB-0060,Demographics,Sex field blank - please complete,2026-06-07,2026-06-22,Closed
+Q00215,SUB-0061,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-10-15,2025-10-29,Answered
+Q00216,SUB-0061,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-11,,Open
+Q00217,SUB-0061,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-14,,Open
+Q00218,SUB-0061,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-18,,Open
+Q00219,SUB-0061,Concomitant Medications,Indication for medication not specified - please add,2026-06-29,,Open
+Q00220,SUB-0061,ECG,ECG date is before visit date - please clarify,2026-03-28,2026-04-15,Closed
+Q00221,SUB-0061,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-07,,Open
+Q00222,SUB-0062,Demographics,Sex field blank - please complete,2026-07-10,,Open
+Q00223,SUB-0065,Demographics,Year of birth inconsistent with age at screening - please verify,2025-11-18,2025-11-19,Closed
+Q00224,SUB-0065,Concomitant Medications,Medication start date after stop date - please correct,2025-11-18,2025-11-24,Answered
+Q00225,SUB-0065,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-30,,Open
+Q00226,SUB-0065,Demographics,Sex field blank - please complete,2026-07-29,,Open
+Q00227,SUB-0065,Concomitant Medications,Medication start date after stop date - please correct,2026-06-10,,Open
+Q00228,SUB-0066,ECG,ECG interpretation not recorded - please complete,2026-09-25,,Open
+Q00229,SUB-0067,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-16,2026-07-31,Answered
+Q00230,SUB-0068,ECG,ECG date is before visit date - please clarify,2025-12-09,2025-12-20,Closed
+Q00231,SUB-0068,Concomitant Medications,Indication for medication not specified - please add,2026-01-07,2026-01-15,Answered
+Q00232,SUB-0068,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-05,2026-06-09,Closed
+Q00233,SUB-0069,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-17,,Open
+Q00234,SUB-0071,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-11,,Open
+Q00235,SUB-0071,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-05,2026-07-11,Answered
+Q00236,SUB-0071,Demographics,Sex field blank - please complete,2026-09-14,,Open
+Q00237,SUB-0073,Demographics,Sex field blank - please complete,2026-07-01,,Open
+Q00238,SUB-0075,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-04,,Open
+Q00239,SUB-0075,ECG,ECG interpretation not recorded - please complete,2025-09-05,2025-09-08,Answered
+Q00240,SUB-0077,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-14,,Open
+Q00241,SUB-0077,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-11,,Open
+Q00242,SUB-0077,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-22,,Open
+Q00243,SUB-0077,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-05-24,2025-06-10,Closed
+Q00244,SUB-0077,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-05-26,2025-06-02,Closed
+Q00245,SUB-0077,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-16,,Open
+Q00246,SUB-0078,Concomitant Medications,Medication start date after stop date - please correct,2025-12-13,2025-12-17,Answered
+Q00247,SUB-0078,Concomitant Medications,Indication for medication not specified - please add,2026-03-16,2026-03-31,Answered
+Q00248,SUB-0079,Efficacy Assessment,Primary endpoint score missing - please enter,2025-07-17,2025-07-25,Closed
+Q00249,SUB-0080,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-10-26,2025-11-02,Answered
+Q00250,SUB-0082,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-29,,Open
+Q00251,SUB-0082,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-23,,Open
+Q00252,SUB-0084,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-23,,Open
+Q00253,SUB-0084,Concomitant Medications,Medication start date after stop date - please correct,2026-05-16,2026-05-28,Answered
+Q00254,SUB-0085,Demographics,Sex field blank - please complete,2026-07-19,,Open
+Q00255,SUB-0085,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-01-27,2026-02-05,Answered
+Q00256,SUB-0085,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-03-06,2026-03-23,Closed
+Q00257,SUB-0085,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-28,,Open
+Q00258,SUB-0086,Demographics,Sex field blank - please complete,2026-09-04,,Open
+Q00259,SUB-0086,ECG,ECG interpretation not recorded - please complete,2025-07-13,2025-07-19,Closed
+Q00260,SUB-0086,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-08-13,2025-08-26,Answered
+Q00261,SUB-0086,Efficacy Assessment,Primary endpoint score missing - please enter,2025-11-05,2025-11-15,Answered
+Q00262,SUB-0087,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-02,2026-06-07,Answered
+Q00263,SUB-0087,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-27,2026-08-08,Answered
+Q00264,SUB-0087,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-14,,Open
+Q00265,SUB-0088,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-02,2026-09-03,Closed
+Q00266,SUB-0088,Demographics,Sex field blank - please complete,2026-07-14,,Open
+Q00267,SUB-0088,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-20,2026-09-26,Answered
+Q00268,SUB-0092,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-02,,Open
+Q00269,SUB-0092,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-04-16,2026-04-22,Answered
+Q00270,SUB-0092,Concomitant Medications,Medication start date after stop date - please correct,2026-07-03,,Open
+Q00271,SUB-0092,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-11,2026-08-22,Closed
+Q00272,SUB-0093,Concomitant Medications,Medication start date after stop date - please correct,2026-09-15,,Open
+Q00273,SUB-0093,Demographics,Year of birth inconsistent with age at screening - please verify,2026-01-21,2026-01-31,Closed
+Q00274,SUB-0093,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-02-14,2026-02-21,Answered
+Q00275,SUB-0093,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-03-04,2026-03-14,Closed
+Q00276,SUB-0093,ECG,ECG date is before visit date - please clarify,2026-03-20,2026-03-23,Answered
+Q00277,SUB-0093,Concomitant Medications,Indication for medication not specified - please add,2026-03-21,2026-03-22,Answered
+Q00278,SUB-0093,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-30,2026-07-13,Closed
+Q00279,SUB-0095,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-02-09,2026-02-18,Closed
+Q00280,SUB-0095,ECG,ECG date is before visit date - please clarify,2026-03-25,2026-04-12,Closed
+Q00281,SUB-0095,Efficacy Assessment,Primary endpoint score missing - please enter,2026-04-23,2026-05-01,Answered
+Q00282,SUB-0095,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-28,2026-07-15,Closed
+Q00283,SUB-0096,Demographics,Sex field blank - please complete,2026-07-27,,Open
+Q00284,SUB-0096,Concomitant Medications,Medication start date after stop date - please correct,2026-08-06,,Open
+Q00285,SUB-0097,Concomitant Medications,Indication for medication not specified - please add,2026-06-13,,Open
+Q00286,SUB-0097,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-03-02,2026-03-16,Answered
+Q00287,SUB-0098,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-14,,Open
+Q00288,SUB-0098,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-05,,Open
+Q00289,SUB-0098,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-03,2026-08-12,Answered
+Q00290,SUB-0099,Concomitant Medications,Indication for medication not specified - please add,2025-11-04,2025-11-15,Answered
+Q00291,SUB-0100,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-08,,Open
+Q00292,SUB-0100,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-04,,Open
+Q00293,SUB-0100,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-23,,Open
+Q00294,SUB-0101,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-18,,Open
+Q00295,SUB-0101,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-22,2026-09-23,Closed
+Q00296,SUB-0101,ECG,ECG interpretation not recorded - please complete,2026-06-05,,Open
+Q00297,SUB-0101,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-07,,Open
+Q00298,SUB-0101,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-19,,Open
+Q00299,SUB-0102,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-07-14,2025-07-30,Closed
+Q00300,SUB-0102,ECG,ECG interpretation not recorded - please complete,2025-07-31,2025-08-04,Answered
+Q00301,SUB-0102,Demographics,Year of birth inconsistent with age at screening - please verify,2025-08-29,2025-09-17,Closed
+Q00302,SUB-0102,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-23,,Open
+Q00303,SUB-0102,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-09-18,2025-09-29,Answered
+Q00304,SUB-0102,Concomitant Medications,Medication start date after stop date - please correct,2025-12-16,2025-12-25,Answered
+Q00305,SUB-0104,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-05,2026-06-19,Answered
+Q00306,SUB-0104,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-06,2026-08-25,Closed
+Q00307,SUB-0104,Demographics,Sex field blank - please complete,2026-07-28,,Open
+Q00308,SUB-0104,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-25,2026-09-26,Answered
+Q00309,SUB-0104,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-01,,Open
+Q00310,SUB-0105,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-08,,Open
+Q00311,SUB-0105,Concomitant Medications,Indication for medication not specified - please add,2026-09-07,,Open
+Q00312,SUB-0105,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-11,,Open
+Q00313,SUB-0105,Efficacy Assessment,Primary endpoint score missing - please enter,2025-07-21,2025-07-26,Closed
+Q00314,SUB-0105,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-08-19,2025-08-21,Answered
+Q00315,SUB-0105,ECG,ECG interpretation not recorded - please complete,2025-09-16,2025-09-28,Answered
+Q00316,SUB-0105,Concomitant Medications,Medication start date after stop date - please correct,2026-08-04,,Open
+Q00317,SUB-0105,Concomitant Medications,Indication for medication not specified - please add,2026-09-06,,Open
+Q00318,SUB-0106,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-09-14,2025-10-01,Closed
+Q00319,SUB-0107,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-26,,Open
+Q00320,SUB-0107,Demographics,Sex field blank - please complete,2025-05-15,2025-05-19,Answered
+Q00321,SUB-0107,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-13,,Open
+Q00322,SUB-0107,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-10-26,2025-10-30,Closed
+Q00323,SUB-0109,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-12-08,2025-12-15,Answered
+Q00324,SUB-0109,ECG,ECG interpretation not recorded - please complete,2025-12-25,2026-01-07,Answered
+Q00325,SUB-0109,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-29,,Open
+Q00326,SUB-0110,Demographics,Sex field blank - please complete,2025-06-16,2025-06-27,Answered
+Q00327,SUB-0112,Demographics,Sex field blank - please complete,2026-02-06,2026-02-09,Answered
+Q00328,SUB-0112,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-02-05,2026-02-12,Closed
+Q00329,SUB-0112,ECG,ECG date is before visit date - please clarify,2026-07-26,,Open
+Q00330,SUB-0112,ECG,ECG date is before visit date - please clarify,2026-05-11,2026-05-15,Answered
+Q00331,SUB-0112,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-28,,Open
+Q00332,SUB-0112,Concomitant Medications,Indication for medication not specified - please add,2026-08-06,2026-08-15,Closed
+Q00333,SUB-0112,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-25,2026-08-04,Closed
+Q00334,SUB-0113,Demographics,Year of birth inconsistent with age at screening - please verify,2026-03-07,2026-03-22,Answered
+Q00335,SUB-0113,Concomitant Medications,Indication for medication not specified - please add,2026-04-13,2026-04-23,Answered
+Q00336,SUB-0113,Concomitant Medications,Medication start date after stop date - please correct,2026-09-12,2026-09-18,Answered
+Q00337,SUB-0114,Concomitant Medications,Indication for medication not specified - please add,2025-06-04,2025-06-11,Closed
+Q00338,SUB-0114,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-06-07,2025-06-17,Answered
+Q00339,SUB-0114,ECG,ECG interpretation not recorded - please complete,2026-07-19,,Open
+Q00340,SUB-0114,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-07-13,2025-07-23,Answered
+Q00341,SUB-0114,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-08-05,2025-08-25,Closed
+Q00342,SUB-0114,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-08-10,2025-08-12,Closed
+Q00343,SUB-0114,Concomitant Medications,Indication for medication not specified - please add,2025-09-13,2025-09-15,Closed
+Q00344,SUB-0115,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-01-06,2026-01-22,Closed
+Q00345,SUB-0115,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-04,,Open
+Q00346,SUB-0116,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-17,,Open
+Q00347,SUB-0116,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-10,,Open
+Q00348,SUB-0117,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-02,2026-08-19,Closed
+Q00349,SUB-0117,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-09,,Open
+Q00350,SUB-0118,Demographics,Year of birth inconsistent with age at screening - please verify,2026-02-27,2026-03-12,Answered
+Q00351,SUB-0119,Demographics,Sex field blank - please complete,2026-08-25,2026-09-04,Closed
+Q00352,SUB-0119,ECG,ECG interpretation not recorded - please complete,2026-09-16,2026-09-23,Answered
+Q00353,SUB-0119,Concomitant Medications,Medication start date after stop date - please correct,2026-07-27,,Open
+Q00354,SUB-0121,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-23,,Open
+Q00355,SUB-0121,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-07,,Open
+Q00356,SUB-0121,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-06,,Open
+Q00357,SUB-0121,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-10,2026-09-13,Closed
+Q00358,SUB-0121,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-28,,Open
+Q00359,SUB-0122,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-03-10,2026-03-23,Closed
+Q00360,SUB-0122,Concomitant Medications,Medication start date after stop date - please correct,2026-04-16,2026-04-21,Closed
+Q00361,SUB-0122,Concomitant Medications,Medication start date after stop date - please correct,2026-05-26,2026-06-09,Answered
+Q00362,SUB-0123,Demographics,Sex field blank - please complete,2026-06-08,,Open
+Q00363,SUB-0123,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-11,,Open
+Q00364,SUB-0124,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-23,,Open
+Q00365,SUB-0124,Concomitant Medications,Indication for medication not specified - please add,2026-08-17,2026-08-20,Answered
+Q00366,SUB-0124,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-03,2026-09-15,Answered
+Q00367,SUB-0124,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-06,,Open
+Q00368,SUB-0124,Concomitant Medications,Medication start date after stop date - please correct,2026-08-18,,Open
+Q00369,SUB-0125,Concomitant Medications,Medication start date after stop date - please correct,2025-12-07,2025-12-13,Closed
+Q00370,SUB-0125,Concomitant Medications,Medication start date after stop date - please correct,2026-07-26,,Open
+Q00371,SUB-0126,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-05-10,2026-05-20,Closed
+Q00372,SUB-0126,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-05-02,2026-05-07,Answered
+Q00373,SUB-0126,ECG,ECG date is before visit date - please clarify,2026-06-28,2026-07-14,Closed
+Q00374,SUB-0126,Concomitant Medications,Indication for medication not specified - please add,2026-09-13,,Open
+Q00375,SUB-0127,Concomitant Medications,Medication start date after stop date - please correct,2026-08-14,,Open
+Q00376,SUB-0127,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-21,,Open
+Q00377,SUB-0127,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-30,,Open
+Q00378,SUB-0127,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-19,,Open
+Q00379,SUB-0128,Demographics,Sex field blank - please complete,2026-03-26,2026-04-10,Answered
+Q00380,SUB-0128,Concomitant Medications,Medication start date after stop date - please correct,2026-06-03,2026-06-10,Closed
+Q00381,SUB-0129,Concomitant Medications,Medication start date after stop date - please correct,2026-06-01,2026-06-08,Answered
+Q00382,SUB-0129,ECG,ECG date is before visit date - please clarify,2026-07-04,,Open
+Q00383,SUB-0129,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-14,,Open
+Q00384,SUB-0130,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-06,,Open
+Q00385,SUB-0132,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-02,,Open
+Q00386,SUB-0132,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-12,,Open
+Q00387,SUB-0132,Concomitant Medications,Medication start date after stop date - please correct,2025-11-14,2025-12-02,Closed
+Q00388,SUB-0132,Efficacy Assessment,Primary endpoint score missing - please enter,2025-12-12,2025-12-13,Answered
+Q00389,SUB-0133,ECG,ECG interpretation not recorded - please complete,2026-06-28,,Open
+Q00390,SUB-0135,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-08-25,2025-09-08,Closed
+Q00391,SUB-0135,ECG,ECG interpretation not recorded - please complete,2026-07-01,,Open
+Q00392,SUB-0135,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-27,,Open
+Q00393,SUB-0135,Concomitant Medications,Indication for medication not specified - please add,2026-01-10,2026-01-13,Answered
+Q00394,SUB-0136,Concomitant Medications,Indication for medication not specified - please add,2026-06-19,,Open
+Q00395,SUB-0136,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-06,,Open
+Q00396,SUB-0136,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-04-12,2026-04-29,Closed
+Q00397,SUB-0136,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-03,2026-07-04,Closed
+Q00398,SUB-0137,Demographics,Sex field blank - please complete,2026-06-09,,Open
+Q00399,SUB-0137,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-06,2026-07-09,Answered
+Q00400,SUB-0137,Concomitant Medications,Medication start date after stop date - please correct,2026-08-31,2026-09-01,Closed
+Q00401,SUB-0137,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-21,2026-09-24,Closed
+Q00402,SUB-0137,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-22,,Open
+Q00403,SUB-0138,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-28,2026-09-29,Closed
+Q00404,SUB-0139,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-02-11,2026-02-20,Closed
+Q00405,SUB-0139,Concomitant Medications,Indication for medication not specified - please add,2026-02-27,2026-03-02,Closed
+Q00406,SUB-0139,ECG,ECG interpretation not recorded - please complete,2026-08-08,,Open
+Q00407,SUB-0139,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-19,2026-08-03,Answered
+Q00408,SUB-0140,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-28,,Open
+Q00409,SUB-0140,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-15,,Open
+Q00410,SUB-0140,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-28,,Open
+Q00411,SUB-0141,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-20,2026-09-25,Answered
+Q00412,SUB-0141,ECG,ECG interpretation not recorded - please complete,2026-09-22,,Open
+Q00413,SUB-0141,ECG,ECG interpretation not recorded - please complete,2026-09-22,,Open
+Q00414,SUB-0143,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-03,2026-07-13,Closed
+Q00415,SUB-0143,Concomitant Medications,Medication start date after stop date - please correct,2026-09-22,,Open
+Q00416,SUB-0143,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-25,2026-09-29,Answered
+Q00417,SUB-0144,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-12-22,2026-01-01,Answered
+Q00418,SUB-0144,ECG,ECG date is before visit date - please clarify,2026-01-07,2026-01-25,Closed
+Q00419,SUB-0144,ECG,ECG interpretation not recorded - please complete,2026-08-21,,Open
+Q00420,SUB-0144,Efficacy Assessment,Primary endpoint score missing - please enter,2026-02-19,2026-03-03,Closed
+Q00421,SUB-0144,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-28,,Open
+Q00422,SUB-0144,ECG,ECG date is before visit date - please clarify,2026-03-29,2026-04-06,Answered
+Q00423,SUB-0144,Concomitant Medications,Medication start date after stop date - please correct,2026-06-11,,Open
+Q00424,SUB-0144,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-18,,Open
+Q00425,SUB-0144,ECG,ECG interpretation not recorded - please complete,2026-06-07,2026-06-18,Answered
+Q00426,SUB-0145,ECG,ECG interpretation not recorded - please complete,2025-08-29,2025-09-01,Answered
+Q00427,SUB-0145,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-18,,Open
+Q00428,SUB-0145,Demographics,Sex field blank - please complete,2026-01-19,2026-02-01,Closed
+Q00429,SUB-0148,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-18,,Open
+Q00430,SUB-0148,ECG,ECG date is before visit date - please clarify,2026-06-22,,Open
+Q00431,SUB-0149,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-04-15,2026-04-22,Answered
+Q00432,SUB-0149,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-05-04,2026-05-20,Closed
+Q00433,SUB-0149,Concomitant Medications,Medication start date after stop date - please correct,2026-05-31,2026-06-19,Closed
+Q00434,SUB-0149,ECG,ECG date is before visit date - please clarify,2026-09-29,,Open
+Q00435,SUB-0149,Concomitant Medications,Indication for medication not specified - please add,2026-07-20,2026-07-30,Answered
+Q00436,SUB-0149,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-19,2026-08-01,Closed
+Q00437,SUB-0151,Concomitant Medications,Medication start date after stop date - please correct,2026-09-22,,Open
+Q00438,SUB-0153,Demographics,Sex field blank - please complete,2025-05-30,2025-06-13,Closed
+Q00439,SUB-0153,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-06-05,2025-06-21,Closed
+Q00440,SUB-0153,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-06-15,2025-06-16,Closed
+Q00441,SUB-0153,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-20,,Open
+Q00442,SUB-0153,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-07-31,2025-08-04,Closed
+Q00443,SUB-0154,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-11,2026-08-26,Closed
+Q00444,SUB-0154,Demographics,Sex field blank - please complete,2026-06-30,,Open
+Q00445,SUB-0154,Concomitant Medications,Medication start date after stop date - please correct,2026-07-25,,Open
+Q00446,SUB-0155,Demographics,Sex field blank - please complete,2026-07-28,,Open
+Q00447,SUB-0155,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-08,,Open
+Q00448,SUB-0155,ECG,ECG interpretation not recorded - please complete,2026-06-28,,Open
+Q00449,SUB-0155,ECG,ECG interpretation not recorded - please complete,2026-07-14,,Open
+Q00450,SUB-0155,Demographics,Sex field blank - please complete,2026-08-10,,Open
+Q00451,SUB-0156,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-02,2026-08-11,Answered
+Q00452,SUB-0156,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-30,,Open
+Q00453,SUB-0156,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-05,,Open
+Q00454,SUB-0156,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-25,,Open
+Q00455,SUB-0157,Demographics,Sex field blank - please complete,2025-09-04,2025-09-14,Closed
+Q00456,SUB-0157,Concomitant Medications,Indication for medication not specified - please add,2026-07-26,,Open
+Q00457,SUB-0157,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-11-14,2025-11-20,Closed
+Q00458,SUB-0157,Concomitant Medications,Medication start date after stop date - please correct,2026-08-25,,Open
+Q00459,SUB-0157,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-11-10,2025-11-13,Answered
+Q00460,SUB-0158,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-25,2026-09-28,Closed
+Q00461,SUB-0158,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-07,,Open
+Q00462,SUB-0159,ECG,ECG interpretation not recorded - please complete,2025-07-06,2025-07-14,Answered
+Q00463,SUB-0159,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-08,,Open
+Q00464,SUB-0159,ECG,ECG date is before visit date - please clarify,2025-08-28,2025-09-07,Answered
+Q00465,SUB-0160,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-12-20,2025-12-31,Answered
+Q00466,SUB-0162,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-03-24,2026-04-05,Closed
+Q00467,SUB-0162,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-13,2026-06-20,Closed
+Q00468,SUB-0163,Demographics,Year of birth inconsistent with age at screening - please verify,2026-01-03,2026-01-16,Answered
+Q00469,SUB-0163,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-12-26,2026-01-09,Answered
+Q00470,SUB-0163,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-01-16,2026-01-31,Closed
+Q00471,SUB-0163,Concomitant Medications,Medication start date after stop date - please correct,2026-01-06,2026-01-07,Closed
+Q00472,SUB-0163,ECG,ECG interpretation not recorded - please complete,2026-07-10,,Open
+Q00473,SUB-0163,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-13,,Open
+Q00474,SUB-0165,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-27,,Open
+Q00475,SUB-0165,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-14,,Open
+Q00476,SUB-0165,Efficacy Assessment,Primary endpoint score missing - please enter,2025-12-15,2025-12-30,Answered
+Q00477,SUB-0165,Concomitant Medications,Indication for medication not specified - please add,2026-03-01,2026-03-06,Closed
+Q00478,SUB-0165,Efficacy Assessment,Primary endpoint score missing - please enter,2026-03-01,2026-03-08,Closed
+Q00479,SUB-0166,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-05-08,2026-05-13,Answered
+Q00480,SUB-0166,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-29,,Open
+Q00481,SUB-0166,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-13,,Open
+Q00482,SUB-0166,ECG,ECG date is before visit date - please clarify,2026-07-13,,Open
+Q00483,SUB-0167,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-21,2026-08-31,Closed
+Q00484,SUB-0167,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-13,2026-09-16,Closed
+Q00485,SUB-0167,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-05,,Open
+Q00486,SUB-0167,ECG,ECG date is before visit date - please clarify,2026-07-18,,Open
+Q00487,SUB-0167,Concomitant Medications,Indication for medication not specified - please add,2026-08-01,,Open
+Q00488,SUB-0168,ECG,ECG date is before visit date - please clarify,2025-09-05,2025-09-10,Answered
+Q00489,SUB-0170,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-24,,Open
+Q00490,SUB-0170,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-08,,Open
+Q00491,SUB-0170,ECG,ECG interpretation not recorded - please complete,2026-07-17,,Open
+Q00492,SUB-0170,Concomitant Medications,Indication for medication not specified - please add,2026-06-05,2026-06-10,Answered
+Q00493,SUB-0171,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-23,2026-09-06,Closed
+Q00494,SUB-0171,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-17,2026-09-30,Closed
+Q00495,SUB-0171,Concomitant Medications,Medication start date after stop date - please correct,2026-07-21,,Open
+Q00496,SUB-0172,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-19,,Open
+Q00497,SUB-0172,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-14,2026-07-17,Closed
+Q00498,SUB-0172,ECG,ECG date is before visit date - please clarify,2026-06-11,,Open
+Q00499,SUB-0172,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-05,,Open
+Q00500,SUB-0173,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-10-23,2025-10-25,Answered
+Q00501,SUB-0173,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-03-30,2026-04-12,Answered
+Q00502,SUB-0175,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-07-14,2025-07-25,Closed
+Q00503,SUB-0175,ECG,ECG date is before visit date - please clarify,2025-07-15,2025-07-21,Closed
+Q00504,SUB-0175,Concomitant Medications,Medication start date after stop date - please correct,2026-08-12,,Open
+Q00505,SUB-0175,Concomitant Medications,Medication start date after stop date - please correct,2025-10-11,2025-10-23,Closed
+Q00506,SUB-0175,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-12,,Open
+Q00507,SUB-0175,Concomitant Medications,Indication for medication not specified - please add,2025-12-30,2026-01-14,Closed
+Q00508,SUB-0176,Concomitant Medications,Indication for medication not specified - please add,2026-07-11,2026-07-30,Closed
+Q00509,SUB-0176,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-27,2026-07-08,Closed
+Q00510,SUB-0176,Concomitant Medications,Indication for medication not specified - please add,2026-07-16,2026-07-24,Closed
+Q00511,SUB-0178,Demographics,Sex field blank - please complete,2025-08-12,2025-08-27,Answered
+Q00512,SUB-0178,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-08-23,2025-09-05,Answered
+Q00513,SUB-0178,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-09-05,2025-09-14,Answered
+Q00514,SUB-0178,Concomitant Medications,Indication for medication not specified - please add,2025-09-12,2025-09-18,Answered
+Q00515,SUB-0178,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-10-04,2025-10-15,Answered
+Q00516,SUB-0178,Demographics,Sex field blank - please complete,2026-02-25,2026-03-14,Closed
+Q00517,SUB-0178,ECG,ECG interpretation not recorded - please complete,2026-02-08,2026-02-13,Answered
+Q00518,SUB-0179,Concomitant Medications,Medication start date after stop date - please correct,2026-06-03,,Open
+Q00519,SUB-0179,ECG,ECG date is before visit date - please clarify,2025-06-11,2025-06-30,Closed
+Q00520,SUB-0180,Demographics,Sex field blank - please complete,2026-01-19,2026-02-04,Closed
+Q00521,SUB-0182,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-02,,Open
+Q00522,SUB-0182,Concomitant Medications,Indication for medication not specified - please add,2025-10-06,2025-10-11,Closed
+Q00523,SUB-0182,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-16,,Open
+Q00524,SUB-0182,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-02,,Open
+Q00525,SUB-0182,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-12-12,2025-12-23,Answered
+Q00526,SUB-0182,Concomitant Medications,Medication start date after stop date - please correct,2025-12-22,2025-12-28,Closed
+Q00527,SUB-0182,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-03-18,2026-03-24,Closed
+Q00528,SUB-0183,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-11,,Open
+Q00529,SUB-0183,Concomitant Medications,Indication for medication not specified - please add,2025-05-28,2025-05-29,Closed
+Q00530,SUB-0183,Demographics,Year of birth inconsistent with age at screening - please verify,2025-07-03,2025-07-17,Closed
+Q00531,SUB-0183,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-06-30,2025-07-19,Closed
+Q00532,SUB-0183,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-01,,Open
+Q00533,SUB-0183,ECG,ECG interpretation not recorded - please complete,2026-09-22,,Open
+Q00534,SUB-0183,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-14,,Open
+Q00535,SUB-0183,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-25,,Open
+Q00536,SUB-0184,ECG,ECG date is before visit date - please clarify,2026-07-21,,Open
+Q00537,SUB-0184,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-30,,Open
+Q00538,SUB-0184,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-09,,Open
+Q00539,SUB-0184,Concomitant Medications,Medication start date after stop date - please correct,2026-07-25,,Open
+Q00540,SUB-0184,Demographics,Sex field blank - please complete,2026-07-29,,Open
+Q00541,SUB-0184,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-26,,Open
+Q00542,SUB-0185,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-10,,Open
+Q00543,SUB-0185,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-20,,Open
+Q00544,SUB-0185,ECG,ECG date is before visit date - please clarify,2025-10-04,2025-10-17,Closed
+Q00545,SUB-0185,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-11-10,2025-11-26,Closed
+Q00546,SUB-0185,Concomitant Medications,Medication start date after stop date - please correct,2025-12-16,2025-12-18,Closed
+Q00547,SUB-0188,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-25,,Open
+Q00548,SUB-0188,ECG,ECG date is before visit date - please clarify,2026-07-01,,Open
+Q00549,SUB-0188,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-22,,Open
+Q00550,SUB-0188,ECG,ECG date is before visit date - please clarify,2026-08-18,,Open
+Q00551,SUB-0188,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-03,,Open
+Q00552,SUB-0188,ECG,ECG interpretation not recorded - please complete,2026-08-03,,Open
+Q00553,SUB-0188,ECG,ECG date is before visit date - please clarify,2026-07-17,,Open
+Q00554,SUB-0189,ECG,ECG date is before visit date - please clarify,2025-07-14,2025-07-29,Answered
+Q00555,SUB-0189,Concomitant Medications,Indication for medication not specified - please add,2025-08-27,2025-08-30,Answered
+Q00556,SUB-0189,ECG,ECG date is before visit date - please clarify,2025-12-04,2025-12-22,Closed
+Q00557,SUB-0190,ECG,ECG interpretation not recorded - please complete,2026-06-12,,Open
+Q00558,SUB-0190,ECG,ECG interpretation not recorded - please complete,2025-03-15,2025-03-30,Answered
+Q00559,SUB-0190,Demographics,Sex field blank - please complete,2025-08-14,2025-08-24,Closed
+Q00560,SUB-0190,ECG,ECG date is before visit date - please clarify,2025-08-16,2025-08-18,Answered
+Q00561,SUB-0192,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-27,,Open
+Q00562,SUB-0193,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-05-14,2026-05-17,Closed
+Q00563,SUB-0193,Concomitant Medications,Indication for medication not specified - please add,2026-08-30,,Open
+Q00564,SUB-0193,Concomitant Medications,Indication for medication not specified - please add,2026-05-23,2026-06-09,Closed
+Q00565,SUB-0193,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-11,2026-06-27,Closed
+Q00566,SUB-0194,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-09-03,2025-09-20,Closed
+Q00567,SUB-0194,Concomitant Medications,Indication for medication not specified - please add,2025-10-01,2025-10-18,Closed
+Q00568,SUB-0194,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-06,,Open
+Q00569,SUB-0194,ECG,ECG interpretation not recorded - please complete,2026-08-12,,Open
+Q00570,SUB-0195,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-05,,Open
+Q00571,SUB-0195,ECG,ECG interpretation not recorded - please complete,2026-08-31,,Open
+Q00572,SUB-0195,Demographics,Year of birth inconsistent with age at screening - please verify,2026-03-26,2026-04-11,Closed
+Q00573,SUB-0195,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-10,,Open
+Q00574,SUB-0195,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-10,2026-07-14,Answered
+Q00575,SUB-0195,ECG,ECG date is before visit date - please clarify,2026-07-24,2026-08-08,Closed
+Q00576,SUB-0195,Concomitant Medications,Medication start date after stop date - please correct,2026-07-25,2026-08-04,Answered
+Q00577,SUB-0196,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-18,,Open
+Q00578,SUB-0196,Concomitant Medications,Indication for medication not specified - please add,2025-08-09,2025-08-13,Answered
+Q00579,SUB-0196,Demographics,Sex field blank - please complete,2025-09-07,2025-09-13,Closed
+Q00580,SUB-0196,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-10-21,2025-11-04,Answered
+Q00581,SUB-0196,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-19,,Open
+Q00582,SUB-0196,Concomitant Medications,Medication start date after stop date - please correct,2025-10-28,2025-10-29,Answered
+Q00583,SUB-0200,Demographics,Sex field blank - please complete,2025-06-14,2025-06-15,Closed
+Q00584,SUB-0200,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-12,,Open
+Q00585,SUB-0200,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-07-09,2025-07-13,Closed
+Q00586,SUB-0200,Concomitant Medications,Medication start date after stop date - please correct,2025-07-11,2025-07-28,Closed
+Q00587,SUB-0200,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-09-22,2025-09-23,Answered
+Q00588,SUB-0201,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-14,,Open
+Q00589,SUB-0201,ECG,ECG interpretation not recorded - please complete,2026-07-10,2026-07-23,Closed
+Q00590,SUB-0201,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-19,,Open
+Q00591,SUB-0201,ECG,ECG date is before visit date - please clarify,2026-07-03,,Open
+Q00592,SUB-0202,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-22,,Open
+Q00593,SUB-0202,ECG,ECG date is before visit date - please clarify,2026-09-03,2026-09-13,Closed
+Q00594,SUB-0204,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-04,,Open
+Q00595,SUB-0204,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-07-31,2025-08-06,Answered
+Q00596,SUB-0204,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-08-19,2025-08-31,Closed
+Q00597,SUB-0204,ECG,ECG interpretation not recorded - please complete,2026-06-21,,Open
+Q00598,SUB-0207,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-27,,Open
+Q00599,SUB-0207,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-03,,Open
+Q00600,SUB-0207,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-23,,Open
+Q00601,SUB-0208,Concomitant Medications,Medication start date after stop date - please correct,2026-06-16,,Open
+Q00602,SUB-0208,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-05-28,2025-06-17,Closed
+Q00603,SUB-0208,Efficacy Assessment,Primary endpoint score missing - please enter,2025-06-01,2025-06-10,Answered
+Q00604,SUB-0208,Concomitant Medications,Medication start date after stop date - please correct,2026-09-16,,Open
+Q00605,SUB-0210,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-09-18,2025-09-21,Closed
+Q00606,SUB-0210,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-09-24,2025-10-12,Closed
+Q00607,SUB-0210,Concomitant Medications,Indication for medication not specified - please add,2026-08-14,,Open
+Q00608,SUB-0210,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-03-21,2026-04-04,Answered
+Q00609,SUB-0211,Demographics,Year of birth inconsistent with age at screening - please verify,2025-04-18,2025-05-07,Closed
+Q00610,SUB-0211,Concomitant Medications,Medication start date after stop date - please correct,2025-05-04,2025-05-19,Answered
+Q00611,SUB-0211,ECG,ECG date is before visit date - please clarify,2025-05-24,2025-05-28,Closed
+Q00612,SUB-0213,Demographics,Sex field blank - please complete,2026-08-19,,Open
+Q00613,SUB-0213,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-04-03,2025-04-05,Answered
+Q00614,SUB-0213,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-24,,Open
+Q00615,SUB-0213,Efficacy Assessment,Primary endpoint score missing - please enter,2025-06-29,2025-07-16,Closed
+Q00616,SUB-0214,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-11-16,2025-12-03,Closed
+Q00617,SUB-0214,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-11-17,2025-12-02,Closed
+Q00618,SUB-0214,ECG,ECG date is before visit date - please clarify,2025-12-24,2025-12-29,Closed
+Q00619,SUB-0214,Concomitant Medications,Indication for medication not specified - please add,2025-12-18,2025-12-24,Answered
+Q00620,SUB-0214,ECG,ECG date is before visit date - please clarify,2026-07-12,,Open
+Q00621,SUB-0214,ECG,ECG date is before visit date - please clarify,2026-08-26,,Open
+Q00622,SUB-0215,Efficacy Assessment,Primary endpoint score missing - please enter,2025-12-14,2025-12-21,Closed
+Q00623,SUB-0215,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-12-25,2025-12-29,Answered
+Q00624,SUB-0215,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-26,,Open
+Q00625,SUB-0215,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-01-03,2026-01-16,Answered
+Q00626,SUB-0216,Demographics,Sex field blank - please complete,2026-07-22,,Open
+Q00627,SUB-0217,ECG,ECG interpretation not recorded - please complete,2026-09-06,,Open
+Q00628,SUB-0217,Demographics,Sex field blank - please complete,2025-06-12,2025-06-21,Answered
+Q00629,SUB-0217,ECG,ECG date is before visit date - please clarify,2025-07-08,2025-07-19,Closed
+Q00630,SUB-0217,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-07-28,2025-08-12,Closed
+Q00631,SUB-0217,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-17,,Open
+Q00632,SUB-0217,Demographics,Year of birth inconsistent with age at screening - please verify,2025-11-23,2025-12-12,Closed
+Q00633,SUB-0217,Concomitant Medications,Indication for medication not specified - please add,2025-11-23,2025-12-11,Closed
+Q00634,SUB-0218,Demographics,Sex field blank - please complete,2026-05-14,2026-05-19,Answered
+Q00635,SUB-0218,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-17,,Open
+Q00636,SUB-0218,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-05-22,2026-06-03,Answered
+Q00637,SUB-0218,Concomitant Medications,Indication for medication not specified - please add,2026-08-07,,Open
+Q00638,SUB-0218,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-04,,Open
+Q00639,SUB-0218,ECG,ECG interpretation not recorded - please complete,2026-08-11,,Open
+Q00640,SUB-0218,Concomitant Medications,Indication for medication not specified - please add,2026-06-27,,Open
+Q00641,SUB-0219,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-12,,Open
+Q00642,SUB-0219,ECG,ECG date is before visit date - please clarify,2026-09-13,,Open
+Q00643,SUB-0219,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-02-15,2026-02-17,Closed
+Q00644,SUB-0219,ECG,ECG interpretation not recorded - please complete,2026-03-03,2026-03-04,Answered
+Q00645,SUB-0219,Demographics,Year of birth inconsistent with age at screening - please verify,2026-04-05,2026-04-18,Answered
+Q00646,SUB-0219,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-25,2026-08-02,Closed
+Q00647,SUB-0220,ECG,ECG interpretation not recorded - please complete,2026-03-08,2026-03-28,Closed
+Q00648,SUB-0220,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-14,,Open
+Q00649,SUB-0220,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-04-24,2026-04-30,Closed
+Q00650,SUB-0220,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-23,,Open
+Q00651,SUB-0220,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-15,2026-06-20,Closed
+Q00652,SUB-0220,Demographics,Sex field blank - please complete,2026-09-03,2026-09-05,Answered
+Q00653,SUB-0221,Demographics,Year of birth inconsistent with age at screening - please verify,2025-06-08,2025-06-17,Closed
+Q00654,SUB-0222,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-07-07,2025-07-24,Closed
+Q00655,SUB-0222,Concomitant Medications,Indication for medication not specified - please add,2026-07-02,,Open
+Q00656,SUB-0222,Demographics,Sex field blank - please complete,2025-08-15,2025-08-30,Closed
+Q00657,SUB-0222,Concomitant Medications,Indication for medication not specified - please add,2025-09-10,2025-09-23,Closed
+Q00658,SUB-0224,ECG,ECG interpretation not recorded - please complete,2026-06-29,,Open
+Q00659,SUB-0224,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-07-01,2025-07-02,Answered
+Q00660,SUB-0224,Concomitant Medications,Medication start date after stop date - please correct,2025-08-09,2025-08-17,Closed
+Q00661,SUB-0224,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-09,,Open
+Q00662,SUB-0226,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-07,,Open
+Q00663,SUB-0226,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-11-10,2025-11-16,Answered
+Q00664,SUB-0226,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-01-14,2026-01-17,Answered
+Q00665,SUB-0226,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-22,,Open
+Q00666,SUB-0228,ECG,ECG date is before visit date - please clarify,2025-04-09,2025-04-22,Closed
+Q00667,SUB-0228,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-03-26,2025-04-09,Answered
+Q00668,SUB-0228,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-03,,Open
+Q00669,SUB-0229,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-08,,Open
+Q00670,SUB-0229,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-23,,Open
+Q00671,SUB-0230,Demographics,Year of birth inconsistent with age at screening - please verify,2025-06-05,2025-06-06,Answered
+Q00672,SUB-0231,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-31,,Open
+Q00673,SUB-0231,Concomitant Medications,Indication for medication not specified - please add,2026-08-03,,Open
+Q00674,SUB-0231,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-05,,Open
+Q00675,SUB-0231,ECG,ECG date is before visit date - please clarify,2026-07-12,,Open
+Q00676,SUB-0232,Demographics,Sex field blank - please complete,2026-08-07,,Open
+Q00677,SUB-0232,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-18,,Open
+Q00678,SUB-0232,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-20,,Open
+Q00679,SUB-0233,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-04-20,2026-04-22,Closed
+Q00680,SUB-0233,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-04-06,2026-04-09,Answered
+Q00681,SUB-0233,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-22,,Open
+Q00682,SUB-0234,Concomitant Medications,Medication start date after stop date - please correct,2026-07-15,,Open
+Q00683,SUB-0234,ECG,ECG date is before visit date - please clarify,2026-02-07,2026-02-09,Answered
+Q00684,SUB-0234,Concomitant Medications,Medication start date after stop date - please correct,2026-03-31,2026-04-15,Answered
+Q00685,SUB-0234,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-04-16,2026-04-26,Answered
+Q00686,SUB-0235,ECG,ECG interpretation not recorded - please complete,2026-03-31,2026-04-11,Answered
+Q00687,SUB-0235,Demographics,Sex field blank - please complete,2026-09-03,,Open
+Q00688,SUB-0235,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-17,,Open
+Q00689,SUB-0235,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-18,2026-06-27,Answered
+Q00690,SUB-0235,Concomitant Medications,Medication start date after stop date - please correct,2026-09-04,2026-09-16,Closed
+Q00691,SUB-0236,Demographics,Sex field blank - please complete,2026-02-15,2026-02-25,Closed
+Q00692,SUB-0236,Demographics,Sex field blank - please complete,2026-02-26,2026-03-14,Closed
+Q00693,SUB-0236,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-04,,Open
+Q00694,SUB-0236,Demographics,Sex field blank - please complete,2026-07-03,,Open
+Q00695,SUB-0236,Efficacy Assessment,Primary endpoint score missing - please enter,2026-03-15,2026-03-20,Closed
+Q00696,SUB-0236,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-04-30,2026-05-06,Answered
+Q00697,SUB-0237,Demographics,Sex field blank - please complete,2026-08-27,,Open
+Q00698,SUB-0237,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-21,,Open
+Q00699,SUB-0238,Concomitant Medications,Indication for medication not specified - please add,2025-12-28,2026-01-10,Closed
+Q00700,SUB-0238,ECG,ECG date is before visit date - please clarify,2026-02-02,2026-02-03,Answered
+Q00701,SUB-0239,Demographics,Sex field blank - please complete,2025-03-16,2025-04-02,Closed
+Q00702,SUB-0239,ECG,ECG interpretation not recorded - please complete,2025-04-11,2025-04-18,Closed
+Q00703,SUB-0239,ECG,ECG date is before visit date - please clarify,2025-05-26,2025-06-05,Closed
+Q00704,SUB-0239,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-18,,Open
+Q00705,SUB-0239,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-11,,Open
+Q00706,SUB-0240,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-20,,Open
+Q00707,SUB-0240,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-04-01,2026-04-07,Closed
+Q00708,SUB-0240,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-05-18,2026-05-19,Answered
+Q00709,SUB-0240,ECG,ECG date is before visit date - please clarify,2026-07-11,,Open
+Q00710,SUB-0240,ECG,ECG interpretation not recorded - please complete,2026-06-19,2026-06-26,Closed
+Q00711,SUB-0240,Demographics,Sex field blank - please complete,2026-09-11,2026-09-21,Answered
+Q00712,SUB-0240,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-17,,Open
+Q00713,SUB-0242,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-02-06,2026-02-17,Answered
+Q00714,SUB-0242,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-03-06,2026-03-14,Closed
+Q00715,SUB-0242,Efficacy Assessment,Primary endpoint score missing - please enter,2026-03-28,2026-04-01,Closed
+Q00716,SUB-0242,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-04-24,2026-05-09,Answered
+Q00717,SUB-0242,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-20,,Open
+Q00718,SUB-0243,ECG,ECG interpretation not recorded - please complete,2026-05-17,2026-06-02,Closed
+Q00719,SUB-0243,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-08,2026-06-13,Closed
+Q00720,SUB-0243,ECG,ECG date is before visit date - please clarify,2026-08-28,,Open
+Q00721,SUB-0243,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-16,2026-06-23,Answered
+Q00722,SUB-0243,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-30,,Open
+Q00723,SUB-0245,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-08-11,2025-08-16,Closed
+Q00724,SUB-0245,Demographics,Sex field blank - please complete,2025-09-10,2025-09-25,Answered
+Q00725,SUB-0245,Demographics,Year of birth inconsistent with age at screening - please verify,2025-10-11,2025-10-24,Answered
+Q00726,SUB-0245,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-03,,Open
+Q00727,SUB-0245,Demographics,Year of birth inconsistent with age at screening - please verify,2025-11-19,2025-12-08,Closed
+Q00728,SUB-0246,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-05,,Open
+Q00729,SUB-0246,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-07,,Open
+Q00730,SUB-0248,ECG,ECG date is before visit date - please clarify,2026-01-15,2026-01-16,Answered
+Q00731,SUB-0248,Demographics,Year of birth inconsistent with age at screening - please verify,2026-02-11,2026-02-21,Closed
+Q00732,SUB-0248,Concomitant Medications,Medication start date after stop date - please correct,2026-06-13,2026-07-03,Closed
+Q00733,SUB-0249,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-29,,Open
+Q00734,SUB-0249,Demographics,Sex field blank - please complete,2026-06-05,,Open
+Q00735,SUB-0249,Efficacy Assessment,Primary endpoint score missing - please enter,2026-03-24,2026-04-07,Answered
+Q00736,SUB-0249,Concomitant Medications,Indication for medication not specified - please add,2026-08-14,,Open
+Q00737,SUB-0250,Demographics,Year of birth inconsistent with age at screening - please verify,2025-03-02,2025-03-13,Answered
+Q00738,SUB-0250,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-13,,Open
+Q00739,SUB-0250,Concomitant Medications,Medication start date after stop date - please correct,2026-08-26,,Open
+Q00740,SUB-0250,Concomitant Medications,Medication start date after stop date - please correct,2026-06-29,,Open
+Q00741,SUB-0251,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-22,,Open
+Q00742,SUB-0251,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-07-18,2025-07-29,Answered
+Q00743,SUB-0251,Concomitant Medications,Medication start date after stop date - please correct,2026-09-24,,Open
+Q00744,SUB-0252,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-21,,Open
+Q00745,SUB-0252,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-01-25,2026-02-06,Answered
+Q00746,SUB-0252,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-03-07,2026-03-08,Answered
+Q00747,SUB-0252,Concomitant Medications,Indication for medication not specified - please add,2026-09-24,,Open
+Q00748,SUB-0252,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-28,,Open
+Q00749,SUB-0252,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-04-02,2026-04-11,Answered
+Q00750,SUB-0252,ECG,ECG date is before visit date - please clarify,2026-08-05,,Open
+Q00751,SUB-0252,Concomitant Medications,Medication start date after stop date - please correct,2026-08-16,,Open
+Q00752,SUB-0253,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-22,,Open
+Q00753,SUB-0253,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-29,,Open
+Q00754,SUB-0253,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-08-14,2025-08-21,Answered
+Q00755,SUB-0253,Demographics,Year of birth inconsistent with age at screening - please verify,2025-09-02,2025-09-18,Closed
+Q00756,SUB-0253,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-11,,Open
+Q00757,SUB-0254,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-06-15,2025-07-04,Closed
+Q00758,SUB-0254,ECG,ECG interpretation not recorded - please complete,2025-07-07,2025-07-08,Closed
+Q00759,SUB-0254,Efficacy Assessment,Primary endpoint score missing - please enter,2025-08-14,2025-08-23,Closed
+Q00760,SUB-0254,Efficacy Assessment,Primary endpoint score missing - please enter,2025-12-16,2025-12-22,Closed
+Q00761,SUB-0255,ECG,ECG interpretation not recorded - please complete,2025-11-27,2025-12-12,Answered
+Q00762,SUB-0255,Efficacy Assessment,Primary endpoint score missing - please enter,2025-12-16,2025-12-28,Closed
+Q00763,SUB-0255,Concomitant Medications,Medication start date after stop date - please correct,2025-12-22,2025-12-25,Answered
+Q00764,SUB-0255,Demographics,Year of birth inconsistent with age at screening - please verify,2026-02-09,2026-02-15,Answered
+Q00765,SUB-0255,Efficacy Assessment,Primary endpoint score missing - please enter,2026-04-30,2026-05-01,Answered
+Q00766,SUB-0256,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-01-06,2026-01-22,Closed
+Q00767,SUB-0256,ECG,ECG interpretation not recorded - please complete,2026-07-24,,Open
+Q00768,SUB-0256,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-11,,Open
+Q00769,SUB-0256,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-03-02,2026-03-12,Closed
+Q00770,SUB-0257,ECG,ECG interpretation not recorded - please complete,2026-01-20,2026-02-06,Closed
+Q00771,SUB-0257,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-15,,Open
+Q00772,SUB-0257,Demographics,Sex field blank - please complete,2026-06-16,,Open
+Q00773,SUB-0257,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-20,,Open
+Q00774,SUB-0257,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-10,2026-07-12,Closed
+Q00775,SUB-0258,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-22,,Open
+Q00776,SUB-0258,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-04,,Open
+Q00777,SUB-0258,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-09-08,2025-09-15,Answered
+Q00778,SUB-0258,Concomitant Medications,Indication for medication not specified - please add,2025-09-15,2025-09-25,Closed
+Q00779,SUB-0259,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-21,2026-07-23,Closed
+Q00780,SUB-0259,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-18,2026-07-23,Answered
+Q00781,SUB-0259,Demographics,Sex field blank - please complete,2026-08-12,2026-08-19,Answered
+Q00782,SUB-0259,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-22,,Open
+Q00783,SUB-0260,Demographics,Sex field blank - please complete,2025-09-25,2025-10-03,Answered
+Q00784,SUB-0260,ECG,ECG date is before visit date - please clarify,2025-10-31,2025-11-06,Closed
+Q00785,SUB-0260,Concomitant Medications,Medication start date after stop date - please correct,2025-11-07,2025-11-13,Closed
+Q00786,SUB-0260,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-12-19,2026-01-02,Closed
+Q00787,SUB-0260,ECG,ECG date is before visit date - please clarify,2025-12-15,2025-12-29,Closed
+Q00788,SUB-0261,Demographics,Sex field blank - please complete,2026-05-29,2026-06-08,Closed
+Q00789,SUB-0261,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-21,2026-07-31,Answered
+Q00790,SUB-0261,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-05,,Open
+Q00791,SUB-0262,ECG,ECG interpretation not recorded - please complete,2026-07-28,,Open
+Q00792,SUB-0262,ECG,ECG interpretation not recorded - please complete,2026-06-13,,Open
+Q00793,SUB-0262,Concomitant Medications,Medication start date after stop date - please correct,2026-01-11,2026-01-25,Answered
+Q00794,SUB-0262,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-26,,Open
+Q00795,SUB-0262,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-03,,Open
+Q00796,SUB-0262,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-03-27,2026-03-30,Closed
+Q00797,SUB-0262,Concomitant Medications,Medication start date after stop date - please correct,2026-06-16,2026-06-29,Answered
+Q00798,SUB-0265,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-28,,Open
+Q00799,SUB-0265,Concomitant Medications,Medication start date after stop date - please correct,2026-08-08,,Open
+Q00800,SUB-0265,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-31,,Open
+Q00801,SUB-0267,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-13,2026-06-22,Answered
+Q00802,SUB-0267,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-26,2026-07-12,Closed
+Q00803,SUB-0267,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-30,2026-09-14,Closed
+Q00804,SUB-0269,Concomitant Medications,Indication for medication not specified - please add,2025-04-13,2025-04-24,Answered
+Q00805,SUB-0269,Efficacy Assessment,Primary endpoint score missing - please enter,2025-04-28,2025-05-07,Closed
+Q00806,SUB-0269,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-08,,Open
+Q00807,SUB-0269,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-08,,Open
+Q00808,SUB-0270,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-06-16,2025-06-20,Answered
+Q00809,SUB-0270,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-01,,Open
+Q00810,SUB-0271,Concomitant Medications,Indication for medication not specified - please add,2025-08-15,2025-08-22,Closed
+Q00811,SUB-0271,ECG,ECG interpretation not recorded - please complete,2025-11-21,2025-11-28,Answered
+Q00812,SUB-0271,Demographics,Sex field blank - please complete,2026-02-11,2026-02-21,Closed
+Q00813,SUB-0272,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-22,,Open
+Q00814,SUB-0272,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-10-04,2025-10-11,Closed
+Q00815,SUB-0277,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-18,2026-07-25,Closed
+Q00816,SUB-0277,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-24,2026-08-12,Closed
+Q00817,SUB-0277,Demographics,Sex field blank - please complete,2026-08-22,2026-08-31,Closed
+Q00818,SUB-0277,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-22,2026-08-31,Answered
+Q00819,SUB-0277,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-30,,Open
+Q00820,SUB-0277,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-10,,Open
+Q00821,SUB-0277,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-12,,Open
+Q00822,SUB-0277,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-30,,Open
+Q00823,SUB-0277,Concomitant Medications,Indication for medication not specified - please add,2026-06-10,,Open
+Q00824,SUB-0278,Demographics,Sex field blank - please complete,2026-06-10,,Open
+Q00825,SUB-0278,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-07-02,2025-07-06,Answered
+Q00826,SUB-0278,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-23,,Open
+Q00827,SUB-0278,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-09-24,2025-10-04,Closed
+Q00828,SUB-0278,ECG,ECG date is before visit date - please clarify,2025-10-01,2025-10-04,Closed
+Q00829,SUB-0278,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-16,,Open
+Q00830,SUB-0279,ECG,ECG date is before visit date - please clarify,2026-09-15,,Open
+Q00831,SUB-0279,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-23,,Open
+Q00832,SUB-0279,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-01-31,2026-02-16,Closed
+Q00833,SUB-0279,Demographics,Sex field blank - please complete,2026-05-24,2026-06-08,Closed
+Q00834,SUB-0279,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-04,,Open
+Q00835,SUB-0282,Demographics,Sex field blank - please complete,2026-07-27,,Open
+Q00836,SUB-0283,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-30,2026-08-02,Answered
+Q00837,SUB-0283,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-09,2026-08-18,Answered
+Q00838,SUB-0283,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-04,2026-09-17,Answered
+Q00839,SUB-0283,Concomitant Medications,Medication start date after stop date - please correct,2026-09-20,,Open
+Q00840,SUB-0283,Demographics,Sex field blank - please complete,2026-09-28,2026-09-30,Answered
+Q00841,SUB-0283,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-17,,Open
+Q00842,SUB-0283,Concomitant Medications,Indication for medication not specified - please add,2026-08-25,,Open
+Q00843,SUB-0284,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-21,2026-09-01,Answered
+Q00844,SUB-0284,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-25,,Open
+Q00845,SUB-0284,ECG,ECG date is before visit date - please clarify,2026-06-30,,Open
+Q00846,SUB-0285,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-01,,Open
+Q00847,SUB-0285,Concomitant Medications,Medication start date after stop date - please correct,2026-08-10,,Open
+Q00848,SUB-0285,Concomitant Medications,Medication start date after stop date - please correct,2026-01-15,2026-01-29,Answered
+Q00849,SUB-0285,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-09,,Open
+Q00850,SUB-0285,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-05-17,2026-05-25,Answered
+Q00851,SUB-0285,Concomitant Medications,Indication for medication not specified - please add,2026-05-12,2026-05-27,Answered
+Q00852,SUB-0286,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-21,,Open
+Q00853,SUB-0286,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-10,,Open
+Q00854,SUB-0288,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-01-21,2026-01-30,Closed
+Q00855,SUB-0288,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-24,,Open
+Q00856,SUB-0288,Concomitant Medications,Medication start date after stop date - please correct,2026-02-10,2026-02-18,Answered
+Q00857,SUB-0288,Demographics,Sex field blank - please complete,2026-06-27,,Open
+Q00858,SUB-0288,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-12,,Open
+Q00859,SUB-0288,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-05,,Open
+Q00860,SUB-0289,Efficacy Assessment,Primary endpoint score missing - please enter,2026-05-28,2026-06-13,Closed
+Q00861,SUB-0291,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-03,,Open
+Q00862,SUB-0291,ECG,ECG date is before visit date - please clarify,2025-07-27,2025-08-07,Answered
+Q00863,SUB-0291,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-07-27,2025-08-13,Closed
+Q00864,SUB-0293,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-08-20,2025-09-01,Answered
+Q00865,SUB-0293,Concomitant Medications,Indication for medication not specified - please add,2025-08-15,2025-08-21,Answered
+Q00866,SUB-0293,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-04,,Open
+Q00867,SUB-0294,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-20,,Open
+Q00868,SUB-0294,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-12-19,2026-01-05,Closed
+Q00869,SUB-0294,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-09,,Open
+Q00870,SUB-0294,Concomitant Medications,Indication for medication not specified - please add,2026-06-07,,Open
+Q00871,SUB-0294,Concomitant Medications,Medication start date after stop date - please correct,2026-05-19,2026-05-25,Closed
+Q00872,SUB-0295,Demographics,Year of birth inconsistent with age at screening - please verify,2026-04-20,2026-05-04,Closed
+Q00873,SUB-0295,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-31,,Open
+Q00874,SUB-0295,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-20,,Open
+Q00875,SUB-0295,Concomitant Medications,Indication for medication not specified - please add,2026-07-06,,Open
+Q00876,SUB-0296,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-16,,Open
+Q00877,SUB-0296,Concomitant Medications,Indication for medication not specified - please add,2025-10-27,2025-11-02,Closed
+Q00878,SUB-0297,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-12-31,2026-01-02,Answered
+Q00879,SUB-0297,Concomitant Medications,Medication start date after stop date - please correct,2026-08-01,,Open
+Q00880,SUB-0297,Concomitant Medications,Medication start date after stop date - please correct,2026-03-27,2026-04-08,Closed
+Q00881,SUB-0297,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-09,,Open
+Q00882,SUB-0298,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-11-15,2025-11-17,Answered
+Q00883,SUB-0299,ECG,ECG interpretation not recorded - please complete,2026-09-12,,Open
+Q00884,SUB-0299,ECG,ECG date is before visit date - please clarify,2026-06-11,,Open
+Q00885,SUB-0299,Demographics,Sex field blank - please complete,2025-11-14,2025-11-18,Answered
+Q00886,SUB-0299,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-11-02,2025-11-09,Closed
+Q00887,SUB-0300,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-18,,Open
+Q00888,SUB-0301,Demographics,Sex field blank - please complete,2026-09-11,,Open
+Q00889,SUB-0302,Demographics,Year of birth inconsistent with age at screening - please verify,2025-07-03,2025-07-14,Answered
+Q00890,SUB-0303,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-11-25,2025-12-15,Closed
+Q00891,SUB-0303,Concomitant Medications,Medication start date after stop date - please correct,2025-12-06,2025-12-07,Closed
+Q00892,SUB-0304,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-02,,Open
+Q00893,SUB-0304,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-06-26,2025-06-30,Answered
+Q00894,SUB-0304,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-07-30,2025-08-10,Closed
+Q00895,SUB-0304,Concomitant Medications,Indication for medication not specified - please add,2025-10-26,2025-11-07,Answered
+Q00896,SUB-0305,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-12,,Open
+Q00897,SUB-0305,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-08,2026-06-11,Answered
+Q00898,SUB-0306,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-03,,Open
+Q00899,SUB-0306,ECG,ECG interpretation not recorded - please complete,2026-07-31,,Open
+Q00900,SUB-0306,Concomitant Medications,Medication start date after stop date - please correct,2026-08-19,,Open
+Q00901,SUB-0306,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-05,2026-09-12,Closed
+Q00902,SUB-0307,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-09,,Open
+Q00903,SUB-0307,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-11-09,2025-11-21,Closed
+Q00904,SUB-0307,Concomitant Medications,Medication start date after stop date - please correct,2025-11-25,2025-12-04,Answered
+Q00905,SUB-0307,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-03,,Open
+Q00906,SUB-0309,ECG,ECG interpretation not recorded - please complete,2025-09-09,2025-09-17,Answered
+Q00907,SUB-0309,Demographics,Sex field blank - please complete,2026-02-01,2026-02-04,Answered
+Q00908,SUB-0310,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-13,,Open
+Q00909,SUB-0311,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-06-29,2025-07-13,Closed
+Q00910,SUB-0311,Concomitant Medications,Medication start date after stop date - please correct,2025-07-31,2025-08-06,Answered
+Q00911,SUB-0313,ECG,ECG interpretation not recorded - please complete,2026-06-10,,Open
+Q00912,SUB-0313,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-01,,Open
+Q00913,SUB-0313,Demographics,Sex field blank - please complete,2025-10-14,2025-10-29,Closed
+Q00914,SUB-0313,ECG,ECG date is before visit date - please clarify,2026-07-08,,Open
+Q00915,SUB-0314,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-08,,Open
+Q00916,SUB-0314,Efficacy Assessment,Primary endpoint score missing - please enter,2025-07-13,2025-07-23,Answered
+Q00917,SUB-0314,ECG,ECG interpretation not recorded - please complete,2025-08-01,2025-08-02,Answered
+Q00918,SUB-0314,Demographics,Sex field blank - please complete,2026-08-28,,Open
+Q00919,SUB-0314,ECG,ECG date is before visit date - please clarify,2025-09-25,2025-10-11,Closed
+Q00920,SUB-0315,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-23,,Open
+Q00921,SUB-0316,Demographics,Sex field blank - please complete,2026-06-19,,Open
+Q00922,SUB-0316,Concomitant Medications,Medication start date after stop date - please correct,2026-05-28,2026-06-08,Answered
+Q00923,SUB-0316,Concomitant Medications,Medication start date after stop date - please correct,2026-06-06,2026-06-24,Closed
+Q00924,SUB-0317,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-02,,Open
+Q00925,SUB-0317,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-24,,Open
+Q00926,SUB-0317,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-02,,Open
+Q00927,SUB-0317,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-14,2026-09-24,Answered
+Q00928,SUB-0317,Concomitant Medications,Indication for medication not specified - please add,2026-07-05,,Open
+Q00929,SUB-0318,ECG,ECG date is before visit date - please clarify,2025-10-18,2025-11-05,Closed
+Q00930,SUB-0318,Concomitant Medications,Medication start date after stop date - please correct,2025-10-21,2025-10-24,Answered
+Q00931,SUB-0318,Concomitant Medications,Indication for medication not specified - please add,2026-07-03,,Open
+Q00932,SUB-0318,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-24,,Open
+Q00933,SUB-0318,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-12-14,2026-01-03,Closed
+Q00934,SUB-0318,Concomitant Medications,Indication for medication not specified - please add,2026-01-08,2026-01-18,Answered
+Q00935,SUB-0318,ECG,ECG date is before visit date - please clarify,2026-09-16,,Open
+Q00936,SUB-0321,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-12-26,2026-01-08,Answered
+Q00937,SUB-0321,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-01-06,2026-01-07,Answered
+Q00938,SUB-0322,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-13,,Open
+Q00939,SUB-0322,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-04-05,2026-04-15,Closed
+Q00940,SUB-0322,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-15,,Open
+Q00941,SUB-0323,Concomitant Medications,Indication for medication not specified - please add,2026-09-18,,Open
+Q00942,SUB-0323,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-09,2026-09-11,Answered
+Q00943,SUB-0323,Concomitant Medications,Medication start date after stop date - please correct,2026-09-02,2026-09-09,Answered
+Q00944,SUB-0323,ECG,ECG interpretation not recorded - please complete,2026-07-25,,Open
+Q00945,SUB-0324,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-05,,Open
+Q00946,SUB-0324,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-11-29,2025-12-01,Answered
+Q00947,SUB-0325,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-04-17,2026-04-23,Closed
+Q00948,SUB-0325,Concomitant Medications,Medication start date after stop date - please correct,2026-04-22,2026-05-04,Closed
+Q00949,SUB-0325,Demographics,Sex field blank - please complete,2026-06-03,2026-06-12,Closed
+Q00950,SUB-0326,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-09-14,2025-10-01,Closed
+Q00951,SUB-0326,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-19,,Open
+Q00952,SUB-0326,ECG,ECG interpretation not recorded - please complete,2025-11-06,2025-11-10,Closed
+Q00953,SUB-0326,Efficacy Assessment,Primary endpoint score missing - please enter,2026-02-28,2026-03-06,Closed
+Q00954,SUB-0328,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-16,2026-07-24,Answered
+Q00955,SUB-0328,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-31,2026-08-11,Closed
+Q00956,SUB-0328,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-27,2026-07-30,Answered
+Q00957,SUB-0328,Concomitant Medications,Medication start date after stop date - please correct,2026-07-23,2026-08-10,Closed
+Q00958,SUB-0328,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-12,2026-09-28,Closed
+Q00959,SUB-0328,Concomitant Medications,Indication for medication not specified - please add,2026-06-04,,Open
+Q00960,SUB-0328,ECG,ECG date is before visit date - please clarify,2026-07-03,,Open
+Q00961,SUB-0328,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-23,,Open
+Q00962,SUB-0330,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-26,,Open
+Q00963,SUB-0330,Demographics,Sex field blank - please complete,2026-01-10,2026-01-13,Closed
+Q00964,SUB-0331,ECG,ECG interpretation not recorded - please complete,2025-10-24,2025-11-04,Closed
+Q00965,SUB-0331,Concomitant Medications,Indication for medication not specified - please add,2025-11-08,2025-11-14,Closed
+Q00966,SUB-0331,Demographics,Year of birth inconsistent with age at screening - please verify,2025-12-28,2026-01-12,Answered
+Q00967,SUB-0332,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-01-18,2026-01-21,Answered
+Q00968,SUB-0332,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-01-18,2026-02-07,Closed
+Q00969,SUB-0332,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-02-07,2026-02-15,Closed
+Q00970,SUB-0332,Demographics,Year of birth inconsistent with age at screening - please verify,2026-05-29,2026-06-13,Answered
+Q00971,SUB-0333,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-23,,Open
+Q00972,SUB-0333,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-07,,Open
+Q00973,SUB-0334,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-12,,Open
+Q00974,SUB-0334,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-15,,Open
+Q00975,SUB-0335,ECG,ECG interpretation not recorded - please complete,2025-05-10,2025-05-28,Closed
+Q00976,SUB-0335,Concomitant Medications,Indication for medication not specified - please add,2025-05-24,2025-06-02,Answered
+Q00977,SUB-0335,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-05-23,2025-05-25,Closed
+Q00978,SUB-0335,Efficacy Assessment,Primary endpoint score missing - please enter,2025-05-24,2025-05-31,Answered
+Q00979,SUB-0335,Demographics,Sex field blank - please complete,2026-08-11,,Open
+Q00980,SUB-0335,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-05,,Open
+Q00981,SUB-0335,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-16,,Open
+Q00982,SUB-0336,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-31,,Open
+Q00983,SUB-0336,Demographics,Sex field blank - please complete,2026-08-02,,Open
+Q00984,SUB-0336,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-15,,Open
+Q00985,SUB-0337,ECG,ECG date is before visit date - please clarify,2026-09-28,,Open
+Q00986,SUB-0337,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-11,,Open
+Q00987,SUB-0337,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-14,,Open
+Q00988,SUB-0337,ECG,ECG date is before visit date - please clarify,2026-07-12,,Open
+Q00989,SUB-0337,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-08,,Open
+Q00990,SUB-0337,ECG,ECG interpretation not recorded - please complete,2026-09-29,,Open
+Q00991,SUB-0337,Concomitant Medications,Medication start date after stop date - please correct,2026-09-27,2026-09-28,Closed
+Q00992,SUB-0339,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-24,,Open
+Q00993,SUB-0339,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-08-13,2025-09-02,Closed
+Q00994,SUB-0339,ECG,ECG date is before visit date - please clarify,2025-09-27,2025-10-09,Closed
+Q00995,SUB-0339,Concomitant Medications,Medication start date after stop date - please correct,2025-09-16,2025-09-18,Closed
+Q00996,SUB-0339,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-12-12,2025-12-21,Closed
+Q00997,SUB-0341,Demographics,Sex field blank - please complete,2026-07-28,,Open
+Q00998,SUB-0341,Demographics,Year of birth inconsistent with age at screening - please verify,2025-07-05,2025-07-13,Closed
+Q00999,SUB-0341,Demographics,Year of birth inconsistent with age at screening - please verify,2025-07-03,2025-07-17,Answered
+Q01000,SUB-0341,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-09-09,2025-09-29,Closed
+Q01001,SUB-0341,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-12-21,2025-12-22,Answered
+Q01002,SUB-0342,Demographics,Sex field blank - please complete,2026-09-29,,Open
+Q01003,SUB-0342,ECG,ECG interpretation not recorded - please complete,2026-09-27,,Open
+Q01004,SUB-0342,Concomitant Medications,Medication start date after stop date - please correct,2025-05-01,2025-05-06,Closed
+Q01005,SUB-0342,Concomitant Medications,Medication start date after stop date - please correct,2025-05-14,2025-05-16,Closed
+Q01006,SUB-0342,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-21,,Open
+Q01007,SUB-0342,ECG,ECG interpretation not recorded - please complete,2026-09-07,,Open
+Q01008,SUB-0343,Efficacy Assessment,Primary endpoint score missing - please enter,2025-08-24,2025-08-30,Closed
+Q01009,SUB-0344,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-01-19,2026-02-02,Closed
+Q01010,SUB-0344,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-02-05,2026-02-06,Answered
+Q01011,SUB-0344,ECG,ECG date is before visit date - please clarify,2026-04-01,2026-04-21,Closed
+Q01012,SUB-0344,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-30,,Open
+Q01013,SUB-0347,Demographics,Year of birth inconsistent with age at screening - please verify,2025-06-24,2025-06-29,Closed
+Q01014,SUB-0347,Concomitant Medications,Indication for medication not specified - please add,2026-07-10,,Open
+Q01015,SUB-0348,Demographics,Sex field blank - please complete,2026-08-14,,Open
+Q01016,SUB-0349,Demographics,Year of birth inconsistent with age at screening - please verify,2025-05-22,2025-05-26,Closed
+Q01017,SUB-0349,Concomitant Medications,Medication start date after stop date - please correct,2025-06-03,2025-06-06,Answered
+Q01018,SUB-0349,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-06-16,2025-07-01,Closed
+Q01019,SUB-0349,Demographics,Year of birth inconsistent with age at screening - please verify,2025-07-08,2025-07-28,Closed
+Q01020,SUB-0349,ECG,ECG interpretation not recorded - please complete,2025-07-13,2025-07-15,Answered
+Q01021,SUB-0349,Concomitant Medications,Medication start date after stop date - please correct,2025-07-12,2025-07-22,Closed
+Q01022,SUB-0349,Efficacy Assessment,Primary endpoint score missing - please enter,2025-06-28,2025-07-02,Answered
+Q01023,SUB-0350,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-10-30,2025-11-03,Answered
+Q01024,SUB-0350,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-12-08,2025-12-21,Answered
+Q01025,SUB-0350,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-29,,Open
+Q01026,SUB-0351,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-27,,Open
+Q01027,SUB-0351,Concomitant Medications,Indication for medication not specified - please add,2026-08-30,2026-09-11,Answered
+Q01028,SUB-0352,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-08-17,2025-08-21,Closed
+Q01029,SUB-0352,Demographics,Year of birth inconsistent with age at screening - please verify,2025-10-18,2025-10-23,Answered
+Q01030,SUB-0352,Efficacy Assessment,Primary endpoint score missing - please enter,2025-10-15,2025-11-04,Closed
+Q01031,SUB-0353,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-07-02,2025-07-17,Answered
+Q01032,SUB-0353,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-26,,Open
+Q01033,SUB-0353,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-16,,Open
+Q01034,SUB-0354,Demographics,Year of birth inconsistent with age at screening - please verify,2025-10-16,2025-10-24,Closed
+Q01035,SUB-0354,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-12,,Open
+Q01036,SUB-0354,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-11-02,2025-11-07,Closed
+Q01037,SUB-0354,Demographics,Sex field blank - please complete,2025-12-17,2025-12-25,Closed
+Q01038,SUB-0354,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-12-25,2026-01-05,Answered
+Q01039,SUB-0354,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-12-30,2026-01-12,Answered
+Q01040,SUB-0356,Demographics,Sex field blank - please complete,2025-10-14,2025-10-29,Closed
+Q01041,SUB-0356,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-05,,Open
+Q01042,SUB-0356,ECG,ECG date is before visit date - please clarify,2026-09-24,,Open
+Q01043,SUB-0356,Demographics,Year of birth inconsistent with age at screening - please verify,2025-10-25,2025-11-08,Closed
+Q01044,SUB-0356,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-25,,Open
+Q01045,SUB-0356,ECG,ECG interpretation not recorded - please complete,2026-03-05,2026-03-16,Answered
+Q01046,SUB-0356,Concomitant Medications,Medication start date after stop date - please correct,2026-03-19,2026-03-26,Answered
+Q01047,SUB-0357,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-13,,Open
+Q01048,SUB-0357,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-25,,Open
+Q01049,SUB-0358,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-09,2026-07-24,Closed
+Q01050,SUB-0358,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-03,2026-09-14,Closed
+Q01051,SUB-0358,Concomitant Medications,Medication start date after stop date - please correct,2026-07-03,,Open
+Q01052,SUB-0358,Demographics,Sex field blank - please complete,2026-06-30,,Open
+Q01053,SUB-0359,Concomitant Medications,Indication for medication not specified - please add,2026-06-24,,Open
+Q01054,SUB-0359,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-17,,Open
+Q01055,SUB-0360,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-07-25,2025-07-30,Closed
+Q01056,SUB-0360,Efficacy Assessment,Primary endpoint score missing - please enter,2025-08-10,2025-08-12,Closed
+Q01057,SUB-0360,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-17,,Open
+Q01058,SUB-0360,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-04,,Open
+Q01059,SUB-0360,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-25,,Open
+Q01060,SUB-0361,ECG,ECG date is before visit date - please clarify,2025-07-25,2025-08-10,Closed
+Q01061,SUB-0361,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-04,,Open
+Q01062,SUB-0361,Concomitant Medications,Medication start date after stop date - please correct,2025-10-18,2025-10-25,Closed
+Q01063,SUB-0362,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-12-08,2025-12-19,Closed
+Q01064,SUB-0362,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-04,,Open
+Q01065,SUB-0362,ECG,ECG date is before visit date - please clarify,2026-09-07,,Open
+Q01066,SUB-0362,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-03,,Open
+Q01067,SUB-0362,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-29,,Open
+Q01068,SUB-0363,Demographics,Sex field blank - please complete,2026-06-23,,Open
+Q01069,SUB-0363,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-09-30,2025-10-01,Closed
+Q01070,SUB-0363,Demographics,Sex field blank - please complete,2025-12-03,2025-12-08,Closed
+Q01071,SUB-0363,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-26,,Open
+Q01072,SUB-0364,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-03-18,2026-03-26,Answered
+Q01073,SUB-0364,Concomitant Medications,Medication start date after stop date - please correct,2026-04-20,2026-05-04,Answered
+Q01074,SUB-0364,ECG,ECG interpretation not recorded - please complete,2026-07-30,,Open
+Q01075,SUB-0365,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-01-27,2026-01-31,Answered
+Q01076,SUB-0365,ECG,ECG date is before visit date - please clarify,2026-08-04,,Open
+Q01077,SUB-0365,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-22,,Open
+Q01078,SUB-0365,ECG,ECG date is before visit date - please clarify,2026-07-09,,Open
+Q01079,SUB-0366,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-12-25,2025-12-31,Answered
+Q01080,SUB-0366,Concomitant Medications,Indication for medication not specified - please add,2026-08-07,,Open
+Q01081,SUB-0366,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-03-21,2026-04-01,Closed
+Q01082,SUB-0366,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-06,,Open
+Q01083,SUB-0366,Concomitant Medications,Medication start date after stop date - please correct,2026-07-04,,Open
+Q01084,SUB-0367,Demographics,Sex field blank - please complete,2026-08-20,,Open
+Q01085,SUB-0368,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-09-25,2025-10-15,Closed
+Q01086,SUB-0369,Demographics,Year of birth inconsistent with age at screening - please verify,2026-04-27,2026-05-07,Closed
+Q01087,SUB-0369,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-02,2026-07-04,Closed
+Q01088,SUB-0370,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-02-19,2026-02-24,Answered
+Q01089,SUB-0371,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-25,,Open
+Q01090,SUB-0371,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-05-29,2026-06-14,Closed
+Q01091,SUB-0371,Demographics,Sex field blank - please complete,2026-07-21,2026-08-01,Answered
+Q01092,SUB-0371,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-05,,Open
+Q01093,SUB-0372,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-26,,Open
+Q01094,SUB-0372,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-09-11,2025-09-30,Closed
+Q01095,SUB-0372,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-02,,Open
+Q01096,SUB-0374,Efficacy Assessment,Primary endpoint score missing - please enter,2025-10-18,2025-11-01,Answered
+Q01097,SUB-0374,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-10-29,2025-10-31,Closed
+Q01098,SUB-0375,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-15,,Open
+Q01099,SUB-0375,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-05,,Open
+Q01100,SUB-0375,ECG,ECG date is before visit date - please clarify,2026-07-07,,Open
+Q01101,SUB-0375,Demographics,Sex field blank - please complete,2025-04-11,2025-04-18,Closed
+Q01102,SUB-0375,ECG,ECG date is before visit date - please clarify,2025-04-02,2025-04-10,Answered
+Q01103,SUB-0375,Concomitant Medications,Indication for medication not specified - please add,2025-04-14,2025-04-16,Answered
+Q01104,SUB-0375,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-06-12,2025-06-13,Answered
+Q01105,SUB-0375,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-09-11,2025-09-29,Closed
+Q01106,SUB-0376,Concomitant Medications,Indication for medication not specified - please add,2025-08-16,2025-08-18,Closed
+Q01107,SUB-0376,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-01,,Open
+Q01108,SUB-0376,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-29,,Open
+Q01109,SUB-0376,ECG,ECG interpretation not recorded - please complete,2026-06-08,,Open
+Q01110,SUB-0376,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-10-18,2025-11-01,Answered
+Q01111,SUB-0376,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-16,,Open
+Q01112,SUB-0378,Concomitant Medications,Medication start date after stop date - please correct,2026-09-10,,Open
+Q01113,SUB-0378,Demographics,Sex field blank - please complete,2026-06-21,,Open
+Q01114,SUB-0379,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-27,,Open
+Q01115,SUB-0379,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-19,,Open
+Q01116,SUB-0379,Concomitant Medications,Indication for medication not specified - please add,2025-12-29,2026-01-16,Closed
+Q01117,SUB-0380,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-01-01,2026-01-15,Closed
+Q01118,SUB-0381,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-03,,Open
+Q01119,SUB-0381,Demographics,Year of birth inconsistent with age at screening - please verify,2025-05-23,2025-06-10,Closed
+Q01120,SUB-0381,Concomitant Medications,Medication start date after stop date - please correct,2025-05-22,2025-05-29,Closed
+Q01121,SUB-0381,Demographics,Sex field blank - please complete,2026-09-04,,Open
+Q01122,SUB-0383,ECG,ECG interpretation not recorded - please complete,2025-09-07,2025-09-22,Answered
+Q01123,SUB-0384,Demographics,Sex field blank - please complete,2026-05-11,2026-05-14,Closed
+Q01124,SUB-0384,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-05,,Open
+Q01125,SUB-0384,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-17,,Open
+Q01126,SUB-0384,ECG,ECG interpretation not recorded - please complete,2026-07-29,,Open
+Q01127,SUB-0384,Concomitant Medications,Indication for medication not specified - please add,2026-09-15,2026-09-25,Answered
+Q01128,SUB-0385,ECG,ECG date is before visit date - please clarify,2026-01-15,2026-01-27,Closed
+Q01129,SUB-0385,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-28,,Open
+Q01130,SUB-0385,Concomitant Medications,Indication for medication not specified - please add,2026-09-12,,Open
+Q01131,SUB-0385,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-03-13,2026-03-21,Answered
+Q01132,SUB-0385,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-03-22,2026-03-29,Answered
+Q01133,SUB-0385,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-16,2026-07-02,Closed
+Q01134,SUB-0385,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-29,2026-07-06,Answered
+Q01135,SUB-0386,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-01,,Open
+Q01136,SUB-0387,ECG,ECG date is before visit date - please clarify,2026-06-12,,Open
+Q01137,SUB-0387,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-09-11,2025-09-22,Answered
+Q01138,SUB-0388,Concomitant Medications,Medication start date after stop date - please correct,2026-07-30,2026-08-02,Closed
+Q01139,SUB-0388,Demographics,Sex field blank - please complete,2026-09-01,2026-09-16,Answered
+Q01140,SUB-0389,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-03-02,2025-03-10,Closed
+Q01141,SUB-0389,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-03-12,2025-03-23,Answered
+Q01142,SUB-0389,ECG,ECG interpretation not recorded - please complete,2025-05-25,2025-05-31,Closed
+Q01143,SUB-0390,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-07,2026-09-18,Answered
+Q01144,SUB-0392,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-19,,Open
+Q01145,SUB-0392,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-09-20,2025-10-01,Closed
+Q01146,SUB-0392,Demographics,Sex field blank - please complete,2025-11-01,2025-11-19,Closed
+Q01147,SUB-0393,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-17,,Open
+Q01148,SUB-0393,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-02-01,2026-02-20,Closed
+Q01149,SUB-0393,Concomitant Medications,Medication start date after stop date - please correct,2026-09-21,,Open
+Q01150,SUB-0393,ECG,ECG interpretation not recorded - please complete,2026-08-01,,Open
+Q01151,SUB-0395,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-21,,Open
+Q01152,SUB-0395,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-04-25,2025-05-06,Closed
+Q01153,SUB-0395,ECG,ECG interpretation not recorded - please complete,2026-08-18,,Open
+Q01154,SUB-0395,ECG,ECG interpretation not recorded - please complete,2025-05-24,2025-06-06,Answered
+Q01155,SUB-0395,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-18,,Open
+Q01156,SUB-0395,Demographics,Year of birth inconsistent with age at screening - please verify,2025-09-10,2025-09-11,Answered
+Q01157,SUB-0396,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-08,,Open
+Q01158,SUB-0396,ECG,ECG date is before visit date - please clarify,2025-10-29,2025-11-10,Answered
+Q01159,SUB-0396,Demographics,Year of birth inconsistent with age at screening - please verify,2026-03-19,2026-03-28,Answered
+Q01160,SUB-0397,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-28,,Open
+Q01161,SUB-0397,ECG,ECG interpretation not recorded - please complete,2025-07-20,2025-07-26,Answered
+Q01162,SUB-0397,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-07-31,2025-08-04,Answered
+Q01163,SUB-0397,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-07,,Open
+Q01164,SUB-0397,ECG,ECG date is before visit date - please clarify,2026-09-15,,Open
+Q01165,SUB-0397,Demographics,Sex field blank - please complete,2026-08-12,,Open
+Q01166,SUB-0397,Concomitant Medications,Indication for medication not specified - please add,2026-09-17,,Open
+Q01167,SUB-0397,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-10-12,2025-10-22,Answered
+Q01168,SUB-0398,Demographics,Year of birth inconsistent with age at screening - please verify,2026-01-10,2026-01-11,Closed
+Q01169,SUB-0398,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-09,,Open
+Q01170,SUB-0399,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-05,,Open
+Q01171,SUB-0399,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-04-20,2026-04-23,Closed
+Q01172,SUB-0399,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-05-18,2026-05-28,Answered
+Q01173,SUB-0400,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-07-31,2025-08-04,Answered
+Q01174,SUB-0400,Efficacy Assessment,Primary endpoint score missing - please enter,2025-08-25,2025-09-02,Answered
+Q01175,SUB-0400,Demographics,Sex field blank - please complete,2026-01-05,2026-01-15,Answered
+Q01176,SUB-0400,ECG,ECG interpretation not recorded - please complete,2026-01-12,2026-01-15,Answered
+Q01177,SUB-0401,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-03-02,2026-03-09,Answered
+Q01178,SUB-0401,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-03-13,2026-03-23,Answered
+Q01179,SUB-0401,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-04-02,2026-04-15,Answered
+Q01180,SUB-0401,ECG,ECG date is before visit date - please clarify,2026-03-17,2026-03-25,Closed
+Q01181,SUB-0401,Concomitant Medications,Medication start date after stop date - please correct,2026-09-02,,Open
+Q01182,SUB-0401,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-24,,Open
+Q01183,SUB-0402,Demographics,Sex field blank - please complete,2026-06-02,2026-06-22,Closed
+Q01184,SUB-0402,Concomitant Medications,Indication for medication not specified - please add,2026-09-27,,Open
+Q01185,SUB-0403,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-03-17,2026-03-19,Answered
+Q01186,SUB-0403,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-02-27,2026-03-03,Answered
+Q01187,SUB-0403,ECG,ECG interpretation not recorded - please complete,2026-03-27,2026-03-31,Answered
+Q01188,SUB-0403,Concomitant Medications,Indication for medication not specified - please add,2026-03-23,2026-04-07,Closed
+Q01189,SUB-0403,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-20,,Open
+Q01190,SUB-0403,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-03,2026-06-14,Answered
+Q01191,SUB-0403,Concomitant Medications,Indication for medication not specified - please add,2026-06-07,2026-06-11,Closed
+Q01192,SUB-0404,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-02,2026-07-17,Answered
+Q01193,SUB-0404,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-21,,Open
+Q01194,SUB-0404,Demographics,Sex field blank - please complete,2026-07-25,,Open
+Q01195,SUB-0404,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-05,,Open
+Q01196,SUB-0405,Demographics,Year of birth inconsistent with age at screening - please verify,2026-02-04,2026-02-22,Closed
+Q01197,SUB-0405,Efficacy Assessment,Primary endpoint score missing - please enter,2026-02-11,2026-02-24,Closed
+Q01198,SUB-0405,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-02-27,2026-03-07,Answered
+Q01199,SUB-0405,Demographics,Year of birth inconsistent with age at screening - please verify,2026-02-26,2026-03-05,Closed
+Q01200,SUB-0405,Concomitant Medications,Indication for medication not specified - please add,2026-06-17,,Open
+Q01201,SUB-0406,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-10-06,2025-10-25,Closed
+Q01202,SUB-0406,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-10-23,2025-10-25,Answered
+Q01203,SUB-0406,ECG,ECG date is before visit date - please clarify,2026-08-11,,Open
+Q01204,SUB-0406,Concomitant Medications,Medication start date after stop date - please correct,2026-06-02,,Open
+Q01205,SUB-0406,ECG,ECG date is before visit date - please clarify,2026-03-12,2026-03-22,Answered
+Q01206,SUB-0407,Demographics,Sex field blank - please complete,2026-06-13,,Open
+Q01207,SUB-0407,ECG,ECG interpretation not recorded - please complete,2025-10-08,2025-10-22,Closed
+Q01208,SUB-0407,Demographics,Sex field blank - please complete,2026-09-29,,Open
+Q01209,SUB-0407,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-04,,Open
+Q01210,SUB-0407,Demographics,Sex field blank - please complete,2026-03-27,2026-04-09,Answered
+Q01211,SUB-0407,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-03-23,2026-04-03,Closed
+Q01212,SUB-0408,Concomitant Medications,Indication for medication not specified - please add,2026-06-03,2026-06-04,Answered
+Q01213,SUB-0408,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-05,,Open
+Q01214,SUB-0409,Concomitant Medications,Medication start date after stop date - please correct,2026-07-17,,Open
+Q01215,SUB-0409,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-23,,Open
+Q01216,SUB-0409,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-17,,Open
+Q01217,SUB-0409,Concomitant Medications,Medication start date after stop date - please correct,2026-09-05,2026-09-13,Answered
+Q01218,SUB-0409,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-24,,Open
+Q01219,SUB-0410,Demographics,Sex field blank - please complete,2026-08-04,,Open
+Q01220,SUB-0410,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-12,,Open
+Q01221,SUB-0410,Demographics,Sex field blank - please complete,2026-06-02,2026-06-18,Closed
+Q01222,SUB-0410,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-23,,Open
+Q01223,SUB-0411,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-26,2026-07-30,Closed
+Q01224,SUB-0411,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-27,2026-07-30,Closed
+Q01225,SUB-0411,Concomitant Medications,Indication for medication not specified - please add,2026-07-12,,Open
+Q01226,SUB-0411,Concomitant Medications,Medication start date after stop date - please correct,2026-08-11,,Open
+Q01227,SUB-0411,Concomitant Medications,Indication for medication not specified - please add,2026-08-20,,Open
+Q01228,SUB-0411,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-15,,Open
+Q01229,SUB-0412,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-09-07,2025-09-22,Answered
+Q01230,SUB-0412,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-14,,Open
+Q01231,SUB-0412,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-24,,Open
+Q01232,SUB-0412,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-10-30,2025-11-09,Closed
+Q01233,SUB-0412,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-11-11,2025-11-24,Closed
+Q01234,SUB-0412,ECG,ECG date is before visit date - please clarify,2025-11-09,2025-11-15,Closed
+Q01235,SUB-0412,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-01-24,2026-02-02,Answered
+Q01236,SUB-0413,Demographics,Year of birth inconsistent with age at screening - please verify,2025-06-15,2025-06-17,Answered
+Q01237,SUB-0413,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-06,,Open
+Q01238,SUB-0414,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-01,2026-09-08,Answered
+Q01239,SUB-0414,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-23,,Open
+Q01240,SUB-0415,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-09-12,2025-09-21,Answered
+Q01241,SUB-0415,Concomitant Medications,Indication for medication not specified - please add,2026-08-08,,Open
+Q01242,SUB-0415,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-10-09,2025-10-13,Closed
+Q01243,SUB-0415,ECG,ECG date is before visit date - please clarify,2025-11-01,2025-11-06,Closed
+Q01244,SUB-0415,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-02-17,2026-03-02,Answered
+Q01245,SUB-0416,ECG,ECG date is before visit date - please clarify,2026-06-08,,Open
+Q01246,SUB-0416,Efficacy Assessment,Primary endpoint score missing - please enter,2026-02-21,2026-02-22,Answered
+Q01247,SUB-0416,Demographics,Year of birth inconsistent with age at screening - please verify,2026-03-27,2026-03-28,Answered
+Q01248,SUB-0418,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-17,,Open
+Q01249,SUB-0418,ECG,ECG date is before visit date - please clarify,2026-08-22,,Open
+Q01250,SUB-0418,ECG,ECG interpretation not recorded - please complete,2026-06-02,,Open
+Q01251,SUB-0418,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-13,,Open
+Q01252,SUB-0419,Demographics,Year of birth inconsistent with age at screening - please verify,2025-07-25,2025-08-07,Answered
+Q01253,SUB-0419,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-07-14,2025-07-24,Answered
+Q01254,SUB-0419,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-25,,Open
+Q01255,SUB-0419,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-07-26,2025-08-12,Closed
+Q01256,SUB-0419,ECG,ECG date is before visit date - please clarify,2025-08-04,2025-08-05,Answered
+Q01257,SUB-0419,Concomitant Medications,Indication for medication not specified - please add,2025-09-06,2025-09-21,Closed
+Q01258,SUB-0419,Demographics,Year of birth inconsistent with age at screening - please verify,2025-09-18,2025-09-25,Closed
+Q01259,SUB-0419,ECG,ECG date is before visit date - please clarify,2026-06-10,,Open
+Q01260,SUB-0420,ECG,ECG date is before visit date - please clarify,2026-08-03,2026-08-12,Closed
+Q01261,SUB-0420,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-13,,Open
+Q01262,SUB-0421,Demographics,Sex field blank - please complete,2025-06-20,2025-06-26,Closed
+Q01263,SUB-0422,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-09-18,2025-09-19,Closed
+Q01264,SUB-0424,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-06,,Open
+Q01265,SUB-0424,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-09-21,2025-09-28,Answered
+Q01266,SUB-0424,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-22,,Open
+Q01267,SUB-0425,Demographics,Sex field blank - please complete,2026-06-30,,Open
+Q01268,SUB-0425,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-19,2026-07-26,Closed
+Q01269,SUB-0425,ECG,ECG date is before visit date - please clarify,2026-07-28,2026-08-08,Answered
+Q01270,SUB-0425,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-27,2026-09-03,Closed
+Q01271,SUB-0425,Concomitant Medications,Medication start date after stop date - please correct,2026-08-22,2026-09-02,Closed
+Q01272,SUB-0427,Demographics,Sex field blank - please complete,2026-08-05,2026-08-10,Answered
+Q01273,SUB-0427,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-20,2026-08-21,Closed
+Q01274,SUB-0427,ECG,ECG interpretation not recorded - please complete,2026-09-05,,Open
+Q01275,SUB-0428,Demographics,Sex field blank - please complete,2026-06-08,,Open
+Q01276,SUB-0428,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-16,,Open
+Q01277,SUB-0428,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-07-01,2025-07-13,Closed
+Q01278,SUB-0428,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-07-19,2025-07-25,Answered
+Q01279,SUB-0428,Concomitant Medications,Medication start date after stop date - please correct,2026-06-03,,Open
+Q01280,SUB-0429,Concomitant Medications,Medication start date after stop date - please correct,2025-11-21,2025-12-06,Closed
+Q01281,SUB-0429,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-09,,Open
+Q01282,SUB-0429,ECG,ECG date is before visit date - please clarify,2026-01-02,2026-01-17,Answered
+Q01283,SUB-0430,Demographics,Sex field blank - please complete,2026-07-27,,Open
+Q01284,SUB-0430,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-18,,Open
+Q01285,SUB-0431,Concomitant Medications,Medication start date after stop date - please correct,2026-08-14,2026-08-26,Closed
+Q01286,SUB-0431,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-20,2026-09-26,Answered
+Q01287,SUB-0433,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-29,,Open
+Q01288,SUB-0433,Demographics,Year of birth inconsistent with age at screening - please verify,2025-12-18,2026-01-03,Closed
+Q01289,SUB-0433,Concomitant Medications,Medication start date after stop date - please correct,2026-09-28,,Open
+Q01290,SUB-0433,Demographics,Year of birth inconsistent with age at screening - please verify,2026-02-02,2026-02-11,Closed
+Q01291,SUB-0433,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-01-30,2026-02-07,Closed
+Q01292,SUB-0433,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-03-01,2026-03-09,Answered
+Q01293,SUB-0435,Concomitant Medications,Indication for medication not specified - please add,2026-06-28,,Open
+Q01294,SUB-0436,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-09-05,2025-09-14,Answered
+Q01295,SUB-0436,Demographics,Year of birth inconsistent with age at screening - please verify,2025-10-20,2025-10-28,Answered
+Q01296,SUB-0436,ECG,ECG interpretation not recorded - please complete,2026-02-15,2026-02-23,Answered
+Q01297,SUB-0437,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-07,,Open
+Q01298,SUB-0437,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-13,,Open
+Q01299,SUB-0437,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-08-02,2025-08-12,Closed
+Q01300,SUB-0437,Concomitant Medications,Medication start date after stop date - please correct,2026-08-07,,Open
+Q01301,SUB-0437,Concomitant Medications,Indication for medication not specified - please add,2026-07-20,,Open
+Q01302,SUB-0437,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-17,,Open
+Q01303,SUB-0437,ECG,ECG interpretation not recorded - please complete,2026-08-01,,Open
+Q01304,SUB-0437,Efficacy Assessment,Primary endpoint score missing - please enter,2025-12-27,2026-01-15,Closed
+Q01305,SUB-0438,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-04-11,2026-05-01,Closed
+Q01306,SUB-0439,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-06,2026-08-25,Closed
+Q01307,SUB-0439,Demographics,Sex field blank - please complete,2026-08-21,,Open
+Q01308,SUB-0439,ECG,ECG date is before visit date - please clarify,2026-07-30,,Open
+Q01309,SUB-0439,ECG,ECG date is before visit date - please clarify,2026-09-05,2026-09-12,Closed
+Q01310,SUB-0439,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-09,2026-09-12,Closed
+Q01311,SUB-0439,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-31,,Open
+Q01312,SUB-0439,Demographics,Sex field blank - please complete,2026-09-07,,Open
+Q01313,SUB-0439,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-31,,Open
+Q01314,SUB-0439,Concomitant Medications,Indication for medication not specified - please add,2026-08-06,,Open
+Q01315,SUB-0439,ECG,ECG date is before visit date - please clarify,2026-06-12,,Open
+Q01316,SUB-0439,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-26,,Open
+Q01317,SUB-0440,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-02,,Open
+Q01318,SUB-0440,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-05-13,2025-05-23,Answered
+Q01319,SUB-0440,Demographics,Year of birth inconsistent with age at screening - please verify,2025-07-04,2025-07-14,Answered
+Q01320,SUB-0440,Concomitant Medications,Medication start date after stop date - please correct,2025-06-27,2025-07-05,Closed
+Q01321,SUB-0441,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-10,,Open
+Q01322,SUB-0441,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-07-11,2025-07-15,Closed
+Q01323,SUB-0442,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-11,2026-09-12,Closed
+Q01324,SUB-0442,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-06,,Open
+Q01325,SUB-0442,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-11,,Open
+Q01326,SUB-0442,ECG,ECG date is before visit date - please clarify,2026-07-15,,Open
+Q01327,SUB-0442,Concomitant Medications,Indication for medication not specified - please add,2026-07-09,,Open
+Q01328,SUB-0443,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-05-13,2026-05-18,Answered
+Q01329,SUB-0443,Demographics,Sex field blank - please complete,2026-07-14,2026-07-24,Answered
+Q01330,SUB-0443,Concomitant Medications,Indication for medication not specified - please add,2026-09-14,,Open
+Q01331,SUB-0444,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-08-04,2025-08-21,Closed
+Q01332,SUB-0444,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-08-02,2025-08-16,Answered
+Q01333,SUB-0444,Demographics,Year of birth inconsistent with age at screening - please verify,2025-12-06,2025-12-22,Closed
+Q01334,SUB-0444,ECG,ECG interpretation not recorded - please complete,2026-09-28,,Open
+Q01335,SUB-0445,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-01,2026-06-05,Closed
+Q01336,SUB-0447,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-25,2026-09-06,Answered
+Q01337,SUB-0447,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-18,,Open
+Q01338,SUB-0447,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-03,,Open
+Q01339,SUB-0448,Demographics,Sex field blank - please complete,2026-07-06,,Open
+Q01340,SUB-0448,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-03-12,2026-04-01,Closed
+Q01341,SUB-0448,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-04-05,2026-04-08,Closed
+Q01342,SUB-0448,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-22,,Open
+Q01343,SUB-0449,Concomitant Medications,Medication start date after stop date - please correct,2025-12-28,2025-12-29,Closed
+Q01344,SUB-0449,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-12-31,2026-01-01,Closed
+Q01345,SUB-0449,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-05-31,2026-06-06,Answered
+Q01346,SUB-0450,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-19,,Open
+Q01347,SUB-0450,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-05-26,2025-06-02,Closed
+Q01348,SUB-0450,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-05-24,2025-06-06,Answered
+Q01349,SUB-0450,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-05-16,2025-05-31,Closed
+Q01350,SUB-0450,Demographics,Year of birth inconsistent with age at screening - please verify,2025-06-24,2025-07-13,Closed
+Q01351,SUB-0450,ECG,ECG interpretation not recorded - please complete,2026-08-03,,Open
+Q01352,SUB-0450,Concomitant Medications,Indication for medication not specified - please add,2026-08-12,,Open
+Q01353,SUB-0450,Efficacy Assessment,Primary endpoint score missing - please enter,2025-06-16,2025-06-30,Answered
+Q01354,SUB-0453,ECG,ECG interpretation not recorded - please complete,2025-10-30,2025-11-10,Answered
+Q01355,SUB-0453,Concomitant Medications,Indication for medication not specified - please add,2026-06-27,,Open
+Q01356,SUB-0453,Efficacy Assessment,Primary endpoint score missing - please enter,2025-12-17,2026-01-04,Closed
+Q01357,SUB-0454,Demographics,Sex field blank - please complete,2025-03-16,2025-03-28,Closed
+Q01358,SUB-0454,ECG,ECG date is before visit date - please clarify,2026-06-10,,Open
+Q01359,SUB-0454,ECG,ECG interpretation not recorded - please complete,2026-07-18,,Open
+Q01360,SUB-0454,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-09,,Open
+Q01361,SUB-0454,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-09,,Open
+Q01362,SUB-0455,Demographics,Sex field blank - please complete,2026-06-23,,Open
+Q01363,SUB-0456,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-08-13,2025-08-16,Closed
+Q01364,SUB-0456,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-26,,Open
+Q01365,SUB-0456,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-07,,Open
+Q01366,SUB-0456,Concomitant Medications,Medication start date after stop date - please correct,2026-08-05,,Open
+Q01367,SUB-0456,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-04,,Open
+Q01368,SUB-0456,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-02-10,2026-02-18,Closed
+Q01369,SUB-0457,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-15,,Open
+Q01370,SUB-0457,ECG,ECG interpretation not recorded - please complete,2026-02-13,2026-03-02,Closed
+Q01371,SUB-0457,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-01-31,2026-02-03,Closed
+Q01372,SUB-0458,Demographics,Sex field blank - please complete,2025-12-21,2026-01-09,Closed
+Q01373,SUB-0458,Concomitant Medications,Indication for medication not specified - please add,2026-02-06,2026-02-22,Closed
+Q01374,SUB-0459,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-07,,Open
+Q01375,SUB-0459,ECG,ECG interpretation not recorded - please complete,2026-09-02,,Open
+Q01376,SUB-0459,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-13,,Open
+Q01377,SUB-0459,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-20,,Open
+Q01378,SUB-0459,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-03,,Open
+Q01379,SUB-0460,Concomitant Medications,Indication for medication not specified - please add,2026-03-27,2026-04-06,Answered
+Q01380,SUB-0460,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-04-28,2026-05-04,Closed
+Q01381,SUB-0460,Demographics,Sex field blank - please complete,2026-05-29,2026-06-10,Answered
+Q01382,SUB-0461,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-17,,Open
+Q01383,SUB-0463,Concomitant Medications,Medication start date after stop date - please correct,2025-11-21,2025-12-06,Closed
+Q01384,SUB-0463,Efficacy Assessment,Primary endpoint score missing - please enter,2025-11-27,2025-12-12,Closed
+Q01385,SUB-0464,Concomitant Medications,Indication for medication not specified - please add,2025-10-13,2025-10-18,Answered
+Q01386,SUB-0464,ECG,ECG date is before visit date - please clarify,2026-09-12,,Open
+Q01387,SUB-0464,Demographics,Sex field blank - please complete,2026-03-31,2026-04-08,Answered
+Q01388,SUB-0464,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-26,,Open
+Q01389,SUB-0465,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-10-13,2025-10-16,Answered
+Q01390,SUB-0465,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-11-17,2025-11-25,Closed
+Q01391,SUB-0465,Demographics,Year of birth inconsistent with age at screening - please verify,2025-12-08,2025-12-14,Closed
+Q01392,SUB-0465,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-04,,Open
+Q01393,SUB-0465,Demographics,Year of birth inconsistent with age at screening - please verify,2025-12-30,2026-01-06,Closed
+Q01394,SUB-0465,Demographics,Sex field blank - please complete,2026-01-15,2026-01-26,Answered
+Q01395,SUB-0465,ECG,ECG date is before visit date - please clarify,2026-09-02,,Open
+Q01396,SUB-0466,Demographics,Sex field blank - please complete,2025-10-06,2025-10-21,Answered
+Q01397,SUB-0466,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-07,,Open
+Q01398,SUB-0466,Concomitant Medications,Medication start date after stop date - please correct,2026-08-31,,Open
+Q01399,SUB-0466,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-03-10,2026-03-23,Closed
+Q01400,SUB-0469,Demographics,Year of birth inconsistent with age at screening - please verify,2026-03-03,2026-03-09,Answered
+Q01401,SUB-0469,Concomitant Medications,Medication start date after stop date - please correct,2026-04-07,2026-04-12,Answered
+Q01402,SUB-0469,Demographics,Sex field blank - please complete,2026-07-08,,Open
+Q01403,SUB-0469,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-05-14,2026-05-18,Answered
+Q01404,SUB-0469,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-31,2026-08-10,Answered
+Q01405,SUB-0469,ECG,ECG date is before visit date - please clarify,2026-08-03,2026-08-09,Closed
+Q01406,SUB-0470,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-02-20,2026-03-08,Closed
+Q01407,SUB-0470,Demographics,Sex field blank - please complete,2026-07-24,,Open
+Q01408,SUB-0470,Demographics,Sex field blank - please complete,2026-06-14,2026-06-29,Answered
+Q01409,SUB-0472,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-09,,Open
+Q01410,SUB-0472,Concomitant Medications,Medication start date after stop date - please correct,2026-09-25,2026-09-26,Closed
+Q01411,SUB-0473,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-18,,Open
+Q01412,SUB-0473,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-12-20,2026-01-02,Answered
+Q01413,SUB-0473,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-01-11,2026-01-21,Answered
+Q01414,SUB-0473,ECG,ECG interpretation not recorded - please complete,2026-01-19,2026-01-28,Closed
+Q01415,SUB-0473,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-03,,Open
+Q01416,SUB-0473,Demographics,Sex field blank - please complete,2026-09-06,,Open
+Q01417,SUB-0473,ECG,ECG interpretation not recorded - please complete,2026-06-23,2026-06-26,Answered
+Q01418,SUB-0475,Demographics,Year of birth inconsistent with age at screening - please verify,2025-06-15,2025-06-23,Closed
+Q01419,SUB-0475,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-06-21,2025-07-02,Answered
+Q01420,SUB-0475,ECG,ECG interpretation not recorded - please complete,2025-07-04,2025-07-09,Answered
+Q01421,SUB-0475,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-11-26,2025-11-28,Answered
+Q01422,SUB-0478,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-10,,Open
+Q01423,SUB-0478,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-08,,Open
+Q01424,SUB-0478,Concomitant Medications,Medication start date after stop date - please correct,2025-06-02,2025-06-09,Closed
+Q01425,SUB-0478,Efficacy Assessment,Primary endpoint score missing - please enter,2025-07-02,2025-07-19,Closed
+Q01426,SUB-0479,Demographics,Sex field blank - please complete,2025-09-15,2025-10-02,Closed
+Q01427,SUB-0479,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-10-12,2025-10-29,Closed
+Q01428,SUB-0479,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-11,,Open
+Q01429,SUB-0480,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-10,,Open
+Q01430,SUB-0480,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-04,,Open
+Q01431,SUB-0480,Concomitant Medications,Medication start date after stop date - please correct,2026-08-12,,Open
+Q01432,SUB-0482,Demographics,Sex field blank - please complete,2026-08-03,,Open
+Q01433,SUB-0482,Concomitant Medications,Indication for medication not specified - please add,2025-08-17,2025-08-30,Closed
+Q01434,SUB-0482,ECG,ECG interpretation not recorded - please complete,2025-10-25,2025-11-04,Closed
+Q01435,SUB-0483,Demographics,Sex field blank - please complete,2026-06-20,2026-06-24,Answered
+Q01436,SUB-0483,ECG,ECG interpretation not recorded - please complete,2026-07-25,2026-08-08,Answered
+Q01437,SUB-0483,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-06,2026-09-15,Answered
+Q01438,SUB-0483,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-09,,Open
+Q01439,SUB-0484,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-04-03,2025-04-21,Closed
+Q01440,SUB-0485,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-08,,Open
+Q01441,SUB-0485,Demographics,Sex field blank - please complete,2026-07-20,2026-07-22,Closed
+Q01442,SUB-0487,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-04-24,2025-05-02,Closed
+Q01443,SUB-0487,Demographics,Year of birth inconsistent with age at screening - please verify,2026-06-11,,Open
+Q01444,SUB-0487,Efficacy Assessment,Primary endpoint score missing - please enter,2025-10-15,2025-10-28,Closed
+Q01445,SUB-0489,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-30,,Open
+Q01446,SUB-0489,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-07-05,,Open
+Q01447,SUB-0491,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-04-04,2026-04-12,Answered
+Q01448,SUB-0491,Concomitant Medications,Indication for medication not specified - please add,2026-07-31,,Open
+Q01449,SUB-0491,ECG,ECG interpretation not recorded - please complete,2026-06-29,,Open
+Q01450,SUB-0491,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-06,2026-06-13,Closed
+Q01451,SUB-0491,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-29,2026-09-11,Closed
+Q01452,SUB-0492,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-02,,Open
+Q01453,SUB-0492,Demographics,Year of birth inconsistent with age at screening - please verify,2026-09-24,,Open
+Q01454,SUB-0492,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-08,2026-09-13,Answered
+Q01455,SUB-0493,Efficacy Assessment,Primary endpoint score missing - please enter,2026-02-21,2026-02-24,Closed
+Q01456,SUB-0493,Demographics,Sex field blank - please complete,2026-03-06,2026-03-20,Closed
+Q01457,SUB-0493,ECG,ECG date is before visit date - please clarify,2026-08-13,,Open
+Q01458,SUB-0493,Demographics,Sex field blank - please complete,2026-09-07,,Open
+Q01459,SUB-0493,Concomitant Medications,Medication start date after stop date - please correct,2026-08-29,,Open
+Q01460,SUB-0494,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-20,2026-06-26,Answered
+Q01461,SUB-0494,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-24,2026-07-31,Answered
+Q01462,SUB-0494,ECG,ECG interpretation not recorded - please complete,2026-08-21,2026-08-24,Answered
+Q01463,SUB-0494,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-10,,Open
+Q01464,SUB-0494,Concomitant Medications,Indication for medication not specified - please add,2026-07-13,,Open
+Q01465,SUB-0494,Demographics,Year of birth inconsistent with age at screening - please verify,2026-08-22,,Open
+Q01466,SUB-0495,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-11,2026-08-28,Closed
+Q01467,SUB-0495,ECG,ECG interpretation not recorded - please complete,2026-06-10,,Open
+Q01468,SUB-0495,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-04,,Open
+Q01469,SUB-0496,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-08-21,2025-08-22,Answered
+Q01470,SUB-0496,Demographics,Sex field blank - please complete,2025-11-01,2025-11-12,Answered
+Q01471,SUB-0497,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-10,,Open
+Q01472,SUB-0497,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-10,,Open
+Q01473,SUB-0498,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-13,,Open
+Q01474,SUB-0498,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-08,,Open
+Q01475,SUB-0498,Demographics,Sex field blank - please complete,2026-07-11,2026-07-20,Closed
+Q01476,SUB-0498,Concomitant Medications,Indication for medication not specified - please add,2026-06-29,2026-07-15,Closed
+Q01477,SUB-0498,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-17,,Open
+Q01478,SUB-0500,ECG,ECG date is before visit date - please clarify,2025-07-07,2025-07-14,Answered
+Q01479,SUB-0500,Concomitant Medications,Medication start date after stop date - please correct,2025-07-04,2025-07-20,Closed
+Q01480,SUB-0500,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-09-15,2025-09-23,Closed
+Q01481,SUB-0500,Concomitant Medications,Indication for medication not specified - please add,2025-12-04,2025-12-12,Closed
+Q01482,SUB-0501,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-15,,Open
+Q01483,SUB-0501,Concomitant Medications,Indication for medication not specified - please add,2026-08-26,,Open
+Q01484,SUB-0501,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-06,2026-06-15,Closed
+Q01485,SUB-0502,ECG,ECG interpretation not recorded - please complete,2026-06-24,,Open
+Q01486,SUB-0502,Demographics,Sex field blank - please complete,2026-06-14,,Open
+Q01487,SUB-0502,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-08-20,2025-08-23,Closed
+Q01488,SUB-0502,ECG,ECG date is before visit date - please clarify,2026-08-08,,Open
+Q01489,SUB-0502,Demographics,Sex field blank - please complete,2025-08-26,2025-09-04,Answered
+Q01490,SUB-0502,Concomitant Medications,Medication start date after stop date - please correct,2025-10-02,2025-10-12,Closed
+Q01491,SUB-0502,Demographics,Year of birth inconsistent with age at screening - please verify,2025-11-01,2025-11-11,Answered
+Q01492,SUB-0502,Demographics,Sex field blank - please complete,2026-01-12,2026-01-21,Closed
+Q01493,SUB-0503,Concomitant Medications,Indication for medication not specified - please add,2026-09-29,,Open
+Q01494,SUB-0503,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-10-11,2025-10-25,Closed
+Q01495,SUB-0504,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-14,,Open
+Q01496,SUB-0504,Concomitant Medications,Medication start date after stop date - please correct,2025-12-16,2025-12-17,Answered
+Q01497,SUB-0504,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-12-23,2025-12-24,Answered
+Q01498,SUB-0504,Concomitant Medications,Medication start date after stop date - please correct,2025-12-21,2025-12-22,Answered
+Q01499,SUB-0504,Demographics,Year of birth inconsistent with age at screening - please verify,2026-01-21,2026-01-22,Closed
+Q01500,SUB-0504,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-19,,Open
+Q01501,SUB-0505,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-07,,Open
+Q01502,SUB-0505,Efficacy Assessment,Primary endpoint score missing - please enter,2026-09-27,,Open
+Q01503,SUB-0506,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-10,,Open
+Q01504,SUB-0507,Demographics,Sex field blank - please complete,2025-03-14,2025-03-26,Closed
+Q01505,SUB-0508,Demographics,Year of birth inconsistent with age at screening - please verify,2025-10-24,2025-11-11,Closed
+Q01506,SUB-0509,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-10-11,2025-10-12,Answered
+Q01507,SUB-0509,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-10-10,2025-10-24,Closed
+Q01508,SUB-0509,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-09,,Open
+Q01509,SUB-0509,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-03-11,2026-03-22,Answered
+Q01510,SUB-0509,Concomitant Medications,Indication for medication not specified - please add,2026-03-26,2026-03-31,Closed
+Q01511,SUB-0510,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-12-09,2025-12-12,Closed
+Q01512,SUB-0510,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-02-01,2026-02-09,Answered
+Q01513,SUB-0513,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-29,,Open
+Q01514,SUB-0513,ECG,ECG date is before visit date - please clarify,2025-11-10,2025-11-18,Closed
+Q01515,SUB-0513,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-11-14,2025-11-15,Closed
+Q01516,SUB-0513,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-06-29,,Open
+Q01517,SUB-0513,Demographics,Sex field blank - please complete,2026-04-02,2026-04-07,Closed
+Q01518,SUB-0514,Demographics,Year of birth inconsistent with age at screening - please verify,2025-03-18,2025-04-05,Closed
+Q01519,SUB-0514,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-03-24,2025-04-03,Closed
+Q01520,SUB-0514,Concomitant Medications,Indication for medication not specified - please add,2026-08-18,,Open
+Q01521,SUB-0515,ECG,ECG interpretation not recorded - please complete,2025-11-20,2025-11-28,Answered
+Q01522,SUB-0515,Demographics,Sex field blank - please complete,2025-12-13,2025-12-29,Closed
+Q01523,SUB-0515,ECG,ECG interpretation not recorded - please complete,2025-12-02,2025-12-04,Closed
+Q01524,SUB-0515,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-25,,Open
+Q01525,SUB-0517,Efficacy Assessment,Primary endpoint score missing - please enter,2026-07-02,2026-07-15,Closed
+Q01526,SUB-0518,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-06-13,2025-06-27,Closed
+Q01527,SUB-0518,ECG,ECG date is before visit date - please clarify,2025-06-24,2025-07-08,Closed
+Q01528,SUB-0518,ECG,ECG date is before visit date - please clarify,2025-09-20,2025-09-21,Answered
+Q01529,SUB-0520,Demographics,Sex field blank - please complete,2026-04-24,2026-05-04,Answered
+Q01530,SUB-0520,Concomitant Medications,Medication start date after stop date - please correct,2026-06-28,,Open
+Q01531,SUB-0520,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-07,2026-07-09,Answered
+Q01532,SUB-0521,Demographics,Year of birth inconsistent with age at screening - please verify,2026-05-08,2026-05-20,Answered
+Q01533,SUB-0521,Demographics,Sex field blank - please complete,2026-09-21,,Open
+Q01534,SUB-0521,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-09-08,,Open
+Q01535,SUB-0521,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-07-04,,Open
+Q01536,SUB-0521,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-21,,Open
+Q01537,SUB-0521,ECG,ECG date is before visit date - please clarify,2026-08-27,,Open
+Q01538,SUB-0522,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-14,,Open
+Q01539,SUB-0522,ECG,ECG interpretation not recorded - please complete,2026-07-06,,Open
+Q01540,SUB-0522,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-08-30,,Open
+Q01541,SUB-0522,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-01,2026-09-08,Closed
+Q01542,SUB-0522,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-11,,Open
+Q01543,SUB-0523,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2025-12-07,2025-12-22,Answered
+Q01544,SUB-0523,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-14,,Open
+Q01545,SUB-0523,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-02-04,2026-02-21,Closed
+Q01546,SUB-0524,Demographics,Year of birth inconsistent with age at screening - please verify,2025-11-01,2025-11-05,Answered
+Q01547,SUB-0524,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2025-10-30,2025-11-12,Closed
+Q01548,SUB-0524,ECG,ECG interpretation not recorded - please complete,2025-11-16,2025-11-24,Answered
+Q01549,SUB-0524,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-12-17,2025-12-21,Closed
+Q01550,SUB-0524,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-19,,Open
+Q01551,SUB-0525,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-12-11,2025-12-21,Answered
+Q01552,SUB-0525,Concomitant Medications,Indication for medication not specified - please add,2026-06-23,,Open
+Q01553,SUB-0525,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-15,,Open
+Q01554,SUB-0525,Concomitant Medications,Indication for medication not specified - please add,2026-06-26,,Open
+Q01555,SUB-0525,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-03-07,2026-03-09,Closed
+Q01556,SUB-0525,Efficacy Assessment,Primary endpoint score missing - please enter,2026-02-20,2026-03-12,Closed
+Q01557,SUB-0526,ECG,ECG interpretation not recorded - please complete,2025-09-18,2025-09-25,Closed
+Q01558,SUB-0526,Demographics,Sex field blank - please complete,2026-07-05,,Open
+Q01559,SUB-0526,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-10-25,2025-11-08,Closed
+Q01560,SUB-0526,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-12-02,2025-12-13,Answered
+Q01561,SUB-0526,Efficacy Assessment,Primary endpoint score missing - please enter,2026-03-06,2026-03-24,Closed
+Q01562,SUB-0527,Concomitant Medications,Indication for medication not specified - please add,2025-11-02,2025-11-12,Closed
+Q01563,SUB-0527,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-08-04,,Open
+Q01564,SUB-0527,ECG,ECG date is before visit date - please clarify,2026-03-26,2026-04-07,Answered
+Q01565,SUB-0528,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-07-12,2026-07-22,Closed
+Q01566,SUB-0528,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-03,2026-08-17,Closed
+Q01567,SUB-0528,ECG,ECG date is before visit date - please clarify,2026-08-08,2026-08-21,Answered
+Q01568,SUB-0528,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-20,2026-09-07,Closed
+Q01569,SUB-0528,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-07,2026-09-23,Closed
+Q01570,SUB-0528,Concomitant Medications,Indication for medication not specified - please add,2026-09-04,2026-09-19,Answered
+Q01571,SUB-0528,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-02,2026-09-05,Answered
+Q01572,SUB-0528,Concomitant Medications,Indication for medication not specified - please add,2026-06-14,,Open
+Q01573,SUB-0528,Concomitant Medications,Indication for medication not specified - please add,2026-09-26,,Open
+Q01574,SUB-0530,Demographics,Sex field blank - please complete,2026-07-02,2026-07-12,Answered
+Q01575,SUB-0530,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-07,2026-07-12,Closed
+Q01576,SUB-0530,ECG,ECG interpretation not recorded - please complete,2026-09-07,2026-09-15,Answered
+Q01577,SUB-0530,Concomitant Medications,Medication start date after stop date - please correct,2026-09-08,2026-09-19,Closed
+Q01578,SUB-0531,Demographics,Sex field blank - please complete,2026-08-09,2026-08-23,Answered
+Q01579,SUB-0531,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-26,,Open
+Q01580,SUB-0531,Concomitant Medications,Indication for medication not specified - please add,2026-09-10,,Open
+Q01581,SUB-0531,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-09-21,,Open
+Q01582,SUB-0532,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-05,,Open
+Q01583,SUB-0533,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2025-10-19,2025-10-22,Closed
+Q01584,SUB-0533,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-10-19,2025-11-01,Answered
+Q01585,SUB-0533,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-09-04,,Open
+Q01586,SUB-0535,Demographics,Year of birth inconsistent with age at screening - please verify,2026-01-31,2026-02-10,Closed
+Q01587,SUB-0535,Demographics,Sex field blank - please complete,2026-03-02,2026-03-11,Closed
+Q01588,SUB-0535,Demographics,Sex field blank - please complete,2026-06-26,2026-07-08,Closed
+Q01589,SUB-0535,Vital Signs,Systolic BP value appears out of plausible range - please verify,2026-06-23,2026-06-30,Closed
+Q01590,SUB-0535,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-08-26,,Open
+Q01591,SUB-0536,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-09-27,,Open
+Q01592,SUB-0536,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-08-11,2026-08-12,Answered
+Q01593,SUB-0536,ECG,ECG interpretation not recorded - please complete,2026-09-11,,Open
+Q01594,SUB-0536,Efficacy Assessment,Score inconsistent with previous visit - please confirm,2026-06-08,,Open
+Q01595,SUB-0538,Concomitant Medications,Medication start date after stop date - please correct,2026-09-01,,Open
+Q01596,SUB-0538,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-09-09,2025-09-17,Closed
+Q01597,SUB-0538,Laboratory Results,Lab sample date differs from visit date - please clarify,2025-09-05,2025-09-16,Answered
+Q01598,SUB-0539,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-08-25,,Open
+Q01599,SUB-0539,Efficacy Assessment,Primary endpoint score missing - please enter,2026-08-04,,Open
+Q01600,SUB-0539,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-06-25,,Open
+Q01601,SUB-0541,Efficacy Assessment,Primary endpoint score missing - please enter,2025-09-27,2025-10-10,Answered
+Q01602,SUB-0541,Demographics,Sex field blank - please complete,2026-07-03,,Open
+Q01603,SUB-0542,ECG,ECG interpretation not recorded - please complete,2025-08-25,2025-09-08,Answered
+Q01604,SUB-0542,Demographics,Year of birth inconsistent with age at screening - please verify,2026-07-17,,Open
+Q01605,SUB-0542,ECG,ECG interpretation not recorded - please complete,2026-06-07,,Open
+Q01606,SUB-0543,ECG,ECG date is before visit date - please clarify,2026-09-25,,Open
+Q01607,SUB-0545,Vital Signs,Heart rate missing at this visit - please enter or confirm not done,2026-07-13,,Open
+Q01608,SUB-0546,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-09-28,,Open
+Q01609,SUB-0546,ECG,ECG interpretation not recorded - please complete,2026-07-01,,Open
+Q01610,SUB-0546,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-08-22,2025-09-06,Answered
+Q01611,SUB-0546,Concomitant Medications,Indication for medication not specified - please add,2025-09-04,2025-09-12,Answered
+Q01612,SUB-0546,Laboratory Results,Lab value flagged critical - please confirm repeat test performed,2026-06-08,,Open
+Q01613,SUB-0546,Concomitant Medications,Medication start date after stop date - please correct,2026-09-08,,Open
+Q01614,SUB-0546,Laboratory Results,Lab sample date differs from visit date - please clarify,2026-07-31,,Open
+Q01615,SUB-0546,ECG,ECG interpretation not recorded - please complete,2026-01-27,2026-02-05,Answered
+Q01616,SUB-0547,Demographics,Sex field blank - please complete,2026-06-17,,Open
+Q01617,SUB-0548,Vital Signs,Systolic BP value appears out of plausible range - please verify,2025-04-04,2025-04-08,Closed
+Q01618,SUB-0548,Demographics,Sex field blank - please complete,2025-04-13,2025-05-02,Closed
+Q01619,SUB-0548,Concomitant Medications,Medication start date after stop date - please correct,2026-07-09,,Open
+Q01620,SUB-0548,Efficacy Assessment,Primary endpoint score missing - please enter,2026-06-30,,Open
