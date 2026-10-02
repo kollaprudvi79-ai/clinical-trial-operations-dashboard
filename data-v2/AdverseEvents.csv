@@ -1,0 +1,1625 @@
+AEID,SubjectID,SiteID,SystemOrganClass,AETerm,StartDate,OnsetDayFromFirstDose,SeverityGrade,Serious,Outcome,ActionTaken,RelatedToStudyDrug
+AE00001,SUB-0001,S01,Skin disorders,Pruritus,2026-09-23,-6,1,No,Recovered,None,Yes
+AE00002,SUB-0001,S01,Musculoskeletal disorders,Myalgia,2026-09-22,-7,1,No,Recovered,Concomitant Treatment Given,No
+AE00003,SUB-0002,S01,Gastrointestinal disorders,Diarrhea,2026-03-25,249,3,No,Ongoing,Drug Withdrawn,No
+AE00004,SUB-0004,S01,Gastrointestinal disorders,Vomiting,2026-04-07,121,3,No,Ongoing,Dose Reduced,Yes
+AE00005,SUB-0004,S01,Skin disorders,Rash,2026-03-19,102,3,Yes,Recovered,Concomitant Treatment Given,Yes
+AE00006,SUB-0004,S01,Respiratory disorders,Dyspnea,2026-02-22,77,3,No,Recovering,Dose Reduced,Yes
+AE00007,SUB-0005,S01,Investigations,Weight decreased,2026-09-11,52,2,No,Recovered,Dose Reduced,No
+AE00008,SUB-0006,S01,Vascular disorders,Hypertension,2026-09-14,172,3,No,Ongoing,Drug Withdrawn,Yes
+AE00009,SUB-0007,S01,Vascular disorders,Hypertension,2026-02-03,188,1,No,Ongoing,None,No
+AE00010,SUB-0013,S01,Investigations,AST increased,2026-09-19,47,1,No,Recovering,Dose Held,No
+AE00011,SUB-0017,S01,Gastrointestinal disorders,Vomiting,2026-09-10,-15,1,No,Recovering,Concomitant Treatment Given,Yes
+AE00012,SUB-0017,S01,Respiratory disorders,Dyspnea,2026-09-21,-4,2,No,Recovered,Drug Withdrawn,Yes
+AE00013,SUB-0019,S01,Musculoskeletal disorders,Back pain,2026-09-20,157,1,No,Recovered,Dose Reduced,No
+AE00014,SUB-0019,S01,Vascular disorders,Hypotension,2026-09-26,163,1,No,Recovered,Drug Withdrawn,Yes
+AE00015,SUB-0019,S01,Skin disorders,Dry skin,2026-06-30,75,1,No,Recovered,Dose Held,No
+AE00016,SUB-0019,S01,Skin disorders,Pruritus,2026-08-20,126,1,No,Recovered,Dose Held,No
+AE00017,SUB-0021,S01,Metabolism disorders,Decreased appetite,2025-11-26,161,3,Yes,Ongoing,Concomitant Treatment Given,No
+AE00018,SUB-0026,S01,Metabolism disorders,Hyperglycemia,2026-07-22,283,2,No,Ongoing,Drug Withdrawn,No
+AE00019,SUB-0028,S01,Gastrointestinal disorders,Diarrhea,2026-09-29,0,2,No,Fatal,None,No
+AE00020,SUB-0030,S01,Respiratory disorders,Cough,2026-05-27,137,2,No,Recovering,Drug Withdrawn,Yes
+AE00021,SUB-0030,S01,Musculoskeletal disorders,Back pain,2026-04-10,90,1,No,Recovered,Dose Reduced,No
+AE00022,SUB-0035,S01,Nervous system disorders,Insomnia,2026-09-12,14,2,No,Recovered,Dose Reduced,No
+AE00023,SUB-0035,S01,Vascular disorders,Hypotension,2026-09-19,21,2,No,Recovered,None,Yes
+AE00024,SUB-0036,S01,Musculoskeletal disorders,Arthralgia,2026-03-18,103,3,No,Recovered,None,No
+AE00025,SUB-0036,S01,General disorders,Injection site pain,2026-02-09,66,2,No,Recovering,Dose Reduced,No
+AE00026,SUB-0038,S01,Investigations,ALT increased,2025-12-11,41,2,No,Recovering,Dose Held,No
+AE00027,SUB-0038,S01,Skin disorders,Rash,2026-07-13,255,2,No,Ongoing,Dose Reduced,No
+AE00028,SUB-0039,S01,Infections,Upper respiratory tract infection,2026-09-21,19,3,Yes,Recovered,Dose Reduced,Yes
+AE00029,SUB-0040,S01,Musculoskeletal disorders,Myalgia,2026-09-12,1,2,No,Ongoing,Dose Held,Yes
+AE00030,SUB-0041,S01,Infections,Upper respiratory tract infection,2026-02-19,7,2,No,Recovering,Concomitant Treatment Given,No
+AE00031,SUB-0042,S01,Investigations,AST increased,2026-09-18,-5,1,No,Recovered,Dose Reduced,Yes
+AE00032,SUB-0042,S01,Musculoskeletal disorders,Back pain,2026-09-16,-7,2,No,Recovered,Dose Reduced,No
+AE00033,SUB-0042,S01,Metabolism disorders,Decreased appetite,2026-09-15,-8,3,No,Recovered,None,No
+AE00034,SUB-0045,S01,Vascular disorders,Hypotension,2026-09-28,185,1,No,Recovered,Dose Held,Yes
+AE00035,SUB-0045,S01,General disorders,Pyrexia,2026-07-24,119,2,No,Recovered,Dose Reduced,Yes
+AE00036,SUB-0045,S01,Vascular disorders,Hypotension,2026-08-12,138,2,No,Recovered,Dose Reduced,No
+AE00037,SUB-0047,S01,Investigations,AST increased,2026-09-11,4,2,No,Recovering,None,Yes
+AE00038,SUB-0047,S01,Vascular disorders,Hypertension,2026-09-25,18,3,No,Recovered,Dose Reduced,No
+AE00039,SUB-0049,S01,Skin disorders,Rash,2026-03-30,221,2,No,Recovered,Concomitant Treatment Given,No
+AE00040,SUB-0050,S01,Nervous system disorders,Peripheral neuropathy,2026-02-08,5,3,No,Recovering,Concomitant Treatment Given,No
+AE00041,SUB-0050,S01,Infections,Nasopharyngitis,2026-09-29,238,2,No,Recovered,Drug Withdrawn,No
+AE00042,SUB-0050,S01,Musculoskeletal disorders,Arthralgia,2026-03-30,55,3,Yes,Ongoing,None,Yes
+AE00043,SUB-0051,S01,Gastrointestinal disorders,Vomiting,2026-02-24,253,1,No,Recovered,Dose Reduced,No
+AE00044,SUB-0052,S01,Nervous system disorders,Headache,2026-04-10,278,1,No,Recovered,Drug Withdrawn,Yes
+AE00045,SUB-0054,S01,Investigations,AST increased,2026-06-21,257,3,No,Recovering,Concomitant Treatment Given,Yes
+AE00046,SUB-0058,S02,Gastrointestinal disorders,Constipation,2026-06-20,166,2,No,Recovering,None,No
+AE00047,SUB-0058,S02,Infections,Upper respiratory tract infection,2026-04-08,93,1,No,Recovering,Dose Held,Yes
+AE00048,SUB-0058,S02,Investigations,ALT increased,2026-09-21,259,2,No,Recovered,None,No
+AE00049,SUB-0058,S02,Gastrointestinal disorders,Constipation,2026-05-31,146,4,No,Recovered,Dose Held,Yes
+AE00050,SUB-0059,S02,Musculoskeletal disorders,Back pain,2026-09-18,-9,2,No,Recovered,Drug Withdrawn,No
+AE00051,SUB-0061,S02,Respiratory disorders,Cough,2026-08-03,224,1,No,Recovering,Dose Held,Yes
+AE00052,SUB-0061,S02,Respiratory disorders,Dyspnea,2026-01-29,38,2,No,Recovered,None,Yes
+AE00053,SUB-0063,S02,Nervous system disorders,Peripheral neuropathy,2026-09-14,76,2,No,Recovered,Drug Withdrawn,No
+AE00054,SUB-0066,S02,Respiratory disorders,Cough,2026-06-21,233,1,No,Ongoing,Dose Reduced,Yes
+AE00055,SUB-0069,S02,Metabolism disorders,Hyperglycemia,2026-09-21,5,2,No,Ongoing,None,Yes
+AE00056,SUB-0073,S02,Infections,Urinary tract infection,2025-12-07,93,1,No,Recovered,Drug Withdrawn,No
+AE00057,SUB-0073,S02,Respiratory disorders,Dyspnea,2026-06-28,296,2,No,Recovered,Dose Reduced,No
+AE00058,SUB-0073,S02,Infections,Urinary tract infection,2026-02-06,154,3,Yes,Recovered,None,Yes
+AE00059,SUB-0073,S02,Metabolism disorders,Hyperglycemia,2025-10-09,34,1,No,Recovering,None,No
+AE00060,SUB-0076,S02,General disorders,Pyrexia,2026-09-15,15,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00061,SUB-0076,S02,Investigations,Weight decreased,2026-09-14,14,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE00062,SUB-0086,S02,Skin disorders,Dry skin,2026-01-07,160,3,Yes,Recovered,Dose Reduced,Yes
+AE00063,SUB-0089,S02,Musculoskeletal disorders,Back pain,2026-01-27,160,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00064,SUB-0090,S02,Respiratory disorders,Cough,2026-06-27,299,1,No,Recovering,Concomitant Treatment Given,No
+AE00065,SUB-0092,S02,Infections,Upper respiratory tract infection,2026-09-26,232,1,No,Recovering,None,No
+AE00066,SUB-0096,S02,Musculoskeletal disorders,Arthralgia,2026-09-16,14,2,No,Recovered,Drug Withdrawn,Yes
+AE00067,SUB-0098,S02,Gastrointestinal disorders,Vomiting,2026-04-12,180,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00068,SUB-0098,S02,Vascular disorders,Hypotension,2025-11-11,28,1,No,Recovering,Drug Withdrawn,Yes
+AE00069,SUB-0098,S02,Nervous system disorders,Insomnia,2026-08-09,299,1,No,Recovered,Dose Held,No
+AE00070,SUB-0100,S02,Investigations,AST increased,2026-09-18,18,2,No,Recovered,Dose Reduced,No
+AE00071,SUB-0100,S02,Musculoskeletal disorders,Myalgia,2026-09-22,22,1,No,Recovering,Dose Held,No
+AE00072,SUB-0101,S02,General disorders,Pyrexia,2026-09-10,187,2,No,Recovered,Dose Reduced,Yes
+AE00073,SUB-0101,S02,Vascular disorders,Hypotension,2026-07-03,118,1,No,Recovered,Dose Held,No
+AE00074,SUB-0102,S02,Investigations,ALT increased,2026-02-16,13,1,No,Recovered,Dose Held,No
+AE00075,SUB-0103,S02,Infections,Urinary tract infection,2025-10-11,44,2,No,Recovered,Dose Reduced,Yes
+AE00076,SUB-0104,S02,Gastrointestinal disorders,Abdominal pain,2026-03-26,152,3,No,Recovering,Drug Withdrawn,No
+AE00077,SUB-0105,S02,Musculoskeletal disorders,Myalgia,2026-09-15,-13,2,No,Recovered,Dose Reduced,Yes
+AE00078,SUB-0106,S02,Skin disorders,Pruritus,2025-12-18,189,3,Yes,Recovered,Drug Withdrawn,Yes
+AE00079,SUB-0106,S02,Vascular disorders,Hypotension,2025-12-07,178,3,No,Recovered,None,No
+AE00080,SUB-0106,S02,Metabolism disorders,Decreased appetite,2026-02-28,261,2,No,Recovered,Dose Reduced,Yes
+AE00081,SUB-0112,S03,Investigations,Neutrophil count decreased,2026-07-23,196,5,No,Recovering,Concomitant Treatment Given,No
+AE00082,SUB-0112,S03,Respiratory disorders,Cough,2026-09-28,263,1,No,Recovering,Drug Withdrawn,Yes
+AE00083,SUB-0112,S03,Investigations,Weight decreased,2026-05-07,119,1,No,Recovered,Dose Reduced,No
+AE00084,SUB-0116,S03,Musculoskeletal disorders,Myalgia,2026-09-15,87,4,No,Recovered,Concomitant Treatment Given,No
+AE00085,SUB-0117,S03,Vascular disorders,Hypertension,2026-09-28,32,1,No,Recovering,Concomitant Treatment Given,Yes
+AE00086,SUB-0118,S03,Infections,Urinary tract infection,2026-03-06,78,3,No,Recovered,Drug Withdrawn,No
+AE00087,SUB-0118,S03,Nervous system disorders,Dizziness,2026-06-28,192,3,No,Ongoing,None,Yes
+AE00088,SUB-0120,S03,Nervous system disorders,Dizziness,2026-02-16,67,2,No,Recovered,Dose Held,Yes
+AE00089,SUB-0122,S03,Musculoskeletal disorders,Arthralgia,2026-09-22,7,2,No,Recovered,Drug Withdrawn,Yes
+AE00090,SUB-0122,S03,General disorders,Fatigue,2026-09-19,4,2,No,Recovered,Dose Reduced,No
+AE00091,SUB-0122,S03,Nervous system disorders,Insomnia,2026-09-11,-4,3,Yes,Recovered,Dose Held,No
+AE00092,SUB-0131,S03,Musculoskeletal disorders,Back pain,2026-06-05,6,1,No,Recovered,None,Yes
+AE00093,SUB-0131,S03,Infections,Upper respiratory tract infection,2026-09-09,102,1,No,Ongoing,Dose Held,No
+AE00094,SUB-0132,S03,Investigations,AST increased,2026-08-13,209,2,No,Recovered,Dose Reduced,Yes
+AE00095,SUB-0132,S03,Gastrointestinal disorders,Nausea,2026-09-12,239,4,Yes,Recovering,None,No
+AE00096,SUB-0134,S03,Investigations,AST increased,2025-12-11,82,2,No,Ongoing,Dose Held,No
+AE00097,SUB-0135,S03,Vascular disorders,Hypotension,2026-09-23,6,3,No,Recovered,Drug Withdrawn,Yes
+AE00098,SUB-0135,S03,Investigations,AST increased,2026-09-15,-2,3,No,Recovering,Dose Reduced,Yes
+AE00099,SUB-0135,S03,Gastrointestinal disorders,Nausea,2026-09-20,3,2,No,Recovered,Concomitant Treatment Given,No
+AE00100,SUB-0135,S03,Infections,Upper respiratory tract infection,2026-09-27,10,2,No,Ongoing,Dose Reduced,No
+AE00101,SUB-0136,S03,Vascular disorders,Hypertension,2026-02-09,57,1,No,Recovering,Concomitant Treatment Given,No
+AE00102,SUB-0136,S03,Nervous system disorders,Dizziness,2026-06-28,196,1,No,Recovering,None,Yes
+AE00103,SUB-0137,S03,Nervous system disorders,Peripheral neuropathy,2025-12-22,75,1,No,Recovered,Concomitant Treatment Given,No
+AE00104,SUB-0140,S03,Metabolism disorders,Decreased appetite,2026-09-23,3,1,No,Recovered,None,No
+AE00105,SUB-0143,S03,Investigations,Weight decreased,2026-09-17,189,2,No,Recovering,Dose Held,No
+AE00106,SUB-0146,S03,Gastrointestinal disorders,Vomiting,2025-09-10,15,1,No,Recovered,Dose Held,No
+AE00107,SUB-0146,S03,Infections,Nasopharyngitis,2025-11-03,69,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00108,SUB-0148,S03,Metabolism disorders,Decreased appetite,2026-09-23,159,3,No,Recovered,Drug Withdrawn,No
+AE00109,SUB-0148,S03,Vascular disorders,Hypertension,2026-09-14,150,1,No,Recovering,None,Yes
+AE00110,SUB-0149,S03,Respiratory disorders,Cough,2026-09-25,10,2,No,Recovered,None,Yes
+AE00111,SUB-0151,S03,General disorders,Injection site pain,2026-09-18,16,3,No,Recovered,Drug Withdrawn,Yes
+AE00112,SUB-0151,S03,Musculoskeletal disorders,Arthralgia,2026-09-11,9,3,Yes,Recovered,Dose Held,Yes
+AE00113,SUB-0152,S03,Metabolism disorders,Hyperglycemia,2026-09-14,62,1,No,Recovering,Dose Reduced,Yes
+AE00114,SUB-0156,S03,Nervous system disorders,Dizziness,2026-09-12,125,1,No,Recovered,Dose Held,Yes
+AE00115,SUB-0156,S03,Vascular disorders,Hypertension,2026-09-16,129,1,No,Ongoing,Drug Withdrawn,No
+AE00116,SUB-0156,S03,Metabolism disorders,Decreased appetite,2026-09-25,138,1,No,Recovered,Drug Withdrawn,Yes
+AE00117,SUB-0159,S03,Nervous system disorders,Peripheral neuropathy,2026-08-21,71,1,No,Recovered,Concomitant Treatment Given,No
+AE00118,SUB-0162,S03,Vascular disorders,Hypertension,2026-09-27,226,4,No,Recovering,None,No
+AE00119,SUB-0165,S03,Metabolism disorders,Hyperglycemia,2026-09-11,136,2,No,Recovered,Dose Reduced,No
+AE00120,SUB-0169,S03,Gastrointestinal disorders,Vomiting,2026-07-26,143,2,No,Recovered,Drug Withdrawn,No
+AE00121,SUB-0169,S03,Nervous system disorders,Headache,2026-03-23,18,1,No,Recovered,Drug Withdrawn,Yes
+AE00122,SUB-0169,S03,Nervous system disorders,Headache,2026-05-13,69,2,No,Recovered,Drug Withdrawn,No
+AE00123,SUB-0175,S03,General disorders,Injection site pain,2026-04-11,207,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00124,SUB-0175,S03,General disorders,Pyrexia,2025-10-09,23,2,No,Recovering,Concomitant Treatment Given,No
+AE00125,SUB-0176,S03,Gastrointestinal disorders,Constipation,2025-11-18,5,1,No,Recovering,Dose Held,No
+AE00126,SUB-0176,S03,Vascular disorders,Hypotension,2026-06-07,206,4,No,Recovered,None,No
+AE00127,SUB-0176,S03,Musculoskeletal disorders,Back pain,2026-02-07,86,3,Yes,Recovered,Drug Withdrawn,No
+AE00128,SUB-0176,S03,Nervous system disorders,Headache,2026-03-20,127,2,No,Recovered,Dose Reduced,Yes
+AE00129,SUB-0178,S04,Skin disorders,Pruritus,2025-05-27,80,1,No,Recovering,Dose Reduced,Yes
+AE00130,SUB-0180,S04,Vascular disorders,Hypertension,2026-05-16,42,3,No,Ongoing,Drug Withdrawn,No
+AE00131,SUB-0180,S04,Investigations,Neutrophil count decreased,2026-06-26,83,3,Yes,Recovered,Concomitant Treatment Given,No
+AE00132,SUB-0181,S04,Gastrointestinal disorders,Nausea,2025-10-29,222,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00133,SUB-0182,S04,Metabolism disorders,Hyperglycemia,2026-08-25,32,1,No,Recovered,Dose Reduced,Yes
+AE00134,SUB-0182,S04,Respiratory disorders,Cough,2026-07-29,5,4,No,Ongoing,Dose Held,Yes
+AE00135,SUB-0182,S04,Respiratory disorders,Dyspnea,2026-09-12,50,1,No,Recovering,Concomitant Treatment Given,No
+AE00136,SUB-0182,S04,Skin disorders,Rash,2026-09-29,67,2,No,Recovered,Drug Withdrawn,No
+AE00137,SUB-0184,S04,Musculoskeletal disorders,Myalgia,2026-07-15,139,2,No,Recovering,None,Yes
+AE00138,SUB-0186,S04,Respiratory disorders,Dyspnea,2025-09-27,27,1,No,Recovered with sequelae,None,Yes
+AE00139,SUB-0186,S04,Metabolism disorders,Hyperglycemia,2026-04-28,240,2,No,Recovered,Drug Withdrawn,No
+AE00140,SUB-0186,S04,Skin disorders,Rash,2026-03-08,189,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00141,SUB-0186,S04,General disorders,Injection site pain,2025-11-09,70,1,No,Recovered,None,Yes
+AE00142,SUB-0188,S04,General disorders,Fatigue,2026-04-25,185,1,No,Recovering,Concomitant Treatment Given,No
+AE00143,SUB-0188,S04,Infections,Nasopharyngitis,2026-07-25,276,1,No,Recovering,Dose Reduced,No
+AE00144,SUB-0190,S04,Infections,Nasopharyngitis,2026-09-28,90,1,No,Recovering,Dose Reduced,Yes
+AE00145,SUB-0190,S04,Nervous system disorders,Insomnia,2026-09-27,89,1,No,Recovered,Dose Reduced,No
+AE00146,SUB-0190,S04,Musculoskeletal disorders,Arthralgia,2026-09-26,88,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE00147,SUB-0193,S04,Vascular disorders,Hypertension,2026-09-14,51,1,No,Ongoing,Drug Withdrawn,Yes
+AE00148,SUB-0193,S04,Skin disorders,Pruritus,2026-09-12,49,3,Yes,Recovered,Dose Reduced,No
+AE00149,SUB-0195,S04,Metabolism disorders,Decreased appetite,2026-06-19,82,3,No,Recovered,Dose Held,No
+AE00150,SUB-0195,S04,Respiratory disorders,Cough,2026-04-13,15,4,No,Recovered,Dose Held,No
+AE00151,SUB-0198,S04,Investigations,Neutrophil count decreased,2026-06-19,207,1,No,Recovering,Dose Reduced,Yes
+AE00152,SUB-0200,S04,Infections,Upper respiratory tract infection,2025-05-17,87,1,No,Recovered with sequelae,Drug Withdrawn,No
+AE00153,SUB-0201,S04,Investigations,Weight decreased,2025-12-28,28,2,No,Recovered,None,Yes
+AE00154,SUB-0201,S04,Investigations,AST increased,2026-04-03,124,1,No,Recovered,Dose Held,Yes
+AE00155,SUB-0201,S04,Gastrointestinal disorders,Abdominal pain,2025-12-19,19,3,Yes,Ongoing,None,No
+AE00156,SUB-0209,S04,Gastrointestinal disorders,Vomiting,2025-06-12,75,3,Yes,Recovered,Dose Reduced,Yes
+AE00157,SUB-0209,S04,Nervous system disorders,Peripheral neuropathy,2025-11-22,238,1,No,Ongoing,Concomitant Treatment Given,No
+AE00158,SUB-0210,S04,Investigations,AST increased,2026-09-21,133,2,No,Recovered,Concomitant Treatment Given,No
+AE00159,SUB-0211,S04,Gastrointestinal disorders,Abdominal pain,2026-01-10,229,1,No,Recovering,Concomitant Treatment Given,No
+AE00160,SUB-0211,S04,Metabolism disorders,Decreased appetite,2025-07-15,50,1,No,Recovered,Concomitant Treatment Given,No
+AE00161,SUB-0211,S04,Skin disorders,Rash,2025-10-23,150,2,No,Recovered,Dose Held,Yes
+AE00162,SUB-0216,S04,Gastrointestinal disorders,Abdominal pain,2026-09-22,65,2,No,Fatal,Dose Held,No
+AE00163,SUB-0217,S04,Infections,Upper respiratory tract infection,2026-07-31,8,3,Yes,Recovered,Dose Reduced,Yes
+AE00164,SUB-0217,S04,Skin disorders,Dry skin,2026-09-23,62,4,Yes,Recovered,Drug Withdrawn,No
+AE00165,SUB-0219,S04,Skin disorders,Dry skin,2026-08-21,310,1,No,Recovered,Dose Reduced,Yes
+AE00166,SUB-0219,S04,Nervous system disorders,Dizziness,2026-05-02,199,2,No,Recovered,Dose Reduced,Yes
+AE00167,SUB-0219,S04,Skin disorders,Dry skin,2026-03-03,139,2,No,Recovered,Dose Held,No
+AE00168,SUB-0220,S04,Metabolism disorders,Decreased appetite,2025-06-09,41,1,No,Recovered,None,No
+AE00169,SUB-0222,S04,General disorders,Fatigue,2026-09-25,249,1,No,Recovered,Drug Withdrawn,No
+AE00170,SUB-0222,S04,Gastrointestinal disorders,Constipation,2026-09-28,252,1,No,Recovering,Dose Reduced,Yes
+AE00171,SUB-0222,S04,Vascular disorders,Hypertension,2026-02-25,37,2,No,Recovered,None,No
+AE00172,SUB-0223,S04,Gastrointestinal disorders,Abdominal pain,2026-09-22,136,3,Yes,Recovered,Dose Reduced,No
+AE00173,SUB-0223,S04,General disorders,Injection site pain,2026-09-29,143,3,Yes,Recovered,Dose Reduced,No
+AE00174,SUB-0224,S04,General disorders,Fatigue,2026-09-24,201,1,No,Recovered,None,Yes
+AE00175,SUB-0232,S04,Vascular disorders,Hypotension,2026-01-23,37,3,Yes,Recovered,None,No
+AE00176,SUB-0235,S05,Musculoskeletal disorders,Back pain,2026-03-18,117,1,No,Recovered,Dose Reduced,Yes
+AE00177,SUB-0235,S05,Gastrointestinal disorders,Constipation,2026-07-27,248,1,No,Recovering,None,Yes
+AE00178,SUB-0235,S05,Musculoskeletal disorders,Back pain,2026-02-08,79,3,Yes,Recovered,Dose Reduced,No
+AE00179,SUB-0237,S05,Respiratory disorders,Cough,2025-08-04,86,3,No,Recovered,Dose Reduced,No
+AE00180,SUB-0238,S05,Infections,Nasopharyngitis,2025-08-31,105,1,No,Ongoing,Drug Withdrawn,No
+AE00181,SUB-0242,S05,Musculoskeletal disorders,Back pain,2026-05-20,88,2,No,Recovering,Concomitant Treatment Given,Yes
+AE00182,SUB-0245,S05,Investigations,AST increased,2026-09-29,163,1,No,Recovered,Drug Withdrawn,Yes
+AE00183,SUB-0245,S05,Metabolism disorders,Hyperglycemia,2026-07-06,78,1,No,Recovered,Concomitant Treatment Given,No
+AE00184,SUB-0245,S05,Infections,Urinary tract infection,2026-09-23,157,2,No,Recovered,None,Yes
+AE00185,SUB-0245,S05,Respiratory disorders,Cough,2026-05-31,42,1,No,Ongoing,Dose Reduced,Yes
+AE00186,SUB-0246,S05,General disorders,Injection site pain,2026-01-28,21,2,No,Recovering,Concomitant Treatment Given,No
+AE00187,SUB-0246,S05,Investigations,Weight decreased,2026-09-26,262,1,No,Recovering,Concomitant Treatment Given,Yes
+AE00188,SUB-0246,S05,Vascular disorders,Hypotension,2026-05-29,142,1,No,Recovered,Dose Reduced,No
+AE00189,SUB-0246,S05,Investigations,ALT increased,2026-08-15,220,3,No,Recovered,Drug Withdrawn,Yes
+AE00190,SUB-0252,S05,Vascular disorders,Hypotension,2026-07-03,273,4,No,Recovered,Dose Reduced,No
+AE00191,SUB-0253,S05,Gastrointestinal disorders,Diarrhea,2025-08-05,86,2,No,Recovering,Concomitant Treatment Given,No
+AE00192,SUB-0253,S05,Investigations,Neutrophil count decreased,2026-01-19,253,2,No,Recovered,Drug Withdrawn,Yes
+AE00193,SUB-0253,S05,Skin disorders,Rash,2026-03-22,315,2,No,Recovered,Drug Withdrawn,No
+AE00194,SUB-0253,S05,Metabolism disorders,Decreased appetite,2026-02-10,275,1,No,Ongoing,Drug Withdrawn,Yes
+AE00195,SUB-0256,S05,General disorders,Pyrexia,2025-07-29,169,4,No,Recovered,Drug Withdrawn,No
+AE00196,SUB-0258,S05,Vascular disorders,Hypotension,2025-10-08,225,1,No,Recovered,Drug Withdrawn,Yes
+AE00197,SUB-0264,S05,Infections,Urinary tract infection,2025-09-05,73,3,Yes,Recovering,Drug Withdrawn,No
+AE00198,SUB-0265,S05,Musculoskeletal disorders,Arthralgia,2026-08-22,265,3,Yes,Recovering,None,No
+AE00199,SUB-0267,S05,General disorders,Fatigue,2026-05-21,1,1,No,Recovering,Dose Reduced,Yes
+AE00200,SUB-0268,S05,Infections,Upper respiratory tract infection,2026-09-13,106,1,No,Recovered,None,No
+AE00201,SUB-0268,S05,Respiratory disorders,Cough,2026-09-18,111,4,No,Recovering,None,No
+AE00202,SUB-0268,S05,Infections,Upper respiratory tract infection,2026-09-13,106,1,No,Recovered,None,No
+AE00203,SUB-0269,S05,Metabolism disorders,Decreased appetite,2025-12-12,58,1,No,Fatal,None,No
+AE00204,SUB-0269,S05,Gastrointestinal disorders,Diarrhea,2026-02-08,116,2,No,Recovered with sequelae,Drug Withdrawn,Yes
+AE00205,SUB-0272,S05,Musculoskeletal disorders,Back pain,2025-12-08,1,3,No,Ongoing,Concomitant Treatment Given,No
+AE00206,SUB-0272,S05,Musculoskeletal disorders,Arthralgia,2026-07-09,214,2,No,Ongoing,Concomitant Treatment Given,No
+AE00207,SUB-0273,S05,Infections,Nasopharyngitis,2025-08-06,73,2,No,Recovered,Dose Held,No
+AE00208,SUB-0273,S05,Skin disorders,Pruritus,2025-08-19,86,1,No,Recovered,Dose Held,Yes
+AE00209,SUB-0273,S05,Gastrointestinal disorders,Constipation,2025-08-23,90,1,No,Recovering,Drug Withdrawn,No
+AE00210,SUB-0274,S05,General disorders,Injection site pain,2026-03-04,132,2,No,Ongoing,None,No
+AE00211,SUB-0275,S05,Investigations,ALT increased,2026-09-23,63,5,No,Recovered,Dose Held,Yes
+AE00212,SUB-0275,S05,Vascular disorders,Hypotension,2026-09-14,54,1,No,Recovering,Dose Held,No
+AE00213,SUB-0277,S05,Investigations,AST increased,2026-09-22,71,3,No,Recovered,None,No
+AE00214,SUB-0285,S05,Nervous system disorders,Dizziness,2025-07-17,6,1,No,Recovering,Dose Held,Yes
+AE00215,SUB-0289,S06,General disorders,Fatigue,2026-06-12,116,1,No,Recovered,Drug Withdrawn,No
+AE00216,SUB-0291,S06,Skin disorders,Rash,2026-03-12,261,1,No,Ongoing,Dose Reduced,No
+AE00217,SUB-0292,S06,Infections,Urinary tract infection,2026-09-29,165,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00218,SUB-0292,S06,Vascular disorders,Hypotension,2026-08-22,127,2,No,Recovered,None,No
+AE00219,SUB-0294,S06,Nervous system disorders,Insomnia,2026-09-21,249,1,No,Ongoing,Dose Held,Yes
+AE00220,SUB-0297,S06,Respiratory disorders,Dyspnea,2026-01-02,131,1,No,Recovered,Dose Held,Yes
+AE00221,SUB-0297,S06,Nervous system disorders,Insomnia,2026-05-13,262,2,No,Recovering,Dose Held,Yes
+AE00222,SUB-0297,S06,Respiratory disorders,Cough,2025-10-31,68,2,No,Recovered,Dose Held,Yes
+AE00223,SUB-0300,S06,Metabolism disorders,Decreased appetite,2026-05-21,277,1,No,Recovered,Dose Reduced,Yes
+AE00224,SUB-0301,S06,Infections,Urinary tract infection,2026-01-26,108,2,No,Recovered,Dose Held,Yes
+AE00225,SUB-0302,S06,Investigations,ALT increased,2026-09-13,-15,3,No,Ongoing,Drug Withdrawn,No
+AE00226,SUB-0302,S06,Metabolism disorders,Hyperglycemia,2026-09-21,-7,1,No,Fatal,Drug Withdrawn,Yes
+AE00227,SUB-0305,S06,Investigations,Neutrophil count decreased,2026-09-29,31,2,No,Ongoing,Dose Held,No
+AE00228,SUB-0306,S06,Metabolism disorders,Decreased appetite,2026-04-16,320,3,No,Recovered,Dose Reduced,No
+AE00229,SUB-0308,S06,Investigations,AST increased,2026-09-27,202,3,Yes,Recovered,Dose Held,No
+AE00230,SUB-0308,S06,Respiratory disorders,Dyspnea,2026-09-22,197,4,No,Recovered,None,Yes
+AE00231,SUB-0309,S06,Investigations,AST increased,2026-09-22,86,1,No,Recovered,Dose Held,No
+AE00232,SUB-0310,S06,Infections,Urinary tract infection,2026-09-13,170,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00233,SUB-0310,S06,Skin disorders,Pruritus,2026-03-31,4,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE00234,SUB-0313,S06,Vascular disorders,Hypertension,2026-09-24,262,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00235,SUB-0315,S06,Respiratory disorders,Cough,2026-01-05,172,1,No,Recovered,None,No
+AE00236,SUB-0315,S06,Respiratory disorders,Dyspnea,2026-01-31,198,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00237,SUB-0315,S06,Nervous system disorders,Insomnia,2026-05-09,296,3,Yes,Ongoing,Dose Reduced,Yes
+AE00238,SUB-0316,S06,Skin disorders,Dry skin,2026-09-30,6,3,Yes,Recovered,Dose Reduced,Yes
+AE00239,SUB-0318,S06,Metabolism disorders,Decreased appetite,2026-02-06,147,1,No,Recovered,None,No
+AE00240,SUB-0318,S06,Metabolism disorders,Decreased appetite,2026-02-01,142,1,No,Ongoing,None,Yes
+AE00241,SUB-0323,S06,Respiratory disorders,Dyspnea,2026-09-17,123,2,No,Recovered,Drug Withdrawn,Yes
+AE00242,SUB-0323,S06,Musculoskeletal disorders,Arthralgia,2026-09-17,123,2,No,Recovering,Drug Withdrawn,No
+AE00243,SUB-0330,S06,Gastrointestinal disorders,Diarrhea,2026-03-28,176,3,No,Ongoing,Concomitant Treatment Given,Yes
+AE00244,SUB-0331,S06,Infections,Upper respiratory tract infection,2026-08-26,123,1,No,Recovered,None,Yes
+AE00245,SUB-0331,S06,Metabolism disorders,Decreased appetite,2026-09-23,151,1,No,Recovering,Dose Held,Yes
+AE00246,SUB-0335,S06,Vascular disorders,Hypotension,2026-06-25,150,3,No,Recovered,Concomitant Treatment Given,No
+AE00247,SUB-0337,S06,Vascular disorders,Hypertension,2026-09-17,146,1,No,Recovered,None,Yes
+AE00248,SUB-0337,S06,Investigations,ALT increased,2026-08-13,111,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00249,SUB-0338,S06,Gastrointestinal disorders,Vomiting,2026-09-27,169,2,No,Ongoing,Dose Reduced,Yes
+AE00250,SUB-0341,S06,General disorders,Edema peripheral,2026-07-17,131,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00251,SUB-0343,S06,Vascular disorders,Hypertension,2026-09-27,-2,2,No,Recovering,Concomitant Treatment Given,No
+AE00252,SUB-0343,S06,Vascular disorders,Hypotension,2026-09-21,-8,4,No,Recovered,Dose Held,Yes
+AE00253,SUB-0344,S06,General disorders,Edema peripheral,2026-09-25,142,5,No,Recovered,Dose Held,No
+AE00254,SUB-0345,S06,Skin disorders,Rash,2026-08-18,278,3,No,Recovered,Concomitant Treatment Given,No
+AE00255,SUB-0347,S06,Gastrointestinal disorders,Nausea,2026-01-12,145,3,No,Ongoing,Concomitant Treatment Given,No
+AE00256,SUB-0347,S06,Skin disorders,Pruritus,2025-10-15,56,1,No,Recovered,Concomitant Treatment Given,No
+AE00257,SUB-0347,S06,Musculoskeletal disorders,Back pain,2025-12-17,119,3,Yes,Ongoing,Dose Reduced,No
+AE00258,SUB-0347,S06,Gastrointestinal disorders,Constipation,2026-01-05,138,3,Yes,Recovered,None,Yes
+AE00259,SUB-0349,S07,Skin disorders,Pruritus,2026-09-13,126,1,No,Recovered,None,Yes
+AE00260,SUB-0349,S07,Vascular disorders,Hypotension,2026-05-19,9,1,No,Recovered,None,Yes
+AE00261,SUB-0349,S07,General disorders,Edema peripheral,2026-09-23,136,1,No,Recovering,None,Yes
+AE00262,SUB-0351,S07,Respiratory disorders,Cough,2026-08-05,48,1,No,Recovered,Dose Held,No
+AE00263,SUB-0354,S07,Metabolism disorders,Hyperglycemia,2026-05-19,154,1,No,Recovered,Drug Withdrawn,No
+AE00264,SUB-0355,S07,Respiratory disorders,Dyspnea,2026-09-07,4,3,Yes,Ongoing,Dose Held,No
+AE00265,SUB-0355,S07,Infections,Nasopharyngitis,2026-09-19,16,1,No,Recovering,Dose Held,Yes
+AE00266,SUB-0355,S07,Nervous system disorders,Dizziness,2026-09-12,9,1,No,Recovered,Dose Held,Yes
+AE00267,SUB-0357,S07,Musculoskeletal disorders,Arthralgia,2026-09-10,-16,2,No,Recovered,None,No
+AE00268,SUB-0357,S07,Skin disorders,Pruritus,2026-09-26,0,2,No,Recovered,Drug Withdrawn,Yes
+AE00269,SUB-0357,S07,Vascular disorders,Hypotension,2026-09-14,-12,1,No,Recovered,Dose Reduced,Yes
+AE00270,SUB-0361,S07,General disorders,Pyrexia,2026-07-26,313,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00271,SUB-0366,S07,Infections,Nasopharyngitis,2026-04-20,161,3,Yes,Recovered,Dose Reduced,No
+AE00272,SUB-0367,S07,Gastrointestinal disorders,Vomiting,2026-09-23,25,3,Yes,Recovered,Concomitant Treatment Given,No
+AE00273,SUB-0369,S07,Skin disorders,Pruritus,2026-09-29,12,2,No,Recovered,Dose Held,No
+AE00274,SUB-0377,S07,Metabolism disorders,Hyperglycemia,2026-09-14,139,3,No,Ongoing,Drug Withdrawn,No
+AE00275,SUB-0377,S07,Investigations,Neutrophil count decreased,2026-08-09,103,1,No,Ongoing,Drug Withdrawn,Yes
+AE00276,SUB-0377,S07,Respiratory disorders,Cough,2026-09-14,139,2,No,Ongoing,Concomitant Treatment Given,No
+AE00277,SUB-0379,S07,Vascular disorders,Hypotension,2026-09-20,-7,1,No,Recovering,None,No
+AE00278,SUB-0385,S07,Vascular disorders,Hypertension,2026-09-28,4,1,No,Recovered,Dose Held,Yes
+AE00279,SUB-0386,S07,Respiratory disorders,Dyspnea,2026-09-26,8,1,No,Recovered,None,No
+AE00280,SUB-0386,S07,Skin disorders,Dry skin,2026-09-28,10,2,No,Ongoing,Dose Held,Yes
+AE00281,SUB-0386,S07,Skin disorders,Pruritus,2026-09-17,-1,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00282,SUB-0387,S07,Vascular disorders,Hypotension,2026-09-29,203,3,No,Recovered with sequelae,Dose Reduced,Yes
+AE00283,SUB-0387,S07,Musculoskeletal disorders,Arthralgia,2026-08-16,159,3,No,Recovered,Dose Held,No
+AE00284,SUB-0387,S07,Skin disorders,Dry skin,2026-09-10,184,2,No,Recovered,Drug Withdrawn,No
+AE00285,SUB-0387,S07,Metabolism disorders,Hyperglycemia,2026-08-14,157,2,No,Recovered,Dose Reduced,No
+AE00286,SUB-0389,S07,Metabolism disorders,Decreased appetite,2026-09-26,280,1,No,Recovering,Dose Reduced,No
+AE00287,SUB-0397,S07,Metabolism disorders,Hyperglycemia,2026-09-18,86,4,No,Recovered,None,Yes
+AE00288,SUB-0397,S07,Gastrointestinal disorders,Abdominal pain,2026-09-16,84,1,No,Recovered,Concomitant Treatment Given,No
+AE00289,SUB-0398,S07,General disorders,Pyrexia,2026-09-10,-7,2,No,Recovered,None,No
+AE00290,SUB-0398,S07,Nervous system disorders,Headache,2026-09-21,4,4,No,Recovered,Concomitant Treatment Given,No
+AE00291,SUB-0398,S07,Investigations,Weight decreased,2026-09-19,2,3,No,Recovered,Drug Withdrawn,Yes
+AE00292,SUB-0401,S07,Vascular disorders,Hypertension,2026-09-07,213,3,Yes,Ongoing,Dose Held,Yes
+AE00293,SUB-0403,S07,Metabolism disorders,Decreased appetite,2026-07-13,69,3,No,Recovered,Dose Held,No
+AE00294,SUB-0403,S07,General disorders,Pyrexia,2026-09-16,134,3,No,Recovered with sequelae,Drug Withdrawn,Yes
+AE00295,SUB-0404,S07,Nervous system disorders,Insomnia,2026-09-22,95,3,No,Recovered,Dose Reduced,Yes
+AE00296,SUB-0404,S07,Respiratory disorders,Cough,2026-09-10,83,2,No,Ongoing,Dose Held,Yes
+AE00297,SUB-0409,S07,Infections,Upper respiratory tract infection,2026-04-29,48,3,No,Recovered,Dose Reduced,Yes
+AE00298,SUB-0410,S07,Investigations,AST increased,2026-08-03,214,2,No,Ongoing,Concomitant Treatment Given,No
+AE00299,SUB-0410,S07,Infections,Nasopharyngitis,2026-06-08,158,3,No,Recovered,Concomitant Treatment Given,No
+AE00300,SUB-0411,S07,Respiratory disorders,Dyspnea,2026-09-29,23,2,No,Ongoing,Concomitant Treatment Given,No
+AE00301,SUB-0411,S07,Metabolism disorders,Decreased appetite,2026-09-28,22,4,No,Recovered,Drug Withdrawn,No
+AE00302,SUB-0414,S08,General disorders,Fatigue,2026-09-25,129,2,No,Recovered,Dose Held,Yes
+AE00303,SUB-0415,S08,General disorders,Edema peripheral,2025-10-04,51,2,No,Recovered,None,No
+AE00304,SUB-0415,S08,Vascular disorders,Hypertension,2025-12-15,123,3,Yes,Recovered,None,No
+AE00305,SUB-0417,S08,Respiratory disorders,Dyspnea,2026-05-22,122,1,No,Recovering,Dose Reduced,No
+AE00306,SUB-0418,S08,Infections,Urinary tract infection,2026-09-14,171,2,No,Ongoing,None,Yes
+AE00307,SUB-0418,S08,Metabolism disorders,Hyperglycemia,2026-07-27,122,2,No,Ongoing,Concomitant Treatment Given,No
+AE00308,SUB-0425,S08,Musculoskeletal disorders,Arthralgia,2026-09-23,1,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE00309,SUB-0425,S08,Infections,Nasopharyngitis,2026-09-29,7,3,No,Ongoing,Drug Withdrawn,Yes
+AE00310,SUB-0426,S08,Respiratory disorders,Cough,2026-09-29,29,1,No,Recovered,Concomitant Treatment Given,No
+AE00311,SUB-0427,S08,Musculoskeletal disorders,Arthralgia,2026-05-02,240,1,No,Recovering,Dose Reduced,Yes
+AE00312,SUB-0429,S08,General disorders,Fatigue,2025-08-08,47,1,No,Ongoing,Drug Withdrawn,No
+AE00313,SUB-0429,S08,Investigations,Neutrophil count decreased,2025-07-07,15,4,No,Ongoing,Concomitant Treatment Given,No
+AE00314,SUB-0430,S08,Respiratory disorders,Dyspnea,2026-04-07,270,1,No,Recovering,None,Yes
+AE00315,SUB-0434,S08,General disorders,Injection site pain,2025-11-08,100,3,No,Recovered,Concomitant Treatment Given,No
+AE00316,SUB-0437,S08,Infections,Upper respiratory tract infection,2025-12-30,187,1,No,Ongoing,Concomitant Treatment Given,No
+AE00317,SUB-0437,S08,Nervous system disorders,Headache,2025-08-15,50,1,No,Recovering,Dose Reduced,Yes
+AE00318,SUB-0439,S08,Respiratory disorders,Dyspnea,2026-09-14,20,2,No,Recovered,Dose Reduced,No
+AE00319,SUB-0439,S08,General disorders,Injection site pain,2026-09-14,20,3,No,Recovering,Concomitant Treatment Given,Yes
+AE00320,SUB-0441,S08,Investigations,ALT increased,2026-01-31,128,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00321,SUB-0441,S08,Musculoskeletal disorders,Back pain,2025-11-22,58,1,No,Recovered,Dose Held,No
+AE00322,SUB-0443,S08,Skin disorders,Pruritus,2026-09-28,92,1,No,Recovered,Dose Held,Yes
+AE00323,SUB-0443,S08,Metabolism disorders,Decreased appetite,2026-09-25,89,3,Yes,Recovered,Dose Reduced,No
+AE00324,SUB-0443,S08,Respiratory disorders,Cough,2026-09-18,82,3,Yes,Ongoing,Dose Held,No
+AE00325,SUB-0445,S08,Vascular disorders,Hypotension,2026-09-11,-12,2,No,Ongoing,Dose Reduced,Yes
+AE00326,SUB-0445,S08,Investigations,AST increased,2026-09-16,-7,4,No,Recovered,Drug Withdrawn,Yes
+AE00327,SUB-0447,S08,General disorders,Edema peripheral,2026-03-07,236,1,No,Ongoing,Dose Held,No
+AE00328,SUB-0447,S08,General disorders,Injection site pain,2026-05-13,303,2,No,Recovered,Drug Withdrawn,No
+AE00329,SUB-0450,S08,Nervous system disorders,Insomnia,2026-05-16,288,4,No,Recovering,Dose Reduced,No
+AE00330,SUB-0450,S08,Skin disorders,Rash,2025-10-12,72,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00331,SUB-0450,S08,Investigations,ALT increased,2026-01-30,182,1,No,Ongoing,Dose Held,No
+AE00332,SUB-0451,S08,Infections,Urinary tract infection,2026-09-23,95,2,No,Ongoing,Drug Withdrawn,No
+AE00333,SUB-0451,S08,Gastrointestinal disorders,Abdominal pain,2026-09-25,97,2,No,Recovering,Drug Withdrawn,No
+AE00334,SUB-0452,S08,Metabolism disorders,Decreased appetite,2026-06-20,130,3,Yes,Recovered,Dose Reduced,No
+AE00335,SUB-0452,S08,Infections,Upper respiratory tract infection,2026-05-10,89,2,No,Recovering,Drug Withdrawn,No
+AE00336,SUB-0452,S08,Investigations,AST increased,2026-06-08,118,2,No,Recovered,Dose Reduced,Yes
+AE00337,SUB-0452,S08,Skin disorders,Pruritus,2026-09-18,220,2,No,Recovered,Dose Reduced,Yes
+AE00338,SUB-0453,S08,Investigations,ALT increased,2026-07-19,145,1,No,Ongoing,Drug Withdrawn,Yes
+AE00339,SUB-0457,S08,Metabolism disorders,Hyperglycemia,2026-09-20,276,1,No,Recovered,Dose Reduced,Yes
+AE00340,SUB-0458,S08,Vascular disorders,Hypertension,2025-09-04,49,1,No,Recovering,Drug Withdrawn,No
+AE00341,SUB-0458,S08,Infections,Urinary tract infection,2026-04-14,271,2,No,Recovering,Dose Reduced,No
+AE00342,SUB-0460,S08,Gastrointestinal disorders,Diarrhea,2026-09-23,111,3,No,Recovering,Drug Withdrawn,No
+AE00343,SUB-0460,S08,Investigations,ALT increased,2026-09-08,96,3,No,Recovered,Dose Held,No
+AE00344,SUB-0462,S08,Nervous system disorders,Dizziness,2026-05-19,316,1,No,Recovered,Drug Withdrawn,No
+AE00345,SUB-0465,S08,Nervous system disorders,Headache,2026-09-29,85,3,Yes,Recovering,None,No
+AE00346,SUB-0465,S08,Vascular disorders,Hypotension,2026-08-18,43,3,No,Recovered,None,Yes
+AE00347,SUB-0466,S08,Metabolism disorders,Hyperglycemia,2025-08-06,54,2,No,Recovering,Dose Reduced,Yes
+AE00348,SUB-0470,S08,Investigations,AST increased,2026-09-11,-9,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE00349,SUB-0470,S08,Vascular disorders,Hypotension,2026-09-22,2,3,Yes,Recovering,None,No
+AE00350,SUB-0471,S08,General disorders,Injection site pain,2026-07-01,20,2,No,Recovered,Drug Withdrawn,Yes
+AE00351,SUB-0476,S08,Respiratory disorders,Dyspnea,2026-06-18,91,2,No,Recovered,None,Yes
+AE00352,SUB-0479,S08,Investigations,ALT increased,2026-09-13,2,1,No,Recovering,Dose Reduced,Yes
+AE00353,SUB-0479,S08,General disorders,Pyrexia,2026-09-17,6,3,No,Ongoing,Dose Held,Yes
+AE00354,SUB-0480,S08,Metabolism disorders,Decreased appetite,2026-05-20,139,2,No,Recovered with sequelae,Concomitant Treatment Given,No
+AE00355,SUB-0481,S09,Vascular disorders,Hypertension,2026-09-19,-1,4,Yes,Recovered,Drug Withdrawn,Yes
+AE00356,SUB-0486,S09,Musculoskeletal disorders,Myalgia,2026-02-05,85,1,No,Ongoing,Dose Reduced,Yes
+AE00357,SUB-0488,S09,Metabolism disorders,Hyperglycemia,2026-08-28,268,1,No,Recovering,Dose Reduced,Yes
+AE00358,SUB-0488,S09,Metabolism disorders,Decreased appetite,2026-05-04,152,3,No,Recovered,Drug Withdrawn,No
+AE00359,SUB-0490,S09,Gastrointestinal disorders,Nausea,2026-05-15,203,3,Yes,Recovering,Drug Withdrawn,No
+AE00360,SUB-0492,S09,Nervous system disorders,Peripheral neuropathy,2026-09-12,10,1,No,Recovered,Drug Withdrawn,Yes
+AE00361,SUB-0493,S09,Metabolism disorders,Hyperglycemia,2026-09-24,305,3,Yes,Recovering,Concomitant Treatment Given,No
+AE00362,SUB-0493,S09,Musculoskeletal disorders,Myalgia,2025-11-27,4,1,No,Recovering,Dose Held,No
+AE00363,SUB-0493,S09,Respiratory disorders,Dyspnea,2026-02-17,86,5,No,Ongoing,Drug Withdrawn,No
+AE00364,SUB-0493,S09,Nervous system disorders,Peripheral neuropathy,2026-09-01,282,2,No,Recovered,None,No
+AE00365,SUB-0495,S09,Infections,Nasopharyngitis,2026-09-10,3,2,No,Ongoing,Concomitant Treatment Given,No
+AE00366,SUB-0495,S09,General disorders,Pyrexia,2026-09-25,18,2,No,Recovered,Dose Held,Yes
+AE00367,SUB-0499,S09,Skin disorders,Rash,2026-04-06,117,3,No,Recovering,Dose Held,No
+AE00368,SUB-0499,S09,Vascular disorders,Hypotension,2026-09-07,271,2,No,Recovered,Dose Reduced,Yes
+AE00369,SUB-0500,S09,General disorders,Fatigue,2026-09-16,-11,2,No,Recovering,Concomitant Treatment Given,No
+AE00370,SUB-0500,S09,Nervous system disorders,Headache,2026-09-28,1,3,No,Recovered,Drug Withdrawn,No
+AE00371,SUB-0502,S09,Musculoskeletal disorders,Myalgia,2026-09-16,-8,3,No,Recovering,Drug Withdrawn,No
+AE00372,SUB-0503,S09,Nervous system disorders,Insomnia,2026-09-21,36,1,No,Recovered,Drug Withdrawn,No
+AE00373,SUB-0509,S09,Infections,Urinary tract infection,2026-02-19,86,4,Yes,Recovering,Dose Reduced,No
+AE00374,SUB-0520,S09,Nervous system disorders,Dizziness,2026-09-17,-10,3,No,Recovering,Dose Reduced,Yes
+AE00375,SUB-0520,S09,Infections,Nasopharyngitis,2026-09-17,-10,1,No,Recovering,Concomitant Treatment Given,No
+AE00376,SUB-0526,S09,General disorders,Pyrexia,2026-04-26,16,5,No,Ongoing,Drug Withdrawn,No
+AE00377,SUB-0526,S09,Nervous system disorders,Insomnia,2026-08-25,137,3,No,Recovered with sequelae,Dose Reduced,No
+AE00378,SUB-0529,S09,Musculoskeletal disorders,Arthralgia,2026-09-22,1,3,No,Recovering,Dose Held,Yes
+AE00379,SUB-0530,S09,Gastrointestinal disorders,Vomiting,2026-05-27,207,3,No,Ongoing,Dose Reduced,Yes
+AE00380,SUB-0541,S09,Respiratory disorders,Dyspnea,2026-09-23,241,1,No,Ongoing,Drug Withdrawn,Yes
+AE00381,SUB-0548,S10,Infections,Upper respiratory tract infection,2026-04-29,134,1,No,Recovering,Drug Withdrawn,Yes
+AE00382,SUB-0548,S10,Gastrointestinal disorders,Vomiting,2026-06-20,186,2,No,Ongoing,Dose Reduced,No
+AE00383,SUB-0548,S10,Infections,Urinary tract infection,2026-08-26,253,2,No,Recovered,None,No
+AE00384,SUB-0549,S10,Vascular disorders,Hypertension,2026-09-07,208,1,No,Ongoing,None,Yes
+AE00385,SUB-0549,S10,Musculoskeletal disorders,Myalgia,2026-04-21,69,1,No,Recovered,Drug Withdrawn,Yes
+AE00386,SUB-0552,S10,Gastrointestinal disorders,Diarrhea,2026-06-17,270,5,No,Recovering,Concomitant Treatment Given,Yes
+AE00387,SUB-0552,S10,Investigations,Neutrophil count decreased,2026-03-11,172,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE00388,SUB-0552,S10,General disorders,Injection site pain,2026-07-23,306,1,No,Recovered,None,Yes
+AE00389,SUB-0558,S10,Skin disorders,Rash,2026-06-13,211,1,No,Recovered,Dose Held,No
+AE00390,SUB-0559,S10,Musculoskeletal disorders,Arthralgia,2026-07-13,259,1,No,Recovered,Concomitant Treatment Given,No
+AE00391,SUB-0559,S10,Infections,Nasopharyngitis,2026-01-20,85,2,No,Recovered with sequelae,Dose Held,No
+AE00392,SUB-0561,S10,General disorders,Pyrexia,2026-03-14,237,2,No,Recovered,Dose Reduced,No
+AE00393,SUB-0562,S10,Respiratory disorders,Dyspnea,2026-09-17,262,1,No,Recovered,Dose Held,No
+AE00394,SUB-0562,S10,Respiratory disorders,Cough,2026-03-09,70,1,No,Recovered,Dose Held,No
+AE00395,SUB-0562,S10,Nervous system disorders,Insomnia,2026-07-26,209,3,No,Recovering,Dose Reduced,No
+AE00396,SUB-0563,S10,Musculoskeletal disorders,Back pain,2026-07-16,231,2,No,Recovering,Drug Withdrawn,Yes
+AE00397,SUB-0563,S10,Metabolism disorders,Decreased appetite,2026-08-21,267,2,No,Recovered,Concomitant Treatment Given,No
+AE00398,SUB-0563,S10,Metabolism disorders,Hyperglycemia,2025-12-09,12,2,No,Recovered,Drug Withdrawn,Yes
+AE00399,SUB-0568,S10,Skin disorders,Dry skin,2026-09-18,-3,1,No,Recovering,None,No
+AE00400,SUB-0575,S10,Vascular disorders,Hypotension,2026-01-10,62,1,No,Recovered with sequelae,Drug Withdrawn,No
+AE00401,SUB-0576,S10,Musculoskeletal disorders,Arthralgia,2026-07-21,288,1,No,Recovering,Dose Held,No
+AE00402,SUB-0580,S10,Nervous system disorders,Dizziness,2026-09-23,16,2,No,Ongoing,Dose Held,No
+AE00403,SUB-0580,S10,Respiratory disorders,Cough,2026-09-10,3,2,No,Recovered,Dose Reduced,No
+AE00404,SUB-0583,S10,General disorders,Injection site pain,2026-06-25,237,3,Yes,Ongoing,Dose Held,Yes
+AE00405,SUB-0583,S10,Metabolism disorders,Hyperglycemia,2026-08-19,292,4,No,Recovering,Dose Held,Yes
+AE00406,SUB-0583,S10,Musculoskeletal disorders,Back pain,2026-07-11,253,2,No,Recovered with sequelae,Dose Reduced,Yes
+AE00407,SUB-0585,S10,General disorders,Fatigue,2026-02-18,12,3,Yes,Recovered,Concomitant Treatment Given,No
+AE00408,SUB-0585,S10,Metabolism disorders,Decreased appetite,2026-09-27,233,2,No,Recovered,None,No
+AE00409,SUB-0586,S10,Infections,Upper respiratory tract infection,2026-03-08,104,3,No,Recovered,None,Yes
+AE00410,SUB-0586,S10,Vascular disorders,Hypotension,2026-03-12,108,3,Yes,Recovering,None,No
+AE00411,SUB-0587,S10,Respiratory disorders,Dyspnea,2026-06-27,197,3,Yes,Recovered with sequelae,Drug Withdrawn,Yes
+AE00412,SUB-0587,S10,Skin disorders,Pruritus,2026-06-14,184,3,Yes,Recovered,Drug Withdrawn,No
+AE00413,SUB-0588,S10,Musculoskeletal disorders,Arthralgia,2026-09-10,75,1,No,Recovered,Dose Held,No
+AE00414,SUB-0590,S10,Gastrointestinal disorders,Constipation,2026-09-29,199,1,No,Recovered,Drug Withdrawn,No
+AE00415,SUB-0590,S10,Musculoskeletal disorders,Back pain,2026-09-13,183,1,No,Recovering,None,Yes
+AE00416,SUB-0591,S10,Respiratory disorders,Dyspnea,2026-05-03,228,3,No,Recovered,Dose Reduced,Yes
+AE00417,SUB-0591,S10,Metabolism disorders,Decreased appetite,2026-06-02,258,4,No,Recovered,Concomitant Treatment Given,Yes
+AE00418,SUB-0593,S10,Infections,Nasopharyngitis,2026-09-26,3,3,No,Ongoing,Drug Withdrawn,No
+AE00419,SUB-0594,S10,Nervous system disorders,Insomnia,2026-09-12,-8,3,Yes,Recovering,Concomitant Treatment Given,Yes
+AE00420,SUB-0596,S10,Gastrointestinal disorders,Vomiting,2025-08-28,62,1,No,Recovered,Dose Reduced,No
+AE00421,SUB-0596,S10,Infections,Nasopharyngitis,2025-07-10,13,1,No,Recovered,Concomitant Treatment Given,No
+AE00422,SUB-0597,S10,Vascular disorders,Hypotension,2026-09-21,-4,4,No,Recovered,Dose Held,Yes
+AE00423,SUB-0600,S10,Skin disorders,Rash,2026-04-02,29,3,No,Recovering,Dose Held,Yes
+AE00424,SUB-0600,S10,Infections,Nasopharyngitis,2026-04-15,42,1,No,Ongoing,None,Yes
+AE00425,SUB-0602,S10,Musculoskeletal disorders,Arthralgia,2025-12-08,125,2,No,Recovered,Dose Held,Yes
+AE00426,SUB-0605,S11,Metabolism disorders,Hyperglycemia,2026-03-25,148,1,No,Recovered,Dose Held,No
+AE00427,SUB-0608,S11,Metabolism disorders,Hyperglycemia,2025-09-10,63,1,No,Recovered,None,Yes
+AE00428,SUB-0615,S11,Investigations,ALT increased,2026-09-01,56,1,No,Recovering,Drug Withdrawn,Yes
+AE00429,SUB-0615,S11,Skin disorders,Dry skin,2026-09-28,83,1,No,Recovered,Drug Withdrawn,No
+AE00430,SUB-0616,S11,Nervous system disorders,Dizziness,2026-06-19,242,1,No,Recovering,Drug Withdrawn,No
+AE00431,SUB-0622,S11,General disorders,Injection site pain,2026-09-15,-8,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00432,SUB-0622,S11,Respiratory disorders,Cough,2026-09-26,3,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00433,SUB-0622,S11,Infections,Urinary tract infection,2026-09-24,1,2,No,Recovered,None,Yes
+AE00434,SUB-0623,S11,Infections,Nasopharyngitis,2026-09-17,5,2,No,Recovering,Concomitant Treatment Given,No
+AE00435,SUB-0627,S11,General disorders,Injection site pain,2026-07-04,181,1,No,Recovered,None,Yes
+AE00436,SUB-0627,S11,Skin disorders,Pruritus,2026-07-02,179,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00437,SUB-0627,S11,Gastrointestinal disorders,Abdominal pain,2026-03-05,60,1,No,Ongoing,Dose Reduced,Yes
+AE00438,SUB-0628,S11,Respiratory disorders,Dyspnea,2026-09-10,-17,3,No,Recovering,Dose Held,No
+AE00439,SUB-0628,S11,Vascular disorders,Hypotension,2026-09-17,-10,3,No,Recovered,Dose Reduced,No
+AE00440,SUB-0633,S11,Investigations,Neutrophil count decreased,2026-07-09,60,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00441,SUB-0633,S11,General disorders,Edema peripheral,2026-09-14,127,3,Yes,Recovered,Concomitant Treatment Given,Yes
+AE00442,SUB-0633,S11,Vascular disorders,Hypotension,2026-09-12,125,2,No,Ongoing,Drug Withdrawn,No
+AE00443,SUB-0634,S11,Investigations,ALT increased,2026-05-25,101,3,No,Recovering,Dose Reduced,Yes
+AE00444,SUB-0636,S11,Vascular disorders,Hypotension,2026-03-15,247,1,No,Ongoing,None,No
+AE00445,SUB-0636,S11,Metabolism disorders,Decreased appetite,2025-11-25,137,2,No,Ongoing,Drug Withdrawn,No
+AE00446,SUB-0638,S11,Skin disorders,Rash,2026-09-20,96,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00447,SUB-0640,S11,Gastrointestinal disorders,Diarrhea,2025-11-02,23,1,No,Recovered,Concomitant Treatment Given,No
+AE00448,SUB-0642,S11,Skin disorders,Rash,2026-03-08,183,1,No,Recovered,Dose Held,No
+AE00449,SUB-0643,S11,General disorders,Pyrexia,2026-09-24,119,2,No,Recovering,Dose Reduced,Yes
+AE00450,SUB-0643,S11,General disorders,Pyrexia,2026-09-29,124,4,No,Ongoing,Dose Reduced,Yes
+AE00451,SUB-0643,S11,Musculoskeletal disorders,Back pain,2026-09-17,112,3,No,Recovering,Dose Held,No
+AE00452,SUB-0643,S11,Metabolism disorders,Hyperglycemia,2026-07-21,54,2,No,Recovered,Drug Withdrawn,No
+AE00453,SUB-0645,S11,General disorders,Pyrexia,2026-09-24,139,1,No,Ongoing,Concomitant Treatment Given,No
+AE00454,SUB-0645,S11,Respiratory disorders,Cough,2026-09-13,128,3,Yes,Recovered,Dose Held,Yes
+AE00455,SUB-0645,S11,Gastrointestinal disorders,Diarrhea,2026-09-21,136,1,No,Recovering,Dose Held,No
+AE00456,SUB-0646,S11,Metabolism disorders,Hyperglycemia,2026-09-21,76,3,Yes,Recovered,Concomitant Treatment Given,Yes
+AE00457,SUB-0646,S11,Nervous system disorders,Headache,2026-09-24,79,1,No,Recovering,Dose Held,No
+AE00458,SUB-0648,S11,Investigations,AST increased,2026-09-15,36,1,No,Recovered with sequelae,Concomitant Treatment Given,Yes
+AE00459,SUB-0648,S11,Musculoskeletal disorders,Arthralgia,2026-09-15,36,2,No,Recovered with sequelae,Dose Reduced,No
+AE00460,SUB-0652,S11,Gastrointestinal disorders,Vomiting,2026-09-23,88,1,No,Recovering,Dose Held,Yes
+AE00461,SUB-0659,S11,Infections,Upper respiratory tract infection,2026-09-19,1,3,No,Recovering,Dose Held,Yes
+AE00462,SUB-0659,S11,Nervous system disorders,Insomnia,2026-09-20,2,3,No,Ongoing,None,No
+AE00463,SUB-0659,S11,Gastrointestinal disorders,Constipation,2026-09-27,9,2,No,Recovering,Concomitant Treatment Given,No
+AE00464,SUB-0660,S11,Skin disorders,Pruritus,2026-09-23,43,2,No,Recovered,Drug Withdrawn,Yes
+AE00465,SUB-0665,S11,Metabolism disorders,Hyperglycemia,2026-09-19,-10,2,No,Recovering,Concomitant Treatment Given,Yes
+AE00466,SUB-0665,S11,Skin disorders,Pruritus,2026-09-25,-4,2,No,Ongoing,None,Yes
+AE00467,SUB-0665,S11,Skin disorders,Dry skin,2026-09-21,-8,3,No,Ongoing,None,No
+AE00468,SUB-0667,S11,Vascular disorders,Hypotension,2026-02-09,92,1,No,Ongoing,None,Yes
+AE00469,SUB-0667,S11,Musculoskeletal disorders,Arthralgia,2026-09-06,301,1,No,Recovered,Dose Reduced,Yes
+AE00470,SUB-0669,S12,Vascular disorders,Hypotension,2026-01-25,49,1,No,Recovered,Concomitant Treatment Given,No
+AE00471,SUB-0669,S12,Musculoskeletal disorders,Myalgia,2026-07-11,216,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00472,SUB-0669,S12,General disorders,Injection site pain,2026-06-06,181,2,No,Recovered,Dose Reduced,Yes
+AE00473,SUB-0669,S12,Investigations,Neutrophil count decreased,2026-06-24,199,1,No,Recovered,Concomitant Treatment Given,No
+AE00474,SUB-0676,S12,Musculoskeletal disorders,Back pain,2026-09-28,193,1,No,Recovered,Drug Withdrawn,Yes
+AE00475,SUB-0676,S12,Metabolism disorders,Decreased appetite,2026-05-07,49,1,No,Recovering,Dose Held,Yes
+AE00476,SUB-0678,S12,Respiratory disorders,Cough,2026-04-25,233,2,No,Recovering,None,No
+AE00477,SUB-0678,S12,Nervous system disorders,Dizziness,2026-02-02,151,2,No,Recovered,None,Yes
+AE00478,SUB-0678,S12,Infections,Nasopharyngitis,2025-10-13,39,1,No,Recovered,Dose Reduced,Yes
+AE00479,SUB-0678,S12,Investigations,Weight decreased,2025-10-18,44,2,No,Ongoing,Dose Held,Yes
+AE00480,SUB-0681,S12,General disorders,Injection site pain,2026-09-24,36,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00481,SUB-0682,S12,Vascular disorders,Hypertension,2026-09-16,-1,2,No,Recovered,None,No
+AE00482,SUB-0682,S12,Metabolism disorders,Hyperglycemia,2026-09-23,6,3,No,Ongoing,None,No
+AE00483,SUB-0684,S12,Musculoskeletal disorders,Arthralgia,2026-07-31,172,2,No,Recovered,Dose Held,No
+AE00484,SUB-0684,S12,Skin disorders,Rash,2026-09-24,227,1,No,Recovering,Dose Reduced,No
+AE00485,SUB-0685,S12,General disorders,Fatigue,2026-07-28,147,2,No,Recovered,Drug Withdrawn,Yes
+AE00486,SUB-0688,S12,Musculoskeletal disorders,Myalgia,2026-02-26,58,2,No,Recovered,Drug Withdrawn,No
+AE00487,SUB-0688,S12,Skin disorders,Dry skin,2026-07-28,210,3,Yes,Recovered with sequelae,Dose Held,No
+AE00488,SUB-0694,S12,Gastrointestinal disorders,Vomiting,2026-09-11,-2,3,Yes,Recovered with sequelae,Dose Held,No
+AE00489,SUB-0695,S12,Investigations,Neutrophil count decreased,2026-09-10,19,2,No,Recovering,None,Yes
+AE00490,SUB-0695,S12,Musculoskeletal disorders,Arthralgia,2026-09-23,32,5,No,Recovering,Drug Withdrawn,Yes
+AE00491,SUB-0695,S12,General disorders,Edema peripheral,2026-09-11,20,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00492,SUB-0696,S12,Investigations,Weight decreased,2026-09-19,24,5,No,Recovered,Dose Held,No
+AE00493,SUB-0696,S12,Infections,Urinary tract infection,2026-09-27,32,4,No,Recovered,Dose Reduced,No
+AE00494,SUB-0698,S12,General disorders,Edema peripheral,2026-09-11,6,2,No,Recovered,Drug Withdrawn,Yes
+AE00495,SUB-0698,S12,Gastrointestinal disorders,Nausea,2026-09-28,23,1,No,Recovering,Concomitant Treatment Given,No
+AE00496,SUB-0699,S12,Skin disorders,Pruritus,2026-07-06,126,4,No,Recovering,Dose Held,Yes
+AE00497,SUB-0699,S12,Gastrointestinal disorders,Constipation,2026-03-28,26,2,No,Ongoing,Concomitant Treatment Given,No
+AE00498,SUB-0703,S12,Metabolism disorders,Hyperglycemia,2026-03-24,84,2,No,Recovered,None,No
+AE00499,SUB-0703,S12,General disorders,Pyrexia,2026-09-11,255,1,No,Recovering,Dose Held,No
+AE00500,SUB-0703,S12,Skin disorders,Rash,2026-01-03,4,2,No,Ongoing,Dose Reduced,No
+AE00501,SUB-0705,S12,Nervous system disorders,Headache,2026-09-19,-2,1,No,Ongoing,None,Yes
+AE00502,SUB-0705,S12,Infections,Urinary tract infection,2026-09-15,-6,3,No,Ongoing,None,No
+AE00503,SUB-0705,S12,Gastrointestinal disorders,Constipation,2026-09-15,-6,2,No,Ongoing,Dose Reduced,No
+AE00504,SUB-0705,S12,Musculoskeletal disorders,Myalgia,2026-09-13,-8,1,No,Recovered,Concomitant Treatment Given,No
+AE00505,SUB-0707,S12,Investigations,AST increased,2026-09-13,-8,1,No,Ongoing,Dose Reduced,No
+AE00506,SUB-0708,S12,General disorders,Pyrexia,2026-07-03,198,2,No,Recovered,Dose Reduced,No
+AE00507,SUB-0713,S12,Metabolism disorders,Hyperglycemia,2025-11-28,75,1,No,Ongoing,Dose Held,Yes
+AE00508,SUB-0713,S12,Skin disorders,Dry skin,2026-04-11,209,1,No,Recovered with sequelae,Dose Reduced,Yes
+AE00509,SUB-0715,S12,Metabolism disorders,Decreased appetite,2026-07-14,284,3,No,Ongoing,Concomitant Treatment Given,Yes
+AE00510,SUB-0718,S12,Metabolism disorders,Hyperglycemia,2026-01-10,65,1,No,Recovering,Concomitant Treatment Given,Yes
+AE00511,SUB-0718,S12,Gastrointestinal disorders,Vomiting,2026-05-12,187,5,No,Recovered,Dose Held,No
+AE00512,SUB-0720,S12,Musculoskeletal disorders,Arthralgia,2026-07-12,170,2,No,Recovered,Dose Reduced,No
+AE00513,SUB-0727,S12,Skin disorders,Dry skin,2026-05-23,272,2,No,Recovering,Dose Held,Yes
+AE00514,SUB-0727,S12,Skin disorders,Pruritus,2025-11-15,83,1,No,Recovering,Dose Held,Yes
+AE00515,SUB-0727,S12,Musculoskeletal disorders,Arthralgia,2025-11-18,86,3,No,Recovered,Dose Reduced,No
+AE00516,SUB-0732,S12,Metabolism disorders,Hyperglycemia,2026-06-24,69,2,No,Recovering,Concomitant Treatment Given,Yes
+AE00517,SUB-0732,S12,Respiratory disorders,Dyspnea,2026-09-27,164,2,No,Recovered,Drug Withdrawn,Yes
+AE00518,SUB-0733,S13,Nervous system disorders,Headache,2025-11-30,11,1,No,Ongoing,Drug Withdrawn,Yes
+AE00519,SUB-0734,S13,Musculoskeletal disorders,Back pain,2026-09-15,6,3,No,Ongoing,Dose Held,No
+AE00520,SUB-0735,S13,Gastrointestinal disorders,Diarrhea,2026-09-22,152,1,No,Recovering,Dose Reduced,Yes
+AE00521,SUB-0735,S13,Infections,Upper respiratory tract infection,2026-09-13,143,1,No,Recovered,Concomitant Treatment Given,No
+AE00522,SUB-0739,S13,Nervous system disorders,Dizziness,2026-05-24,151,1,No,Recovering,Dose Reduced,No
+AE00523,SUB-0739,S13,Infections,Nasopharyngitis,2026-04-22,119,2,No,Ongoing,None,Yes
+AE00524,SUB-0739,S13,Vascular disorders,Hypertension,2026-04-17,114,1,No,Recovered,Drug Withdrawn,No
+AE00525,SUB-0744,S13,Respiratory disorders,Dyspnea,2026-08-30,214,2,No,Ongoing,Dose Reduced,Yes
+AE00526,SUB-0746,S13,Gastrointestinal disorders,Diarrhea,2026-09-15,100,3,Yes,Recovering,Concomitant Treatment Given,Yes
+AE00527,SUB-0748,S13,Vascular disorders,Hypertension,2026-09-17,77,1,No,Recovered,Drug Withdrawn,No
+AE00528,SUB-0748,S13,Infections,Upper respiratory tract infection,2026-09-29,89,2,No,Recovered,Dose Held,No
+AE00529,SUB-0751,S13,Vascular disorders,Hypertension,2026-09-19,-2,1,No,Ongoing,Dose Held,Yes
+AE00530,SUB-0751,S13,Musculoskeletal disorders,Myalgia,2026-09-29,8,2,No,Recovering,Dose Held,No
+AE00531,SUB-0751,S13,Gastrointestinal disorders,Abdominal pain,2026-09-21,0,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00532,SUB-0753,S13,Infections,Nasopharyngitis,2026-09-26,116,4,No,Ongoing,Drug Withdrawn,Yes
+AE00533,SUB-0754,S13,Infections,Upper respiratory tract infection,2026-09-16,126,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00534,SUB-0754,S13,Gastrointestinal disorders,Vomiting,2026-09-23,133,2,No,Recovered,None,No
+AE00535,SUB-0756,S13,Nervous system disorders,Insomnia,2026-09-18,251,3,No,Recovered,Dose Held,Yes
+AE00536,SUB-0756,S13,Nervous system disorders,Headache,2026-05-16,126,2,No,Recovered,Drug Withdrawn,Yes
+AE00537,SUB-0758,S13,Investigations,ALT increased,2026-09-16,24,2,No,Ongoing,Concomitant Treatment Given,No
+AE00538,SUB-0758,S13,Gastrointestinal disorders,Vomiting,2026-09-20,28,1,No,Ongoing,None,Yes
+AE00539,SUB-0758,S13,Nervous system disorders,Insomnia,2026-09-19,27,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00540,SUB-0759,S13,Respiratory disorders,Dyspnea,2026-09-16,174,1,No,Ongoing,Dose Reduced,Yes
+AE00541,SUB-0759,S13,General disorders,Injection site pain,2026-09-15,173,2,No,Recovering,None,No
+AE00542,SUB-0760,S13,Musculoskeletal disorders,Back pain,2026-09-27,4,1,No,Recovered,Concomitant Treatment Given,No
+AE00543,SUB-0763,S13,Nervous system disorders,Dizziness,2026-02-08,163,2,No,Recovering,Dose Held,No
+AE00544,SUB-0765,S13,Infections,Urinary tract infection,2026-09-15,-6,1,No,Recovered,None,No
+AE00545,SUB-0766,S13,Vascular disorders,Hypertension,2026-09-21,-8,3,No,Recovered,Concomitant Treatment Given,No
+AE00546,SUB-0766,S13,Gastrointestinal disorders,Vomiting,2026-09-20,-9,2,No,Recovered,Drug Withdrawn,No
+AE00547,SUB-0768,S13,Nervous system disorders,Dizziness,2026-09-14,283,1,No,Recovered,Drug Withdrawn,No
+AE00548,SUB-0768,S13,Infections,Nasopharyngitis,2026-08-19,257,3,No,Recovered,None,No
+AE00549,SUB-0769,S13,Musculoskeletal disorders,Back pain,2026-04-16,14,2,No,Recovering,Drug Withdrawn,Yes
+AE00550,SUB-0774,S13,Infections,Nasopharyngitis,2026-05-20,156,2,No,Recovered,Drug Withdrawn,Yes
+AE00551,SUB-0777,S13,Respiratory disorders,Dyspnea,2026-09-24,21,2,No,Recovered,Dose Held,No
+AE00552,SUB-0777,S13,Infections,Nasopharyngitis,2026-09-25,22,1,No,Recovering,Dose Reduced,No
+AE00553,SUB-0777,S13,Metabolism disorders,Hyperglycemia,2026-09-16,13,2,No,Recovered,Dose Held,Yes
+AE00554,SUB-0777,S13,Musculoskeletal disorders,Back pain,2026-09-18,15,2,No,Recovering,Dose Reduced,No
+AE00555,SUB-0792,S14,Respiratory disorders,Dyspnea,2026-09-12,-9,3,No,Recovering,Dose Reduced,Yes
+AE00556,SUB-0793,S14,Vascular disorders,Hypotension,2026-09-15,-12,1,No,Ongoing,Drug Withdrawn,Yes
+AE00557,SUB-0793,S14,Nervous system disorders,Insomnia,2026-09-18,-9,1,No,Recovered,Drug Withdrawn,Yes
+AE00558,SUB-0793,S14,Musculoskeletal disorders,Myalgia,2026-09-21,-6,1,No,Ongoing,Dose Held,Yes
+AE00559,SUB-0793,S14,Vascular disorders,Hypertension,2026-09-22,-5,2,No,Recovering,None,No
+AE00560,SUB-0795,S14,Vascular disorders,Hypotension,2026-08-02,4,2,No,Recovered,Dose Held,No
+AE00561,SUB-0797,S14,Metabolism disorders,Hyperglycemia,2026-09-16,146,1,No,Recovered,Dose Held,Yes
+AE00562,SUB-0797,S14,Gastrointestinal disorders,Diarrhea,2026-06-17,55,2,No,Recovered with sequelae,Concomitant Treatment Given,No
+AE00563,SUB-0799,S14,Vascular disorders,Hypotension,2026-09-20,252,2,No,Recovered,Dose Reduced,No
+AE00564,SUB-0799,S14,Respiratory disorders,Dyspnea,2026-04-27,106,2,No,Recovered,Dose Reduced,No
+AE00565,SUB-0800,S14,Nervous system disorders,Dizziness,2026-07-17,211,3,No,Ongoing,Drug Withdrawn,No
+AE00566,SUB-0802,S14,Musculoskeletal disorders,Arthralgia,2026-09-29,180,1,No,Recovered,None,Yes
+AE00567,SUB-0805,S14,Infections,Nasopharyngitis,2026-08-15,181,2,No,Recovered,Drug Withdrawn,Yes
+AE00568,SUB-0808,S14,Nervous system disorders,Insomnia,2026-09-15,1,1,No,Ongoing,Dose Held,Yes
+AE00569,SUB-0808,S14,Infections,Nasopharyngitis,2026-09-27,13,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE00570,SUB-0808,S14,General disorders,Pyrexia,2026-09-23,9,3,Yes,Ongoing,Dose Reduced,Yes
+AE00571,SUB-0811,S14,Metabolism disorders,Hyperglycemia,2026-09-16,0,1,No,Ongoing,Dose Held,Yes
+AE00572,SUB-0811,S14,Gastrointestinal disorders,Abdominal pain,2026-09-28,12,1,No,Recovered,Dose Held,Yes
+AE00573,SUB-0816,S14,Investigations,AST increased,2026-06-15,4,1,No,Recovering,Concomitant Treatment Given,Yes
+AE00574,SUB-0818,S14,Investigations,Neutrophil count decreased,2026-09-20,17,1,No,Ongoing,Dose Held,No
+AE00575,SUB-0818,S14,Gastrointestinal disorders,Vomiting,2026-09-19,16,4,No,Recovering,Drug Withdrawn,Yes
+AE00576,SUB-0820,S14,Vascular disorders,Hypotension,2026-09-11,-17,2,No,Recovering,Drug Withdrawn,No
+AE00577,SUB-0826,S14,Metabolism disorders,Hyperglycemia,2026-09-29,203,1,No,Recovered,Drug Withdrawn,Yes
+AE00578,SUB-0826,S14,Metabolism disorders,Hyperglycemia,2026-03-17,7,4,No,Recovering,Dose Reduced,No
+AE00579,SUB-0827,S14,Skin disorders,Rash,2026-06-11,272,4,No,Recovered,Dose Reduced,Yes
+AE00580,SUB-0827,S14,Skin disorders,Dry skin,2026-06-18,279,2,No,Recovering,None,Yes
+AE00581,SUB-0827,S14,Metabolism disorders,Hyperglycemia,2026-01-25,135,2,No,Recovered,Dose Reduced,Yes
+AE00582,SUB-0830,S14,Infections,Urinary tract infection,2026-07-24,151,3,Yes,Recovered,Drug Withdrawn,Yes
+AE00583,SUB-0832,S14,Respiratory disorders,Cough,2026-09-26,-3,2,No,Recovering,Dose Reduced,Yes
+AE00584,SUB-0832,S14,Skin disorders,Dry skin,2026-09-16,-13,1,No,Recovering,Concomitant Treatment Given,No
+AE00585,SUB-0834,S14,Respiratory disorders,Dyspnea,2026-08-02,247,3,Yes,Recovering,Dose Held,Yes
+AE00586,SUB-0834,S14,Vascular disorders,Hypotension,2026-03-02,94,2,No,Recovered,Dose Held,No
+AE00587,SUB-0836,S14,Nervous system disorders,Insomnia,2026-09-20,3,1,No,Ongoing,Drug Withdrawn,No
+AE00588,SUB-0836,S14,Respiratory disorders,Dyspnea,2026-09-19,2,1,No,Recovered with sequelae,Concomitant Treatment Given,No
+AE00589,SUB-0836,S14,Vascular disorders,Hypotension,2026-09-20,3,1,No,Recovered,Dose Reduced,Yes
+AE00590,SUB-0838,S14,Investigations,ALT increased,2026-07-15,271,1,No,Ongoing,Drug Withdrawn,Yes
+AE00591,SUB-0840,S14,General disorders,Injection site pain,2026-09-01,110,3,Yes,Recovering,Dose Held,No
+AE00592,SUB-0842,S14,Vascular disorders,Hypotension,2026-03-29,128,4,No,Recovered,None,Yes
+AE00593,SUB-0842,S14,Investigations,ALT increased,2026-08-27,279,1,No,Ongoing,Drug Withdrawn,Yes
+AE00594,SUB-0844,S14,Infections,Nasopharyngitis,2026-09-29,2,1,No,Recovering,Drug Withdrawn,No
+AE00595,SUB-0844,S14,General disorders,Pyrexia,2026-09-22,-5,1,No,Recovering,Dose Held,Yes
+AE00596,SUB-0844,S14,Metabolism disorders,Decreased appetite,2026-09-10,-17,3,No,Ongoing,Dose Held,No
+AE00597,SUB-0849,S14,Metabolism disorders,Decreased appetite,2026-09-14,144,5,No,Recovering,Dose Reduced,No
+AE00598,SUB-0849,S14,Gastrointestinal disorders,Nausea,2026-05-06,13,3,No,Ongoing,None,Yes
+AE00599,SUB-0849,S14,Nervous system disorders,Peripheral neuropathy,2026-09-16,146,1,No,Recovering,Drug Withdrawn,No
+AE00600,SUB-0849,S14,Infections,Nasopharyngitis,2026-06-27,65,1,No,Ongoing,None,Yes
+AE00601,SUB-0850,S14,Gastrointestinal disorders,Vomiting,2026-09-17,-10,3,No,Recovered,Concomitant Treatment Given,No
+AE00602,SUB-0852,S14,Skin disorders,Rash,2026-09-17,31,1,No,Recovered with sequelae,Dose Reduced,No
+AE00603,SUB-0852,S14,General disorders,Edema peripheral,2026-09-22,36,1,No,Recovered,Drug Withdrawn,Yes
+AE00604,SUB-0853,S14,Infections,Urinary tract infection,2026-09-12,-17,1,No,Ongoing,None,No
+AE00605,SUB-0855,S14,Skin disorders,Rash,2026-09-28,29,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00606,SUB-0855,S14,Respiratory disorders,Cough,2026-09-11,12,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00607,SUB-0855,S14,Vascular disorders,Hypotension,2026-09-27,28,3,Yes,Recovered with sequelae,Drug Withdrawn,No
+AE00608,SUB-0855,S14,Vascular disorders,Hypertension,2026-09-01,2,1,No,Recovered,Concomitant Treatment Given,No
+AE00609,SUB-0859,S15,Respiratory disorders,Cough,2026-07-06,281,1,No,Ongoing,None,No
+AE00610,SUB-0860,S15,Nervous system disorders,Dizziness,2026-09-15,-1,3,No,Recovered with sequelae,Dose Held,No
+AE00611,SUB-0860,S15,Investigations,Weight decreased,2026-09-15,-1,2,No,Ongoing,Dose Held,Yes
+AE00612,SUB-0860,S15,Respiratory disorders,Cough,2026-09-17,1,2,No,Recovering,Drug Withdrawn,Yes
+AE00613,SUB-0867,S15,Respiratory disorders,Cough,2026-07-12,47,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE00614,SUB-0868,S15,Respiratory disorders,Dyspnea,2026-04-18,209,1,No,Recovered,None,No
+AE00615,SUB-0868,S15,Nervous system disorders,Headache,2026-07-17,299,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE00616,SUB-0869,S15,Vascular disorders,Hypertension,2026-09-18,-11,1,No,Recovered,Dose Reduced,Yes
+AE00617,SUB-0869,S15,Nervous system disorders,Insomnia,2026-09-23,-6,2,No,Recovered,None,No
+AE00618,SUB-0869,S15,Gastrointestinal disorders,Vomiting,2026-09-24,-5,1,No,Recovering,None,No
+AE00619,SUB-0872,S15,Infections,Upper respiratory tract infection,2026-09-28,20,4,No,Ongoing,Concomitant Treatment Given,Yes
+AE00620,SUB-0875,S15,Metabolism disorders,Hyperglycemia,2026-09-27,1,1,No,Recovered with sequelae,Dose Held,No
+AE00621,SUB-0878,S15,Vascular disorders,Hypertension,2026-09-19,167,3,No,Recovered,Dose Reduced,No
+AE00622,SUB-0878,S15,Respiratory disorders,Cough,2026-09-23,171,1,No,Recovered,Drug Withdrawn,Yes
+AE00623,SUB-0880,S15,General disorders,Injection site pain,2026-09-16,71,1,No,Recovering,Dose Reduced,Yes
+AE00624,SUB-0883,S15,Infections,Nasopharyngitis,2026-09-15,23,3,Yes,Recovered,Dose Reduced,Yes
+AE00625,SUB-0883,S15,Musculoskeletal disorders,Arthralgia,2026-09-18,26,1,No,Recovered,Drug Withdrawn,No
+AE00626,SUB-0887,S15,Gastrointestinal disorders,Vomiting,2026-06-24,290,1,No,Recovered,None,Yes
+AE00627,SUB-0887,S15,Metabolism disorders,Decreased appetite,2026-07-17,313,1,No,Ongoing,None,No
+AE00628,SUB-0890,S15,Metabolism disorders,Decreased appetite,2026-09-29,9,3,No,Recovered,Dose Held,No
+AE00629,SUB-0890,S15,Metabolism disorders,Decreased appetite,2026-09-27,7,3,No,Recovered,Drug Withdrawn,Yes
+AE00630,SUB-0890,S15,Investigations,Weight decreased,2026-09-22,2,2,No,Ongoing,None,Yes
+AE00631,SUB-0897,S15,Infections,Upper respiratory tract infection,2026-09-27,59,1,No,Recovered,Dose Reduced,Yes
+AE00632,SUB-0898,S15,Infections,Urinary tract infection,2026-09-17,0,2,No,Recovering,Dose Held,No
+AE00633,SUB-0898,S15,Investigations,AST increased,2026-09-27,10,4,No,Recovering,Dose Reduced,Yes
+AE00634,SUB-0898,S15,Respiratory disorders,Dyspnea,2026-09-13,-4,2,No,Ongoing,Dose Reduced,Yes
+AE00635,SUB-0900,S15,Vascular disorders,Hypertension,2026-09-15,14,1,No,Recovered,Drug Withdrawn,No
+AE00636,SUB-0900,S15,Gastrointestinal disorders,Constipation,2026-09-15,14,4,No,Recovered,Concomitant Treatment Given,No
+AE00637,SUB-0902,S15,Investigations,AST increased,2026-09-23,24,1,No,Recovering,Dose Reduced,No
+AE00638,SUB-0904,S15,Musculoskeletal disorders,Back pain,2026-09-15,3,1,No,Recovered with sequelae,Dose Held,Yes
+AE00639,SUB-0904,S15,Metabolism disorders,Hyperglycemia,2026-09-15,3,1,No,Recovered,Drug Withdrawn,No
+AE00640,SUB-0904,S15,Metabolism disorders,Hyperglycemia,2026-09-14,2,2,No,Recovered,Concomitant Treatment Given,No
+AE00641,SUB-0905,S15,Metabolism disorders,Decreased appetite,2025-12-10,60,1,No,Recovered,Dose Reduced,Yes
+AE00642,SUB-0907,S15,Respiratory disorders,Dyspnea,2026-09-28,63,2,No,Recovering,None,Yes
+AE00643,SUB-0910,S15,Gastrointestinal disorders,Nausea,2026-04-04,126,3,Yes,Recovered,Dose Held,Yes
+AE00644,SUB-0911,S15,Investigations,ALT increased,2026-09-29,285,2,No,Recovered,None,No
+AE00645,SUB-0913,S15,Musculoskeletal disorders,Back pain,2026-09-12,75,1,No,Recovered,Dose Held,Yes
+AE00646,SUB-0913,S15,Skin disorders,Pruritus,2026-09-16,79,4,No,Recovered,None,No
+AE00647,SUB-0913,S15,Vascular disorders,Hypotension,2026-09-19,82,3,Yes,Ongoing,Dose Held,No
+AE00648,SUB-0913,S15,Gastrointestinal disorders,Nausea,2026-09-17,80,1,No,Recovering,Concomitant Treatment Given,Yes
+AE00649,SUB-0914,S16,Skin disorders,Pruritus,2026-09-13,197,2,No,Recovering,Dose Reduced,No
+AE00650,SUB-0915,S16,Gastrointestinal disorders,Constipation,2026-09-22,19,1,No,Recovered,Drug Withdrawn,No
+AE00651,SUB-0916,S16,Nervous system disorders,Insomnia,2026-06-04,119,1,No,Ongoing,Dose Held,Yes
+AE00652,SUB-0916,S16,Investigations,Neutrophil count decreased,2026-09-10,217,1,No,Recovered,Dose Reduced,No
+AE00653,SUB-0918,S16,General disorders,Pyrexia,2026-09-07,188,3,No,Ongoing,Drug Withdrawn,Yes
+AE00654,SUB-0918,S16,Gastrointestinal disorders,Diarrhea,2026-09-24,205,3,No,Ongoing,Dose Reduced,No
+AE00655,SUB-0921,S16,Investigations,Weight decreased,2025-12-24,146,1,No,Ongoing,Concomitant Treatment Given,No
+AE00656,SUB-0923,S16,Musculoskeletal disorders,Myalgia,2026-09-28,59,4,No,Recovering,Concomitant Treatment Given,No
+AE00657,SUB-0930,S16,Gastrointestinal disorders,Nausea,2026-09-14,317,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE00658,SUB-0931,S16,General disorders,Fatigue,2025-10-22,24,1,No,Recovering,Drug Withdrawn,No
+AE00659,SUB-0932,S16,Gastrointestinal disorders,Vomiting,2026-01-14,89,3,No,Recovering,Dose Held,No
+AE00660,SUB-0932,S16,Musculoskeletal disorders,Myalgia,2025-10-20,3,1,No,Recovered with sequelae,Concomitant Treatment Given,Yes
+AE00661,SUB-0937,S16,Gastrointestinal disorders,Constipation,2026-06-14,84,1,No,Ongoing,Dose Reduced,No
+AE00662,SUB-0937,S16,Musculoskeletal disorders,Myalgia,2026-09-21,183,3,No,Fatal,Dose Held,No
+AE00663,SUB-0937,S16,Vascular disorders,Hypotension,2026-07-07,107,3,Yes,Ongoing,Concomitant Treatment Given,Yes
+AE00664,SUB-0944,S16,Vascular disorders,Hypertension,2026-09-23,55,1,No,Recovered,Dose Reduced,Yes
+AE00665,SUB-0944,S16,Nervous system disorders,Headache,2026-09-22,54,3,No,Ongoing,Dose Held,Yes
+AE00666,SUB-0944,S16,Musculoskeletal disorders,Back pain,2026-09-24,56,2,No,Recovered,Dose Held,No
+AE00667,SUB-0952,S16,General disorders,Injection site pain,2026-09-29,121,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE00668,SUB-0952,S16,Infections,Nasopharyngitis,2026-09-15,107,1,No,Recovering,Drug Withdrawn,No
+AE00669,SUB-0956,S16,General disorders,Edema peripheral,2026-03-27,40,2,No,Recovered,Drug Withdrawn,No
+AE00670,SUB-0956,S16,General disorders,Pyrexia,2026-04-23,67,1,No,Recovering,None,Yes
+AE00671,SUB-0956,S16,Gastrointestinal disorders,Abdominal pain,2026-09-11,208,2,No,Recovering,Dose Held,No
+AE00672,SUB-0958,S16,Gastrointestinal disorders,Constipation,2026-06-25,143,2,No,Recovering,Dose Reduced,No
+AE00673,SUB-0958,S16,Infections,Upper respiratory tract infection,2026-02-08,6,1,No,Ongoing,Dose Held,Yes
+AE00674,SUB-0961,S16,Nervous system disorders,Peripheral neuropathy,2026-06-04,187,2,No,Recovered,Dose Held,No
+AE00675,SUB-0961,S16,Musculoskeletal disorders,Back pain,2026-02-01,64,5,No,Recovering,Concomitant Treatment Given,No
+AE00676,SUB-0966,S16,Nervous system disorders,Headache,2026-09-10,-19,2,No,Recovered,Dose Held,No
+AE00677,SUB-0966,S16,Vascular disorders,Hypotension,2026-09-19,-10,1,No,Recovering,Dose Reduced,No
+AE00678,SUB-0966,S16,Nervous system disorders,Insomnia,2026-09-10,-19,2,No,Recovered,Drug Withdrawn,No
+AE00679,SUB-0967,S16,Infections,Urinary tract infection,2026-09-28,68,2,No,Recovering,Concomitant Treatment Given,No
+AE00680,SUB-0967,S16,Musculoskeletal disorders,Myalgia,2026-09-20,60,4,No,Recovered,Dose Reduced,No
+AE00681,SUB-0967,S16,General disorders,Edema peripheral,2026-09-28,68,5,No,Recovered,Concomitant Treatment Given,Yes
+AE00682,SUB-0967,S16,Infections,Upper respiratory tract infection,2026-09-28,68,2,No,Recovered,Concomitant Treatment Given,No
+AE00683,SUB-0969,S16,Vascular disorders,Hypertension,2026-09-29,234,1,No,Recovering,Dose Held,Yes
+AE00684,SUB-0969,S16,Gastrointestinal disorders,Abdominal pain,2026-07-12,155,1,No,Recovering,None,No
+AE00685,SUB-0971,S17,General disorders,Injection site pain,2026-09-25,2,3,No,Recovering,Dose Reduced,Yes
+AE00686,SUB-0971,S17,Musculoskeletal disorders,Back pain,2026-09-25,2,1,No,Recovering,None,No
+AE00687,SUB-0972,S17,Metabolism disorders,Hyperglycemia,2026-09-21,-6,3,No,Recovered,None,Yes
+AE00688,SUB-0981,S17,Infections,Nasopharyngitis,2026-09-15,163,3,Yes,Recovered,Drug Withdrawn,Yes
+AE00689,SUB-0984,S17,General disorders,Fatigue,2026-09-29,9,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00690,SUB-0985,S17,Respiratory disorders,Dyspnea,2026-09-14,177,2,No,Fatal,None,Yes
+AE00691,SUB-0985,S17,Metabolism disorders,Decreased appetite,2026-08-15,147,2,No,Recovered,Drug Withdrawn,Yes
+AE00692,SUB-0987,S17,Respiratory disorders,Dyspnea,2026-07-29,46,2,No,Ongoing,Dose Reduced,No
+AE00693,SUB-0989,S17,Investigations,Neutrophil count decreased,2026-09-16,-6,4,No,Recovered,Dose Reduced,Yes
+AE00694,SUB-0995,S17,Metabolism disorders,Decreased appetite,2026-04-23,245,2,No,Recovered,Dose Reduced,No
+AE00695,SUB-0995,S17,Skin disorders,Dry skin,2026-01-24,156,2,No,Recovered,None,Yes
+AE00696,SUB-0996,S17,Vascular disorders,Hypertension,2026-07-29,134,3,No,Recovered,Drug Withdrawn,No
+AE00697,SUB-0998,S17,Metabolism disorders,Decreased appetite,2026-09-16,253,1,No,Recovered,None,No
+AE00698,SUB-0998,S17,General disorders,Injection site pain,2026-05-14,128,1,No,Recovered,Drug Withdrawn,No
+AE00699,SUB-0998,S17,General disorders,Injection site pain,2026-01-29,23,1,No,Recovered,Dose Held,Yes
+AE00700,SUB-1004,S17,Respiratory disorders,Dyspnea,2026-09-28,1,2,No,Recovered,Dose Held,Yes
+AE00701,SUB-1004,S17,Investigations,AST increased,2026-09-28,1,3,Yes,Recovering,None,Yes
+AE00702,SUB-1004,S17,General disorders,Fatigue,2026-09-19,-8,3,No,Recovered,Drug Withdrawn,Yes
+AE00703,SUB-1005,S17,Nervous system disorders,Headache,2026-09-26,136,2,No,Recovered,None,No
+AE00704,SUB-1005,S17,Skin disorders,Dry skin,2026-09-18,128,1,No,Recovered,None,Yes
+AE00705,SUB-1005,S17,Infections,Urinary tract infection,2026-09-15,125,1,No,Recovered,Dose Held,Yes
+AE00706,SUB-1006,S17,Skin disorders,Dry skin,2026-09-27,208,3,Yes,Recovered,Drug Withdrawn,Yes
+AE00707,SUB-1007,S17,Nervous system disorders,Peripheral neuropathy,2026-06-13,71,2,No,Recovered,None,No
+AE00708,SUB-1008,S17,Respiratory disorders,Dyspnea,2026-08-16,251,1,No,Recovering,Dose Reduced,No
+AE00709,SUB-1008,S17,Musculoskeletal disorders,Arthralgia,2026-03-28,110,3,No,Ongoing,Dose Held,No
+AE00710,SUB-1011,S17,Nervous system disorders,Insomnia,2025-09-09,11,3,No,Recovered,None,Yes
+AE00711,SUB-1011,S17,Musculoskeletal disorders,Arthralgia,2026-02-04,159,3,Yes,Recovered,None,No
+AE00712,SUB-1012,S17,Nervous system disorders,Headache,2026-06-27,232,1,No,Recovered,Dose Reduced,Yes
+AE00713,SUB-1015,S17,Musculoskeletal disorders,Myalgia,2026-09-10,-18,2,No,Recovered,Dose Held,No
+AE00714,SUB-1016,S17,Gastrointestinal disorders,Nausea,2026-09-28,8,2,No,Recovering,Dose Reduced,No
+AE00715,SUB-1016,S17,Vascular disorders,Hypotension,2026-09-15,-5,2,No,Recovering,Drug Withdrawn,Yes
+AE00716,SUB-1016,S17,Vascular disorders,Hypertension,2026-09-10,-10,1,No,Recovered,None,Yes
+AE00717,SUB-1017,S17,Musculoskeletal disorders,Back pain,2026-09-13,96,2,No,Recovered,Drug Withdrawn,Yes
+AE00718,SUB-1021,S17,Gastrointestinal disorders,Abdominal pain,2026-09-29,0,1,No,Recovering,Dose Reduced,No
+AE00719,SUB-1024,S17,Skin disorders,Rash,2026-09-06,234,2,No,Ongoing,None,No
+AE00720,SUB-1024,S17,Infections,Upper respiratory tract infection,2026-09-25,253,2,No,Ongoing,Dose Held,No
+AE00721,SUB-1024,S17,Gastrointestinal disorders,Diarrhea,2026-07-03,169,2,No,Recovered,Drug Withdrawn,No
+AE00722,SUB-1026,S17,Respiratory disorders,Cough,2026-07-14,169,1,No,Recovered,Dose Reduced,Yes
+AE00723,SUB-1027,S18,Respiratory disorders,Cough,2026-05-19,171,1,No,Recovering,Dose Held,No
+AE00724,SUB-1027,S18,Infections,Upper respiratory tract infection,2026-09-08,283,1,No,Recovering,Concomitant Treatment Given,No
+AE00725,SUB-1028,S18,Nervous system disorders,Peripheral neuropathy,2026-09-14,127,1,No,Recovered,Drug Withdrawn,Yes
+AE00726,SUB-1035,S18,Infections,Upper respiratory tract infection,2025-09-17,52,2,No,Recovering,Drug Withdrawn,No
+AE00727,SUB-1035,S18,Infections,Upper respiratory tract infection,2025-11-17,113,3,No,Recovered,None,No
+AE00728,SUB-1038,S18,Vascular disorders,Hypotension,2026-09-19,212,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE00729,SUB-1039,S18,Nervous system disorders,Dizziness,2026-09-26,51,4,No,Recovered,Concomitant Treatment Given,Yes
+AE00730,SUB-1039,S18,Respiratory disorders,Dyspnea,2026-09-10,35,1,No,Recovered,Drug Withdrawn,Yes
+AE00731,SUB-1040,S18,Metabolism disorders,Hyperglycemia,2025-11-20,56,2,No,Recovered,None,No
+AE00732,SUB-1041,S18,Metabolism disorders,Decreased appetite,2026-09-28,15,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00733,SUB-1041,S18,Respiratory disorders,Cough,2026-09-14,1,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00734,SUB-1042,S18,Nervous system disorders,Headache,2026-09-20,-5,2,No,Ongoing,Concomitant Treatment Given,No
+AE00735,SUB-1044,S18,Vascular disorders,Hypotension,2026-06-17,255,3,Yes,Ongoing,Dose Held,Yes
+AE00736,SUB-1045,S18,Nervous system disorders,Peripheral neuropathy,2026-09-25,11,1,No,Recovered,Concomitant Treatment Given,No
+AE00737,SUB-1045,S18,Investigations,ALT increased,2026-09-16,2,2,No,Recovering,None,Yes
+AE00738,SUB-1048,S18,Respiratory disorders,Cough,2026-09-27,50,1,No,Recovered,Dose Held,No
+AE00739,SUB-1049,S18,Metabolism disorders,Decreased appetite,2026-09-26,61,5,No,Recovered,None,Yes
+AE00740,SUB-1049,S18,Respiratory disorders,Dyspnea,2026-08-30,34,2,No,Ongoing,Drug Withdrawn,Yes
+AE00741,SUB-1051,S18,Respiratory disorders,Dyspnea,2026-09-26,196,3,Yes,Recovered,Concomitant Treatment Given,Yes
+AE00742,SUB-1053,S18,General disorders,Fatigue,2026-08-27,89,2,No,Recovered,Dose Reduced,Yes
+AE00743,SUB-1055,S18,Respiratory disorders,Cough,2025-11-27,73,2,No,Recovered,Drug Withdrawn,Yes
+AE00744,SUB-1055,S18,General disorders,Pyrexia,2026-01-23,130,2,No,Recovering,None,No
+AE00745,SUB-1057,S18,Musculoskeletal disorders,Myalgia,2026-09-20,-1,1,No,Recovering,None,Yes
+AE00746,SUB-1059,S18,Skin disorders,Rash,2026-05-19,20,1,No,Recovered,Concomitant Treatment Given,No
+AE00747,SUB-1061,S18,Respiratory disorders,Dyspnea,2026-05-02,164,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00748,SUB-1063,S18,Nervous system disorders,Peripheral neuropathy,2026-09-27,134,1,No,Recovered,None,Yes
+AE00749,SUB-1063,S18,Gastrointestinal disorders,Constipation,2026-09-26,133,3,No,Ongoing,Dose Held,No
+AE00750,SUB-1065,S18,Infections,Nasopharyngitis,2026-07-09,71,3,Yes,Recovering,Concomitant Treatment Given,No
+AE00751,SUB-1066,S18,Musculoskeletal disorders,Arthralgia,2026-06-14,175,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00752,SUB-1067,S18,Infections,Upper respiratory tract infection,2026-09-19,264,2,No,Recovering,None,No
+AE00753,SUB-1070,S18,Vascular disorders,Hypotension,2026-09-20,2,3,Yes,Recovering,Dose Reduced,Yes
+AE00754,SUB-1072,S18,General disorders,Fatigue,2026-01-13,94,3,No,Recovered,Drug Withdrawn,No
+AE00755,SUB-1072,S18,Gastrointestinal disorders,Vomiting,2025-11-16,36,3,Yes,Ongoing,Dose Held,No
+AE00756,SUB-1072,S18,Metabolism disorders,Decreased appetite,2025-10-18,7,2,No,Recovering,Concomitant Treatment Given,No
+AE00757,SUB-1080,S18,Musculoskeletal disorders,Back pain,2026-09-26,296,2,No,Recovered,Dose Reduced,No
+AE00758,SUB-1082,S18,Vascular disorders,Hypotension,2026-05-13,114,4,No,Ongoing,Drug Withdrawn,No
+AE00759,SUB-1083,S18,Nervous system disorders,Dizziness,2026-04-25,191,3,Yes,Recovered,Drug Withdrawn,No
+AE00760,SUB-1084,S18,Infections,Upper respiratory tract infection,2026-02-03,18,1,No,Ongoing,Drug Withdrawn,No
+AE00761,SUB-1084,S18,Musculoskeletal disorders,Back pain,2026-09-22,249,1,No,Recovered,None,Yes
+AE00762,SUB-1084,S18,Nervous system disorders,Headache,2026-04-07,81,1,No,Recovered,None,Yes
+AE00763,SUB-1086,S18,Infections,Urinary tract infection,2026-09-21,70,1,No,Recovered with sequelae,Dose Held,Yes
+AE00764,SUB-1090,S18,Vascular disorders,Hypotension,2026-09-21,25,3,Yes,Recovered,Dose Held,No
+AE00765,SUB-1091,S18,Vascular disorders,Hypertension,2026-09-23,33,1,No,Ongoing,Drug Withdrawn,Yes
+AE00766,SUB-1096,S19,Respiratory disorders,Cough,2026-08-07,158,3,No,Recovering,Drug Withdrawn,Yes
+AE00767,SUB-1096,S19,Metabolism disorders,Decreased appetite,2026-06-07,97,1,No,Fatal,Dose Reduced,Yes
+AE00768,SUB-1102,S19,Musculoskeletal disorders,Myalgia,2026-09-26,270,3,Yes,Ongoing,Dose Reduced,Yes
+AE00769,SUB-1104,S19,Nervous system disorders,Headache,2026-08-03,180,1,No,Ongoing,Dose Reduced,Yes
+AE00770,SUB-1104,S19,Infections,Nasopharyngitis,2026-06-02,118,1,No,Recovering,Concomitant Treatment Given,Yes
+AE00771,SUB-1104,S19,Respiratory disorders,Cough,2026-04-13,68,2,No,Recovered,Concomitant Treatment Given,No
+AE00772,SUB-1106,S19,Investigations,ALT increased,2026-09-10,40,1,No,Recovered,Drug Withdrawn,No
+AE00773,SUB-1107,S19,Investigations,Weight decreased,2026-09-17,101,1,No,Recovering,Concomitant Treatment Given,No
+AE00774,SUB-1107,S19,Metabolism disorders,Decreased appetite,2026-09-20,104,1,No,Recovering,Dose Held,No
+AE00775,SUB-1108,S19,Skin disorders,Dry skin,2026-01-10,174,1,No,Recovered,Dose Held,Yes
+AE00776,SUB-1108,S19,Investigations,AST increased,2025-08-27,38,2,No,Ongoing,Dose Held,No
+AE00777,SUB-1116,S19,Gastrointestinal disorders,Abdominal pain,2026-06-19,69,2,No,Recovered,Concomitant Treatment Given,No
+AE00778,SUB-1116,S19,General disorders,Injection site pain,2026-07-26,106,2,No,Recovered,Dose Held,Yes
+AE00779,SUB-1116,S19,Metabolism disorders,Decreased appetite,2026-09-22,164,1,No,Recovered,None,No
+AE00780,SUB-1116,S19,General disorders,Edema peripheral,2026-04-29,18,1,No,Ongoing,None,Yes
+AE00781,SUB-1117,S19,General disorders,Edema peripheral,2026-09-12,81,2,No,Recovering,Dose Reduced,No
+AE00782,SUB-1117,S19,Skin disorders,Dry skin,2026-09-24,93,1,No,Ongoing,None,No
+AE00783,SUB-1117,S19,Skin disorders,Dry skin,2026-08-15,53,2,No,Recovered,Dose Reduced,Yes
+AE00784,SUB-1122,S19,Vascular disorders,Hypotension,2025-10-25,75,5,No,Ongoing,Concomitant Treatment Given,No
+AE00785,SUB-1122,S19,Musculoskeletal disorders,Back pain,2026-05-27,289,2,No,Recovering,Concomitant Treatment Given,Yes
+AE00786,SUB-1123,S19,Musculoskeletal disorders,Myalgia,2025-08-17,50,3,Yes,Fatal,None,Yes
+AE00787,SUB-1124,S19,Vascular disorders,Hypertension,2026-09-30,223,3,Yes,Recovered,Dose Held,Yes
+AE00788,SUB-1124,S19,Investigations,Neutrophil count decreased,2026-06-12,113,2,No,Recovered,Dose Held,Yes
+AE00789,SUB-1125,S19,Skin disorders,Dry skin,2026-09-13,145,3,Yes,Recovered,Drug Withdrawn,Yes
+AE00790,SUB-1129,S19,General disorders,Edema peripheral,2026-01-23,198,2,No,Recovered with sequelae,None,Yes
+AE00791,SUB-1129,S19,Vascular disorders,Hypertension,2025-09-24,77,3,Yes,Recovered,None,Yes
+AE00792,SUB-1130,S19,Infections,Urinary tract infection,2026-09-23,34,2,No,Recovered,Dose Reduced,No
+AE00793,SUB-1133,S19,Infections,Upper respiratory tract infection,2026-09-12,181,1,No,Recovered,Dose Held,Yes
+AE00794,SUB-1134,S19,Vascular disorders,Hypotension,2026-09-10,20,2,No,Recovering,None,Yes
+AE00795,SUB-1134,S19,Gastrointestinal disorders,Abdominal pain,2026-09-12,22,1,No,Recovering,Concomitant Treatment Given,No
+AE00796,SUB-1136,S19,Nervous system disorders,Dizziness,2025-12-22,173,1,No,Recovering,Drug Withdrawn,No
+AE00797,SUB-1136,S19,Skin disorders,Pruritus,2025-07-30,28,3,No,Recovering,None,No
+AE00798,SUB-1140,S19,Skin disorders,Pruritus,2026-09-14,284,1,No,Ongoing,Dose Held,No
+AE00799,SUB-1142,S19,Gastrointestinal disorders,Abdominal pain,2026-06-21,197,1,No,Recovering,None,No
+AE00800,SUB-1142,S19,General disorders,Injection site pain,2026-05-08,153,2,No,Recovered,Dose Held,Yes
+AE00801,SUB-1143,S19,Vascular disorders,Hypertension,2026-04-10,283,2,No,Recovered,Dose Held,No
+AE00802,SUB-1143,S19,Gastrointestinal disorders,Nausea,2025-10-07,98,4,No,Recovering,Drug Withdrawn,Yes
+AE00803,SUB-1144,S19,Respiratory disorders,Cough,2026-09-21,9,2,No,Recovering,Concomitant Treatment Given,No
+AE00804,SUB-1147,S20,Skin disorders,Dry skin,2026-06-06,53,3,No,Recovered,Drug Withdrawn,No
+AE00805,SUB-1147,S20,Metabolism disorders,Decreased appetite,2026-09-20,159,1,No,Recovered,Dose Held,Yes
+AE00806,SUB-1147,S20,Skin disorders,Dry skin,2026-06-09,56,2,No,Recovered,None,Yes
+AE00807,SUB-1155,S20,Nervous system disorders,Headache,2026-05-03,185,4,No,Recovering,Dose Reduced,Yes
+AE00808,SUB-1155,S20,Respiratory disorders,Dyspnea,2026-01-12,74,2,No,Ongoing,Drug Withdrawn,No
+AE00809,SUB-1157,S20,Gastrointestinal disorders,Constipation,2026-09-25,72,2,No,Recovered,Drug Withdrawn,No
+AE00810,SUB-1158,S20,Metabolism disorders,Decreased appetite,2026-05-03,174,4,No,Ongoing,Drug Withdrawn,Yes
+AE00811,SUB-1160,S20,Skin disorders,Rash,2026-05-09,110,1,No,Recovering,None,Yes
+AE00812,SUB-1162,S20,Investigations,Neutrophil count decreased,2025-12-15,93,4,No,Recovering,Dose Reduced,Yes
+AE00813,SUB-1162,S20,Skin disorders,Pruritus,2025-10-13,30,3,No,Recovered,Drug Withdrawn,Yes
+AE00814,SUB-1162,S20,Skin disorders,Pruritus,2025-12-24,102,2,No,Ongoing,Dose Reduced,No
+AE00815,SUB-1162,S20,Investigations,Weight decreased,2025-09-18,5,3,No,Recovered with sequelae,Dose Reduced,Yes
+AE00816,SUB-1163,S20,Respiratory disorders,Cough,2026-02-13,69,2,No,Recovered,Dose Reduced,Yes
+AE00817,SUB-1164,S20,Infections,Upper respiratory tract infection,2026-09-15,209,1,No,Recovered,None,No
+AE00818,SUB-1164,S20,Infections,Urinary tract infection,2026-09-04,198,4,No,Ongoing,Concomitant Treatment Given,No
+AE00819,SUB-1173,S20,Infections,Urinary tract infection,2026-09-10,-19,1,No,Recovered,Concomitant Treatment Given,No
+AE00820,SUB-1175,S20,Metabolism disorders,Decreased appetite,2026-08-27,290,1,No,Recovering,Drug Withdrawn,Yes
+AE00821,SUB-1176,S20,Investigations,Weight decreased,2025-12-11,29,2,No,Ongoing,Dose Held,No
+AE00822,SUB-1176,S20,Gastrointestinal disorders,Abdominal pain,2026-01-05,54,1,No,Recovering,Dose Reduced,Yes
+AE00823,SUB-1186,S20,Nervous system disorders,Headache,2026-09-18,234,1,No,Recovering,Concomitant Treatment Given,No
+AE00824,SUB-1188,S20,Infections,Nasopharyngitis,2026-09-20,146,3,Yes,Recovered,Dose Held,Yes
+AE00825,SUB-1196,S20,General disorders,Fatigue,2026-07-10,288,3,Yes,Ongoing,Concomitant Treatment Given,Yes
+AE00826,SUB-1197,S20,Skin disorders,Pruritus,2026-06-05,134,1,No,Recovered,Drug Withdrawn,Yes
+AE00827,SUB-1200,S20,Respiratory disorders,Dyspnea,2026-09-23,233,3,No,Recovered,None,No
+AE00828,SUB-1200,S20,Vascular disorders,Hypertension,2026-09-15,225,1,No,Recovered,Dose Reduced,No
+AE00829,SUB-1204,S21,Metabolism disorders,Hyperglycemia,2026-04-24,62,3,Yes,Recovered,Dose Held,Yes
+AE00830,SUB-1206,S21,Nervous system disorders,Headache,2026-09-10,7,1,No,Recovered with sequelae,None,No
+AE00831,SUB-1208,S21,General disorders,Edema peripheral,2025-09-15,103,1,No,Recovering,Concomitant Treatment Given,No
+AE00832,SUB-1210,S21,Musculoskeletal disorders,Arthralgia,2025-12-18,205,3,Yes,Recovered,Concomitant Treatment Given,Yes
+AE00833,SUB-1210,S21,General disorders,Edema peripheral,2025-07-03,37,2,No,Ongoing,None,No
+AE00834,SUB-1212,S21,Infections,Nasopharyngitis,2026-09-22,204,1,No,Recovered,Dose Reduced,Yes
+AE00835,SUB-1212,S21,Skin disorders,Dry skin,2026-06-27,117,3,Yes,Recovered,None,Yes
+AE00836,SUB-1212,S21,Gastrointestinal disorders,Vomiting,2026-09-15,197,1,No,Ongoing,None,Yes
+AE00837,SUB-1213,S21,Musculoskeletal disorders,Myalgia,2026-09-19,2,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00838,SUB-1214,S21,Infections,Nasopharyngitis,2026-07-06,249,1,No,Recovered,Dose Held,No
+AE00839,SUB-1214,S21,Respiratory disorders,Dyspnea,2026-03-03,124,2,No,Ongoing,Drug Withdrawn,No
+AE00840,SUB-1215,S21,Nervous system disorders,Dizziness,2026-02-16,218,1,No,Recovered,Dose Held,No
+AE00841,SUB-1215,S21,Respiratory disorders,Dyspnea,2026-04-21,282,1,No,Recovered,None,Yes
+AE00842,SUB-1215,S21,Infections,Urinary tract infection,2026-04-13,274,1,No,Recovered with sequelae,None,No
+AE00843,SUB-1217,S21,Musculoskeletal disorders,Myalgia,2026-08-08,59,4,Yes,Recovering,None,Yes
+AE00844,SUB-1218,S21,Skin disorders,Pruritus,2025-12-31,230,1,No,Ongoing,Dose Held,Yes
+AE00845,SUB-1219,S21,Metabolism disorders,Hyperglycemia,2025-08-03,82,1,No,Recovered,None,No
+AE00846,SUB-1222,S21,Vascular disorders,Hypotension,2025-11-08,193,2,No,Recovered,Drug Withdrawn,Yes
+AE00847,SUB-1223,S21,Gastrointestinal disorders,Vomiting,2026-05-09,49,1,No,Recovering,Dose Held,Yes
+AE00848,SUB-1223,S21,General disorders,Injection site pain,2026-05-30,70,1,No,Recovered,None,Yes
+AE00849,SUB-1223,S21,Nervous system disorders,Peripheral neuropathy,2026-04-05,15,2,No,Recovered,Dose Held,Yes
+AE00850,SUB-1226,S21,Infections,Nasopharyngitis,2026-04-15,231,1,No,Recovered,None,No
+AE00851,SUB-1226,S21,Respiratory disorders,Cough,2025-12-20,115,1,No,Ongoing,Dose Held,No
+AE00852,SUB-1228,S21,Vascular disorders,Hypertension,2026-01-26,226,1,No,Recovered,Concomitant Treatment Given,No
+AE00853,SUB-1232,S21,Investigations,Weight decreased,2026-01-23,288,3,No,Recovered,Dose Held,Yes
+AE00854,SUB-1232,S21,Nervous system disorders,Insomnia,2025-06-02,53,2,No,Recovered,Concomitant Treatment Given,No
+AE00855,SUB-1233,S21,Metabolism disorders,Decreased appetite,2025-07-14,28,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00856,SUB-1237,S21,Gastrointestinal disorders,Nausea,2026-09-23,95,1,No,Ongoing,Dose Reduced,No
+AE00857,SUB-1237,S21,General disorders,Edema peripheral,2026-09-12,84,3,No,Ongoing,None,No
+AE00858,SUB-1238,S21,Respiratory disorders,Cough,2026-05-30,28,2,No,Recovered,Dose Held,Yes
+AE00859,SUB-1238,S21,Metabolism disorders,Decreased appetite,2026-06-17,46,2,No,Ongoing,Dose Reduced,Yes
+AE00860,SUB-1238,S21,Vascular disorders,Hypertension,2026-09-12,133,2,No,Recovered,Dose Held,Yes
+AE00861,SUB-1239,S21,Infections,Nasopharyngitis,2026-05-03,118,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE00862,SUB-1240,S21,Vascular disorders,Hypertension,2025-12-04,119,1,No,Recovered,Drug Withdrawn,No
+AE00863,SUB-1240,S21,Infections,Upper respiratory tract infection,2026-01-07,153,3,Yes,Ongoing,Drug Withdrawn,Yes
+AE00864,SUB-1241,S21,Respiratory disorders,Cough,2026-08-24,223,3,No,Recovered,Concomitant Treatment Given,No
+AE00865,SUB-1241,S21,Respiratory disorders,Dyspnea,2026-06-20,158,1,No,Recovered,Dose Reduced,Yes
+AE00866,SUB-1241,S21,Infections,Nasopharyngitis,2026-09-13,243,3,No,Recovered,Dose Reduced,Yes
+AE00867,SUB-1241,S21,Respiratory disorders,Cough,2026-09-10,240,3,Yes,Recovered,Dose Reduced,No
+AE00868,SUB-1242,S21,Vascular disorders,Hypotension,2026-09-03,302,3,Yes,Recovered,Dose Held,Yes
+AE00869,SUB-1245,S21,Nervous system disorders,Headache,2026-09-27,27,1,No,Recovering,None,No
+AE00870,SUB-1246,S21,Metabolism disorders,Hyperglycemia,2026-06-19,179,3,Yes,Recovered with sequelae,Dose Held,No
+AE00871,SUB-1248,S21,Vascular disorders,Hypotension,2026-04-15,190,1,No,Recovered with sequelae,Concomitant Treatment Given,Yes
+AE00872,SUB-1251,S21,Musculoskeletal disorders,Myalgia,2025-11-23,69,1,No,Recovering,Concomitant Treatment Given,No
+AE00873,SUB-1254,S21,Nervous system disorders,Insomnia,2026-02-08,60,2,No,Recovered with sequelae,Dose Held,No
+AE00874,SUB-1254,S21,Infections,Urinary tract infection,2026-04-21,132,1,No,Recovered,Drug Withdrawn,No
+AE00875,SUB-1255,S22,Vascular disorders,Hypertension,2026-09-18,-11,3,Yes,Recovered,Dose Held,No
+AE00876,SUB-1255,S22,Gastrointestinal disorders,Diarrhea,2026-09-24,-5,1,No,Recovered,None,Yes
+AE00877,SUB-1255,S22,Infections,Upper respiratory tract infection,2026-09-26,-3,3,No,Ongoing,None,Yes
+AE00878,SUB-1255,S22,Skin disorders,Dry skin,2026-09-25,-4,2,No,Ongoing,None,No
+AE00879,SUB-1260,S22,Nervous system disorders,Dizziness,2026-09-23,1,2,No,Recovered,None,Yes
+AE00880,SUB-1260,S22,General disorders,Fatigue,2026-09-28,6,3,No,Recovered,Drug Withdrawn,Yes
+AE00881,SUB-1260,S22,General disorders,Pyrexia,2026-09-24,2,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00882,SUB-1261,S22,Musculoskeletal disorders,Arthralgia,2026-05-21,285,2,No,Recovering,Concomitant Treatment Given,Yes
+AE00883,SUB-1261,S22,Metabolism disorders,Hyperglycemia,2026-06-13,308,4,No,Ongoing,Drug Withdrawn,Yes
+AE00884,SUB-1262,S22,Investigations,Neutrophil count decreased,2026-09-26,200,1,No,Ongoing,Dose Reduced,Yes
+AE00885,SUB-1266,S22,Metabolism disorders,Hyperglycemia,2026-09-15,-5,1,No,Recovered with sequelae,Drug Withdrawn,Yes
+AE00886,SUB-1270,S22,Skin disorders,Rash,2025-11-13,64,1,No,Recovered,Drug Withdrawn,Yes
+AE00887,SUB-1270,S22,Metabolism disorders,Hyperglycemia,2025-12-17,98,2,No,Recovered,Dose Reduced,No
+AE00888,SUB-1271,S22,Vascular disorders,Hypotension,2026-01-18,115,3,No,Ongoing,None,Yes
+AE00889,SUB-1271,S22,Metabolism disorders,Decreased appetite,2026-07-30,308,1,No,Recovering,None,No
+AE00890,SUB-1271,S22,Metabolism disorders,Decreased appetite,2026-02-02,130,1,No,Recovered,Dose Reduced,Yes
+AE00891,SUB-1271,S22,Respiratory disorders,Dyspnea,2026-07-09,287,1,No,Recovered,None,Yes
+AE00892,SUB-1272,S22,Metabolism disorders,Hyperglycemia,2026-04-13,206,4,No,Recovering,Concomitant Treatment Given,No
+AE00893,SUB-1274,S22,Investigations,Neutrophil count decreased,2026-09-20,242,4,No,Recovered,Concomitant Treatment Given,No
+AE00894,SUB-1276,S22,Infections,Urinary tract infection,2026-07-22,140,1,No,Ongoing,Concomitant Treatment Given,No
+AE00895,SUB-1277,S22,Nervous system disorders,Insomnia,2026-05-12,87,1,No,Recovered,Dose Reduced,Yes
+AE00896,SUB-1279,S22,Musculoskeletal disorders,Myalgia,2026-09-29,18,5,No,Recovered with sequelae,Dose Held,No
+AE00897,SUB-1280,S22,Skin disorders,Dry skin,2026-09-11,14,3,No,Recovered,Drug Withdrawn,No
+AE00898,SUB-1281,S22,Musculoskeletal disorders,Myalgia,2026-09-06,126,3,Yes,Recovered,Drug Withdrawn,No
+AE00899,SUB-1281,S22,Musculoskeletal disorders,Myalgia,2026-05-24,21,1,No,Recovered,Concomitant Treatment Given,No
+AE00900,SUB-1281,S22,Musculoskeletal disorders,Back pain,2026-09-20,140,1,No,Ongoing,Concomitant Treatment Given,No
+AE00901,SUB-1283,S22,Nervous system disorders,Headache,2026-09-24,20,3,No,Recovered,None,Yes
+AE00902,SUB-1283,S22,Respiratory disorders,Dyspnea,2026-09-24,20,2,No,Recovered with sequelae,Dose Reduced,No
+AE00903,SUB-1283,S22,Respiratory disorders,Dyspnea,2026-09-17,13,1,No,Ongoing,Dose Reduced,Yes
+AE00904,SUB-1283,S22,Nervous system disorders,Insomnia,2026-09-27,23,3,No,Recovered,Concomitant Treatment Given,No
+AE00905,SUB-1292,S22,Infections,Urinary tract infection,2026-09-10,267,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00906,SUB-1292,S22,Metabolism disorders,Hyperglycemia,2026-02-24,69,3,Yes,Recovered,Drug Withdrawn,Yes
+AE00907,SUB-1295,S22,Gastrointestinal disorders,Diarrhea,2026-09-14,17,2,No,Recovered,Dose Held,Yes
+AE00908,SUB-1297,S22,Infections,Upper respiratory tract infection,2026-09-17,120,2,No,Recovered,Dose Held,Yes
+AE00909,SUB-1299,S22,Respiratory disorders,Dyspnea,2026-09-27,4,2,No,Recovered,Dose Held,No
+AE00910,SUB-1302,S22,Metabolism disorders,Decreased appetite,2026-01-24,34,1,No,Ongoing,Dose Reduced,Yes
+AE00911,SUB-1303,S22,Respiratory disorders,Cough,2026-05-08,61,2,No,Recovering,Dose Reduced,No
+AE00912,SUB-1304,S22,Investigations,AST increased,2026-09-23,18,3,No,Ongoing,Drug Withdrawn,Yes
+AE00913,SUB-1306,S22,Investigations,AST increased,2026-09-12,103,2,No,Recovered,Dose Held,No
+AE00914,SUB-1306,S22,Nervous system disorders,Insomnia,2026-09-25,116,4,No,Recovered,None,No
+AE00915,SUB-1307,S22,General disorders,Injection site pain,2026-09-27,99,2,No,Recovering,Concomitant Treatment Given,No
+AE00916,SUB-1307,S22,Metabolism disorders,Hyperglycemia,2026-09-13,85,1,No,Recovered,Dose Held,Yes
+AE00917,SUB-1307,S22,Skin disorders,Dry skin,2026-09-23,95,3,No,Ongoing,Dose Reduced,No
+AE00918,SUB-1307,S22,Vascular disorders,Hypotension,2026-09-26,98,3,No,Recovered,None,No
+AE00919,SUB-1308,S23,Investigations,AST increased,2026-09-12,71,4,Yes,Ongoing,None,Yes
+AE00920,SUB-1310,S23,Metabolism disorders,Decreased appetite,2025-10-23,81,2,No,Ongoing,Concomitant Treatment Given,No
+AE00921,SUB-1313,S23,Skin disorders,Rash,2026-04-02,77,2,No,Recovered,Drug Withdrawn,No
+AE00922,SUB-1313,S23,Metabolism disorders,Hyperglycemia,2026-08-05,202,1,No,Recovered,Dose Held,Yes
+AE00923,SUB-1313,S23,Metabolism disorders,Hyperglycemia,2026-08-10,207,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00924,SUB-1315,S23,Vascular disorders,Hypertension,2026-09-19,77,3,Yes,Ongoing,Concomitant Treatment Given,No
+AE00925,SUB-1315,S23,Nervous system disorders,Peripheral neuropathy,2026-09-20,78,3,Yes,Recovering,Concomitant Treatment Given,No
+AE00926,SUB-1315,S23,Infections,Urinary tract infection,2026-09-25,83,1,No,Recovering,Dose Held,Yes
+AE00927,SUB-1316,S23,Investigations,Weight decreased,2026-09-17,236,1,No,Recovered,Drug Withdrawn,No
+AE00928,SUB-1319,S23,Gastrointestinal disorders,Vomiting,2026-08-10,111,3,No,Ongoing,Dose Held,No
+AE00929,SUB-1319,S23,Metabolism disorders,Hyperglycemia,2026-07-07,77,2,No,Ongoing,None,No
+AE00930,SUB-1322,S23,Vascular disorders,Hypertension,2026-01-12,189,5,No,Recovered,None,Yes
+AE00931,SUB-1322,S23,General disorders,Fatigue,2026-05-17,314,1,No,Recovered,Concomitant Treatment Given,Yes
+AE00932,SUB-1323,S23,Gastrointestinal disorders,Nausea,2026-06-10,146,2,No,Recovering,Dose Held,No
+AE00933,SUB-1324,S23,Gastrointestinal disorders,Constipation,2026-02-02,39,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00934,SUB-1326,S23,Skin disorders,Rash,2026-09-27,7,3,No,Ongoing,Concomitant Treatment Given,No
+AE00935,SUB-1326,S23,Vascular disorders,Hypotension,2026-09-13,-7,1,No,Ongoing,Dose Reduced,No
+AE00936,SUB-1326,S23,Infections,Upper respiratory tract infection,2026-09-24,4,1,No,Recovered,Dose Held,Yes
+AE00937,SUB-1327,S23,Skin disorders,Pruritus,2026-05-22,67,3,No,Recovered,Dose Reduced,Yes
+AE00938,SUB-1327,S23,Vascular disorders,Hypotension,2026-09-29,197,4,No,Recovering,Dose Held,Yes
+AE00939,SUB-1330,S23,Investigations,ALT increased,2026-09-29,53,1,No,Recovered,Dose Reduced,No
+AE00940,SUB-1330,S23,Vascular disorders,Hypertension,2026-09-28,52,1,No,Recovered,Dose Reduced,No
+AE00941,SUB-1339,S23,Investigations,ALT increased,2026-09-28,29,3,No,Recovered,Dose Reduced,Yes
+AE00942,SUB-1340,S23,Respiratory disorders,Cough,2025-09-19,8,3,Yes,Recovered,None,Yes
+AE00943,SUB-1341,S23,General disorders,Edema peripheral,2026-09-17,-7,2,No,Ongoing,Dose Held,Yes
+AE00944,SUB-1343,S23,Infections,Urinary tract infection,2026-05-21,87,5,No,Ongoing,Dose Reduced,No
+AE00945,SUB-1344,S23,Vascular disorders,Hypertension,2026-09-27,129,1,No,Recovered,Dose Held,Yes
+AE00946,SUB-1344,S23,Respiratory disorders,Dyspnea,2026-09-22,124,1,No,Recovered,Dose Reduced,Yes
+AE00947,SUB-1347,S23,Musculoskeletal disorders,Back pain,2026-06-10,289,2,No,Recovering,Dose Held,Yes
+AE00948,SUB-1353,S23,General disorders,Fatigue,2026-04-19,150,1,No,Recovered,Dose Held,No
+AE00949,SUB-1355,S23,Respiratory disorders,Cough,2026-08-07,1,1,No,Recovered,Drug Withdrawn,Yes
+AE00950,SUB-1363,S24,Respiratory disorders,Cough,2026-09-25,4,1,No,Recovering,Concomitant Treatment Given,Yes
+AE00951,SUB-1364,S24,General disorders,Fatigue,2025-12-20,183,3,No,Recovering,Dose Reduced,No
+AE00952,SUB-1366,S24,Vascular disorders,Hypotension,2026-09-14,109,1,No,Recovered,Dose Reduced,No
+AE00953,SUB-1366,S24,Respiratory disorders,Cough,2026-09-17,112,3,Yes,Recovered with sequelae,Drug Withdrawn,Yes
+AE00954,SUB-1366,S24,Respiratory disorders,Cough,2026-09-14,109,1,No,Recovering,Dose Held,Yes
+AE00955,SUB-1373,S24,General disorders,Fatigue,2026-06-28,6,4,No,Recovered,Drug Withdrawn,Yes
+AE00956,SUB-1373,S24,Skin disorders,Pruritus,2026-09-20,90,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00957,SUB-1376,S24,Infections,Nasopharyngitis,2026-09-12,-16,1,No,Recovered,Concomitant Treatment Given,No
+AE00958,SUB-1376,S24,General disorders,Fatigue,2026-09-19,-9,1,No,Recovered,Concomitant Treatment Given,No
+AE00959,SUB-1378,S24,Investigations,Neutrophil count decreased,2026-09-11,164,2,No,Ongoing,Dose Held,Yes
+AE00960,SUB-1382,S24,Vascular disorders,Hypotension,2026-09-19,19,1,No,Recovered,Drug Withdrawn,Yes
+AE00961,SUB-1382,S24,Respiratory disorders,Dyspnea,2026-09-26,26,1,No,Fatal,Dose Reduced,Yes
+AE00962,SUB-1382,S24,Metabolism disorders,Decreased appetite,2026-09-13,13,2,No,Recovering,Dose Held,No
+AE00963,SUB-1383,S24,Investigations,ALT increased,2026-09-11,63,2,No,Ongoing,None,Yes
+AE00964,SUB-1383,S24,Gastrointestinal disorders,Nausea,2026-08-05,26,3,No,Recovered,Concomitant Treatment Given,Yes
+AE00965,SUB-1385,S24,Musculoskeletal disorders,Arthralgia,2025-11-11,141,3,No,Recovering,Concomitant Treatment Given,Yes
+AE00966,SUB-1390,S24,Respiratory disorders,Dyspnea,2026-09-29,15,1,No,Recovered,Dose Reduced,Yes
+AE00967,SUB-1390,S24,Vascular disorders,Hypotension,2026-09-28,14,2,No,Recovered,Dose Held,No
+AE00968,SUB-1391,S24,Infections,Urinary tract infection,2026-09-10,126,1,No,Ongoing,None,No
+AE00969,SUB-1391,S24,Metabolism disorders,Decreased appetite,2026-09-25,141,2,No,Recovering,None,No
+AE00970,SUB-1395,S24,General disorders,Edema peripheral,2026-05-22,82,3,Yes,Recovering,None,No
+AE00971,SUB-1396,S24,Investigations,AST increased,2026-04-22,175,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE00972,SUB-1396,S24,Investigations,ALT increased,2026-06-13,227,3,No,Recovered with sequelae,Dose Held,Yes
+AE00973,SUB-1397,S24,Vascular disorders,Hypertension,2026-07-23,186,1,No,Recovered,None,Yes
+AE00974,SUB-1401,S24,Skin disorders,Dry skin,2025-11-12,10,3,No,Recovered,Concomitant Treatment Given,No
+AE00975,SUB-1405,S24,Vascular disorders,Hypotension,2026-09-16,57,3,No,Recovered,Drug Withdrawn,No
+AE00976,SUB-1408,S24,Nervous system disorders,Headache,2026-07-25,79,2,No,Recovered,Concomitant Treatment Given,No
+AE00977,SUB-1408,S24,Metabolism disorders,Hyperglycemia,2026-09-14,130,2,No,Recovered,Dose Reduced,No
+AE00978,SUB-1408,S24,Vascular disorders,Hypotension,2026-09-11,127,2,No,Recovered,Dose Held,Yes
+AE00979,SUB-1409,S24,Investigations,ALT increased,2026-09-25,29,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE00980,SUB-1409,S24,Gastrointestinal disorders,Constipation,2026-09-29,33,3,Yes,Recovered,Dose Reduced,No
+AE00981,SUB-1409,S24,Nervous system disorders,Insomnia,2026-09-11,15,2,No,Recovered,Dose Reduced,No
+AE00982,SUB-1411,S24,Investigations,AST increased,2026-09-29,35,2,No,Recovered,Concomitant Treatment Given,Yes
+AE00983,SUB-1414,S24,General disorders,Fatigue,2026-09-18,227,3,No,Recovered,Drug Withdrawn,No
+AE00984,SUB-1415,S24,Infections,Urinary tract infection,2026-06-03,137,1,No,Ongoing,Concomitant Treatment Given,No
+AE00985,SUB-1416,S24,Respiratory disorders,Cough,2026-09-21,238,1,No,Ongoing,Concomitant Treatment Given,No
+AE00986,SUB-1424,S24,Investigations,ALT increased,2026-08-08,115,1,No,Recovered,Concomitant Treatment Given,No
+AE00987,SUB-1424,S24,Metabolism disorders,Hyperglycemia,2026-05-08,23,1,No,Fatal,Dose Reduced,Yes
+AE00988,SUB-1424,S24,Vascular disorders,Hypertension,2026-04-23,8,2,No,Recovered,Dose Reduced,Yes
+AE00989,SUB-1432,S25,Skin disorders,Dry skin,2025-12-17,54,3,No,Ongoing,Dose Held,No
+AE00990,SUB-1432,S25,Vascular disorders,Hypotension,2026-04-24,182,3,No,Recovering,Dose Reduced,No
+AE00991,SUB-1432,S25,Gastrointestinal disorders,Nausea,2026-06-13,232,3,No,Recovered,Drug Withdrawn,No
+AE00992,SUB-1432,S25,Investigations,ALT increased,2025-10-25,1,1,No,Ongoing,None,No
+AE00993,SUB-1436,S25,Nervous system disorders,Dizziness,2026-09-27,229,1,No,Recovered,Dose Reduced,Yes
+AE00994,SUB-1436,S25,Respiratory disorders,Cough,2026-07-02,142,3,No,Ongoing,Concomitant Treatment Given,No
+AE00995,SUB-1441,S25,Infections,Upper respiratory tract infection,2026-07-24,129,2,No,Recovered,Dose Reduced,No
+AE00996,SUB-1443,S25,Nervous system disorders,Peripheral neuropathy,2026-09-22,27,4,No,Recovering,Concomitant Treatment Given,Yes
+AE00997,SUB-1443,S25,Respiratory disorders,Dyspnea,2026-09-14,19,1,No,Ongoing,Dose Reduced,No
+AE00998,SUB-1444,S25,Nervous system disorders,Insomnia,2026-05-18,242,2,No,Recovering,Concomitant Treatment Given,Yes
+AE00999,SUB-1449,S25,Infections,Urinary tract infection,2026-08-04,219,2,No,Recovered,None,No
+AE01000,SUB-1460,S25,General disorders,Edema peripheral,2025-08-28,24,3,No,Recovering,None,No
+AE01001,SUB-1461,S25,Musculoskeletal disorders,Arthralgia,2026-04-21,230,3,Yes,Recovered,Dose Reduced,Yes
+AE01002,SUB-1462,S25,Vascular disorders,Hypotension,2026-03-19,8,2,No,Recovered,Concomitant Treatment Given,No
+AE01003,SUB-1469,S25,General disorders,Pyrexia,2026-09-25,277,3,No,Recovered,Drug Withdrawn,No
+AE01004,SUB-1470,S25,Metabolism disorders,Decreased appetite,2026-09-21,7,3,No,Recovered,Concomitant Treatment Given,No
+AE01005,SUB-1470,S25,Nervous system disorders,Insomnia,2026-09-27,13,1,No,Recovered,None,Yes
+AE01006,SUB-1470,S25,Musculoskeletal disorders,Arthralgia,2026-09-29,15,2,No,Ongoing,None,No
+AE01007,SUB-1472,S25,Infections,Upper respiratory tract infection,2026-09-29,8,3,No,Recovered,Drug Withdrawn,Yes
+AE01008,SUB-1472,S25,Investigations,Neutrophil count decreased,2026-09-17,-4,2,No,Recovering,Dose Reduced,Yes
+AE01009,SUB-1474,S25,Metabolism disorders,Hyperglycemia,2026-09-27,6,2,No,Ongoing,Concomitant Treatment Given,No
+AE01010,SUB-1474,S25,Gastrointestinal disorders,Abdominal pain,2026-09-19,-2,1,No,Recovered,Dose Reduced,No
+AE01011,SUB-1475,S25,General disorders,Pyrexia,2026-09-12,91,1,No,Recovered,Dose Held,No
+AE01012,SUB-1478,S25,Metabolism disorders,Hyperglycemia,2026-09-11,63,3,No,Recovered,Dose Reduced,Yes
+AE01013,SUB-1484,S25,Musculoskeletal disorders,Back pain,2026-05-17,236,1,No,Recovering,Drug Withdrawn,No
+AE01014,SUB-1485,S25,Respiratory disorders,Cough,2026-09-17,30,2,No,Recovered,Dose Reduced,No
+AE01015,SUB-1486,S25,Vascular disorders,Hypertension,2026-07-18,266,1,No,Recovered,None,No
+AE01016,SUB-1487,S25,Infections,Upper respiratory tract infection,2026-04-24,182,1,No,Recovered with sequelae,Concomitant Treatment Given,Yes
+AE01017,SUB-1487,S25,Skin disorders,Rash,2026-01-13,81,3,No,Recovered,Drug Withdrawn,No
+AE01018,SUB-1488,S25,Nervous system disorders,Peripheral neuropathy,2026-09-12,155,2,No,Recovered,Dose Held,No
+AE01019,SUB-1490,S26,Vascular disorders,Hypertension,2025-09-10,8,1,No,Recovered,Concomitant Treatment Given,No
+AE01020,SUB-1490,S26,Investigations,ALT increased,2026-02-12,163,3,Yes,Recovered,None,Yes
+AE01021,SUB-1495,S26,Musculoskeletal disorders,Arthralgia,2025-04-26,33,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE01022,SUB-1495,S26,Nervous system disorders,Insomnia,2025-10-23,213,2,No,Ongoing,Dose Reduced,No
+AE01023,SUB-1505,S26,Skin disorders,Dry skin,2026-09-21,74,4,No,Ongoing,Dose Reduced,Yes
+AE01024,SUB-1506,S26,Respiratory disorders,Dyspnea,2026-07-12,148,2,No,Recovered with sequelae,Dose Reduced,No
+AE01025,SUB-1507,S26,Investigations,ALT increased,2026-08-28,196,1,No,Recovered,None,No
+AE01026,SUB-1509,S26,Gastrointestinal disorders,Vomiting,2025-07-28,77,3,Yes,Recovered,None,No
+AE01027,SUB-1512,S26,Gastrointestinal disorders,Constipation,2026-09-14,215,2,No,Recovered,Concomitant Treatment Given,No
+AE01028,SUB-1512,S26,Vascular disorders,Hypertension,2026-09-18,219,1,No,Ongoing,None,No
+AE01029,SUB-1513,S26,Respiratory disorders,Dyspnea,2025-12-06,192,2,No,Recovered,Drug Withdrawn,Yes
+AE01030,SUB-1513,S26,General disorders,Edema peripheral,2026-01-04,221,2,No,Recovered,Concomitant Treatment Given,Yes
+AE01031,SUB-1513,S26,Respiratory disorders,Cough,2025-07-15,48,1,No,Recovered,Dose Reduced,No
+AE01032,SUB-1515,S26,Musculoskeletal disorders,Arthralgia,2025-10-30,43,2,No,Recovered,Dose Held,No
+AE01033,SUB-1515,S26,Vascular disorders,Hypertension,2025-10-10,23,2,No,Recovering,Drug Withdrawn,No
+AE01034,SUB-1515,S26,Nervous system disorders,Headache,2026-01-12,117,1,No,Recovered,Dose Reduced,No
+AE01035,SUB-1519,S26,Gastrointestinal disorders,Vomiting,2026-02-13,319,1,No,Recovered with sequelae,Dose Held,No
+AE01036,SUB-1521,S26,Skin disorders,Pruritus,2026-09-08,283,2,No,Recovered,Drug Withdrawn,No
+AE01037,SUB-1521,S26,Investigations,Neutrophil count decreased,2026-05-02,154,3,No,Recovered,Concomitant Treatment Given,Yes
+AE01038,SUB-1521,S26,Infections,Upper respiratory tract infection,2026-06-04,187,2,No,Recovered,None,Yes
+AE01039,SUB-1522,S26,Metabolism disorders,Hyperglycemia,2025-08-22,169,2,No,Recovered,Dose Reduced,Yes
+AE01040,SUB-1523,S26,Skin disorders,Rash,2026-05-04,136,1,No,Recovering,None,Yes
+AE01041,SUB-1528,S26,Musculoskeletal disorders,Back pain,2025-11-04,16,3,No,Ongoing,Drug Withdrawn,No
+AE01042,SUB-1528,S26,Respiratory disorders,Cough,2026-05-16,209,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE01043,SUB-1530,S26,Musculoskeletal disorders,Myalgia,2026-09-25,48,2,No,Ongoing,Dose Reduced,Yes
+AE01044,SUB-1531,S26,Respiratory disorders,Dyspnea,2026-09-20,79,1,No,Recovered,Dose Reduced,Yes
+AE01045,SUB-1531,S26,Infections,Upper respiratory tract infection,2026-09-27,86,1,No,Recovered,Dose Held,No
+AE01046,SUB-1531,S26,Vascular disorders,Hypotension,2026-07-15,12,1,No,Recovered,Dose Reduced,No
+AE01047,SUB-1533,S26,Skin disorders,Dry skin,2026-04-09,294,1,No,Recovering,Dose Reduced,No
+AE01048,SUB-1533,S26,Metabolism disorders,Decreased appetite,2025-07-09,20,2,No,Ongoing,Dose Held,No
+AE01049,SUB-1533,S26,Respiratory disorders,Cough,2026-02-16,242,2,No,Recovering,Dose Held,No
+AE01050,SUB-1533,S26,General disorders,Fatigue,2026-01-25,220,1,No,Recovered,Dose Held,No
+AE01051,SUB-1536,S26,Musculoskeletal disorders,Back pain,2025-10-16,116,1,No,Recovered with sequelae,Concomitant Treatment Given,Yes
+AE01052,SUB-1536,S26,Skin disorders,Rash,2025-12-24,185,3,No,Recovering,Concomitant Treatment Given,Yes
+AE01053,SUB-1538,S26,Skin disorders,Pruritus,2026-01-16,294,3,No,Recovered,Concomitant Treatment Given,No
+AE01054,SUB-1541,S26,Gastrointestinal disorders,Diarrhea,2025-09-10,121,1,No,Recovered,Dose Held,No
+AE01055,SUB-1542,S26,Metabolism disorders,Decreased appetite,2026-09-11,26,3,No,Recovering,Concomitant Treatment Given,No
+AE01056,SUB-1542,S26,Infections,Nasopharyngitis,2026-09-10,25,5,No,Recovered,Concomitant Treatment Given,Yes
+AE01057,SUB-1542,S26,Investigations,AST increased,2026-09-27,42,3,No,Ongoing,Dose Reduced,No
+AE01058,SUB-1542,S26,Musculoskeletal disorders,Back pain,2026-09-10,25,3,Yes,Recovering,Drug Withdrawn,No
+AE01059,SUB-1548,S27,Nervous system disorders,Peripheral neuropathy,2026-09-16,50,1,No,Recovering,Drug Withdrawn,Yes
+AE01060,SUB-1553,S27,Skin disorders,Rash,2025-07-10,142,1,No,Recovered,Drug Withdrawn,Yes
+AE01061,SUB-1555,S27,Nervous system disorders,Dizziness,2026-02-26,26,3,Yes,Recovering,Drug Withdrawn,No
+AE01062,SUB-1560,S27,Metabolism disorders,Decreased appetite,2026-05-25,292,3,No,Recovered,None,Yes
+AE01063,SUB-1560,S27,Nervous system disorders,Headache,2025-12-26,142,1,No,Recovered,Drug Withdrawn,No
+AE01064,SUB-1563,S27,Infections,Urinary tract infection,2026-09-12,133,4,No,Ongoing,Drug Withdrawn,Yes
+AE01065,SUB-1565,S27,Skin disorders,Pruritus,2025-12-07,133,1,No,Recovered,Dose Held,No
+AE01066,SUB-1572,S27,Investigations,ALT increased,2026-09-17,86,1,No,Ongoing,Dose Reduced,Yes
+AE01067,SUB-1572,S27,Infections,Urinary tract infection,2026-09-26,95,3,Yes,Recovering,Concomitant Treatment Given,Yes
+AE01068,SUB-1572,S27,Gastrointestinal disorders,Vomiting,2026-09-18,87,3,Yes,Recovered,Dose Reduced,No
+AE01069,SUB-1572,S27,Nervous system disorders,Peripheral neuropathy,2026-09-27,96,1,No,Recovered,Dose Reduced,No
+AE01070,SUB-1577,S27,General disorders,Injection site pain,2026-09-23,179,1,No,Recovered,Concomitant Treatment Given,Yes
+AE01071,SUB-1577,S27,Metabolism disorders,Decreased appetite,2026-09-21,177,2,No,Recovering,Dose Held,Yes
+AE01072,SUB-1579,S27,Nervous system disorders,Insomnia,2026-09-17,150,3,No,Recovered,Drug Withdrawn,No
+AE01073,SUB-1590,S27,Respiratory disorders,Dyspnea,2026-02-20,184,2,No,Fatal,None,Yes
+AE01074,SUB-1594,S27,General disorders,Fatigue,2026-09-13,19,1,No,Recovering,Dose Reduced,No
+AE01075,SUB-1596,S27,General disorders,Injection site pain,2026-09-26,45,1,No,Recovered,Drug Withdrawn,Yes
+AE01076,SUB-1596,S27,Skin disorders,Dry skin,2026-09-12,31,3,No,Recovering,None,Yes
+AE01077,SUB-1600,S27,Infections,Upper respiratory tract infection,2025-08-28,4,1,No,Recovered,Dose Reduced,No
+AE01078,SUB-1600,S27,General disorders,Pyrexia,2026-06-11,291,2,No,Recovering,None,Yes
+AE01079,SUB-1600,S27,Infections,Upper respiratory tract infection,2026-06-24,304,3,Yes,Recovered,Dose Held,Yes
+AE01080,SUB-1601,S27,Skin disorders,Rash,2025-09-08,54,2,No,Recovered,Drug Withdrawn,Yes
+AE01081,SUB-1601,S27,Gastrointestinal disorders,Diarrhea,2025-08-22,37,1,No,Recovered,Dose Held,Yes
+AE01082,SUB-1601,S27,Vascular disorders,Hypertension,2026-01-22,190,2,No,Recovering,Concomitant Treatment Given,Yes
+AE01083,SUB-1605,S27,General disorders,Injection site pain,2025-09-14,47,3,No,Recovering,Concomitant Treatment Given,No
+AE01084,SUB-1606,S27,Musculoskeletal disorders,Myalgia,2026-08-18,301,2,No,Recovered,Dose Reduced,No
+AE01085,SUB-1607,S27,Vascular disorders,Hypotension,2026-06-06,235,1,No,Recovered,None,No
+AE01086,SUB-1608,S27,Respiratory disorders,Cough,2026-09-10,262,2,No,Recovering,None,Yes
+AE01087,SUB-1609,S27,Gastrointestinal disorders,Nausea,2026-06-12,63,3,Yes,Ongoing,Concomitant Treatment Given,Yes
+AE01088,SUB-1611,S28,Respiratory disorders,Cough,2026-09-27,12,1,No,Recovered,None,No
+AE01089,SUB-1611,S28,Investigations,ALT increased,2026-09-17,2,2,No,Recovered,Concomitant Treatment Given,Yes
+AE01090,SUB-1611,S28,Skin disorders,Dry skin,2026-09-25,10,1,No,Recovered,Concomitant Treatment Given,Yes
+AE01091,SUB-1613,S28,General disorders,Edema peripheral,2025-11-18,47,4,No,Recovered,None,No
+AE01092,SUB-1616,S28,General disorders,Injection site pain,2026-09-23,13,1,No,Recovered,Drug Withdrawn,Yes
+AE01093,SUB-1617,S28,Infections,Upper respiratory tract infection,2026-04-11,100,1,No,Ongoing,Dose Held,Yes
+AE01094,SUB-1621,S28,Nervous system disorders,Headache,2026-09-21,95,1,No,Recovered,Dose Held,No
+AE01095,SUB-1623,S28,Infections,Urinary tract infection,2026-07-02,19,3,No,Recovered,Drug Withdrawn,Yes
+AE01096,SUB-1623,S28,General disorders,Fatigue,2026-09-18,97,2,No,Recovered,None,Yes
+AE01097,SUB-1625,S28,General disorders,Pyrexia,2026-09-12,10,1,No,Recovered,Dose Held,Yes
+AE01098,SUB-1625,S28,Investigations,AST increased,2026-09-14,12,3,Yes,Ongoing,Dose Reduced,Yes
+AE01099,SUB-1627,S28,Metabolism disorders,Decreased appetite,2026-09-13,51,1,No,Recovered,Drug Withdrawn,Yes
+AE01100,SUB-1627,S28,Vascular disorders,Hypertension,2026-09-14,52,1,No,Ongoing,Concomitant Treatment Given,No
+AE01101,SUB-1627,S28,General disorders,Edema peripheral,2026-07-28,4,1,No,Recovering,Dose Reduced,No
+AE01102,SUB-1628,S28,Infections,Upper respiratory tract infection,2026-02-05,62,4,No,Recovered,Dose Reduced,No
+AE01103,SUB-1628,S28,Metabolism disorders,Decreased appetite,2026-03-28,113,1,No,Ongoing,None,No
+AE01104,SUB-1637,S28,Investigations,ALT increased,2026-09-23,31,1,No,Recovering,Drug Withdrawn,No
+AE01105,SUB-1638,S28,Gastrointestinal disorders,Nausea,2026-09-25,101,2,No,Recovered,Drug Withdrawn,No
+AE01106,SUB-1638,S28,Metabolism disorders,Decreased appetite,2026-07-17,31,1,No,Recovered,Dose Reduced,No
+AE01107,SUB-1638,S28,Musculoskeletal disorders,Back pain,2026-07-25,39,3,No,Ongoing,None,No
+AE01108,SUB-1640,S28,Skin disorders,Pruritus,2026-05-20,160,3,No,Recovered,None,Yes
+AE01109,SUB-1646,S28,Metabolism disorders,Hyperglycemia,2026-09-17,-12,1,No,Ongoing,Concomitant Treatment Given,No
+AE01110,SUB-1650,S28,Metabolism disorders,Hyperglycemia,2026-09-27,2,3,No,Recovered with sequelae,Concomitant Treatment Given,No
+AE01111,SUB-1651,S28,Skin disorders,Rash,2026-09-16,-9,3,No,Ongoing,Dose Reduced,No
+AE01112,SUB-1654,S28,Respiratory disorders,Cough,2026-09-27,12,1,No,Recovering,Dose Held,No
+AE01113,SUB-1654,S28,Infections,Nasopharyngitis,2026-09-10,-5,1,No,Recovering,Dose Held,Yes
+AE01114,SUB-1662,S28,Respiratory disorders,Dyspnea,2026-09-11,25,3,No,Recovered,Dose Reduced,Yes
+AE01115,SUB-1662,S28,Investigations,Weight decreased,2026-09-29,43,4,No,Ongoing,None,Yes
+AE01116,SUB-1662,S28,Investigations,Neutrophil count decreased,2026-09-25,39,2,No,Recovering,None,No
+AE01117,SUB-1663,S28,Vascular disorders,Hypotension,2026-09-19,135,3,No,Recovering,Dose Held,Yes
+AE01118,SUB-1664,S28,Musculoskeletal disorders,Back pain,2026-09-15,52,1,No,Recovered,Drug Withdrawn,No
+AE01119,SUB-1664,S28,Infections,Upper respiratory tract infection,2026-09-24,61,2,No,Recovering,Dose Reduced,Yes
+AE01120,SUB-1666,S28,General disorders,Pyrexia,2026-09-11,-18,1,No,Fatal,Dose Held,Yes
+AE01121,SUB-1667,S28,Metabolism disorders,Hyperglycemia,2026-09-28,14,1,No,Ongoing,Dose Reduced,No
+AE01122,SUB-1669,S28,Musculoskeletal disorders,Back pain,2026-09-23,33,1,No,Recovering,Dose Held,No
+AE01123,SUB-1669,S28,Respiratory disorders,Cough,2026-09-28,38,5,No,Recovered,Dose Reduced,Yes
+AE01124,SUB-1670,S28,Investigations,Weight decreased,2026-09-24,124,2,No,Ongoing,Dose Held,Yes
+AE01125,SUB-1673,S29,Nervous system disorders,Peripheral neuropathy,2025-06-11,57,1,No,Recovered,None,Yes
+AE01126,SUB-1675,S29,Investigations,ALT increased,2026-09-11,83,3,No,Recovered,Concomitant Treatment Given,No
+AE01127,SUB-1675,S29,Skin disorders,Dry skin,2026-08-14,55,3,Yes,Recovered,Concomitant Treatment Given,Yes
+AE01128,SUB-1676,S29,Skin disorders,Rash,2025-06-14,14,1,No,Ongoing,Drug Withdrawn,Yes
+AE01129,SUB-1676,S29,General disorders,Pyrexia,2025-06-08,8,1,No,Recovered with sequelae,Drug Withdrawn,No
+AE01130,SUB-1676,S29,Infections,Upper respiratory tract infection,2025-08-22,83,3,No,Ongoing,None,Yes
+AE01131,SUB-1676,S29,Vascular disorders,Hypotension,2025-06-09,9,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE01132,SUB-1677,S29,Musculoskeletal disorders,Myalgia,2026-02-22,126,2,No,Recovered,Concomitant Treatment Given,Yes
+AE01133,SUB-1688,S29,Vascular disorders,Hypotension,2026-09-11,48,1,No,Recovered,Dose Reduced,No
+AE01134,SUB-1688,S29,Skin disorders,Dry skin,2026-09-11,48,1,No,Ongoing,Dose Held,Yes
+AE01135,SUB-1688,S29,Metabolism disorders,Decreased appetite,2026-09-17,54,1,No,Recovered,Dose Reduced,No
+AE01136,SUB-1688,S29,Vascular disorders,Hypertension,2026-09-10,47,2,No,Recovered,Dose Reduced,No
+AE01137,SUB-1691,S29,Nervous system disorders,Insomnia,2026-09-20,289,1,No,Recovered,Dose Held,Yes
+AE01138,SUB-1693,S29,Skin disorders,Rash,2026-09-13,144,1,No,Recovered,Dose Held,Yes
+AE01139,SUB-1693,S29,Investigations,Weight decreased,2026-05-09,17,4,No,Recovered,None,Yes
+AE01140,SUB-1695,S29,Nervous system disorders,Dizziness,2025-09-26,204,1,No,Recovering,Dose Reduced,No
+AE01141,SUB-1695,S29,Metabolism disorders,Decreased appetite,2025-10-04,212,1,No,Recovered,Dose Held,Yes
+AE01142,SUB-1697,S29,Infections,Urinary tract infection,2025-10-24,232,2,No,Recovered,Dose Held,Yes
+AE01143,SUB-1699,S29,Musculoskeletal disorders,Arthralgia,2025-10-23,208,4,No,Ongoing,Dose Reduced,No
+AE01144,SUB-1699,S29,Gastrointestinal disorders,Nausea,2025-08-08,132,3,No,Recovered,Drug Withdrawn,Yes
+AE01145,SUB-1702,S29,Skin disorders,Rash,2025-08-11,11,1,No,Recovering,Dose Held,No
+AE01146,SUB-1702,S29,Respiratory disorders,Dyspnea,2025-12-22,144,3,No,Recovered,Dose Reduced,No
+AE01147,SUB-1702,S29,Musculoskeletal disorders,Back pain,2025-12-02,124,1,No,Recovered,Dose Reduced,No
+AE01148,SUB-1708,S29,Vascular disorders,Hypotension,2026-06-16,35,3,No,Recovered,None,No
+AE01149,SUB-1710,S29,Skin disorders,Pruritus,2025-05-01,64,1,No,Recovering,Dose Held,No
+AE01150,SUB-1710,S29,Infections,Nasopharyngitis,2026-01-08,316,2,No,Recovered,Dose Reduced,Yes
+AE01151,SUB-1710,S29,General disorders,Edema peripheral,2025-09-23,209,1,No,Recovering,Dose Held,Yes
+AE01152,SUB-1715,S29,Gastrointestinal disorders,Abdominal pain,2026-08-27,51,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE01153,SUB-1715,S29,General disorders,Edema peripheral,2026-09-11,66,1,No,Recovered,Drug Withdrawn,Yes
+AE01154,SUB-1716,S29,Metabolism disorders,Decreased appetite,2026-09-17,102,4,No,Recovering,Dose Held,Yes
+AE01155,SUB-1720,S29,Metabolism disorders,Hyperglycemia,2026-06-20,104,1,No,Recovered,None,Yes
+AE01156,SUB-1723,S29,Nervous system disorders,Insomnia,2026-09-14,80,1,No,Recovering,Drug Withdrawn,No
+AE01157,SUB-1723,S29,Investigations,Neutrophil count decreased,2026-09-27,93,2,No,Ongoing,Dose Held,Yes
+AE01158,SUB-1724,S29,Skin disorders,Dry skin,2026-09-01,69,2,No,Recovering,None,Yes
+AE01159,SUB-1724,S29,Skin disorders,Dry skin,2026-09-17,85,1,No,Recovered,None,No
+AE01160,SUB-1724,S29,Gastrointestinal disorders,Abdominal pain,2026-09-13,81,1,No,Recovering,Concomitant Treatment Given,No
+AE01161,SUB-1729,S29,Infections,Nasopharyngitis,2026-07-12,62,3,Yes,Recovered,Concomitant Treatment Given,Yes
+AE01162,SUB-1729,S29,Skin disorders,Pruritus,2026-09-14,126,2,No,Recovering,Concomitant Treatment Given,Yes
+AE01163,SUB-1729,S29,Nervous system disorders,Insomnia,2026-07-03,53,3,No,Recovering,Concomitant Treatment Given,No
+AE01164,SUB-1730,S29,Nervous system disorders,Headache,2026-09-16,69,1,No,Recovered with sequelae,None,No
+AE01165,SUB-1732,S29,Respiratory disorders,Dyspnea,2026-04-17,133,2,No,Ongoing,Dose Held,No
+AE01166,SUB-1732,S29,Investigations,Weight decreased,2026-03-02,87,3,No,Ongoing,None,Yes
+AE01167,SUB-1732,S29,Skin disorders,Rash,2026-04-04,120,3,Yes,Ongoing,None,No
+AE01168,SUB-1734,S29,Vascular disorders,Hypotension,2026-07-05,299,2,No,Ongoing,None,No
+AE01169,SUB-1735,S29,Metabolism disorders,Hyperglycemia,2026-09-21,190,1,No,Recovered,Dose Reduced,Yes
+AE01170,SUB-1736,S29,Gastrointestinal disorders,Constipation,2025-11-24,240,3,No,Recovered,Dose Reduced,Yes
+AE01171,SUB-1736,S29,Musculoskeletal disorders,Arthralgia,2025-09-23,178,1,No,Recovered,None,Yes
+AE01172,SUB-1737,S30,Musculoskeletal disorders,Myalgia,2026-09-16,70,5,No,Recovered,Concomitant Treatment Given,Yes
+AE01173,SUB-1737,S30,Vascular disorders,Hypotension,2026-09-25,79,2,No,Recovered,Drug Withdrawn,No
+AE01174,SUB-1737,S30,Skin disorders,Pruritus,2026-08-11,34,1,No,Recovered,Dose Held,Yes
+AE01175,SUB-1738,S30,Investigations,Neutrophil count decreased,2026-09-25,56,3,No,Recovering,Dose Held,Yes
+AE01176,SUB-1738,S30,Skin disorders,Rash,2026-09-23,54,1,No,Recovered,None,No
+AE01177,SUB-1741,S30,Gastrointestinal disorders,Diarrhea,2026-06-24,56,2,No,Recovered,Dose Held,Yes
+AE01178,SUB-1748,S30,Infections,Nasopharyngitis,2026-04-28,171,1,No,Ongoing,Drug Withdrawn,No
+AE01179,SUB-1748,S30,Infections,Nasopharyngitis,2026-03-01,113,1,No,Recovered,Dose Held,No
+AE01180,SUB-1748,S30,Gastrointestinal disorders,Constipation,2026-06-28,232,1,No,Ongoing,Concomitant Treatment Given,No
+AE01181,SUB-1749,S30,Infections,Nasopharyngitis,2026-09-21,50,2,No,Ongoing,Drug Withdrawn,Yes
+AE01182,SUB-1750,S30,Skin disorders,Rash,2025-07-28,47,2,No,Recovered,Dose Held,Yes
+AE01183,SUB-1754,S30,Nervous system disorders,Headache,2026-09-28,102,2,No,Recovering,Dose Reduced,Yes
+AE01184,SUB-1759,S30,Vascular disorders,Hypotension,2026-05-13,213,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE01185,SUB-1759,S30,Vascular disorders,Hypertension,2026-08-12,304,2,No,Recovered,Drug Withdrawn,No
+AE01186,SUB-1759,S30,Respiratory disorders,Cough,2026-04-23,193,4,No,Ongoing,Dose Held,No
+AE01187,SUB-1763,S30,General disorders,Pyrexia,2026-09-22,48,2,No,Recovering,None,No
+AE01188,SUB-1765,S30,Respiratory disorders,Cough,2026-09-26,104,3,Yes,Recovered,None,Yes
+AE01189,SUB-1765,S30,Gastrointestinal disorders,Abdominal pain,2026-09-20,98,3,No,Recovered,Concomitant Treatment Given,No
+AE01190,SUB-1768,S30,Metabolism disorders,Decreased appetite,2025-09-18,127,1,No,Recovered,None,Yes
+AE01191,SUB-1770,S30,Skin disorders,Dry skin,2026-09-29,152,1,No,Recovered,Dose Reduced,Yes
+AE01192,SUB-1770,S30,Skin disorders,Rash,2026-09-03,126,1,No,Ongoing,Dose Reduced,No
+AE01193,SUB-1770,S30,Gastrointestinal disorders,Diarrhea,2026-09-22,145,3,No,Ongoing,Concomitant Treatment Given,No
+AE01194,SUB-1772,S30,Investigations,ALT increased,2026-09-29,7,2,No,Recovered,Drug Withdrawn,Yes
+AE01195,SUB-1773,S30,Gastrointestinal disorders,Constipation,2026-06-01,250,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE01196,SUB-1773,S30,General disorders,Fatigue,2025-11-28,65,1,No,Recovering,None,Yes
+AE01197,SUB-1773,S30,Musculoskeletal disorders,Myalgia,2026-07-06,285,2,No,Recovered,None,No
+AE01198,SUB-1774,S30,Respiratory disorders,Cough,2025-10-25,150,2,No,Recovered,Concomitant Treatment Given,No
+AE01199,SUB-1774,S30,Metabolism disorders,Decreased appetite,2025-11-26,182,2,No,Recovered,Dose Reduced,No
+AE01200,SUB-1774,S30,General disorders,Edema peripheral,2025-08-29,93,2,No,Ongoing,Concomitant Treatment Given,No
+AE01201,SUB-1775,S30,Gastrointestinal disorders,Vomiting,2026-09-28,73,3,Yes,Recovered,Dose Reduced,Yes
+AE01202,SUB-1776,S30,Infections,Nasopharyngitis,2026-02-03,80,3,No,Recovered,Dose Held,No
+AE01203,SUB-1777,S30,Investigations,ALT increased,2026-02-05,126,3,No,Recovered,None,Yes
+AE01204,SUB-1777,S30,Vascular disorders,Hypotension,2025-12-15,74,1,No,Recovered,Dose Reduced,No
+AE01205,SUB-1777,S30,Musculoskeletal disorders,Arthralgia,2025-12-06,65,3,Yes,Recovering,Drug Withdrawn,Yes
+AE01206,SUB-1778,S30,Respiratory disorders,Dyspnea,2026-03-16,81,3,No,Recovered,None,Yes
+AE01207,SUB-1779,S30,Vascular disorders,Hypotension,2026-09-24,27,2,No,Recovered,Dose Reduced,Yes
+AE01208,SUB-1780,S30,Vascular disorders,Hypertension,2026-07-15,117,2,No,Recovered,Dose Reduced,Yes
+AE01209,SUB-1782,S30,Nervous system disorders,Headache,2026-06-13,56,1,No,Ongoing,Drug Withdrawn,No
+AE01210,SUB-1782,S30,Respiratory disorders,Cough,2026-09-16,151,2,No,Recovering,Dose Reduced,No
+AE01211,SUB-1782,S30,Vascular disorders,Hypotension,2026-09-17,152,4,No,Recovered,Dose Reduced,Yes
+AE01212,SUB-1785,S30,Investigations,ALT increased,2025-10-29,55,2,No,Ongoing,Dose Reduced,No
+AE01213,SUB-1787,S30,Metabolism disorders,Decreased appetite,2026-09-12,152,1,No,Recovered,Drug Withdrawn,No
+AE01214,SUB-1790,S30,Infections,Nasopharyngitis,2025-10-04,65,1,No,Recovered,Drug Withdrawn,Yes
+AE01215,SUB-1791,S30,Metabolism disorders,Decreased appetite,2026-08-07,37,2,No,Ongoing,Concomitant Treatment Given,No
+AE01216,SUB-1791,S30,Infections,Upper respiratory tract infection,2026-09-20,81,2,No,Ongoing,Drug Withdrawn,Yes
+AE01217,SUB-1795,S30,Skin disorders,Rash,2026-06-29,316,1,No,Recovered,Dose Reduced,Yes
+AE01218,SUB-1795,S30,Investigations,ALT increased,2026-06-21,308,3,No,Recovered,Drug Withdrawn,No
+AE01219,SUB-1796,S30,Investigations,Neutrophil count decreased,2026-09-25,157,1,No,Recovered,None,Yes
+AE01220,SUB-1796,S30,Nervous system disorders,Insomnia,2026-09-08,140,2,No,Recovering,Concomitant Treatment Given,No
+AE01221,SUB-1796,S30,Respiratory disorders,Cough,2026-09-19,151,2,No,Recovered,Drug Withdrawn,No
+AE01222,SUB-1799,S30,Gastrointestinal disorders,Nausea,2026-03-18,231,2,No,Ongoing,None,Yes
+AE01223,SUB-1799,S30,Vascular disorders,Hypertension,2026-03-26,239,2,No,Ongoing,Dose Held,No
+AE01224,SUB-1799,S30,Infections,Urinary tract infection,2026-02-05,190,3,Yes,Recovering,Concomitant Treatment Given,Yes
+AE01225,SUB-1799,S30,Investigations,Weight decreased,2025-11-25,118,2,No,Recovered,Concomitant Treatment Given,Yes
+AE01226,SUB-1803,S31,Nervous system disorders,Headache,2026-06-03,15,2,No,Recovering,Dose Reduced,Yes
+AE01227,SUB-1803,S31,Gastrointestinal disorders,Constipation,2026-09-22,126,3,No,Recovered,None,Yes
+AE01228,SUB-1804,S31,Investigations,ALT increased,2026-09-26,98,3,No,Recovered,None,No
+AE01229,SUB-1805,S31,Infections,Urinary tract infection,2026-09-22,38,3,No,Recovered,Drug Withdrawn,Yes
+AE01230,SUB-1805,S31,Infections,Upper respiratory tract infection,2026-09-10,26,2,No,Recovered,Dose Held,Yes
+AE01231,SUB-1805,S31,Skin disorders,Rash,2026-09-12,28,1,No,Ongoing,Dose Held,No
+AE01232,SUB-1807,S31,Metabolism disorders,Hyperglycemia,2026-09-12,141,2,No,Recovering,Drug Withdrawn,Yes
+AE01233,SUB-1808,S31,Skin disorders,Dry skin,2026-03-15,144,4,No,Recovered,Concomitant Treatment Given,No
+AE01234,SUB-1808,S31,Musculoskeletal disorders,Myalgia,2025-11-18,27,2,No,Recovered,Drug Withdrawn,No
+AE01235,SUB-1809,S31,Vascular disorders,Hypertension,2026-09-13,2,1,No,Recovered,Drug Withdrawn,Yes
+AE01236,SUB-1809,S31,General disorders,Pyrexia,2026-09-17,6,3,No,Ongoing,Dose Reduced,Yes
+AE01237,SUB-1810,S31,General disorders,Injection site pain,2026-09-14,14,2,No,Ongoing,Drug Withdrawn,Yes
+AE01238,SUB-1812,S31,Skin disorders,Dry skin,2026-09-29,305,5,No,Recovered,None,No
+AE01239,SUB-1812,S31,Metabolism disorders,Hyperglycemia,2026-04-03,126,1,No,Recovering,Drug Withdrawn,No
+AE01240,SUB-1813,S31,Infections,Urinary tract infection,2026-01-06,102,1,No,Recovered,Dose Held,Yes
+AE01241,SUB-1817,S31,Vascular disorders,Hypotension,2026-09-26,8,3,No,Recovered,Dose Reduced,No
+AE01242,SUB-1817,S31,Metabolism disorders,Decreased appetite,2026-09-25,7,3,Yes,Recovered,None,Yes
+AE01243,SUB-1818,S31,Skin disorders,Pruritus,2026-06-16,18,2,No,Recovered,Dose Held,No
+AE01244,SUB-1820,S31,Vascular disorders,Hypotension,2026-06-14,33,1,No,Recovered,Dose Held,Yes
+AE01245,SUB-1821,S31,Vascular disorders,Hypotension,2026-09-14,97,2,No,Recovered,Dose Reduced,No
+AE01246,SUB-1823,S31,Investigations,Neutrophil count decreased,2026-06-06,163,2,No,Ongoing,None,No
+AE01247,SUB-1825,S31,Gastrointestinal disorders,Diarrhea,2026-04-10,78,2,No,Recovered,Dose Held,No
+AE01248,SUB-1825,S31,Vascular disorders,Hypertension,2026-09-27,248,2,No,Ongoing,Drug Withdrawn,Yes
+AE01249,SUB-1825,S31,Respiratory disorders,Cough,2026-07-24,183,1,No,Ongoing,Dose Held,Yes
+AE01250,SUB-1825,S31,Respiratory disorders,Dyspnea,2026-03-30,67,3,No,Recovered,Concomitant Treatment Given,Yes
+AE01251,SUB-1827,S31,Vascular disorders,Hypertension,2026-09-26,89,2,No,Recovering,Drug Withdrawn,No
+AE01252,SUB-1832,S31,Respiratory disorders,Dyspnea,2025-12-06,136,1,No,Recovering,Dose Held,No
+AE01253,SUB-1834,S31,Gastrointestinal disorders,Vomiting,2026-04-25,284,2,No,Recovered,Dose Reduced,No
+AE01254,SUB-1834,S31,Gastrointestinal disorders,Constipation,2026-01-20,189,2,No,Recovered,Drug Withdrawn,Yes
+AE01255,SUB-1834,S31,Skin disorders,Pruritus,2025-09-03,50,3,Yes,Ongoing,Concomitant Treatment Given,Yes
+AE01256,SUB-1837,S31,Respiratory disorders,Cough,2026-09-14,-12,1,No,Recovered,Dose Held,No
+AE01257,SUB-1837,S31,Infections,Nasopharyngitis,2026-09-10,-16,1,No,Recovering,Concomitant Treatment Given,Yes
+AE01258,SUB-1837,S31,Investigations,Weight decreased,2026-09-13,-13,2,No,Recovered,None,Yes
+AE01259,SUB-1838,S31,General disorders,Fatigue,2026-09-12,47,1,No,Recovered,Dose Held,No
+AE01260,SUB-1838,S31,Skin disorders,Dry skin,2026-08-13,17,1,No,Recovered,None,No
+AE01261,SUB-1840,S31,Nervous system disorders,Dizziness,2026-05-04,136,3,No,Recovering,Drug Withdrawn,No
+AE01262,SUB-1842,S31,Respiratory disorders,Dyspnea,2025-11-26,110,3,No,Recovering,Dose Held,No
+AE01263,SUB-1845,S31,Respiratory disorders,Dyspnea,2026-09-18,97,1,No,Recovering,Concomitant Treatment Given,Yes
+AE01264,SUB-1845,S31,Infections,Nasopharyngitis,2026-07-16,33,1,No,Ongoing,Drug Withdrawn,Yes
+AE01265,SUB-1845,S31,Gastrointestinal disorders,Nausea,2026-08-10,58,3,No,Recovered,None,No
+AE01266,SUB-1845,S31,Metabolism disorders,Hyperglycemia,2026-09-11,90,1,No,Recovered,Dose Held,No
+AE01267,SUB-1848,S31,Respiratory disorders,Cough,2026-09-11,124,3,Yes,Ongoing,Dose Reduced,Yes
+AE01268,SUB-1852,S31,Vascular disorders,Hypotension,2026-01-09,57,3,No,Recovered,Dose Held,No
+AE01269,SUB-1852,S31,Skin disorders,Pruritus,2026-08-26,286,1,No,Recovered,Concomitant Treatment Given,Yes
+AE01270,SUB-1854,S31,Metabolism disorders,Hyperglycemia,2025-11-02,108,1,No,Recovered,Dose Held,Yes
+AE01271,SUB-1854,S31,Metabolism disorders,Hyperglycemia,2025-10-24,99,2,No,Recovered,Drug Withdrawn,No
+AE01272,SUB-1854,S31,Vascular disorders,Hypotension,2025-09-28,73,3,No,Recovered,Dose Reduced,No
+AE01273,SUB-1856,S31,Infections,Nasopharyngitis,2026-05-01,26,2,No,Ongoing,Drug Withdrawn,No
+AE01274,SUB-1860,S32,Metabolism disorders,Decreased appetite,2026-09-19,60,1,No,Ongoing,None,No
+AE01275,SUB-1863,S32,Nervous system disorders,Dizziness,2025-12-18,11,1,No,Ongoing,Concomitant Treatment Given,No
+AE01276,SUB-1863,S32,Investigations,Weight decreased,2026-09-14,281,3,No,Recovered,Dose Reduced,Yes
+AE01277,SUB-1863,S32,Respiratory disorders,Dyspnea,2026-02-20,75,3,No,Ongoing,Dose Held,No
+AE01278,SUB-1867,S32,Nervous system disorders,Insomnia,2025-06-01,18,1,No,Recovering,Concomitant Treatment Given,No
+AE01279,SUB-1867,S32,Infections,Upper respiratory tract infection,2025-11-13,183,4,No,Ongoing,Dose Reduced,Yes
+AE01280,SUB-1868,S32,Infections,Upper respiratory tract infection,2026-05-25,141,1,No,Recovered,Drug Withdrawn,Yes
+AE01281,SUB-1868,S32,Respiratory disorders,Cough,2026-09-16,255,4,No,Recovering,Drug Withdrawn,Yes
+AE01282,SUB-1871,S32,Respiratory disorders,Cough,2026-08-03,287,1,No,Recovered,Concomitant Treatment Given,No
+AE01283,SUB-1875,S32,Metabolism disorders,Decreased appetite,2026-09-20,63,1,No,Recovered,Drug Withdrawn,Yes
+AE01284,SUB-1878,S32,Metabolism disorders,Decreased appetite,2026-09-18,80,2,No,Recovered,Dose Held,No
+AE01285,SUB-1878,S32,Investigations,Weight decreased,2026-09-29,91,1,No,Ongoing,None,No
+AE01286,SUB-1881,S32,General disorders,Fatigue,2025-12-20,115,2,No,Recovered,Drug Withdrawn,Yes
+AE01287,SUB-1881,S32,Skin disorders,Pruritus,2025-09-15,19,1,No,Recovered,None,Yes
+AE01288,SUB-1881,S32,Respiratory disorders,Cough,2026-04-09,225,1,No,Ongoing,None,Yes
+AE01289,SUB-1882,S32,Vascular disorders,Hypotension,2025-08-14,106,3,No,Recovered with sequelae,Dose Held,No
+AE01290,SUB-1887,S32,Musculoskeletal disorders,Back pain,2026-08-31,38,1,No,Ongoing,Concomitant Treatment Given,No
+AE01291,SUB-1889,S32,Musculoskeletal disorders,Myalgia,2025-12-16,227,1,No,Recovered,Drug Withdrawn,Yes
+AE01292,SUB-1890,S32,Gastrointestinal disorders,Diarrhea,2026-08-14,217,1,No,Recovered with sequelae,Concomitant Treatment Given,No
+AE01293,SUB-1893,S32,General disorders,Fatigue,2026-09-27,90,2,No,Recovering,Drug Withdrawn,Yes
+AE01294,SUB-1894,S32,Metabolism disorders,Decreased appetite,2026-09-15,116,1,No,Recovered,Dose Held,No
+AE01295,SUB-1896,S32,Vascular disorders,Hypertension,2025-09-12,163,1,No,Recovered,Dose Reduced,No
+AE01296,SUB-1901,S32,Metabolism disorders,Decreased appetite,2025-11-10,2,2,No,Recovering,Dose Reduced,Yes
+AE01297,SUB-1902,S32,Investigations,Weight decreased,2026-07-06,227,2,No,Recovered,Concomitant Treatment Given,No
+AE01298,SUB-1902,S32,Musculoskeletal disorders,Myalgia,2026-04-11,141,1,No,Recovered,Dose Reduced,No
+AE01299,SUB-1905,S32,Investigations,Weight decreased,2025-11-07,192,3,No,Recovered with sequelae,None,No
+AE01300,SUB-1906,S32,Metabolism disorders,Hyperglycemia,2026-03-07,81,3,No,Ongoing,Drug Withdrawn,Yes
+AE01301,SUB-1911,S32,Skin disorders,Pruritus,2026-06-15,81,2,No,Ongoing,Dose Reduced,No
+AE01302,SUB-1913,S32,Metabolism disorders,Hyperglycemia,2026-07-11,33,2,No,Recovered,Dose Held,Yes
+AE01303,SUB-1914,S32,Gastrointestinal disorders,Constipation,2026-09-21,47,2,No,Ongoing,Dose Held,No
+AE01304,SUB-1916,S32,Gastrointestinal disorders,Diarrhea,2026-04-11,128,3,No,Recovered,Dose Held,No
+AE01305,SUB-1916,S32,Musculoskeletal disorders,Back pain,2026-05-01,148,2,No,Recovered with sequelae,Concomitant Treatment Given,Yes
+AE01306,SUB-1921,S32,Infections,Nasopharyngitis,2026-01-27,164,1,No,Recovered,Dose Reduced,Yes
+AE01307,SUB-1923,S33,Skin disorders,Rash,2026-09-16,197,2,No,Recovered,Dose Held,Yes
+AE01308,SUB-1924,S33,Investigations,AST increased,2026-07-04,61,2,No,Recovered,Dose Reduced,Yes
+AE01309,SUB-1927,S33,General disorders,Injection site pain,2026-08-03,304,3,No,Ongoing,Drug Withdrawn,No
+AE01310,SUB-1928,S33,General disorders,Injection site pain,2026-09-12,7,3,No,Recovered,Concomitant Treatment Given,Yes
+AE01311,SUB-1928,S33,Respiratory disorders,Dyspnea,2026-09-14,9,1,No,Recovered,Dose Reduced,No
+AE01312,SUB-1930,S33,Skin disorders,Dry skin,2026-09-21,148,2,No,Recovered,Dose Held,Yes
+AE01313,SUB-1930,S33,Skin disorders,Rash,2026-09-23,150,2,No,Recovered,Drug Withdrawn,Yes
+AE01314,SUB-1931,S33,General disorders,Fatigue,2026-09-12,165,1,No,Recovered,Dose Held,No
+AE01315,SUB-1931,S33,Skin disorders,Dry skin,2026-07-02,93,1,No,Recovering,None,Yes
+AE01316,SUB-1933,S33,Metabolism disorders,Hyperglycemia,2026-09-29,2,3,No,Ongoing,Drug Withdrawn,Yes
+AE01317,SUB-1933,S33,Vascular disorders,Hypotension,2026-09-13,-14,2,No,Ongoing,Dose Held,Yes
+AE01318,SUB-1936,S33,Nervous system disorders,Dizziness,2026-05-01,163,1,No,Recovered,Dose Held,Yes
+AE01319,SUB-1936,S33,Musculoskeletal disorders,Arthralgia,2026-08-26,280,1,No,Recovered,Drug Withdrawn,Yes
+AE01320,SUB-1937,S33,Nervous system disorders,Insomnia,2026-09-21,-7,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE01321,SUB-1937,S33,Vascular disorders,Hypertension,2026-09-21,-7,1,No,Recovering,Dose Reduced,Yes
+AE01322,SUB-1938,S33,Respiratory disorders,Dyspnea,2025-12-14,7,1,No,Fatal,Dose Reduced,No
+AE01323,SUB-1938,S33,Metabolism disorders,Hyperglycemia,2026-07-21,226,1,No,Recovering,Concomitant Treatment Given,Yes
+AE01324,SUB-1941,S33,Gastrointestinal disorders,Nausea,2026-09-13,214,2,No,Ongoing,Drug Withdrawn,No
+AE01325,SUB-1944,S33,Vascular disorders,Hypertension,2026-01-26,1,2,No,Recovered,Dose Reduced,No
+AE01326,SUB-1947,S33,Infections,Upper respiratory tract infection,2026-09-14,68,2,No,Recovered,None,No
+AE01327,SUB-1949,S33,Gastrointestinal disorders,Nausea,2026-09-16,19,2,No,Recovering,Drug Withdrawn,Yes
+AE01328,SUB-1950,S33,Skin disorders,Dry skin,2026-09-18,150,1,No,Recovering,Concomitant Treatment Given,Yes
+AE01329,SUB-1952,S33,Nervous system disorders,Insomnia,2026-09-24,48,3,Yes,Recovered,Drug Withdrawn,Yes
+AE01330,SUB-1953,S33,Skin disorders,Rash,2026-09-19,237,1,No,Recovered,Dose Reduced,No
+AE01331,SUB-1954,S33,Nervous system disorders,Dizziness,2026-09-13,52,2,No,Recovered,Drug Withdrawn,No
+AE01332,SUB-1954,S33,General disorders,Edema peripheral,2026-09-15,54,3,Yes,Recovering,Dose Reduced,No
+AE01333,SUB-1954,S33,Vascular disorders,Hypotension,2026-09-17,56,3,No,Recovered,Dose Reduced,No
+AE01334,SUB-1957,S33,Metabolism disorders,Hyperglycemia,2026-09-17,24,1,No,Recovered,Dose Reduced,No
+AE01335,SUB-1957,S33,Musculoskeletal disorders,Arthralgia,2026-09-22,29,3,No,Recovered,Dose Held,No
+AE01336,SUB-1959,S33,Musculoskeletal disorders,Arthralgia,2026-09-21,-4,3,Yes,Ongoing,Concomitant Treatment Given,Yes
+AE01337,SUB-1960,S33,Musculoskeletal disorders,Arthralgia,2026-09-29,6,2,No,Recovered,Drug Withdrawn,No
+AE01338,SUB-1960,S33,Respiratory disorders,Dyspnea,2026-09-14,-9,1,No,Recovering,Dose Reduced,No
+AE01339,SUB-1960,S33,Musculoskeletal disorders,Myalgia,2026-09-20,-3,2,No,Recovering,None,No
+AE01340,SUB-1961,S33,Gastrointestinal disorders,Nausea,2026-09-13,96,3,No,Ongoing,Dose Held,Yes
+AE01341,SUB-1961,S33,General disorders,Fatigue,2026-09-23,106,1,No,Ongoing,Drug Withdrawn,No
+AE01342,SUB-1962,S33,Skin disorders,Dry skin,2026-09-22,88,3,Yes,Recovered with sequelae,None,No
+AE01343,SUB-1962,S33,General disorders,Pyrexia,2026-08-04,39,3,No,Recovered,Dose Reduced,No
+AE01344,SUB-1969,S33,Vascular disorders,Hypotension,2026-09-10,0,1,No,Recovered,Dose Reduced,No
+AE01345,SUB-1969,S33,Metabolism disorders,Hyperglycemia,2026-09-18,8,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE01346,SUB-1970,S33,Respiratory disorders,Cough,2026-09-21,-3,2,No,Recovered,Concomitant Treatment Given,Yes
+AE01347,SUB-1970,S33,General disorders,Edema peripheral,2026-09-13,-11,2,No,Recovered,None,Yes
+AE01348,SUB-1970,S33,Skin disorders,Dry skin,2026-09-13,-11,1,No,Recovered,Dose Reduced,Yes
+AE01349,SUB-1977,S33,Infections,Urinary tract infection,2026-07-21,126,1,No,Recovered,Dose Held,Yes
+AE01350,SUB-1977,S33,Investigations,Weight decreased,2026-04-23,37,1,No,Recovered,Dose Reduced,No
+AE01351,SUB-1983,S33,Nervous system disorders,Headache,2026-09-16,7,2,No,Ongoing,Dose Reduced,No
+AE01352,SUB-1983,S33,Infections,Urinary tract infection,2026-09-26,17,1,No,Recovering,Drug Withdrawn,Yes
+AE01353,SUB-1984,S34,Vascular disorders,Hypertension,2026-09-13,-10,2,No,Ongoing,Dose Held,Yes
+AE01354,SUB-1984,S34,Gastrointestinal disorders,Nausea,2026-09-18,-5,2,No,Recovered,Concomitant Treatment Given,No
+AE01355,SUB-1985,S34,Gastrointestinal disorders,Constipation,2026-09-24,13,2,No,Recovered,None,Yes
+AE01356,SUB-1986,S34,Musculoskeletal disorders,Myalgia,2026-04-22,14,3,Yes,Recovered,Concomitant Treatment Given,No
+AE01357,SUB-1986,S34,Respiratory disorders,Dyspnea,2026-07-18,101,1,No,Recovered,Drug Withdrawn,No
+AE01358,SUB-1986,S34,Infections,Upper respiratory tract infection,2026-07-10,93,3,Yes,Recovered,Concomitant Treatment Given,No
+AE01359,SUB-1987,S34,Musculoskeletal disorders,Myalgia,2026-09-27,50,2,No,Ongoing,None,Yes
+AE01360,SUB-1989,S34,Musculoskeletal disorders,Myalgia,2026-09-20,-5,2,No,Recovered,Dose Held,No
+AE01361,SUB-1995,S34,Investigations,Weight decreased,2026-09-16,282,3,No,Recovered,None,Yes
+AE01362,SUB-1996,S34,Vascular disorders,Hypotension,2026-09-13,119,4,No,Ongoing,None,No
+AE01363,SUB-1996,S34,Investigations,Neutrophil count decreased,2026-09-27,133,1,No,Ongoing,None,Yes
+AE01364,SUB-1996,S34,Skin disorders,Dry skin,2026-09-16,122,2,No,Recovered with sequelae,Dose Reduced,Yes
+AE01365,SUB-1996,S34,Musculoskeletal disorders,Arthralgia,2026-09-13,119,2,No,Ongoing,Concomitant Treatment Given,No
+AE01366,SUB-1999,S34,Gastrointestinal disorders,Vomiting,2026-09-11,-9,1,No,Recovered,Dose Reduced,No
+AE01367,SUB-2001,S34,Respiratory disorders,Dyspnea,2026-09-25,17,5,No,Recovered,Dose Reduced,No
+AE01368,SUB-2004,S34,Respiratory disorders,Dyspnea,2026-01-16,88,3,Yes,Recovered,Drug Withdrawn,No
+AE01369,SUB-2007,S34,General disorders,Fatigue,2026-09-14,-9,2,No,Ongoing,Drug Withdrawn,Yes
+AE01370,SUB-2009,S34,Nervous system disorders,Peripheral neuropathy,2026-09-19,137,1,No,Recovered,Dose Held,No
+AE01371,SUB-2009,S34,Skin disorders,Pruritus,2026-09-21,139,1,No,Recovered,Drug Withdrawn,Yes
+AE01372,SUB-2009,S34,Skin disorders,Dry skin,2026-09-18,136,2,No,Recovered,None,Yes
+AE01373,SUB-2013,S34,Skin disorders,Pruritus,2026-09-16,-7,2,No,Recovered,Dose Reduced,Yes
+AE01374,SUB-2013,S34,Metabolism disorders,Decreased appetite,2026-09-15,-8,1,No,Recovered,Dose Held,Yes
+AE01375,SUB-2015,S34,Investigations,Weight decreased,2026-09-17,28,1,No,Recovered,None,No
+AE01376,SUB-2015,S34,Vascular disorders,Hypertension,2026-09-20,31,3,Yes,Ongoing,None,Yes
+AE01377,SUB-2015,S34,Skin disorders,Dry skin,2026-09-15,26,1,No,Recovered,Dose Held,No
+AE01378,SUB-2019,S34,Nervous system disorders,Dizziness,2026-01-01,91,2,No,Recovered,Drug Withdrawn,No
+AE01379,SUB-2019,S34,Gastrointestinal disorders,Vomiting,2026-05-04,214,1,No,Recovered with sequelae,Drug Withdrawn,Yes
+AE01380,SUB-2019,S34,Vascular disorders,Hypertension,2025-11-25,54,1,No,Ongoing,Dose Reduced,Yes
+AE01381,SUB-2019,S34,Skin disorders,Dry skin,2026-03-14,163,2,No,Recovering,None,No
+AE01382,SUB-2020,S34,Skin disorders,Dry skin,2026-09-25,1,4,No,Recovering,Drug Withdrawn,Yes
+AE01383,SUB-2021,S34,Investigations,ALT increased,2026-09-26,19,3,No,Recovered,Drug Withdrawn,No
+AE01384,SUB-2021,S34,Gastrointestinal disorders,Diarrhea,2026-09-15,8,2,No,Ongoing,Dose Reduced,No
+AE01385,SUB-2021,S34,Musculoskeletal disorders,Back pain,2026-09-14,7,2,No,Recovered,Dose Reduced,No
+AE01386,SUB-2021,S34,Nervous system disorders,Insomnia,2026-09-23,16,3,No,Recovered,Concomitant Treatment Given,Yes
+AE01387,SUB-2022,S34,Investigations,Weight decreased,2026-04-29,154,1,No,Ongoing,Drug Withdrawn,No
+AE01388,SUB-2023,S34,Investigations,ALT increased,2026-09-09,172,2,No,Recovered,Drug Withdrawn,Yes
+AE01389,SUB-2023,S34,Respiratory disorders,Cough,2026-07-11,112,2,No,Ongoing,Dose Reduced,Yes
+AE01390,SUB-2027,S34,Investigations,ALT increased,2026-09-24,168,3,Yes,Ongoing,Dose Held,No
+AE01391,SUB-2027,S34,Skin disorders,Dry skin,2026-09-11,155,1,No,Recovering,Dose Held,Yes
+AE01392,SUB-2030,S34,Investigations,Neutrophil count decreased,2026-09-20,13,4,No,Recovered,Dose Held,No
+AE01393,SUB-2031,S34,Infections,Upper respiratory tract infection,2026-09-12,0,1,No,Recovering,Concomitant Treatment Given,Yes
+AE01394,SUB-2035,S34,Respiratory disorders,Cough,2026-04-26,104,2,No,Recovered,None,No
+AE01395,SUB-2035,S34,Vascular disorders,Hypertension,2026-04-18,96,2,No,Recovered,Drug Withdrawn,Yes
+AE01396,SUB-2038,S35,Vascular disorders,Hypertension,2026-09-19,-3,1,No,Ongoing,Dose Reduced,No
+AE01397,SUB-2038,S35,Respiratory disorders,Dyspnea,2026-09-15,-7,1,No,Recovered,Concomitant Treatment Given,No
+AE01398,SUB-2040,S35,Gastrointestinal disorders,Nausea,2025-11-07,41,5,No,Recovered,None,No
+AE01399,SUB-2042,S35,Respiratory disorders,Cough,2026-09-23,221,2,No,Recovered,Concomitant Treatment Given,Yes
+AE01400,SUB-2044,S35,Vascular disorders,Hypotension,2026-01-16,186,3,No,Recovered,Dose Reduced,No
+AE01401,SUB-2048,S35,Skin disorders,Pruritus,2026-05-15,183,3,No,Recovered with sequelae,Drug Withdrawn,No
+AE01402,SUB-2052,S35,General disorders,Pyrexia,2026-09-15,201,1,No,Recovering,None,No
+AE01403,SUB-2057,S35,Musculoskeletal disorders,Myalgia,2026-05-02,52,3,No,Ongoing,Drug Withdrawn,No
+AE01404,SUB-2057,S35,Nervous system disorders,Headache,2026-09-28,201,1,No,Recovered,Concomitant Treatment Given,No
+AE01405,SUB-2060,S35,General disorders,Fatigue,2026-05-28,156,1,No,Recovered,None,No
+AE01406,SUB-2062,S35,Musculoskeletal disorders,Arthralgia,2025-10-25,97,2,No,Recovered,Dose Reduced,No
+AE01407,SUB-2062,S35,Infections,Urinary tract infection,2026-04-02,256,2,No,Recovered,Dose Held,Yes
+AE01408,SUB-2062,S35,Investigations,ALT increased,2025-09-22,64,4,No,Recovered,Drug Withdrawn,No
+AE01409,SUB-2062,S35,Infections,Urinary tract infection,2025-10-20,92,1,No,Recovered,Dose Held,No
+AE01410,SUB-2066,S35,Vascular disorders,Hypertension,2026-09-10,-13,1,No,Ongoing,Dose Held,Yes
+AE01411,SUB-2066,S35,Skin disorders,Pruritus,2026-09-26,3,3,Yes,Recovered,Dose Held,Yes
+AE01412,SUB-2066,S35,Musculoskeletal disorders,Back pain,2026-09-22,-1,2,No,Recovered,None,Yes
+AE01413,SUB-2072,S35,Gastrointestinal disorders,Nausea,2026-09-13,14,2,No,Ongoing,Concomitant Treatment Given,No
+AE01414,SUB-2072,S35,General disorders,Pyrexia,2026-09-25,26,3,No,Recovered,Dose Held,No
+AE01415,SUB-2072,S35,Infections,Nasopharyngitis,2026-09-19,20,1,No,Ongoing,Dose Held,No
+AE01416,SUB-2073,S35,Respiratory disorders,Cough,2026-09-20,-3,1,No,Recovered,Dose Reduced,Yes
+AE01417,SUB-2073,S35,Respiratory disorders,Cough,2026-09-28,5,2,No,Ongoing,None,No
+AE01418,SUB-2073,S35,Infections,Nasopharyngitis,2026-09-21,-2,2,No,Recovered with sequelae,Dose Held,Yes
+AE01419,SUB-2074,S35,Skin disorders,Dry skin,2026-09-25,194,3,No,Recovered,Concomitant Treatment Given,No
+AE01420,SUB-2075,S35,Infections,Urinary tract infection,2025-09-20,115,2,No,Recovered,Concomitant Treatment Given,Yes
+AE01421,SUB-2077,S35,General disorders,Fatigue,2026-09-07,20,1,No,Recovering,Dose Reduced,Yes
+AE01422,SUB-2078,S35,Vascular disorders,Hypotension,2026-08-08,51,2,No,Recovering,None,Yes
+AE01423,SUB-2078,S35,Investigations,Neutrophil count decreased,2026-09-19,93,3,No,Ongoing,Dose Reduced,No
+AE01424,SUB-2083,S35,Respiratory disorders,Dyspnea,2025-10-11,81,3,Yes,Recovering,Dose Reduced,Yes
+AE01425,SUB-2087,S35,Investigations,Weight decreased,2026-04-25,295,2,No,Ongoing,Drug Withdrawn,No
+AE01426,SUB-2094,S35,Infections,Nasopharyngitis,2026-09-18,146,1,No,Recovered,None,Yes
+AE01427,SUB-2094,S35,Respiratory disorders,Cough,2026-09-19,147,2,No,Ongoing,None,No
+AE01428,SUB-2094,S35,General disorders,Edema peripheral,2026-09-22,150,3,No,Recovered,Dose Held,No
+AE01429,SUB-2095,S35,Metabolism disorders,Hyperglycemia,2026-01-19,154,1,No,Recovering,None,No
+AE01430,SUB-2096,S35,Investigations,Weight decreased,2026-06-21,29,1,No,Recovered with sequelae,Drug Withdrawn,No
+AE01431,SUB-2099,S35,Gastrointestinal disorders,Constipation,2026-07-26,157,3,Yes,Recovered,Drug Withdrawn,Yes
+AE01432,SUB-2099,S35,Vascular disorders,Hypotension,2026-09-22,215,1,No,Ongoing,Dose Reduced,No
+AE01433,SUB-2103,S35,Nervous system disorders,Headache,2026-09-23,24,1,No,Recovering,Concomitant Treatment Given,Yes
+AE01434,SUB-2106,S36,Skin disorders,Pruritus,2026-07-20,125,1,No,Recovering,Drug Withdrawn,No
+AE01435,SUB-2106,S36,Infections,Urinary tract infection,2026-08-24,160,2,No,Recovering,Dose Held,Yes
+AE01436,SUB-2108,S36,Nervous system disorders,Dizziness,2026-09-16,75,1,No,Ongoing,Concomitant Treatment Given,No
+AE01437,SUB-2108,S36,Nervous system disorders,Dizziness,2026-09-23,82,2,No,Recovered with sequelae,Drug Withdrawn,Yes
+AE01438,SUB-2109,S36,Musculoskeletal disorders,Back pain,2026-03-05,279,3,No,Recovered,None,No
+AE01439,SUB-2110,S36,Investigations,ALT increased,2026-02-10,32,5,No,Recovering,Drug Withdrawn,No
+AE01440,SUB-2112,S36,Nervous system disorders,Insomnia,2026-09-19,178,1,No,Recovered,Concomitant Treatment Given,No
+AE01441,SUB-2114,S36,Infections,Upper respiratory tract infection,2026-06-22,11,1,No,Recovering,Dose Held,No
+AE01442,SUB-2114,S36,Respiratory disorders,Cough,2026-09-23,104,1,No,Recovered,Dose Held,No
+AE01443,SUB-2123,S36,Vascular disorders,Hypertension,2026-09-26,191,2,No,Ongoing,Dose Held,No
+AE01444,SUB-2124,S36,Skin disorders,Rash,2026-09-13,247,1,No,Recovered,Dose Reduced,No
+AE01445,SUB-2126,S36,Nervous system disorders,Insomnia,2025-10-26,123,2,No,Ongoing,Dose Reduced,No
+AE01446,SUB-2126,S36,Vascular disorders,Hypotension,2026-05-01,310,1,No,Ongoing,Dose Held,Yes
+AE01447,SUB-2126,S36,Metabolism disorders,Decreased appetite,2025-08-03,39,3,No,Ongoing,Dose Reduced,Yes
+AE01448,SUB-2127,S36,Vascular disorders,Hypertension,2026-04-04,287,2,No,Ongoing,Dose Held,Yes
+AE01449,SUB-2133,S36,Skin disorders,Pruritus,2025-12-07,65,1,No,Recovering,Dose Reduced,No
+AE01450,SUB-2134,S36,Infections,Urinary tract infection,2026-07-12,292,3,No,Ongoing,Dose Reduced,No
+AE01451,SUB-2134,S36,Infections,Urinary tract infection,2026-04-25,214,1,No,Recovered,None,No
+AE01452,SUB-2134,S36,Musculoskeletal disorders,Back pain,2025-10-01,8,2,No,Recovering,None,No
+AE01453,SUB-2134,S36,Metabolism disorders,Hyperglycemia,2025-10-22,29,2,No,Ongoing,None,No
+AE01454,SUB-2137,S36,Nervous system disorders,Insomnia,2026-09-28,42,3,No,Recovered with sequelae,Concomitant Treatment Given,No
+AE01455,SUB-2141,S36,Vascular disorders,Hypertension,2026-09-10,108,1,No,Recovered,Drug Withdrawn,Yes
+AE01456,SUB-2141,S36,Vascular disorders,Hypertension,2026-09-19,117,2,No,Recovered,None,No
+AE01457,SUB-2141,S36,Vascular disorders,Hypertension,2026-09-15,113,2,No,Recovering,Dose Reduced,No
+AE01458,SUB-2142,S36,Skin disorders,Rash,2025-12-04,218,2,No,Recovered,Concomitant Treatment Given,Yes
+AE01459,SUB-2143,S36,Skin disorders,Pruritus,2025-10-27,136,3,No,Recovering,Concomitant Treatment Given,Yes
+AE01460,SUB-2147,S36,Investigations,Neutrophil count decreased,2026-05-05,8,2,No,Ongoing,Dose Reduced,Yes
+AE01461,SUB-2147,S36,Musculoskeletal disorders,Back pain,2026-09-05,131,1,No,Recovered,Dose Held,No
+AE01462,SUB-2147,S36,General disorders,Pyrexia,2026-09-19,145,1,No,Recovered,Drug Withdrawn,Yes
+AE01463,SUB-2147,S36,Respiratory disorders,Cough,2026-09-06,132,1,No,Recovered,Dose Reduced,No
+AE01464,SUB-2148,S36,Vascular disorders,Hypotension,2025-05-26,31,3,No,Recovering,Concomitant Treatment Given,No
+AE01465,SUB-2150,S36,Respiratory disorders,Cough,2026-09-29,85,3,Yes,Recovered,None,No
+AE01466,SUB-2153,S36,Vascular disorders,Hypotension,2026-09-10,-10,2,No,Recovered,Drug Withdrawn,No
+AE01467,SUB-2153,S36,General disorders,Injection site pain,2026-09-17,-3,1,No,Ongoing,None,Yes
+AE01468,SUB-2154,S36,General disorders,Edema peripheral,2025-06-02,5,3,No,Recovered,Concomitant Treatment Given,No
+AE01469,SUB-2155,S36,Metabolism disorders,Hyperglycemia,2026-09-11,-16,2,No,Ongoing,Concomitant Treatment Given,No
+AE01470,SUB-2159,S36,Investigations,ALT increased,2026-09-18,9,1,No,Recovered,Dose Held,No
+AE01471,SUB-2163,S37,Nervous system disorders,Insomnia,2026-08-09,304,3,Yes,Ongoing,Drug Withdrawn,No
+AE01472,SUB-2163,S37,Musculoskeletal disorders,Arthralgia,2026-01-08,91,2,No,Recovered,Drug Withdrawn,No
+AE01473,SUB-2163,S37,Infections,Urinary tract infection,2026-02-18,132,4,No,Recovered,Dose Reduced,Yes
+AE01474,SUB-2165,S37,Metabolism disorders,Decreased appetite,2025-07-26,140,2,No,Recovering,Dose Reduced,No
+AE01475,SUB-2165,S37,Gastrointestinal disorders,Nausea,2026-01-15,313,1,No,Recovered,None,No
+AE01476,SUB-2173,S37,Metabolism disorders,Decreased appetite,2026-04-19,293,1,No,Recovered,Concomitant Treatment Given,No
+AE01477,SUB-2173,S37,Musculoskeletal disorders,Back pain,2026-03-29,272,1,No,Recovered,None,Yes
+AE01478,SUB-2174,S37,Vascular disorders,Hypotension,2025-12-18,249,1,No,Recovered,Drug Withdrawn,No
+AE01479,SUB-2174,S37,Metabolism disorders,Decreased appetite,2025-06-03,51,1,No,Ongoing,None,No
+AE01480,SUB-2178,S37,Metabolism disorders,Decreased appetite,2026-09-03,46,2,No,Recovered,Drug Withdrawn,Yes
+AE01481,SUB-2180,S37,Investigations,ALT increased,2026-07-23,28,1,No,Ongoing,Drug Withdrawn,Yes
+AE01482,SUB-2180,S37,Skin disorders,Pruritus,2026-09-08,75,1,No,Recovered,Dose Held,Yes
+AE01483,SUB-2181,S37,Skin disorders,Pruritus,2026-03-01,58,3,No,Ongoing,None,Yes
+AE01484,SUB-2183,S37,Gastrointestinal disorders,Vomiting,2025-06-11,41,1,No,Recovered,None,Yes
+AE01485,SUB-2185,S37,Respiratory disorders,Cough,2026-09-11,104,3,Yes,Recovered,Dose Reduced,Yes
+AE01486,SUB-2185,S37,Respiratory disorders,Dyspnea,2026-09-16,109,1,No,Recovering,Concomitant Treatment Given,No
+AE01487,SUB-2185,S37,Vascular disorders,Hypertension,2026-06-05,6,2,No,Recovered,Drug Withdrawn,Yes
+AE01488,SUB-2189,S37,Skin disorders,Rash,2026-01-24,224,3,Yes,Recovered,Drug Withdrawn,Yes
+AE01489,SUB-2189,S37,Musculoskeletal disorders,Arthralgia,2025-08-12,59,2,No,Recovering,None,Yes
+AE01490,SUB-2191,S37,Infections,Nasopharyngitis,2025-03-15,22,3,No,Recovered,Dose Reduced,Yes
+AE01491,SUB-2191,S37,Infections,Upper respiratory tract infection,2025-07-04,133,1,No,Recovering,Dose Reduced,Yes
+AE01492,SUB-2192,S37,Infections,Upper respiratory tract infection,2025-09-23,38,2,No,Recovering,Dose Held,No
+AE01493,SUB-2196,S37,Infections,Urinary tract infection,2026-09-10,143,1,No,Ongoing,Concomitant Treatment Given,No
+AE01494,SUB-2196,S37,Investigations,Neutrophil count decreased,2026-06-18,59,2,No,Recovered,Concomitant Treatment Given,No
+AE01495,SUB-2198,S37,Nervous system disorders,Dizziness,2026-01-04,67,1,No,Recovering,Dose Held,Yes
+AE01496,SUB-2202,S37,Infections,Urinary tract infection,2025-12-23,7,3,No,Recovered,Dose Held,No
+AE01497,SUB-2202,S37,Gastrointestinal disorders,Nausea,2026-03-19,93,1,No,Ongoing,Dose Held,No
+AE01498,SUB-2202,S37,General disorders,Injection site pain,2026-08-04,231,3,No,Ongoing,None,No
+AE01499,SUB-2210,S37,Respiratory disorders,Cough,2026-07-07,140,4,Yes,Recovered,None,No
+AE01500,SUB-2210,S37,Respiratory disorders,Dyspnea,2026-03-15,26,2,No,Recovered,None,Yes
+AE01501,SUB-2211,S37,Metabolism disorders,Decreased appetite,2026-05-13,195,1,No,Recovering,Dose Reduced,No
+AE01502,SUB-2216,S37,Investigations,ALT increased,2025-04-04,14,1,No,Recovering,Dose Held,Yes
+AE01503,SUB-2216,S37,Respiratory disorders,Cough,2025-08-27,159,1,No,Recovered,Dose Reduced,No
+AE01504,SUB-2218,S37,Nervous system disorders,Insomnia,2026-09-26,157,1,No,Recovered with sequelae,Dose Reduced,No
+AE01505,SUB-2218,S37,Metabolism disorders,Decreased appetite,2026-09-11,142,3,No,Recovered,Dose Reduced,No
+AE01506,SUB-2218,S37,Nervous system disorders,Insomnia,2026-09-14,145,2,No,Recovered,Dose Held,No
+AE01507,SUB-2221,S37,Infections,Urinary tract infection,2026-05-26,23,3,Yes,Ongoing,Dose Held,No
+AE01508,SUB-2224,S38,General disorders,Fatigue,2026-09-13,172,2,No,Recovered,Drug Withdrawn,Yes
+AE01509,SUB-2225,S38,Skin disorders,Pruritus,2025-08-02,20,3,No,Ongoing,None,No
+AE01510,SUB-2226,S38,General disorders,Pyrexia,2026-09-14,213,1,No,Recovered,None,No
+AE01511,SUB-2226,S38,Vascular disorders,Hypertension,2026-06-30,137,3,No,Ongoing,Drug Withdrawn,No
+AE01512,SUB-2227,S38,Skin disorders,Rash,2026-08-28,33,2,No,Recovered,Dose Held,Yes
+AE01513,SUB-2228,S38,Respiratory disorders,Cough,2026-07-28,28,2,No,Recovered,Drug Withdrawn,No
+AE01514,SUB-2231,S38,Respiratory disorders,Dyspnea,2025-11-20,12,2,No,Recovered,Dose Reduced,Yes
+AE01515,SUB-2237,S38,Gastrointestinal disorders,Constipation,2026-09-25,126,2,No,Ongoing,Dose Held,Yes
+AE01516,SUB-2237,S38,Metabolism disorders,Hyperglycemia,2026-09-12,113,3,No,Ongoing,Drug Withdrawn,No
+AE01517,SUB-2243,S38,Gastrointestinal disorders,Vomiting,2025-05-19,99,2,No,Recovered,Dose Held,No
+AE01518,SUB-2243,S38,Skin disorders,Dry skin,2025-04-18,68,3,Yes,Recovering,None,Yes
+AE01519,SUB-2243,S38,Infections,Upper respiratory tract infection,2025-02-26,17,1,No,Recovered,Concomitant Treatment Given,Yes
+AE01520,SUB-2247,S38,Vascular disorders,Hypotension,2026-04-29,7,1,No,Recovered,Concomitant Treatment Given,No
+AE01521,SUB-2251,S38,Metabolism disorders,Decreased appetite,2025-06-05,96,1,No,Recovered,Dose Held,Yes
+AE01522,SUB-2253,S38,General disorders,Injection site pain,2026-09-14,273,4,No,Ongoing,Drug Withdrawn,Yes
+AE01523,SUB-2255,S38,Metabolism disorders,Hyperglycemia,2025-12-31,248,3,No,Ongoing,Dose Reduced,No
+AE01524,SUB-2255,S38,Respiratory disorders,Dyspnea,2025-05-09,12,4,No,Recovered,Concomitant Treatment Given,Yes
+AE01525,SUB-2255,S38,Respiratory disorders,Cough,2025-07-31,95,1,No,Recovered,Concomitant Treatment Given,No
+AE01526,SUB-2255,S38,Gastrointestinal disorders,Nausea,2026-03-03,310,2,No,Recovered,Drug Withdrawn,No
+AE01527,SUB-2257,S38,Metabolism disorders,Hyperglycemia,2025-10-20,28,1,No,Recovered,Dose Reduced,No
+AE01528,SUB-2259,S38,Vascular disorders,Hypertension,2026-03-08,300,2,No,Recovered,Drug Withdrawn,Yes
+AE01529,SUB-2263,S38,Nervous system disorders,Peripheral neuropathy,2026-05-29,105,1,No,Recovering,Concomitant Treatment Given,No
+AE01530,SUB-2264,S38,Skin disorders,Rash,2025-05-22,74,2,No,Recovering,Drug Withdrawn,Yes
+AE01531,SUB-2264,S38,Vascular disorders,Hypertension,2025-08-01,145,3,No,Recovered,Dose Reduced,Yes
+AE01532,SUB-2265,S38,Vascular disorders,Hypertension,2026-09-19,278,2,No,Recovered,Dose Held,No
+AE01533,SUB-2265,S38,Respiratory disorders,Dyspnea,2025-12-26,11,4,No,Recovered,Concomitant Treatment Given,Yes
+AE01534,SUB-2266,S38,Investigations,Neutrophil count decreased,2026-02-27,158,1,No,Recovered,None,Yes
+AE01535,SUB-2266,S38,Gastrointestinal disorders,Constipation,2026-05-16,236,1,No,Recovered,Dose Reduced,No
+AE01536,SUB-2266,S38,Gastrointestinal disorders,Diarrhea,2026-03-12,171,3,No,Recovering,Drug Withdrawn,No
+AE01537,SUB-2268,S38,Gastrointestinal disorders,Diarrhea,2026-08-04,195,5,No,Recovered with sequelae,Concomitant Treatment Given,No
+AE01538,SUB-2268,S38,Investigations,AST increased,2026-04-11,80,2,No,Recovered,Drug Withdrawn,No
+AE01539,SUB-2269,S38,Vascular disorders,Hypertension,2025-05-13,96,1,No,Ongoing,Concomitant Treatment Given,No
+AE01540,SUB-2269,S38,Skin disorders,Dry skin,2025-03-05,27,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE01541,SUB-2274,S39,Gastrointestinal disorders,Diarrhea,2026-09-24,36,3,No,Recovering,Concomitant Treatment Given,No
+AE01542,SUB-2274,S39,Respiratory disorders,Cough,2026-09-28,40,3,Yes,Recovered,Drug Withdrawn,No
+AE01543,SUB-2274,S39,Nervous system disorders,Insomnia,2026-09-15,27,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE01544,SUB-2274,S39,Nervous system disorders,Insomnia,2026-09-24,36,2,No,Recovered,Dose Reduced,Yes
+AE01545,SUB-2279,S39,Investigations,Neutrophil count decreased,2026-04-26,80,3,No,Recovered,Dose Held,No
+AE01546,SUB-2279,S39,Musculoskeletal disorders,Back pain,2026-04-19,73,3,No,Ongoing,Dose Reduced,Yes
+AE01547,SUB-2279,S39,General disorders,Pyrexia,2026-02-16,11,1,No,Recovering,Dose Reduced,No
+AE01548,SUB-2282,S39,Nervous system disorders,Dizziness,2026-01-06,176,2,No,Ongoing,Drug Withdrawn,No
+AE01549,SUB-2285,S39,Vascular disorders,Hypertension,2026-05-17,202,2,No,Recovered,Drug Withdrawn,No
+AE01550,SUB-2289,S39,Skin disorders,Rash,2026-09-26,208,1,No,Recovered,Concomitant Treatment Given,No
+AE01551,SUB-2290,S39,Musculoskeletal disorders,Myalgia,2025-11-19,20,3,No,Recovered with sequelae,Concomitant Treatment Given,Yes
+AE01552,SUB-2290,S39,Metabolism disorders,Hyperglycemia,2026-07-15,258,1,No,Ongoing,None,Yes
+AE01553,SUB-2290,S39,Vascular disorders,Hypotension,2026-02-25,118,2,No,Ongoing,Drug Withdrawn,No
+AE01554,SUB-2292,S39,Metabolism disorders,Decreased appetite,2026-03-10,148,2,No,Recovered,None,No
+AE01555,SUB-2293,S39,Skin disorders,Pruritus,2026-07-09,65,1,No,Recovered,None,Yes
+AE01556,SUB-2300,S39,Musculoskeletal disorders,Arthralgia,2026-09-27,31,2,No,Ongoing,Dose Held,No
+AE01557,SUB-2302,S39,Skin disorders,Pruritus,2026-09-14,223,3,Yes,Recovered,Concomitant Treatment Given,No
+AE01558,SUB-2304,S39,Investigations,Neutrophil count decreased,2026-09-16,162,2,No,Recovering,Dose Reduced,Yes
+AE01559,SUB-2305,S39,Investigations,ALT increased,2026-09-11,78,3,No,Ongoing,Drug Withdrawn,No
+AE01560,SUB-2307,S39,Investigations,Neutrophil count decreased,2026-09-29,5,2,No,Ongoing,Concomitant Treatment Given,No
+AE01561,SUB-2308,S39,Gastrointestinal disorders,Constipation,2026-08-23,246,1,No,Ongoing,Drug Withdrawn,No
+AE01562,SUB-2308,S39,Musculoskeletal disorders,Back pain,2026-08-16,239,1,No,Recovering,Dose Reduced,Yes
+AE01563,SUB-2308,S39,Gastrointestinal disorders,Vomiting,2026-09-23,277,2,No,Recovered,Dose Held,No
+AE01564,SUB-2310,S39,Nervous system disorders,Peripheral neuropathy,2025-12-22,153,1,No,Recovered,Dose Reduced,No
+AE01565,SUB-2311,S39,Skin disorders,Dry skin,2026-09-13,207,3,Yes,Recovered,Drug Withdrawn,Yes
+AE01566,SUB-2311,S39,Musculoskeletal disorders,Myalgia,2026-02-23,5,2,No,Recovering,None,Yes
+AE01567,SUB-2316,S39,Gastrointestinal disorders,Abdominal pain,2026-06-06,287,3,No,Recovered,Drug Withdrawn,Yes
+AE01568,SUB-2316,S39,Metabolism disorders,Decreased appetite,2025-12-26,125,2,No,Recovering,Dose Held,Yes
+AE01569,SUB-2316,S39,Gastrointestinal disorders,Nausea,2025-08-25,2,3,Yes,Recovered,None,Yes
+AE01570,SUB-2316,S39,Nervous system disorders,Peripheral neuropathy,2026-03-18,207,2,No,Ongoing,Dose Held,Yes
+AE01571,SUB-2319,S39,Gastrointestinal disorders,Vomiting,2026-02-25,235,2,No,Recovered,Drug Withdrawn,No
+AE01572,SUB-2322,S39,Metabolism disorders,Decreased appetite,2025-08-22,51,2,No,Ongoing,None,No
+AE01573,SUB-2332,S40,Nervous system disorders,Headache,2025-12-14,127,1,No,Recovered with sequelae,None,Yes
+AE01574,SUB-2332,S40,General disorders,Injection site pain,2026-03-26,229,2,No,Ongoing,Concomitant Treatment Given,No
+AE01575,SUB-2338,S40,Musculoskeletal disorders,Myalgia,2026-09-18,93,1,No,Ongoing,Dose Held,No
+AE01576,SUB-2338,S40,General disorders,Fatigue,2026-09-28,103,4,No,Recovered,None,No
+AE01577,SUB-2341,S40,Respiratory disorders,Cough,2025-10-26,14,3,No,Recovered with sequelae,Drug Withdrawn,Yes
+AE01578,SUB-2342,S40,Respiratory disorders,Cough,2026-06-11,95,5,No,Recovered,Dose Reduced,No
+AE01579,SUB-2342,S40,Vascular disorders,Hypertension,2026-04-20,43,2,No,Recovered,Drug Withdrawn,No
+AE01580,SUB-2342,S40,Metabolism disorders,Decreased appetite,2026-09-13,189,4,No,Recovered,Dose Reduced,Yes
+AE01581,SUB-2344,S40,Vascular disorders,Hypotension,2026-09-15,233,2,No,Recovering,Drug Withdrawn,Yes
+AE01582,SUB-2344,S40,Musculoskeletal disorders,Myalgia,2026-07-19,175,3,No,Ongoing,Dose Reduced,Yes
+AE01583,SUB-2346,S40,Gastrointestinal disorders,Abdominal pain,2026-07-23,183,1,No,Ongoing,Dose Reduced,Yes
+AE01584,SUB-2348,S40,Musculoskeletal disorders,Back pain,2026-06-16,177,4,No,Recovered,Concomitant Treatment Given,Yes
+AE01585,SUB-2348,S40,General disorders,Edema peripheral,2026-02-04,45,2,No,Recovered with sequelae,Concomitant Treatment Given,No
+AE01586,SUB-2351,S40,Respiratory disorders,Cough,2026-09-12,242,2,No,Recovering,Dose Reduced,Yes
+AE01587,SUB-2352,S40,Respiratory disorders,Dyspnea,2026-09-29,160,1,No,Recovering,Dose Held,Yes
+AE01588,SUB-2354,S40,Vascular disorders,Hypertension,2026-09-25,15,1,No,Recovered,Drug Withdrawn,No
+AE01589,SUB-2354,S40,Gastrointestinal disorders,Constipation,2026-09-27,17,3,No,Recovered,Dose Held,Yes
+AE01590,SUB-2355,S40,Nervous system disorders,Headache,2025-08-26,10,1,No,Recovered,Dose Held,No
+AE01591,SUB-2357,S40,Vascular disorders,Hypertension,2026-09-27,54,2,No,Recovered,Dose Reduced,No
+AE01592,SUB-2358,S40,Respiratory disorders,Cough,2026-04-14,290,1,No,Recovered,Drug Withdrawn,No
+AE01593,SUB-2358,S40,Metabolism disorders,Decreased appetite,2025-08-09,42,1,No,Recovered,Concomitant Treatment Given,No
+AE01594,SUB-2358,S40,Nervous system disorders,Dizziness,2025-12-09,164,2,No,Recovering,Concomitant Treatment Given,No
+AE01595,SUB-2358,S40,Investigations,Neutrophil count decreased,2025-10-18,112,1,No,Recovered,Drug Withdrawn,No
+AE01596,SUB-2359,S40,Respiratory disorders,Dyspnea,2026-09-23,-4,1,No,Recovered,Dose Held,No
+AE01597,SUB-2359,S40,General disorders,Pyrexia,2026-09-17,-10,1,No,Recovering,Dose Held,Yes
+AE01598,SUB-2359,S40,Vascular disorders,Hypertension,2026-09-16,-11,1,No,Recovering,Drug Withdrawn,No
+AE01599,SUB-2360,S40,Infections,Nasopharyngitis,2026-07-17,169,1,No,Recovered,Concomitant Treatment Given,Yes
+AE01600,SUB-2360,S40,General disorders,Injection site pain,2026-06-06,128,3,No,Recovering,Concomitant Treatment Given,No
+AE01601,SUB-2360,S40,Investigations,AST increased,2026-05-26,117,1,No,Recovering,None,No
+AE01602,SUB-2360,S40,Respiratory disorders,Cough,2026-06-28,150,1,No,Ongoing,Dose Reduced,No
+AE01603,SUB-2362,S40,Respiratory disorders,Cough,2026-01-08,97,2,No,Recovered,Dose Held,No
+AE01604,SUB-2363,S40,General disorders,Injection site pain,2026-09-19,218,1,No,Ongoing,Concomitant Treatment Given,Yes
+AE01605,SUB-2364,S40,Musculoskeletal disorders,Back pain,2026-08-30,79,1,No,Recovered,None,No
+AE01606,SUB-2368,S40,Musculoskeletal disorders,Arthralgia,2026-02-20,86,3,No,Recovered,Dose Reduced,No
+AE01607,SUB-2369,S40,Musculoskeletal disorders,Myalgia,2026-09-10,13,1,No,Recovering,Concomitant Treatment Given,No
+AE01608,SUB-2369,S40,Infections,Upper respiratory tract infection,2026-09-13,16,2,No,Recovered,Concomitant Treatment Given,Yes
+AE01609,SUB-2369,S40,Vascular disorders,Hypertension,2026-09-29,32,3,Yes,Recovered,Drug Withdrawn,Yes
+AE01610,SUB-2369,S40,Skin disorders,Dry skin,2026-09-17,20,4,No,Recovered,Dose Held,No
+AE01611,SUB-2371,S40,General disorders,Injection site pain,2026-04-28,212,1,No,Recovered,Dose Reduced,No
+AE01612,SUB-2372,S40,Musculoskeletal disorders,Myalgia,2026-03-12,139,1,No,Recovered,Drug Withdrawn,Yes
+AE01613,SUB-2372,S40,Musculoskeletal disorders,Arthralgia,2026-08-06,286,1,No,Recovered,None,No
+AE01614,SUB-2375,S40,Vascular disorders,Hypotension,2026-09-11,-10,3,Yes,Recovered,Dose Reduced,No
+AE01615,SUB-2375,S40,Gastrointestinal disorders,Constipation,2026-09-25,4,2,No,Recovered,None,No
+AE01616,SUB-2375,S40,Infections,Urinary tract infection,2026-09-20,-1,1,No,Recovered,Dose Held,No
+AE01617,SUB-2375,S40,Infections,Nasopharyngitis,2026-09-12,-9,1,No,Ongoing,None,No
+AE01618,SUB-2382,S40,General disorders,Fatigue,2026-09-19,12,1,No,Recovered,Dose Held,No
+AE01619,SUB-2385,S40,Infections,Nasopharyngitis,2026-08-24,23,2,No,Ongoing,Concomitant Treatment Given,Yes
+AE01620,SUB-2385,S40,Metabolism disorders,Decreased appetite,2026-09-16,46,2,No,Ongoing,Dose Reduced,No
+AE01621,SUB-2386,S40,Skin disorders,Dry skin,2026-05-22,283,1,No,Recovered,Dose Reduced,Yes
+AE01622,SUB-2388,S40,Respiratory disorders,Cough,2026-07-08,78,2,No,Recovered,Drug Withdrawn,No
+AE01623,SUB-2389,S40,Investigations,Neutrophil count decreased,2026-09-16,13,5,No,Recovered with sequelae,None,No
+AE01624,SUB-2389,S40,Vascular disorders,Hypertension,2026-09-14,11,2,No,Recovering,Dose Reduced,Yes

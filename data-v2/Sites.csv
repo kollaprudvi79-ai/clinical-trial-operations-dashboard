@@ -1,0 +1,41 @@
+SiteID,SiteName,Country,Region,City,PrincipalInvestigator,SiteStatus,ActivationDate,EnrollmentTarget
+S01,Site 01 - Chicago Medical Center,United States,North America,Chicago,Dr. Daniel King,Active,2025-05-17,45
+S02,Site 02 - Los Angeles Medical Center,United States,North America,Los Angeles,Dr. Jeffrey Hill,Active,2025-05-28,60
+S03,Site 03 - Miami Medical Center,United States,North America,Miami,Dr. Kimberly Allen,Active,2025-07-17,60
+S04,Site 04 - Los Angeles Medical Center,United States,North America,Los Angeles,Dr. James Hill,Active,2025-01-26,45
+S05,Site 05 - Seattle Medical Center,United States,North America,Seattle,Dr. Michael Robinson,Active,2025-01-08,60
+S06,Site 06 - Montreal Medical Center,Canada,North America,Montreal,Dr. Daniel Wilson,Active,2025-04-17,55
+S07,Site 07 - Vancouver Medical Center,Canada,North America,Vancouver,Dr. Matthew Harris,Active,2025-07-15,45
+S08,Site 08 - Edinburgh Medical Center,United Kingdom,Europe,Edinburgh,Dr. Nancy Garcia,Active,2025-05-28,55
+S09,Site 09 - Manchester Medical Center,United Kingdom,Europe,Manchester,Dr. Sandra Martinez,Active,2025-08-18,55
+S10,Site 10 - Berlin Medical Center,Germany,Europe,Berlin,Dr. Lisa White,Active,2025-05-04,60
+S11,Site 11 - Berlin Medical Center,Germany,Europe,Berlin,Dr. Betty Adams,Active,2025-05-27,60
+S12,Site 12 - Paris Medical Center,France,Europe,Paris,Dr. Margaret King,Active,2025-07-30,60
+S13,Site 13 - Lyon Medical Center,France,Europe,Lyon,Dr. Ashley Taylor,Closed to Enrollment,2025-08-10,60
+S14,Site 14 - Barcelona Medical Center,Spain,Europe,Barcelona,Dr. Brian Wright,Active,2025-07-31,45
+S15,Site 15 - Warsaw Medical Center,Poland,Europe,Warsaw,Dr. David Brown,Active,2025-07-05,45
+S16,Site 16 - Milan Medical Center,Italy,Europe,Milan,Dr. Kevin Martinez,Active,2025-05-09,50
+S17,Site 17 - Amsterdam Medical Center,Netherlands,Europe,Amsterdam,Dr. Sandra Young,Active,2025-07-07,55
+S18,Site 18 - Bangalore Medical Center,India,Asia-Pacific,Bangalore,Dr. Betty Martin,Active,2025-05-26,60
+S19,Site 19 - Delhi Medical Center,India,Asia-Pacific,Delhi,Dr. Margaret Gonzalez,Active,2025-03-22,55
+S20,Site 20 - Sydney Medical Center,Australia,Asia-Pacific,Sydney,Dr. Robert Martinez,Active,2025-06-22,60
+S21,Site 21 - Osaka Medical Center,Japan,Asia-Pacific,Osaka,Dr. Lisa Gonzalez,Active,2025-03-13,60
+S22,Site 22 - Busan Medical Center,South Korea,Asia-Pacific,Busan,Dr. Brian Allen,Active,2025-07-31,60
+S23,Site 23 - Sao Paulo Medical Center,Brazil,Latin America,Sao Paulo,Dr. Charles Lee,Active,2025-05-03,45
+S24,Site 24 - Guadalajara Medical Center,Mexico,Latin America,Guadalajara,Dr. Brian Taylor,Active,2025-05-01,50
+S25,Site 25 - Cordoba Medical Center,Argentina,Latin America,Cordoba,Dr. Kevin Jones,Active,2025-06-21,55
+S26,Site 26 - Johannesburg Medical Center,South Africa,Africa,Johannesburg,Dr. Lisa Miller,Closed to Enrollment,2025-02-24,60
+S27,Site 27 - New York Medical Center,United States,North America,New York,Dr. Donald Smith,Active,2025-01-29,45
+S28,Site 28 - Phoenix Medical Center,United States,North America,Phoenix,Dr. Deborah Scott,Active,2025-09-01,45
+S29,Site 29 - Miami Medical Center,United States,North America,Miami,Dr. Richard Thomas,Active,2025-02-05,45
+S30,Site 30 - Dallas Medical Center,United States,North America,Dallas,Dr. Sarah Ramirez,Active,2025-04-07,50
+S31,Site 31 - Houston Medical Center,United States,North America,Houston,Dr. Daniel Adams,Active,2025-06-02,60
+S32,Site 32 - Montreal Medical Center,Canada,North America,Montreal,Dr. David Scott,Active,2025-03-04,60
+S33,Site 33 - Montreal Medical Center,Canada,North America,Montreal,Dr. David Nelson,Active,2025-08-18,55
+S34,Site 34 - London Medical Center,United Kingdom,Europe,London,Dr. Mark Hernandez,Active,2025-09-02,50
+S35,Site 35 - Edinburgh Medical Center,United Kingdom,Europe,Edinburgh,Dr. Karen King,Active,2025-04-21,60
+S36,Site 36 - Berlin Medical Center,Germany,Europe,Berlin,Dr. Ashley Gonzalez,Active,2025-04-12,45
+S37,Site 37 - Berlin Medical Center,Germany,Europe,Berlin,Dr. Anthony Jones,Active,2025-01-19,55
+S38,Site 38 - Marseille Medical Center,France,Europe,Marseille,Dr. Matthew Johnson,Active,2025-01-12,60
+S39,Site 39 - Lyon Medical Center,France,Europe,Lyon,Dr. Karen Robinson,Closed to Enrollment,2025-03-30,45
+S40,Site 40 - Barcelona Medical Center,Spain,Europe,Barcelona,Dr. Sandra Baker,Active,2025-06-13,50

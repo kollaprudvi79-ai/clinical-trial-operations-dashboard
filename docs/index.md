@@ -564,3 +564,50 @@ With the provided synthetic CSVs loaded and **no slicers/filters applied**, your
 5. Screenshots for the portfolio: Page 1 (overview) + Page 2 (risk matrix) are the two that read best at thumbnail size.
 
 **You are done when:** all five pages render, every measure in Part 7 matches the table, and at least one site glows red on Page 2.
+---
+
+## Appendix — V2 "Complex Data" expansion (40 sites, 2,390 subjects)
+
+The `data-v2/` folder contains a much larger, richer synthetic dataset. If the v1 build above is your learning path, v2 is the "real-world scale" replay: rebuild the same model over these ten tables and the same measures keep working — the star schema does not change, only the volume and a few new fields.
+
+**V2 tables (new/expanded vs v1):**
+
+| Table | Rows | What's new |
+|---|---|---|
+| Sites.csv | 40 | Cities, 17 countries, 5 regions, per-site targets 45–60 |
+| Subjects.csv | 2,390 | Numeric Age, Race, Ethnicity, BMI category, Disease Stage, Prior Therapy lines, Withdrawal Reason, 3 arms (Placebo / Dose Low / Dose High) |
+| Visits.csv | 18,815 | 10 visits through Week 52 / EOT, VisitOrder for clean sorting |
+| Forms.csv | 189,221 | 14 eCRFs (adds Informed Consent, Eligibility, Medical History, Physical Exam, Lab Hematology/Chemistry, Patient Diary, Study Drug Exposure) + In Progress / Not Started states + EntryLagDays |
+| Labs.csv | 70,350 | **NEW** — Hematology/Chemistry/Urinalysis rows with ResultFlag + CriticalFlag |
+| Dosing.csv | 7,487 | **NEW** — Dose Taken / Held (AE) / Reduced / Missed exposure events (non-placebo) |
+| Queries.csv | 14,233 | Query Category (Missing, Inconsistent, Out-of-Range, Clarification, Eligibility, Safety Escalation) — enables cycle-time and category analysis |
+| AdverseEvents.csv | 1,624 | MedDRA-style System Organ Class, OnsetDayFromFirstDose, ActionTaken |
+| Deviations.csv | 939 | RootCause + DaysOpen |
+| Medications.csv | 2,398 | **NEW** — concomitant meds by drug class |
+
+**Extra DAX for v2:**
+
+```DAX
+Window Compliance % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( Visits ), Visits[VisitStatus] = "Completed", Visits[WindowStatus] = "In Window" ),
+    CALCULATE ( COUNTROWS ( Visits ), Visits[VisitStatus] = "Completed" )
+)
+
+Due Forms = CALCULATE ( COUNTROWS ( Forms ), Forms[DueDate] <= TODAY (), Forms[FormStatus] IN { "Completed", "Missing" } )
+
+Form Completion % (Due) = DIVIDE ( [Completed Forms], [Due Forms] )
+
+Critical Labs = CALCULATE ( COUNTROWS ( Labs ), Labs[CriticalFlag] = "Yes" )
+
+Dose Compliance % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( Dosing ), Dosing[DoseEvent] = "Dose Taken" ),
+    COUNTROWS ( Dosing )
+)
+```
+
+**V2 validation set (no filters, reference date 2026-09-30):** Total subjects **2,390** · Randomized **1,825** · Screen failures **499 (20.9%)** · Enrollment target **2,145** · Achievement **85.1%** · Open queries **8,412** · Avg open query age **≈65.9 d** · Overdue visits **817** · Window compliance **87.2%** · Missing (due) forms **20,370** · AEs **1,624** · SAEs **144** · Open major deviations **111** · Critical labs **776 of 70,350** · Dose compliance **90.9% of 7,487**.
+
+The live dashboard at [live.html](live.html) now renders v2 (6 pages, 6 slicers, 16 KPI cards, site risk matrix, labs & exposure page).
+

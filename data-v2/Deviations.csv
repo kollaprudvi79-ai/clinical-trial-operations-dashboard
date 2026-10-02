@@ -1,0 +1,940 @@
+DeviationID,SubjectID,SiteID,DeviationDate,Category,Severity,DeviationStatus,RootCause,DaysOpen
+DEV0001,SUB-0001,S01,2026-09-23,Randomization Error,Minor,Open,Equipment Failure,7
+DEV0002,SUB-0001,S01,2026-09-27,Visit Window,Minor,Closed,Protocol Ambiguity,20
+DEV0003,SUB-0002,S01,2026-01-30,Study Drug Dosing,Major,Closed,Equipment Failure,57
+DEV0004,SUB-0004,S01,2026-01-07,Source Document Missing,Minor,Closed,Subject Non-compliance,31
+DEV0005,SUB-0006,S01,2026-09-16,Source Document Missing,Minor,Open,Protocol Ambiguity,14
+DEV0006,SUB-0009,S01,2026-09-13,Inclusion/Exclusion Criteria,Major,Closed,Scheduling Conflict,10
+DEV0007,SUB-0010,S01,2026-09-14,Prohibited Medication,Major,Closed,Equipment Failure,40
+DEV0008,SUB-0010,S01,2026-09-24,Source Document Missing,Minor,Closed,Lab Processing Delay,50
+DEV0009,SUB-0010,S01,2026-09-16,Prohibited Medication,Major,Open,Scheduling Conflict,14
+DEV0010,SUB-0014,S01,2026-06-01,Randomization Error,Minor,Open,Lab Processing Delay,121
+DEV0011,SUB-0014,S01,2026-08-22,Prohibited Medication,Minor,Closed,Site Staff Error,44
+DEV0012,SUB-0016,S01,2026-09-02,Randomization Error,Minor,Closed,Subject Non-compliance,30
+DEV0013,SUB-0019,S01,2026-08-17,Source Document Missing,Minor,Closed,Lab Processing Delay,36
+DEV0014,SUB-0022,S01,2025-06-18,Visit Window,Minor,Closed,Scheduling Conflict,42
+DEV0015,SUB-0023,S01,2026-08-18,Prohibited Medication,Major,Closed,Protocol Ambiguity,23
+DEV0016,SUB-0024,S01,2026-02-04,Inclusion/Exclusion Criteria,Minor,Closed,Site Staff Error,52
+DEV0017,SUB-0038,S01,2026-08-08,Study Drug Dosing,Major,Closed,Lab Processing Delay,15
+DEV0018,SUB-0038,S01,2025-12-11,Randomization Error,Minor,Closed,Scheduling Conflict,35
+DEV0019,SUB-0038,S01,2025-12-10,Inclusion/Exclusion Criteria,Major,Closed,Equipment Failure,25
+DEV0020,SUB-0039,S01,2026-09-22,Randomization Error,Minor,Open,Equipment Failure,8
+DEV0021,SUB-0042,S01,2026-09-21,Inclusion/Exclusion Criteria,Minor,Open,Equipment Failure,9
+DEV0022,SUB-0042,S01,2026-09-24,Visit Window,Minor,Closed,Lab Processing Delay,39
+DEV0023,SUB-0043,S01,2025-10-09,Source Document Missing,Minor,Open,Equipment Failure,356
+DEV0024,SUB-0047,S01,2026-09-26,Study Drug Dosing,Minor,Closed,Subject Non-compliance,18
+DEV0025,SUB-0050,S01,2026-09-24,Source Document Missing,Minor,Closed,Protocol Ambiguity,44
+DEV0026,SUB-0052,S01,2026-04-22,Source Document Missing,Major,Closed,Scheduling Conflict,42
+DEV0027,SUB-0052,S01,2026-01-17,Informed Consent,Minor,Open,Equipment Failure,256
+DEV0028,SUB-0054,S01,2026-07-20,Source Document Missing,Minor,Open,Equipment Failure,72
+DEV0029,SUB-0064,S02,2026-09-06,Laboratory Procedure,Minor,Open,Scheduling Conflict,24
+DEV0030,SUB-0064,S02,2026-09-23,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,43
+DEV0031,SUB-0070,S02,2026-09-03,Randomization Error,Minor,Open,Scheduling Conflict,27
+DEV0032,SUB-0072,S02,2026-09-27,Visit Window,Minor,Open,Protocol Ambiguity,3
+DEV0033,SUB-0074,S02,2026-09-21,Inclusion/Exclusion Criteria,Minor,Closed,Equipment Failure,40
+DEV0034,SUB-0081,S02,2026-09-25,Randomization Error,Minor,Closed,Subject Non-compliance,21
+DEV0035,SUB-0081,S02,2026-09-21,Visit Window,Major,Closed,Protocol Ambiguity,7
+DEV0036,SUB-0085,S02,2025-10-28,Inclusion/Exclusion Criteria,Major,Closed,Scheduling Conflict,57
+DEV0037,SUB-0085,S02,2025-12-17,Inclusion/Exclusion Criteria,Minor,Closed,Protocol Ambiguity,8
+DEV0038,SUB-0096,S02,2026-09-06,Study Drug Dosing,Major,Closed,Subject Non-compliance,27
+DEV0039,SUB-0105,S02,2026-09-19,Visit Window,Minor,Open,Protocol Ambiguity,11
+DEV0040,SUB-0105,S02,2026-09-11,Laboratory Procedure,Minor,Open,Scheduling Conflict,19
+DEV0041,SUB-0106,S02,2025-11-19,Informed Consent,Major,Closed,Equipment Failure,48
+DEV0042,SUB-0108,S02,2026-09-22,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,48
+DEV0043,SUB-0111,S03,2026-01-15,Visit Window,Minor,Open,Subject Non-compliance,258
+DEV0044,SUB-0116,S03,2026-08-29,Visit Window,Minor,Closed,Protocol Ambiguity,11
+DEV0045,SUB-0118,S03,2026-04-27,Laboratory Procedure,Minor,Closed,Site Staff Error,50
+DEV0046,SUB-0120,S03,2026-04-02,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,14
+DEV0047,SUB-0122,S03,2026-09-19,Inclusion/Exclusion Criteria,Minor,Open,Protocol Ambiguity,11
+DEV0048,SUB-0123,S03,2026-09-03,Informed Consent,Major,Closed,Scheduling Conflict,43
+DEV0049,SUB-0128,S03,2026-09-08,Prohibited Medication,Major,Open,Protocol Ambiguity,22
+DEV0050,SUB-0129,S03,2026-02-18,Laboratory Procedure,Minor,Open,Lab Processing Delay,224
+DEV0051,SUB-0135,S03,2026-09-29,Visit Window,Minor,Open,Subject Non-compliance,1
+DEV0052,SUB-0138,S03,2026-09-16,Informed Consent,Minor,Closed,Lab Processing Delay,50
+DEV0053,SUB-0138,S03,2026-09-23,Inclusion/Exclusion Criteria,Minor,Open,Lab Processing Delay,7
+DEV0054,SUB-0146,S03,2025-09-19,Informed Consent,Major,Closed,Lab Processing Delay,38
+DEV0055,SUB-0146,S03,2026-03-11,Study Drug Dosing,Minor,Open,Lab Processing Delay,203
+DEV0056,SUB-0146,S03,2025-11-25,Inclusion/Exclusion Criteria,Minor,Open,Subject Non-compliance,309
+DEV0057,SUB-0147,S03,2026-09-09,Visit Window,Major,Closed,Scheduling Conflict,7
+DEV0058,SUB-0149,S03,2026-09-08,Inclusion/Exclusion Criteria,Minor,Closed,Equipment Failure,8
+DEV0059,SUB-0151,S03,2026-09-29,Laboratory Procedure,Minor,Open,Lab Processing Delay,1
+DEV0060,SUB-0152,S03,2026-09-02,Visit Window,Minor,Closed,Protocol Ambiguity,8
+DEV0061,SUB-0157,S03,2026-09-21,Visit Window,Major,Open,Protocol Ambiguity,9
+DEV0062,SUB-0160,S03,2026-06-20,Inclusion/Exclusion Criteria,Minor,Open,Equipment Failure,102
+DEV0063,SUB-0160,S03,2026-04-17,Study Drug Dosing,Major,Closed,Equipment Failure,46
+DEV0064,SUB-0165,S03,2026-05-31,Prohibited Medication,Major,Closed,Protocol Ambiguity,43
+DEV0065,SUB-0176,S03,2025-11-26,Prohibited Medication,Minor,Closed,Subject Non-compliance,10
+DEV0066,SUB-0178,S04,2025-08-28,Study Drug Dosing,Major,Closed,Scheduling Conflict,55
+DEV0067,SUB-0181,S04,2025-06-14,Randomization Error,Minor,Closed,Site Staff Error,27
+DEV0068,SUB-0183,S04,2025-11-17,Study Drug Dosing,Major,Open,Scheduling Conflict,317
+DEV0069,SUB-0188,S04,2026-01-26,Laboratory Procedure,Minor,Closed,Protocol Ambiguity,18
+DEV0070,SUB-0196,S04,2025-08-02,Inclusion/Exclusion Criteria,Minor,Open,Scheduling Conflict,424
+DEV0071,SUB-0206,S04,2026-09-04,Source Document Missing,Minor,Open,Subject Non-compliance,26
+DEV0072,SUB-0207,S04,2025-09-27,Prohibited Medication,Major,Closed,Site Staff Error,41
+DEV0073,SUB-0209,S04,2025-07-13,Source Document Missing,Major,Closed,Site Staff Error,42
+DEV0074,SUB-0209,S04,2025-04-03,Randomization Error,Major,Closed,Equipment Failure,12
+DEV0075,SUB-0209,S04,2025-08-08,Source Document Missing,Minor,Closed,Subject Non-compliance,54
+DEV0076,SUB-0210,S04,2026-09-27,Visit Window,Minor,Closed,Scheduling Conflict,12
+DEV0077,SUB-0211,S04,2025-06-23,Prohibited Medication,Minor,Closed,Site Staff Error,24
+DEV0078,SUB-0211,S04,2025-08-25,Prohibited Medication,Minor,Open,Scheduling Conflict,401
+DEV0079,SUB-0211,S04,2025-08-04,Prohibited Medication,Minor,Open,Protocol Ambiguity,422
+DEV0080,SUB-0213,S04,2025-08-20,Source Document Missing,Minor,Open,Site Staff Error,406
+DEV0081,SUB-0213,S04,2025-03-21,Randomization Error,Minor,Open,Lab Processing Delay,558
+DEV0082,SUB-0215,S04,2025-07-19,Study Drug Dosing,Minor,Open,Scheduling Conflict,438
+DEV0083,SUB-0217,S04,2026-09-13,Randomization Error,Minor,Closed,Equipment Failure,26
+DEV0084,SUB-0217,S04,2026-09-17,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,39
+DEV0085,SUB-0217,S04,2026-09-08,Source Document Missing,Major,Closed,Site Staff Error,37
+DEV0086,SUB-0219,S04,2025-11-12,Randomization Error,Major,Open,Scheduling Conflict,322
+DEV0087,SUB-0222,S04,2026-05-02,Randomization Error,Minor,Closed,Scheduling Conflict,43
+DEV0088,SUB-0223,S04,2026-09-23,Source Document Missing,Major,Closed,Subject Non-compliance,16
+DEV0089,SUB-0223,S04,2026-09-12,Study Drug Dosing,Major,Open,Equipment Failure,18
+DEV0090,SUB-0225,S04,2025-11-29,Source Document Missing,Major,Open,Protocol Ambiguity,305
+DEV0091,SUB-0230,S04,2025-10-18,Randomization Error,Minor,Closed,Site Staff Error,5
+DEV0092,SUB-0230,S04,2025-08-23,Inclusion/Exclusion Criteria,Minor,Closed,Equipment Failure,6
+DEV0093,SUB-0231,S04,2026-09-26,Informed Consent,Major,Open,Scheduling Conflict,4
+DEV0094,SUB-0239,S05,2026-07-09,Source Document Missing,Major,Open,Subject Non-compliance,83
+DEV0095,SUB-0239,S05,2026-01-21,Informed Consent,Major,Closed,Equipment Failure,34
+DEV0096,SUB-0241,S05,2026-02-23,Visit Window,Minor,Open,Equipment Failure,219
+DEV0097,SUB-0245,S05,2026-09-16,Prohibited Medication,Minor,Closed,Equipment Failure,19
+DEV0098,SUB-0245,S05,2026-09-04,Informed Consent,Major,Open,Equipment Failure,26
+DEV0099,SUB-0246,S05,2026-07-16,Informed Consent,Minor,Closed,Subject Non-compliance,23
+DEV0100,SUB-0248,S05,2025-12-29,Laboratory Procedure,Minor,Open,Site Staff Error,275
+DEV0101,SUB-0250,S05,2026-05-23,Inclusion/Exclusion Criteria,Minor,Closed,Subject Non-compliance,17
+DEV0102,SUB-0251,S05,2026-09-27,Prohibited Medication,Major,Open,Site Staff Error,3
+DEV0103,SUB-0251,S05,2026-09-24,Source Document Missing,Minor,Closed,Site Staff Error,3
+DEV0104,SUB-0252,S05,2026-03-03,Prohibited Medication,Minor,Open,Site Staff Error,211
+DEV0105,SUB-0253,S05,2025-11-19,Inclusion/Exclusion Criteria,Minor,Closed,Subject Non-compliance,52
+DEV0106,SUB-0254,S05,2026-02-25,Inclusion/Exclusion Criteria,Minor,Open,Lab Processing Delay,217
+DEV0107,SUB-0259,S05,2025-11-15,Study Drug Dosing,Minor,Closed,Site Staff Error,35
+DEV0108,SUB-0261,S05,2026-06-29,Visit Window,Major,Closed,Subject Non-compliance,59
+DEV0109,SUB-0261,S05,2026-09-07,Informed Consent,Minor,Open,Equipment Failure,23
+DEV0110,SUB-0265,S05,2026-02-14,Visit Window,Major,Closed,Lab Processing Delay,6
+DEV0111,SUB-0268,S05,2026-09-29,Source Document Missing,Major,Open,Subject Non-compliance,1
+DEV0112,SUB-0269,S05,2026-08-04,Inclusion/Exclusion Criteria,Minor,Closed,Site Staff Error,8
+DEV0113,SUB-0269,S05,2026-07-30,Randomization Error,Minor,Open,Protocol Ambiguity,62
+DEV0114,SUB-0269,S05,2026-07-07,Informed Consent,Minor,Open,Site Staff Error,85
+DEV0115,SUB-0273,S05,2026-01-12,Source Document Missing,Minor,Open,Protocol Ambiguity,261
+DEV0116,SUB-0273,S05,2025-08-20,Inclusion/Exclusion Criteria,Minor,Open,Scheduling Conflict,406
+DEV0117,SUB-0275,S05,2026-09-23,Visit Window,Minor,Closed,Scheduling Conflict,45
+DEV0118,SUB-0278,S05,2025-08-10,Laboratory Procedure,Major,Closed,Lab Processing Delay,60
+DEV0119,SUB-0280,S05,2026-06-01,Inclusion/Exclusion Criteria,Minor,Open,Scheduling Conflict,121
+DEV0120,SUB-0285,S05,2026-02-22,Laboratory Procedure,Minor,Closed,Scheduling Conflict,5
+DEV0121,SUB-0286,S06,2026-08-31,Visit Window,Major,Closed,Equipment Failure,11
+DEV0122,SUB-0298,S06,2026-09-09,Study Drug Dosing,Minor,Open,Equipment Failure,21
+DEV0123,SUB-0302,S06,2026-09-02,Study Drug Dosing,Minor,Open,Protocol Ambiguity,28
+DEV0124,SUB-0302,S06,2026-09-27,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,17
+DEV0125,SUB-0304,S06,2026-05-06,Informed Consent,Major,Open,Protocol Ambiguity,147
+DEV0126,SUB-0304,S06,2026-07-24,Laboratory Procedure,Minor,Open,Protocol Ambiguity,68
+DEV0127,SUB-0304,S06,2026-01-27,Laboratory Procedure,Major,Closed,Equipment Failure,22
+DEV0128,SUB-0305,S06,2026-09-27,Visit Window,Minor,Closed,Lab Processing Delay,10
+DEV0129,SUB-0305,S06,2026-09-10,Source Document Missing,Minor,Closed,Protocol Ambiguity,57
+DEV0130,SUB-0306,S06,2025-07-13,Source Document Missing,Minor,Open,Subject Non-compliance,444
+DEV0131,SUB-0309,S06,2026-08-28,Laboratory Procedure,Major,Closed,Site Staff Error,52
+DEV0132,SUB-0313,S06,2026-06-05,Inclusion/Exclusion Criteria,Minor,Open,Equipment Failure,117
+DEV0133,SUB-0313,S06,2026-04-02,Randomization Error,Minor,Open,Lab Processing Delay,181
+DEV0134,SUB-0313,S06,2026-07-08,Study Drug Dosing,Minor,Closed,Equipment Failure,46
+DEV0135,SUB-0315,S06,2025-12-01,Randomization Error,Minor,Open,Lab Processing Delay,303
+DEV0136,SUB-0316,S06,2026-09-21,Randomization Error,Major,Closed,Scheduling Conflict,50
+DEV0137,SUB-0317,S06,2026-05-23,Randomization Error,Major,Open,Protocol Ambiguity,130
+DEV0138,SUB-0318,S06,2026-04-04,Randomization Error,Major,Open,Scheduling Conflict,179
+DEV0139,SUB-0321,S06,2025-11-20,Randomization Error,Minor,Closed,Site Staff Error,18
+DEV0140,SUB-0328,S06,2026-08-31,Study Drug Dosing,Minor,Closed,Lab Processing Delay,42
+DEV0141,SUB-0329,S06,2026-09-13,Randomization Error,Major,Closed,Site Staff Error,51
+DEV0142,SUB-0331,S06,2026-09-13,Informed Consent,Minor,Open,Subject Non-compliance,17
+DEV0143,SUB-0331,S06,2026-09-14,Prohibited Medication,Major,Closed,Lab Processing Delay,44
+DEV0144,SUB-0331,S06,2026-07-15,Randomization Error,Major,Closed,Scheduling Conflict,56
+DEV0145,SUB-0333,S06,2026-01-21,Inclusion/Exclusion Criteria,Major,Open,Site Staff Error,252
+DEV0146,SUB-0334,S06,2026-04-23,Inclusion/Exclusion Criteria,Minor,Open,Subject Non-compliance,160
+DEV0147,SUB-0339,S06,2026-09-23,Source Document Missing,Minor,Open,Equipment Failure,7
+DEV0148,SUB-0344,S06,2026-05-31,Laboratory Procedure,Major,Closed,Site Staff Error,33
+DEV0149,SUB-0345,S06,2026-05-10,Laboratory Procedure,Major,Closed,Protocol Ambiguity,57
+DEV0150,SUB-0347,S06,2025-11-06,Visit Window,Minor,Open,Scheduling Conflict,328
+DEV0151,SUB-0349,S07,2026-09-22,Source Document Missing,Major,Closed,Lab Processing Delay,50
+DEV0152,SUB-0350,S07,2026-07-19,Source Document Missing,Major,Closed,Protocol Ambiguity,51
+DEV0153,SUB-0353,S07,2026-09-29,Study Drug Dosing,Minor,Open,Equipment Failure,1
+DEV0154,SUB-0355,S07,2026-09-07,Visit Window,Major,Closed,Equipment Failure,29
+DEV0155,SUB-0367,S07,2026-09-03,Visit Window,Minor,Open,Scheduling Conflict,27
+DEV0156,SUB-0371,S07,2026-09-03,Prohibited Medication,Major,Closed,Scheduling Conflict,23
+DEV0157,SUB-0373,S07,2026-09-05,Laboratory Procedure,Minor,Closed,Scheduling Conflict,11
+DEV0158,SUB-0376,S07,2026-05-11,Inclusion/Exclusion Criteria,Minor,Open,Subject Non-compliance,142
+DEV0159,SUB-0376,S07,2026-06-15,Inclusion/Exclusion Criteria,Minor,Open,Equipment Failure,107
+DEV0160,SUB-0376,S07,2026-09-12,Prohibited Medication,Minor,Closed,Subject Non-compliance,40
+DEV0161,SUB-0377,S07,2026-09-10,Prohibited Medication,Major,Closed,Site Staff Error,45
+DEV0162,SUB-0389,S07,2026-01-02,Study Drug Dosing,Minor,Closed,Subject Non-compliance,45
+DEV0163,SUB-0396,S07,2025-11-14,Inclusion/Exclusion Criteria,Minor,Open,Scheduling Conflict,320
+DEV0164,SUB-0402,S07,2026-09-08,Laboratory Procedure,Minor,Open,Protocol Ambiguity,22
+DEV0165,SUB-0403,S07,2026-09-14,Study Drug Dosing,Minor,Open,Lab Processing Delay,16
+DEV0166,SUB-0405,S07,2026-09-02,Randomization Error,Major,Closed,Scheduling Conflict,59
+DEV0167,SUB-0409,S07,2026-04-10,Informed Consent,Minor,Open,Lab Processing Delay,173
+DEV0168,SUB-0415,S08,2025-12-17,Prohibited Medication,Major,Closed,Equipment Failure,17
+DEV0169,SUB-0419,S08,2026-04-17,Prohibited Medication,Minor,Closed,Site Staff Error,59
+DEV0170,SUB-0422,S08,2026-09-09,Source Document Missing,Minor,Closed,Subject Non-compliance,49
+DEV0171,SUB-0423,S08,2026-06-21,Visit Window,Minor,Open,Lab Processing Delay,101
+DEV0172,SUB-0423,S08,2026-01-13,Source Document Missing,Minor,Open,Lab Processing Delay,260
+DEV0173,SUB-0429,S08,2025-06-29,Informed Consent,Minor,Open,Scheduling Conflict,458
+DEV0174,SUB-0429,S08,2025-12-02,Inclusion/Exclusion Criteria,Minor,Open,Lab Processing Delay,302
+DEV0175,SUB-0430,S08,2025-09-25,Visit Window,Minor,Closed,Scheduling Conflict,26
+DEV0176,SUB-0432,S08,2026-09-17,Prohibited Medication,Major,Closed,Scheduling Conflict,5
+DEV0177,SUB-0435,S08,2026-06-28,Source Document Missing,Minor,Open,Site Staff Error,94
+DEV0178,SUB-0439,S08,2026-09-05,Inclusion/Exclusion Criteria,Minor,Open,Lab Processing Delay,25
+DEV0179,SUB-0439,S08,2026-09-26,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,37
+DEV0180,SUB-0439,S08,2026-09-24,Study Drug Dosing,Minor,Closed,Protocol Ambiguity,19
+DEV0181,SUB-0440,S08,2026-09-14,Source Document Missing,Minor,Closed,Protocol Ambiguity,30
+DEV0182,SUB-0441,S08,2025-12-02,Prohibited Medication,Minor,Closed,Lab Processing Delay,18
+DEV0183,SUB-0445,S08,2026-09-18,Laboratory Procedure,Minor,Open,Equipment Failure,12
+DEV0184,SUB-0446,S08,2026-05-12,Informed Consent,Minor,Open,Scheduling Conflict,141
+DEV0185,SUB-0448,S08,2026-05-16,Informed Consent,Minor,Closed,Site Staff Error,21
+DEV0186,SUB-0450,S08,2025-11-19,Visit Window,Minor,Open,Lab Processing Delay,315
+DEV0187,SUB-0452,S08,2026-02-13,Study Drug Dosing,Minor,Closed,Site Staff Error,42
+DEV0188,SUB-0455,S08,2026-05-12,Inclusion/Exclusion Criteria,Minor,Open,Subject Non-compliance,141
+DEV0189,SUB-0457,S08,2026-05-22,Laboratory Procedure,Minor,Closed,Protocol Ambiguity,58
+DEV0190,SUB-0457,S08,2026-07-22,Visit Window,Major,Open,Scheduling Conflict,70
+DEV0191,SUB-0457,S08,2026-09-14,Inclusion/Exclusion Criteria,Minor,Closed,Subject Non-compliance,38
+DEV0192,SUB-0460,S08,2026-09-15,Prohibited Medication,Major,Open,Protocol Ambiguity,15
+DEV0193,SUB-0460,S08,2026-09-15,Source Document Missing,Minor,Open,Subject Non-compliance,15
+DEV0194,SUB-0460,S08,2026-09-21,Study Drug Dosing,Minor,Closed,Site Staff Error,59
+DEV0195,SUB-0461,S08,2026-09-30,Study Drug Dosing,Major,Closed,Protocol Ambiguity,48
+DEV0196,SUB-0465,S08,2026-09-20,Visit Window,Major,Closed,Protocol Ambiguity,11
+DEV0197,SUB-0468,S08,2026-04-06,Randomization Error,Minor,Closed,Site Staff Error,11
+DEV0198,SUB-0472,S08,2026-09-27,Randomization Error,Minor,Closed,Scheduling Conflict,52
+DEV0199,SUB-0472,S08,2026-09-02,Source Document Missing,Minor,Open,Scheduling Conflict,28
+DEV0200,SUB-0474,S08,2026-06-25,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,40
+DEV0201,SUB-0481,S09,2026-09-09,Prohibited Medication,Minor,Open,Equipment Failure,21
+DEV0202,SUB-0485,S09,2026-09-26,Laboratory Procedure,Major,Open,Site Staff Error,4
+DEV0203,SUB-0486,S09,2026-01-16,Visit Window,Major,Closed,Equipment Failure,58
+DEV0204,SUB-0490,S09,2026-03-11,Study Drug Dosing,Major,Closed,Subject Non-compliance,11
+DEV0205,SUB-0493,S09,2026-08-27,Randomization Error,Minor,Open,Site Staff Error,34
+DEV0206,SUB-0493,S09,2026-01-05,Laboratory Procedure,Major,Closed,Subject Non-compliance,57
+DEV0207,SUB-0495,S09,2026-09-16,Laboratory Procedure,Major,Open,Equipment Failure,14
+DEV0208,SUB-0500,S09,2026-09-15,Source Document Missing,Minor,Closed,Site Staff Error,28
+DEV0209,SUB-0500,S09,2026-09-25,Laboratory Procedure,Major,Closed,Scheduling Conflict,55
+DEV0210,SUB-0502,S09,2026-09-15,Study Drug Dosing,Minor,Closed,Subject Non-compliance,50
+DEV0211,SUB-0514,S09,2026-09-25,Laboratory Procedure,Minor,Closed,Lab Processing Delay,42
+DEV0212,SUB-0525,S09,2026-09-19,Randomization Error,Major,Closed,Subject Non-compliance,55
+DEV0213,SUB-0525,S09,2026-09-08,Randomization Error,Major,Open,Scheduling Conflict,22
+DEV0214,SUB-0526,S09,2026-09-10,Inclusion/Exclusion Criteria,Minor,Open,Scheduling Conflict,20
+DEV0215,SUB-0527,S09,2026-05-21,Study Drug Dosing,Minor,Closed,Subject Non-compliance,3
+DEV0216,SUB-0527,S09,2026-01-25,Laboratory Procedure,Minor,Closed,Equipment Failure,40
+DEV0217,SUB-0530,S09,2026-07-19,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,11
+DEV0218,SUB-0532,S09,2026-09-04,Study Drug Dosing,Major,Open,Equipment Failure,26
+DEV0219,SUB-0538,S09,2025-12-13,Informed Consent,Minor,Open,Subject Non-compliance,291
+DEV0220,SUB-0540,S09,2026-09-10,Randomization Error,Minor,Open,Protocol Ambiguity,20
+DEV0221,SUB-0545,S09,2026-09-28,Laboratory Procedure,Major,Closed,Scheduling Conflict,16
+DEV0222,SUB-0550,S10,2026-09-18,Study Drug Dosing,Minor,Closed,Scheduling Conflict,52
+DEV0223,SUB-0551,S10,2026-09-06,Randomization Error,Minor,Open,Protocol Ambiguity,24
+DEV0224,SUB-0559,S10,2026-02-02,Prohibited Medication,Minor,Open,Site Staff Error,240
+DEV0225,SUB-0559,S10,2026-01-21,Inclusion/Exclusion Criteria,Major,Closed,Lab Processing Delay,24
+DEV0226,SUB-0560,S10,2026-07-31,Source Document Missing,Minor,Open,Subject Non-compliance,61
+DEV0227,SUB-0563,S10,2026-03-22,Laboratory Procedure,Minor,Closed,Subject Non-compliance,27
+DEV0228,SUB-0569,S10,2026-09-09,Randomization Error,Major,Closed,Equipment Failure,41
+DEV0229,SUB-0573,S10,2026-09-28,Randomization Error,Minor,Closed,Subject Non-compliance,33
+DEV0230,SUB-0581,S10,2026-07-17,Laboratory Procedure,Minor,Closed,Equipment Failure,27
+DEV0231,SUB-0583,S10,2026-03-24,Source Document Missing,Minor,Open,Lab Processing Delay,190
+DEV0232,SUB-0584,S10,2026-09-15,Visit Window,Minor,Closed,Scheduling Conflict,27
+DEV0233,SUB-0585,S10,2026-08-24,Informed Consent,Minor,Open,Subject Non-compliance,37
+DEV0234,SUB-0588,S10,2026-08-17,Visit Window,Minor,Closed,Lab Processing Delay,14
+DEV0235,SUB-0588,S10,2026-08-14,Informed Consent,Major,Open,Subject Non-compliance,47
+DEV0236,SUB-0590,S10,2026-09-09,Prohibited Medication,Major,Closed,Site Staff Error,7
+DEV0237,SUB-0594,S10,2026-09-18,Prohibited Medication,Minor,Closed,Site Staff Error,10
+DEV0238,SUB-0595,S10,2025-12-24,Inclusion/Exclusion Criteria,Major,Open,Lab Processing Delay,280
+DEV0239,SUB-0598,S10,2026-05-27,Study Drug Dosing,Major,Closed,Lab Processing Delay,8
+DEV0240,SUB-0598,S10,2026-07-06,Inclusion/Exclusion Criteria,Major,Closed,Site Staff Error,12
+DEV0241,SUB-0598,S10,2025-12-01,Inclusion/Exclusion Criteria,Minor,Closed,Site Staff Error,4
+DEV0242,SUB-0604,S10,2026-05-11,Visit Window,Major,Closed,Subject Non-compliance,15
+DEV0243,SUB-0604,S10,2026-09-09,Source Document Missing,Minor,Closed,Subject Non-compliance,54
+DEV0244,SUB-0607,S11,2026-07-11,Randomization Error,Minor,Open,Protocol Ambiguity,81
+DEV0245,SUB-0608,S11,2025-09-14,Informed Consent,Minor,Closed,Protocol Ambiguity,34
+DEV0246,SUB-0611,S11,2026-09-23,Randomization Error,Major,Open,Site Staff Error,7
+DEV0247,SUB-0615,S11,2026-09-13,Laboratory Procedure,Minor,Open,Scheduling Conflict,17
+DEV0248,SUB-0618,S11,2026-04-29,Visit Window,Minor,Closed,Scheduling Conflict,31
+DEV0249,SUB-0619,S11,2025-09-17,Laboratory Procedure,Minor,Closed,Subject Non-compliance,36
+DEV0250,SUB-0620,S11,2025-10-19,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,41
+DEV0251,SUB-0627,S11,2026-01-31,Prohibited Medication,Minor,Closed,Site Staff Error,22
+DEV0252,SUB-0628,S11,2026-09-28,Laboratory Procedure,Minor,Closed,Scheduling Conflict,8
+DEV0253,SUB-0629,S11,2026-09-16,Prohibited Medication,Minor,Closed,Lab Processing Delay,40
+DEV0254,SUB-0633,S11,2026-07-13,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,17
+DEV0255,SUB-0639,S11,2026-09-20,Study Drug Dosing,Minor,Closed,Site Staff Error,40
+DEV0256,SUB-0639,S11,2026-09-17,Randomization Error,Minor,Closed,Site Staff Error,30
+DEV0257,SUB-0642,S11,2025-12-28,Randomization Error,Major,Closed,Subject Non-compliance,39
+DEV0258,SUB-0642,S11,2025-10-26,Randomization Error,Major,Open,Lab Processing Delay,339
+DEV0259,SUB-0646,S11,2026-09-16,Laboratory Procedure,Major,Open,Site Staff Error,14
+DEV0260,SUB-0646,S11,2026-09-04,Randomization Error,Minor,Open,Subject Non-compliance,26
+DEV0261,SUB-0653,S11,2026-07-14,Visit Window,Major,Closed,Protocol Ambiguity,6
+DEV0262,SUB-0658,S11,2026-04-02,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,5
+DEV0263,SUB-0659,S11,2026-09-09,Randomization Error,Major,Open,Site Staff Error,21
+DEV0264,SUB-0663,S11,2026-06-12,Source Document Missing,Minor,Closed,Subject Non-compliance,17
+DEV0265,SUB-0663,S11,2026-08-27,Study Drug Dosing,Minor,Closed,Site Staff Error,7
+DEV0266,SUB-0668,S12,2026-09-15,Visit Window,Major,Open,Subject Non-compliance,15
+DEV0267,SUB-0669,S12,2026-02-08,Study Drug Dosing,Minor,Closed,Scheduling Conflict,49
+DEV0268,SUB-0678,S12,2025-11-05,Source Document Missing,Major,Open,Scheduling Conflict,329
+DEV0269,SUB-0691,S12,2026-09-01,Visit Window,Minor,Closed,Lab Processing Delay,10
+DEV0270,SUB-0692,S12,2026-06-28,Inclusion/Exclusion Criteria,Major,Closed,Scheduling Conflict,26
+DEV0271,SUB-0698,S12,2026-09-16,Source Document Missing,Minor,Open,Scheduling Conflict,14
+DEV0272,SUB-0700,S12,2026-02-28,Randomization Error,Minor,Closed,Site Staff Error,4
+DEV0273,SUB-0703,S12,2026-08-05,Study Drug Dosing,Minor,Closed,Equipment Failure,14
+DEV0274,SUB-0707,S12,2026-09-07,Inclusion/Exclusion Criteria,Minor,Open,Lab Processing Delay,23
+DEV0275,SUB-0708,S12,2026-04-15,Source Document Missing,Minor,Closed,Equipment Failure,37
+DEV0276,SUB-0708,S12,2026-06-09,Prohibited Medication,Major,Closed,Scheduling Conflict,41
+DEV0277,SUB-0708,S12,2025-12-20,Visit Window,Minor,Closed,Protocol Ambiguity,22
+DEV0278,SUB-0709,S12,2026-09-09,Source Document Missing,Minor,Open,Protocol Ambiguity,21
+DEV0279,SUB-0717,S12,2026-01-30,Visit Window,Minor,Closed,Site Staff Error,7
+DEV0280,SUB-0719,S12,2026-09-03,Visit Window,Major,Open,Equipment Failure,27
+DEV0281,SUB-0723,S12,2026-09-21,Informed Consent,Major,Closed,Equipment Failure,42
+DEV0282,SUB-0724,S12,2026-09-28,Informed Consent,Minor,Closed,Subject Non-compliance,48
+DEV0283,SUB-0725,S12,2026-07-26,Prohibited Medication,Minor,Open,Subject Non-compliance,66
+DEV0284,SUB-0728,S12,2026-06-25,Inclusion/Exclusion Criteria,Major,Closed,Scheduling Conflict,30
+DEV0285,SUB-0728,S12,2026-03-09,Laboratory Procedure,Major,Closed,Lab Processing Delay,58
+DEV0286,SUB-0735,S13,2026-09-15,Randomization Error,Major,Open,Subject Non-compliance,15
+DEV0287,SUB-0738,S13,2026-03-24,Source Document Missing,Minor,Open,Equipment Failure,190
+DEV0288,SUB-0739,S13,2026-09-03,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,46
+DEV0289,SUB-0739,S13,2026-06-07,Informed Consent,Minor,Closed,Scheduling Conflict,46
+DEV0290,SUB-0750,S13,2026-08-20,Source Document Missing,Minor,Open,Site Staff Error,41
+DEV0291,SUB-0751,S13,2026-09-08,Visit Window,Minor,Closed,Equipment Failure,58
+DEV0292,SUB-0755,S13,2026-09-15,Study Drug Dosing,Major,Open,Scheduling Conflict,15
+DEV0293,SUB-0756,S13,2026-03-31,Visit Window,Minor,Open,Subject Non-compliance,183
+DEV0294,SUB-0756,S13,2026-05-26,Prohibited Medication,Minor,Closed,Scheduling Conflict,53
+DEV0295,SUB-0759,S13,2026-09-21,Visit Window,Minor,Closed,Equipment Failure,41
+DEV0296,SUB-0762,S13,2026-02-11,Source Document Missing,Major,Open,Site Staff Error,231
+DEV0297,SUB-0764,S13,2026-09-24,Source Document Missing,Minor,Closed,Equipment Failure,60
+DEV0298,SUB-0764,S13,2026-09-25,Laboratory Procedure,Minor,Open,Subject Non-compliance,5
+DEV0299,SUB-0764,S13,2026-09-12,Visit Window,Minor,Open,Site Staff Error,18
+DEV0300,SUB-0766,S13,2026-09-23,Source Document Missing,Major,Open,Protocol Ambiguity,7
+DEV0301,SUB-0766,S13,2026-09-28,Randomization Error,Major,Closed,Scheduling Conflict,51
+DEV0302,SUB-0766,S13,2026-09-28,Visit Window,Minor,Open,Equipment Failure,2
+DEV0303,SUB-0768,S13,2026-07-26,Study Drug Dosing,Minor,Open,Subject Non-compliance,66
+DEV0304,SUB-0770,S13,2026-09-24,Source Document Missing,Major,Closed,Site Staff Error,55
+DEV0305,SUB-0773,S13,2026-09-20,Visit Window,Minor,Closed,Scheduling Conflict,22
+DEV0306,SUB-0773,S13,2026-03-02,Randomization Error,Major,Closed,Subject Non-compliance,53
+DEV0307,SUB-0774,S13,2026-09-23,Informed Consent,Minor,Closed,Equipment Failure,26
+DEV0308,SUB-0774,S13,2026-05-22,Source Document Missing,Minor,Open,Equipment Failure,131
+DEV0309,SUB-0775,S13,2026-09-24,Randomization Error,Major,Closed,Lab Processing Delay,41
+DEV0310,SUB-0784,S13,2026-09-21,Randomization Error,Major,Closed,Subject Non-compliance,25
+DEV0311,SUB-0784,S13,2026-09-20,Prohibited Medication,Minor,Closed,Site Staff Error,26
+DEV0312,SUB-0785,S13,2026-09-02,Randomization Error,Minor,Closed,Equipment Failure,8
+DEV0313,SUB-0792,S14,2026-09-08,Visit Window,Minor,Closed,Subject Non-compliance,29
+DEV0314,SUB-0792,S14,2026-09-16,Informed Consent,Major,Open,Equipment Failure,14
+DEV0315,SUB-0796,S14,2026-05-29,Laboratory Procedure,Minor,Open,Site Staff Error,124
+DEV0316,SUB-0814,S14,2026-09-11,Inclusion/Exclusion Criteria,Minor,Open,Subject Non-compliance,19
+DEV0317,SUB-0818,S14,2026-09-20,Prohibited Medication,Minor,Open,Equipment Failure,10
+DEV0318,SUB-0818,S14,2026-09-04,Randomization Error,Minor,Closed,Site Staff Error,19
+DEV0319,SUB-0823,S14,2026-09-11,Informed Consent,Minor,Open,Lab Processing Delay,19
+DEV0320,SUB-0826,S14,2026-08-31,Inclusion/Exclusion Criteria,Minor,Open,Protocol Ambiguity,30
+DEV0321,SUB-0828,S14,2026-06-08,Laboratory Procedure,Major,Closed,Site Staff Error,23
+DEV0322,SUB-0829,S14,2026-03-21,Visit Window,Major,Closed,Subject Non-compliance,51
+DEV0323,SUB-0829,S14,2026-08-31,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,36
+DEV0324,SUB-0844,S14,2026-08-31,Prohibited Medication,Major,Open,Lab Processing Delay,30
+DEV0325,SUB-0852,S14,2026-09-11,Informed Consent,Minor,Closed,Lab Processing Delay,38
+DEV0326,SUB-0853,S14,2026-09-11,Informed Consent,Minor,Closed,Site Staff Error,49
+DEV0327,SUB-0853,S14,2026-09-15,Source Document Missing,Minor,Closed,Equipment Failure,35
+DEV0328,SUB-0860,S15,2026-09-16,Informed Consent,Minor,Open,Site Staff Error,14
+DEV0329,SUB-0862,S15,2025-08-28,Laboratory Procedure,Minor,Open,Equipment Failure,398
+DEV0330,SUB-0862,S15,2026-03-21,Source Document Missing,Minor,Closed,Subject Non-compliance,11
+DEV0331,SUB-0866,S15,2026-09-13,Laboratory Procedure,Major,Open,Scheduling Conflict,17
+DEV0332,SUB-0867,S15,2026-08-31,Study Drug Dosing,Minor,Closed,Protocol Ambiguity,55
+DEV0333,SUB-0868,S15,2026-06-17,Inclusion/Exclusion Criteria,Major,Closed,Protocol Ambiguity,22
+DEV0334,SUB-0872,S15,2026-09-25,Source Document Missing,Minor,Closed,Site Staff Error,4
+DEV0335,SUB-0876,S15,2026-09-26,Study Drug Dosing,Minor,Open,Subject Non-compliance,4
+DEV0336,SUB-0883,S15,2026-09-20,Visit Window,Minor,Closed,Lab Processing Delay,11
+DEV0337,SUB-0884,S15,2026-09-14,Source Document Missing,Minor,Closed,Equipment Failure,44
+DEV0338,SUB-0884,S15,2026-09-19,Source Document Missing,Major,Closed,Scheduling Conflict,12
+DEV0339,SUB-0884,S15,2026-09-27,Randomization Error,Major,Closed,Lab Processing Delay,12
+DEV0340,SUB-0901,S15,2026-02-28,Study Drug Dosing,Major,Closed,Site Staff Error,10
+DEV0341,SUB-0901,S15,2026-09-25,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,39
+DEV0342,SUB-0901,S15,2026-09-08,Source Document Missing,Minor,Open,Site Staff Error,22
+DEV0343,SUB-0907,S15,2026-09-11,Visit Window,Minor,Closed,Equipment Failure,44
+DEV0344,SUB-0907,S15,2026-09-25,Informed Consent,Minor,Closed,Protocol Ambiguity,53
+DEV0345,SUB-0908,S15,2026-05-17,Informed Consent,Major,Open,Equipment Failure,136
+DEV0346,SUB-0909,S15,2026-09-09,Prohibited Medication,Major,Open,Site Staff Error,21
+DEV0347,SUB-0909,S15,2026-09-19,Visit Window,Minor,Closed,Site Staff Error,33
+DEV0348,SUB-0912,S15,2026-09-24,Source Document Missing,Major,Open,Subject Non-compliance,6
+DEV0349,SUB-0914,S16,2026-05-10,Laboratory Procedure,Minor,Closed,Site Staff Error,39
+DEV0350,SUB-0915,S16,2026-09-25,Visit Window,Major,Closed,Protocol Ambiguity,22
+DEV0351,SUB-0915,S16,2026-09-08,Laboratory Procedure,Minor,Closed,Subject Non-compliance,13
+DEV0352,SUB-0917,S16,2026-03-21,Informed Consent,Minor,Closed,Site Staff Error,13
+DEV0353,SUB-0920,S16,2026-06-05,Informed Consent,Major,Closed,Lab Processing Delay,6
+DEV0354,SUB-0921,S16,2026-03-23,Prohibited Medication,Major,Closed,Scheduling Conflict,58
+DEV0355,SUB-0923,S16,2026-09-24,Prohibited Medication,Minor,Open,Site Staff Error,6
+DEV0356,SUB-0923,S16,2026-08-31,Visit Window,Minor,Closed,Equipment Failure,15
+DEV0357,SUB-0923,S16,2026-09-26,Study Drug Dosing,Major,Open,Equipment Failure,4
+DEV0358,SUB-0924,S16,2025-12-07,Informed Consent,Major,Closed,Site Staff Error,11
+DEV0359,SUB-0925,S16,2026-05-27,Randomization Error,Major,Open,Site Staff Error,126
+DEV0360,SUB-0929,S16,2026-08-10,Randomization Error,Minor,Open,Scheduling Conflict,51
+DEV0361,SUB-0931,S16,2026-04-18,Inclusion/Exclusion Criteria,Minor,Open,Lab Processing Delay,165
+DEV0362,SUB-0932,S16,2026-01-24,Study Drug Dosing,Major,Open,Subject Non-compliance,249
+DEV0363,SUB-0942,S16,2025-12-05,Laboratory Procedure,Minor,Open,Protocol Ambiguity,299
+DEV0364,SUB-0944,S16,2026-09-12,Informed Consent,Major,Closed,Site Staff Error,46
+DEV0365,SUB-0948,S16,2026-06-21,Visit Window,Major,Open,Equipment Failure,101
+DEV0366,SUB-0951,S16,2026-04-30,Visit Window,Minor,Closed,Equipment Failure,30
+DEV0367,SUB-0952,S16,2026-09-10,Randomization Error,Minor,Closed,Equipment Failure,9
+DEV0368,SUB-0953,S16,2026-09-03,Randomization Error,Minor,Closed,Lab Processing Delay,53
+DEV0369,SUB-0963,S16,2026-09-24,Randomization Error,Major,Closed,Subject Non-compliance,27
+DEV0370,SUB-0963,S16,2026-08-11,Laboratory Procedure,Minor,Open,Subject Non-compliance,50
+DEV0371,SUB-0965,S16,2026-07-14,Study Drug Dosing,Minor,Closed,Subject Non-compliance,20
+DEV0372,SUB-0965,S16,2026-07-19,Inclusion/Exclusion Criteria,Minor,Open,Scheduling Conflict,73
+DEV0373,SUB-0966,S16,2026-09-22,Visit Window,Major,Closed,Subject Non-compliance,41
+DEV0374,SUB-0966,S16,2026-09-03,Randomization Error,Major,Closed,Equipment Failure,52
+DEV0375,SUB-0969,S16,2026-09-22,Laboratory Procedure,Major,Open,Scheduling Conflict,8
+DEV0376,SUB-0971,S17,2026-09-12,Informed Consent,Minor,Closed,Equipment Failure,18
+DEV0377,SUB-0973,S17,2026-05-10,Prohibited Medication,Minor,Closed,Lab Processing Delay,51
+DEV0378,SUB-0973,S17,2025-12-30,Source Document Missing,Minor,Closed,Subject Non-compliance,51
+DEV0379,SUB-0973,S17,2025-12-30,Inclusion/Exclusion Criteria,Minor,Open,Site Staff Error,274
+DEV0380,SUB-0980,S17,2026-08-13,Inclusion/Exclusion Criteria,Minor,Open,Equipment Failure,48
+DEV0381,SUB-0980,S17,2026-09-17,Source Document Missing,Minor,Closed,Equipment Failure,43
+DEV0382,SUB-0988,S17,2026-09-08,Prohibited Medication,Major,Closed,Scheduling Conflict,13
+DEV0383,SUB-0999,S17,2026-09-17,Inclusion/Exclusion Criteria,Minor,Open,Site Staff Error,13
+DEV0384,SUB-0999,S17,2026-09-14,Laboratory Procedure,Minor,Closed,Lab Processing Delay,20
+DEV0385,SUB-1004,S17,2026-09-22,Prohibited Medication,Minor,Closed,Scheduling Conflict,4
+DEV0386,SUB-1017,S17,2026-09-12,Inclusion/Exclusion Criteria,Minor,Open,Site Staff Error,18
+DEV0387,SUB-1019,S17,2026-09-05,Visit Window,Minor,Open,Equipment Failure,25
+DEV0388,SUB-1021,S17,2026-09-12,Laboratory Procedure,Minor,Closed,Subject Non-compliance,15
+DEV0389,SUB-1021,S17,2026-09-05,Informed Consent,Minor,Open,Scheduling Conflict,25
+DEV0390,SUB-1024,S17,2026-06-17,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,8
+DEV0391,SUB-1029,S18,2026-05-15,Randomization Error,Minor,Open,Lab Processing Delay,138
+DEV0392,SUB-1032,S18,2026-09-07,Visit Window,Minor,Open,Lab Processing Delay,23
+DEV0393,SUB-1032,S18,2026-09-02,Visit Window,Minor,Open,Subject Non-compliance,28
+DEV0394,SUB-1032,S18,2026-09-02,Study Drug Dosing,Major,Closed,Equipment Failure,7
+DEV0395,SUB-1039,S18,2026-09-05,Randomization Error,Minor,Closed,Scheduling Conflict,42
+DEV0396,SUB-1041,S18,2026-09-07,Visit Window,Minor,Open,Site Staff Error,23
+DEV0397,SUB-1044,S18,2025-10-20,Inclusion/Exclusion Criteria,Major,Closed,Protocol Ambiguity,51
+DEV0398,SUB-1048,S18,2026-09-22,Informed Consent,Minor,Closed,Lab Processing Delay,25
+DEV0399,SUB-1049,S18,2026-09-25,Randomization Error,Major,Closed,Equipment Failure,43
+DEV0400,SUB-1052,S18,2026-08-02,Laboratory Procedure,Minor,Open,Site Staff Error,59
+DEV0401,SUB-1053,S18,2026-06-24,Study Drug Dosing,Major,Closed,Scheduling Conflict,27
+DEV0402,SUB-1063,S18,2026-09-25,Randomization Error,Minor,Closed,Protocol Ambiguity,56
+DEV0403,SUB-1071,S18,2026-03-29,Informed Consent,Minor,Closed,Lab Processing Delay,27
+DEV0404,SUB-1072,S18,2026-06-09,Study Drug Dosing,Minor,Open,Equipment Failure,113
+DEV0405,SUB-1075,S18,2025-09-19,Laboratory Procedure,Minor,Open,Protocol Ambiguity,376
+DEV0406,SUB-1075,S18,2026-05-30,Randomization Error,Minor,Closed,Equipment Failure,33
+DEV0407,SUB-1076,S18,2026-07-30,Inclusion/Exclusion Criteria,Minor,Closed,Equipment Failure,38
+DEV0408,SUB-1076,S18,2026-06-28,Laboratory Procedure,Minor,Open,Subject Non-compliance,94
+DEV0409,SUB-1080,S18,2026-08-24,Inclusion/Exclusion Criteria,Major,Open,Scheduling Conflict,37
+DEV0410,SUB-1082,S18,2026-05-16,Laboratory Procedure,Minor,Closed,Scheduling Conflict,38
+DEV0411,SUB-1085,S18,2026-05-05,Study Drug Dosing,Minor,Closed,Scheduling Conflict,59
+DEV0412,SUB-1087,S18,2026-06-25,Study Drug Dosing,Major,Open,Lab Processing Delay,97
+DEV0413,SUB-1092,S18,2026-05-12,Laboratory Procedure,Minor,Closed,Scheduling Conflict,14
+DEV0414,SUB-1093,S19,2026-09-03,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,34
+DEV0415,SUB-1094,S19,2026-02-09,Laboratory Procedure,Minor,Closed,Lab Processing Delay,16
+DEV0416,SUB-1096,S19,2026-09-11,Study Drug Dosing,Major,Open,Lab Processing Delay,19
+DEV0417,SUB-1103,S19,2026-04-13,Visit Window,Minor,Open,Equipment Failure,170
+DEV0418,SUB-1105,S19,2025-12-12,Source Document Missing,Major,Open,Subject Non-compliance,292
+DEV0419,SUB-1107,S19,2026-09-01,Prohibited Medication,Minor,Open,Equipment Failure,29
+DEV0420,SUB-1108,S19,2025-10-07,Inclusion/Exclusion Criteria,Minor,Open,Scheduling Conflict,358
+DEV0421,SUB-1112,S19,2025-11-12,Inclusion/Exclusion Criteria,Major,Closed,Scheduling Conflict,31
+DEV0422,SUB-1112,S19,2025-08-26,Inclusion/Exclusion Criteria,Minor,Closed,Site Staff Error,24
+DEV0423,SUB-1117,S19,2026-08-05,Prohibited Medication,Major,Open,Equipment Failure,56
+DEV0424,SUB-1117,S19,2026-08-25,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,12
+DEV0425,SUB-1118,S19,2026-03-19,Randomization Error,Minor,Open,Equipment Failure,195
+DEV0426,SUB-1122,S19,2026-02-05,Laboratory Procedure,Major,Open,Scheduling Conflict,237
+DEV0427,SUB-1124,S19,2026-05-03,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,7
+DEV0428,SUB-1128,S19,2026-09-25,Laboratory Procedure,Major,Open,Equipment Failure,5
+DEV0429,SUB-1130,S19,2026-09-04,Laboratory Procedure,Minor,Closed,Site Staff Error,33
+DEV0430,SUB-1131,S19,2026-07-27,Prohibited Medication,Major,Open,Scheduling Conflict,65
+DEV0431,SUB-1131,S19,2026-09-25,Randomization Error,Minor,Open,Equipment Failure,5
+DEV0432,SUB-1135,S19,2026-09-14,Laboratory Procedure,Major,Open,Equipment Failure,16
+DEV0433,SUB-1135,S19,2026-09-04,Inclusion/Exclusion Criteria,Minor,Open,Scheduling Conflict,26
+DEV0434,SUB-1138,S19,2026-03-28,Visit Window,Major,Closed,Lab Processing Delay,51
+DEV0435,SUB-1138,S19,2026-09-16,Prohibited Medication,Minor,Closed,Lab Processing Delay,20
+DEV0436,SUB-1143,S19,2025-11-18,Source Document Missing,Minor,Closed,Equipment Failure,32
+DEV0437,SUB-1144,S19,2026-09-04,Source Document Missing,Major,Closed,Equipment Failure,42
+DEV0438,SUB-1144,S19,2026-09-15,Inclusion/Exclusion Criteria,Minor,Closed,Site Staff Error,10
+DEV0439,SUB-1151,S20,2026-01-27,Source Document Missing,Minor,Open,Site Staff Error,246
+DEV0440,SUB-1151,S20,2026-07-19,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,19
+DEV0441,SUB-1152,S20,2026-09-17,Study Drug Dosing,Minor,Open,Protocol Ambiguity,13
+DEV0442,SUB-1152,S20,2026-09-18,Inclusion/Exclusion Criteria,Minor,Open,Site Staff Error,12
+DEV0443,SUB-1154,S20,2026-09-21,Laboratory Procedure,Minor,Closed,Site Staff Error,36
+DEV0444,SUB-1157,S20,2026-09-09,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,35
+DEV0445,SUB-1162,S20,2026-04-18,Inclusion/Exclusion Criteria,Minor,Open,Lab Processing Delay,165
+DEV0446,SUB-1163,S20,2026-05-15,Source Document Missing,Minor,Closed,Subject Non-compliance,58
+DEV0447,SUB-1169,S20,2026-09-21,Informed Consent,Minor,Open,Subject Non-compliance,9
+DEV0448,SUB-1169,S20,2026-09-18,Visit Window,Minor,Closed,Site Staff Error,12
+DEV0449,SUB-1169,S20,2026-09-10,Visit Window,Minor,Open,Equipment Failure,20
+DEV0450,SUB-1171,S20,2026-05-06,Study Drug Dosing,Major,Closed,Subject Non-compliance,13
+DEV0451,SUB-1182,S20,2026-09-06,Visit Window,Minor,Closed,Scheduling Conflict,46
+DEV0452,SUB-1183,S20,2026-08-24,Randomization Error,Minor,Open,Scheduling Conflict,37
+DEV0453,SUB-1188,S20,2026-09-08,Visit Window,Minor,Closed,Protocol Ambiguity,48
+DEV0454,SUB-1207,S21,2026-09-21,Visit Window,Minor,Closed,Protocol Ambiguity,19
+DEV0455,SUB-1208,S21,2026-03-03,Informed Consent,Minor,Open,Subject Non-compliance,211
+DEV0456,SUB-1212,S21,2026-07-01,Informed Consent,Minor,Closed,Lab Processing Delay,53
+DEV0457,SUB-1212,S21,2026-09-15,Informed Consent,Minor,Open,Protocol Ambiguity,15
+DEV0458,SUB-1212,S21,2026-08-09,Laboratory Procedure,Minor,Closed,Protocol Ambiguity,14
+DEV0459,SUB-1213,S21,2026-09-12,Source Document Missing,Minor,Closed,Protocol Ambiguity,10
+DEV0460,SUB-1213,S21,2026-09-28,Visit Window,Minor,Closed,Site Staff Error,24
+DEV0461,SUB-1217,S21,2026-09-13,Informed Consent,Major,Closed,Scheduling Conflict,19
+DEV0462,SUB-1218,S21,2025-09-01,Source Document Missing,Major,Open,Protocol Ambiguity,394
+DEV0463,SUB-1218,S21,2025-08-20,Laboratory Procedure,Minor,Closed,Scheduling Conflict,14
+DEV0464,SUB-1220,S21,2026-09-06,Randomization Error,Minor,Open,Protocol Ambiguity,24
+DEV0465,SUB-1220,S21,2026-05-31,Randomization Error,Minor,Closed,Site Staff Error,25
+DEV0466,SUB-1221,S21,2026-01-25,Informed Consent,Minor,Open,Subject Non-compliance,248
+DEV0467,SUB-1223,S21,2026-05-09,Randomization Error,Minor,Open,Lab Processing Delay,144
+DEV0468,SUB-1224,S21,2026-09-01,Randomization Error,Major,Open,Subject Non-compliance,29
+DEV0469,SUB-1228,S21,2026-01-17,Study Drug Dosing,Major,Open,Lab Processing Delay,256
+DEV0470,SUB-1228,S21,2025-11-04,Study Drug Dosing,Major,Open,Site Staff Error,330
+DEV0471,SUB-1228,S21,2026-02-24,Informed Consent,Minor,Open,Subject Non-compliance,218
+DEV0472,SUB-1229,S21,2026-04-23,Informed Consent,Major,Open,Subject Non-compliance,160
+DEV0473,SUB-1231,S21,2026-08-10,Informed Consent,Minor,Open,Lab Processing Delay,51
+DEV0474,SUB-1232,S21,2025-12-18,Randomization Error,Minor,Closed,Subject Non-compliance,34
+DEV0475,SUB-1232,S21,2026-01-28,Laboratory Procedure,Major,Closed,Protocol Ambiguity,10
+DEV0476,SUB-1233,S21,2025-07-14,Laboratory Procedure,Minor,Closed,Scheduling Conflict,5
+DEV0477,SUB-1234,S21,2026-09-17,Inclusion/Exclusion Criteria,Minor,Open,Protocol Ambiguity,13
+DEV0478,SUB-1235,S21,2025-07-01,Randomization Error,Major,Open,Protocol Ambiguity,456
+DEV0479,SUB-1236,S21,2026-09-23,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,25
+DEV0480,SUB-1236,S21,2026-09-27,Laboratory Procedure,Major,Closed,Subject Non-compliance,23
+DEV0481,SUB-1237,S21,2026-07-29,Laboratory Procedure,Minor,Closed,Subject Non-compliance,22
+DEV0482,SUB-1237,S21,2026-07-13,Source Document Missing,Minor,Open,Protocol Ambiguity,79
+DEV0483,SUB-1238,S21,2026-09-10,Randomization Error,Minor,Open,Lab Processing Delay,20
+DEV0484,SUB-1240,S21,2025-11-09,Informed Consent,Minor,Closed,Protocol Ambiguity,35
+DEV0485,SUB-1240,S21,2026-01-30,Informed Consent,Major,Open,Protocol Ambiguity,243
+DEV0486,SUB-1244,S21,2026-09-14,Study Drug Dosing,Minor,Open,Protocol Ambiguity,16
+DEV0487,SUB-1244,S21,2026-09-28,Source Document Missing,Minor,Closed,Subject Non-compliance,40
+DEV0488,SUB-1245,S21,2026-09-11,Randomization Error,Major,Closed,Protocol Ambiguity,59
+DEV0489,SUB-1246,S21,2026-08-31,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,42
+DEV0490,SUB-1248,S21,2026-01-14,Informed Consent,Minor,Closed,Lab Processing Delay,15
+DEV0491,SUB-1248,S21,2026-05-09,Prohibited Medication,Minor,Open,Protocol Ambiguity,144
+DEV0492,SUB-1260,S22,2026-09-24,Laboratory Procedure,Minor,Closed,Equipment Failure,55
+DEV0493,SUB-1260,S22,2026-08-31,Randomization Error,Minor,Open,Scheduling Conflict,30
+DEV0494,SUB-1261,S22,2026-03-03,Inclusion/Exclusion Criteria,Minor,Open,Lab Processing Delay,211
+DEV0495,SUB-1266,S22,2026-09-01,Informed Consent,Major,Closed,Scheduling Conflict,28
+DEV0496,SUB-1269,S22,2026-09-16,Informed Consent,Minor,Open,Scheduling Conflict,14
+DEV0497,SUB-1270,S22,2025-11-22,Source Document Missing,Minor,Open,Subject Non-compliance,312
+DEV0498,SUB-1279,S22,2026-09-26,Laboratory Procedure,Minor,Closed,Scheduling Conflict,45
+DEV0499,SUB-1279,S22,2026-09-27,Study Drug Dosing,Minor,Closed,Equipment Failure,12
+DEV0500,SUB-1282,S22,2026-02-17,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,15
+DEV0501,SUB-1285,S22,2026-09-29,Informed Consent,Minor,Open,Protocol Ambiguity,1
+DEV0502,SUB-1288,S22,2026-09-27,Prohibited Medication,Minor,Closed,Subject Non-compliance,35
+DEV0503,SUB-1288,S22,2026-09-20,Informed Consent,Minor,Open,Subject Non-compliance,10
+DEV0504,SUB-1295,S22,2026-09-11,Prohibited Medication,Minor,Closed,Lab Processing Delay,18
+DEV0505,SUB-1295,S22,2026-09-06,Laboratory Procedure,Minor,Closed,Protocol Ambiguity,58
+DEV0506,SUB-1297,S22,2026-09-16,Prohibited Medication,Minor,Open,Scheduling Conflict,14
+DEV0507,SUB-1297,S22,2026-09-09,Source Document Missing,Major,Open,Lab Processing Delay,21
+DEV0508,SUB-1300,S22,2026-07-15,Study Drug Dosing,Major,Closed,Protocol Ambiguity,22
+DEV0509,SUB-1301,S22,2026-09-12,Informed Consent,Minor,Closed,Site Staff Error,60
+DEV0510,SUB-1302,S22,2026-04-06,Inclusion/Exclusion Criteria,Minor,Open,Scheduling Conflict,177
+DEV0511,SUB-1304,S22,2026-09-04,Inclusion/Exclusion Criteria,Minor,Closed,Equipment Failure,9
+DEV0512,SUB-1308,S23,2026-08-31,Visit Window,Major,Open,Equipment Failure,30
+DEV0513,SUB-1309,S23,2026-09-14,Randomization Error,Minor,Closed,Equipment Failure,42
+DEV0514,SUB-1311,S23,2026-09-08,Laboratory Procedure,Major,Open,Subject Non-compliance,22
+DEV0515,SUB-1313,S23,2026-02-17,Randomization Error,Minor,Open,Equipment Failure,225
+DEV0516,SUB-1319,S23,2026-09-09,Laboratory Procedure,Major,Closed,Protocol Ambiguity,5
+DEV0517,SUB-1319,S23,2026-04-29,Visit Window,Major,Closed,Scheduling Conflict,19
+DEV0518,SUB-1322,S23,2025-12-02,Inclusion/Exclusion Criteria,Minor,Open,Protocol Ambiguity,302
+DEV0519,SUB-1326,S23,2026-09-12,Laboratory Procedure,Minor,Open,Subject Non-compliance,18
+DEV0520,SUB-1327,S23,2026-09-14,Prohibited Medication,Minor,Open,Protocol Ambiguity,16
+DEV0521,SUB-1334,S23,2026-07-01,Informed Consent,Minor,Open,Scheduling Conflict,91
+DEV0522,SUB-1336,S23,2026-07-20,Study Drug Dosing,Minor,Open,Lab Processing Delay,72
+DEV0523,SUB-1336,S23,2026-04-01,Informed Consent,Minor,Closed,Scheduling Conflict,25
+DEV0524,SUB-1336,S23,2026-03-01,Laboratory Procedure,Minor,Closed,Scheduling Conflict,21
+DEV0525,SUB-1339,S23,2026-09-19,Laboratory Procedure,Minor,Closed,Lab Processing Delay,21
+DEV0526,SUB-1343,S23,2026-09-10,Inclusion/Exclusion Criteria,Minor,Open,Scheduling Conflict,20
+DEV0527,SUB-1352,S23,2026-09-14,Inclusion/Exclusion Criteria,Major,Closed,Subject Non-compliance,43
+DEV0528,SUB-1355,S23,2026-08-31,Visit Window,Minor,Closed,Lab Processing Delay,44
+DEV0529,SUB-1356,S23,2026-04-28,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,44
+DEV0530,SUB-1358,S23,2026-05-23,Laboratory Procedure,Minor,Closed,Protocol Ambiguity,44
+DEV0531,SUB-1358,S23,2026-05-11,Source Document Missing,Major,Closed,Equipment Failure,51
+DEV0532,SUB-1359,S23,2026-04-22,Randomization Error,Major,Closed,Lab Processing Delay,4
+DEV0533,SUB-1362,S24,2026-09-22,Randomization Error,Minor,Open,Lab Processing Delay,8
+DEV0534,SUB-1364,S24,2026-04-04,Visit Window,Minor,Closed,Protocol Ambiguity,15
+DEV0535,SUB-1365,S24,2026-02-13,Laboratory Procedure,Major,Open,Site Staff Error,229
+DEV0536,SUB-1366,S24,2026-07-25,Randomization Error,Minor,Closed,Scheduling Conflict,53
+DEV0537,SUB-1370,S24,2025-09-03,Study Drug Dosing,Major,Open,Scheduling Conflict,392
+DEV0538,SUB-1370,S24,2026-01-09,Laboratory Procedure,Minor,Open,Equipment Failure,264
+DEV0539,SUB-1370,S24,2025-09-18,Randomization Error,Major,Open,Scheduling Conflict,377
+DEV0540,SUB-1371,S24,2026-09-13,Prohibited Medication,Major,Closed,Scheduling Conflict,28
+DEV0541,SUB-1371,S24,2026-08-18,Prohibited Medication,Minor,Closed,Subject Non-compliance,10
+DEV0542,SUB-1373,S24,2026-09-26,Study Drug Dosing,Minor,Open,Protocol Ambiguity,4
+DEV0543,SUB-1373,S24,2026-09-01,Informed Consent,Minor,Open,Protocol Ambiguity,29
+DEV0544,SUB-1374,S24,2025-12-12,Prohibited Medication,Minor,Closed,Scheduling Conflict,17
+DEV0545,SUB-1374,S24,2025-09-06,Randomization Error,Minor,Closed,Protocol Ambiguity,3
+DEV0546,SUB-1374,S24,2025-09-04,Randomization Error,Minor,Open,Scheduling Conflict,391
+DEV0547,SUB-1375,S24,2026-09-18,Laboratory Procedure,Minor,Open,Scheduling Conflict,12
+DEV0548,SUB-1376,S24,2026-09-07,Visit Window,Minor,Closed,Equipment Failure,60
+DEV0549,SUB-1378,S24,2026-07-04,Source Document Missing,Minor,Closed,Protocol Ambiguity,11
+DEV0550,SUB-1384,S24,2025-12-12,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,52
+DEV0551,SUB-1384,S24,2025-09-09,Laboratory Procedure,Minor,Open,Subject Non-compliance,386
+DEV0552,SUB-1395,S24,2026-09-29,Laboratory Procedure,Major,Closed,Equipment Failure,37
+DEV0553,SUB-1395,S24,2026-07-28,Randomization Error,Minor,Open,Site Staff Error,64
+DEV0554,SUB-1398,S24,2026-09-17,Informed Consent,Minor,Closed,Protocol Ambiguity,58
+DEV0555,SUB-1401,S24,2026-07-08,Laboratory Procedure,Minor,Open,Lab Processing Delay,84
+DEV0556,SUB-1405,S24,2026-08-31,Prohibited Medication,Minor,Closed,Scheduling Conflict,53
+DEV0557,SUB-1406,S24,2025-10-03,Informed Consent,Minor,Closed,Equipment Failure,26
+DEV0558,SUB-1406,S24,2025-10-12,Study Drug Dosing,Minor,Open,Scheduling Conflict,353
+DEV0559,SUB-1408,S24,2026-09-28,Randomization Error,Minor,Open,Subject Non-compliance,2
+DEV0560,SUB-1411,S24,2026-09-20,Study Drug Dosing,Minor,Open,Lab Processing Delay,10
+DEV0561,SUB-1412,S24,2026-09-27,Informed Consent,Minor,Open,Subject Non-compliance,3
+DEV0562,SUB-1413,S24,2026-09-28,Randomization Error,Minor,Open,Subject Non-compliance,2
+DEV0563,SUB-1415,S24,2026-04-30,Laboratory Procedure,Major,Open,Equipment Failure,153
+DEV0564,SUB-1417,S24,2026-09-05,Randomization Error,Minor,Open,Scheduling Conflict,25
+DEV0565,SUB-1418,S24,2025-10-05,Laboratory Procedure,Minor,Open,Scheduling Conflict,360
+DEV0566,SUB-1422,S24,2026-09-29,Laboratory Procedure,Minor,Open,Subject Non-compliance,1
+DEV0567,SUB-1424,S24,2026-09-02,Randomization Error,Minor,Open,Lab Processing Delay,28
+DEV0568,SUB-1428,S25,2026-07-01,Randomization Error,Minor,Closed,Lab Processing Delay,23
+DEV0569,SUB-1432,S25,2026-08-17,Inclusion/Exclusion Criteria,Major,Closed,Subject Non-compliance,59
+DEV0570,SUB-1437,S25,2026-09-23,Source Document Missing,Minor,Open,Scheduling Conflict,7
+DEV0571,SUB-1444,S25,2026-01-06,Randomization Error,Minor,Closed,Protocol Ambiguity,6
+DEV0572,SUB-1452,S25,2026-09-08,Randomization Error,Minor,Closed,Subject Non-compliance,53
+DEV0573,SUB-1452,S25,2026-08-31,Prohibited Medication,Minor,Open,Equipment Failure,30
+DEV0574,SUB-1454,S25,2026-03-05,Informed Consent,Minor,Closed,Equipment Failure,29
+DEV0575,SUB-1457,S25,2026-09-10,Informed Consent,Minor,Open,Subject Non-compliance,20
+DEV0576,SUB-1459,S25,2026-09-08,Study Drug Dosing,Minor,Closed,Lab Processing Delay,3
+DEV0577,SUB-1460,S25,2026-05-17,Study Drug Dosing,Minor,Closed,Protocol Ambiguity,9
+DEV0578,SUB-1460,S25,2026-01-24,Study Drug Dosing,Minor,Closed,Site Staff Error,11
+DEV0579,SUB-1461,S25,2026-06-28,Study Drug Dosing,Major,Open,Equipment Failure,94
+DEV0580,SUB-1462,S25,2026-07-29,Study Drug Dosing,Minor,Closed,Equipment Failure,30
+DEV0581,SUB-1463,S25,2026-09-08,Source Document Missing,Major,Open,Subject Non-compliance,22
+DEV0582,SUB-1468,S25,2026-09-25,Randomization Error,Minor,Open,Site Staff Error,5
+DEV0583,SUB-1473,S25,2025-12-29,Prohibited Medication,Major,Closed,Protocol Ambiguity,7
+DEV0584,SUB-1473,S25,2025-11-13,Informed Consent,Minor,Closed,Equipment Failure,22
+DEV0585,SUB-1479,S25,2026-09-23,Source Document Missing,Minor,Closed,Site Staff Error,32
+DEV0586,SUB-1480,S25,2026-09-25,Study Drug Dosing,Major,Closed,Subject Non-compliance,18
+DEV0587,SUB-1482,S25,2026-09-21,Randomization Error,Minor,Closed,Equipment Failure,51
+DEV0588,SUB-1484,S25,2025-12-11,Informed Consent,Minor,Open,Protocol Ambiguity,293
+DEV0589,SUB-1485,S25,2026-09-26,Randomization Error,Minor,Open,Site Staff Error,4
+DEV0590,SUB-1486,S25,2026-07-23,Laboratory Procedure,Major,Closed,Equipment Failure,60
+DEV0591,SUB-1486,S25,2026-06-05,Inclusion/Exclusion Criteria,Minor,Open,Site Staff Error,117
+DEV0592,SUB-1487,S25,2025-11-15,Randomization Error,Minor,Closed,Equipment Failure,18
+DEV0593,SUB-1487,S25,2025-12-08,Laboratory Procedure,Major,Closed,Equipment Failure,10
+DEV0594,SUB-1491,S26,2026-09-07,Inclusion/Exclusion Criteria,Major,Closed,Protocol Ambiguity,11
+DEV0595,SUB-1491,S26,2026-08-31,Randomization Error,Minor,Closed,Lab Processing Delay,43
+DEV0596,SUB-1495,S26,2025-09-26,Study Drug Dosing,Minor,Open,Site Staff Error,369
+DEV0597,SUB-1497,S26,2025-08-02,Laboratory Procedure,Minor,Open,Equipment Failure,424
+DEV0598,SUB-1497,S26,2026-04-14,Visit Window,Minor,Open,Subject Non-compliance,169
+DEV0599,SUB-1497,S26,2025-12-21,Informed Consent,Minor,Closed,Subject Non-compliance,25
+DEV0600,SUB-1499,S26,2026-09-23,Prohibited Medication,Major,Closed,Equipment Failure,47
+DEV0601,SUB-1499,S26,2026-09-14,Informed Consent,Minor,Closed,Lab Processing Delay,37
+DEV0602,SUB-1511,S26,2025-12-11,Visit Window,Minor,Open,Lab Processing Delay,293
+DEV0603,SUB-1512,S26,2026-09-01,Visit Window,Minor,Open,Scheduling Conflict,29
+DEV0604,SUB-1513,S26,2026-02-22,Laboratory Procedure,Major,Open,Protocol Ambiguity,220
+DEV0605,SUB-1515,S26,2026-06-16,Inclusion/Exclusion Criteria,Major,Closed,Site Staff Error,15
+DEV0606,SUB-1522,S26,2025-08-18,Visit Window,Minor,Open,Scheduling Conflict,408
+DEV0607,SUB-1522,S26,2025-05-02,Study Drug Dosing,Minor,Open,Protocol Ambiguity,516
+DEV0608,SUB-1525,S26,2025-11-07,Inclusion/Exclusion Criteria,Minor,Closed,Subject Non-compliance,17
+DEV0609,SUB-1529,S26,2026-09-03,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,13
+DEV0610,SUB-1530,S26,2026-09-21,Source Document Missing,Minor,Open,Subject Non-compliance,9
+DEV0611,SUB-1535,S26,2025-10-14,Prohibited Medication,Minor,Open,Lab Processing Delay,351
+DEV0612,SUB-1535,S26,2025-09-06,Informed Consent,Minor,Closed,Lab Processing Delay,14
+DEV0613,SUB-1535,S26,2025-07-21,Informed Consent,Major,Closed,Scheduling Conflict,52
+DEV0614,SUB-1537,S26,2025-12-20,Study Drug Dosing,Major,Closed,Equipment Failure,16
+DEV0615,SUB-1548,S27,2026-09-12,Inclusion/Exclusion Criteria,Major,Open,Equipment Failure,18
+DEV0616,SUB-1548,S27,2026-09-01,Prohibited Medication,Minor,Closed,Scheduling Conflict,11
+DEV0617,SUB-1548,S27,2026-09-08,Informed Consent,Minor,Open,Site Staff Error,22
+DEV0618,SUB-1551,S27,2025-06-25,Laboratory Procedure,Minor,Closed,Lab Processing Delay,10
+DEV0619,SUB-1553,S27,2025-03-17,Visit Window,Minor,Open,Scheduling Conflict,562
+DEV0620,SUB-1553,S27,2025-05-31,Source Document Missing,Minor,Closed,Site Staff Error,42
+DEV0621,SUB-1555,S27,2026-08-17,Randomization Error,Minor,Open,Protocol Ambiguity,44
+DEV0622,SUB-1559,S27,2026-02-15,Randomization Error,Minor,Open,Site Staff Error,227
+DEV0623,SUB-1560,S27,2026-04-21,Randomization Error,Minor,Closed,Lab Processing Delay,41
+DEV0624,SUB-1570,S27,2026-02-28,Source Document Missing,Minor,Open,Protocol Ambiguity,214
+DEV0625,SUB-1575,S27,2025-07-30,Inclusion/Exclusion Criteria,Minor,Closed,Protocol Ambiguity,17
+DEV0626,SUB-1583,S27,2026-08-19,Source Document Missing,Minor,Closed,Site Staff Error,33
+DEV0627,SUB-1585,S27,2026-09-06,Visit Window,Minor,Closed,Lab Processing Delay,46
+DEV0628,SUB-1588,S27,2026-06-01,Study Drug Dosing,Minor,Closed,Equipment Failure,44
+DEV0629,SUB-1590,S27,2025-11-07,Study Drug Dosing,Major,Closed,Protocol Ambiguity,4
+DEV0630,SUB-1597,S27,2026-02-27,Study Drug Dosing,Minor,Closed,Subject Non-compliance,7
+DEV0631,SUB-1597,S27,2026-01-22,Study Drug Dosing,Minor,Open,Site Staff Error,251
+DEV0632,SUB-1600,S27,2025-11-12,Randomization Error,Minor,Closed,Protocol Ambiguity,16
+DEV0633,SUB-1605,S27,2025-11-16,Visit Window,Minor,Closed,Equipment Failure,56
+DEV0634,SUB-1608,S27,2026-01-29,Laboratory Procedure,Minor,Closed,Scheduling Conflict,10
+DEV0635,SUB-1608,S27,2026-04-21,Inclusion/Exclusion Criteria,Minor,Closed,Equipment Failure,54
+DEV0636,SUB-1609,S27,2026-08-22,Laboratory Procedure,Minor,Open,Subject Non-compliance,39
+DEV0637,SUB-1610,S27,2026-09-22,Source Document Missing,Major,Closed,Equipment Failure,7
+DEV0638,SUB-1615,S28,2026-09-05,Visit Window,Minor,Closed,Lab Processing Delay,21
+DEV0639,SUB-1615,S28,2026-09-18,Source Document Missing,Minor,Open,Subject Non-compliance,12
+DEV0640,SUB-1616,S28,2026-09-22,Informed Consent,Minor,Closed,Protocol Ambiguity,17
+DEV0641,SUB-1616,S28,2026-09-28,Study Drug Dosing,Minor,Open,Site Staff Error,2
+DEV0642,SUB-1619,S28,2026-09-17,Source Document Missing,Minor,Open,Protocol Ambiguity,13
+DEV0643,SUB-1623,S28,2026-09-06,Randomization Error,Minor,Closed,Equipment Failure,43
+DEV0644,SUB-1625,S28,2026-09-10,Study Drug Dosing,Major,Closed,Subject Non-compliance,13
+DEV0645,SUB-1626,S28,2026-05-13,Randomization Error,Major,Closed,Site Staff Error,38
+DEV0646,SUB-1628,S28,2026-04-05,Informed Consent,Major,Closed,Site Staff Error,34
+DEV0647,SUB-1630,S28,2026-08-15,Informed Consent,Minor,Open,Scheduling Conflict,46
+DEV0648,SUB-1630,S28,2026-07-17,Source Document Missing,Major,Open,Lab Processing Delay,75
+DEV0649,SUB-1634,S28,2026-09-21,Randomization Error,Minor,Open,Site Staff Error,9
+DEV0650,SUB-1637,S28,2026-09-03,Inclusion/Exclusion Criteria,Minor,Open,Equipment Failure,27
+DEV0651,SUB-1648,S28,2026-03-02,Inclusion/Exclusion Criteria,Major,Open,Scheduling Conflict,212
+DEV0652,SUB-1649,S28,2026-09-23,Randomization Error,Minor,Closed,Equipment Failure,17
+DEV0653,SUB-1651,S28,2026-09-23,Informed Consent,Minor,Open,Site Staff Error,7
+DEV0654,SUB-1662,S28,2026-09-24,Inclusion/Exclusion Criteria,Minor,Closed,Protocol Ambiguity,41
+DEV0655,SUB-1663,S28,2026-08-29,Laboratory Procedure,Minor,Closed,Equipment Failure,17
+DEV0656,SUB-1670,S28,2026-09-23,Source Document Missing,Minor,Closed,Site Staff Error,45
+DEV0657,SUB-1673,S29,2026-01-03,Visit Window,Minor,Closed,Subject Non-compliance,26
+DEV0658,SUB-1678,S29,2025-12-05,Study Drug Dosing,Minor,Closed,Lab Processing Delay,29
+DEV0659,SUB-1678,S29,2025-11-15,Visit Window,Minor,Open,Equipment Failure,319
+DEV0660,SUB-1683,S29,2026-06-27,Visit Window,Minor,Closed,Lab Processing Delay,39
+DEV0661,SUB-1684,S29,2026-09-16,Prohibited Medication,Major,Closed,Scheduling Conflict,39
+DEV0662,SUB-1696,S29,2026-06-09,Informed Consent,Minor,Open,Subject Non-compliance,113
+DEV0663,SUB-1699,S29,2025-06-06,Visit Window,Minor,Open,Site Staff Error,481
+DEV0664,SUB-1699,S29,2025-08-02,Laboratory Procedure,Minor,Open,Protocol Ambiguity,424
+DEV0665,SUB-1700,S29,2026-09-10,Randomization Error,Minor,Open,Site Staff Error,20
+DEV0666,SUB-1706,S29,2026-02-19,Inclusion/Exclusion Criteria,Minor,Open,Protocol Ambiguity,223
+DEV0667,SUB-1710,S29,2025-08-31,Informed Consent,Minor,Closed,Lab Processing Delay,43
+DEV0668,SUB-1715,S29,2026-09-21,Laboratory Procedure,Minor,Closed,Equipment Failure,37
+DEV0669,SUB-1721,S29,2025-12-22,Prohibited Medication,Minor,Open,Scheduling Conflict,282
+DEV0670,SUB-1722,S29,2026-09-19,Laboratory Procedure,Major,Closed,Site Staff Error,51
+DEV0671,SUB-1724,S29,2026-09-21,Laboratory Procedure,Minor,Open,Equipment Failure,9
+DEV0672,SUB-1728,S29,2026-09-27,Source Document Missing,Minor,Closed,Site Staff Error,29
+DEV0673,SUB-1729,S29,2026-09-26,Prohibited Medication,Minor,Open,Site Staff Error,4
+DEV0674,SUB-1734,S29,2025-12-25,Visit Window,Minor,Closed,Lab Processing Delay,24
+DEV0675,SUB-1734,S29,2026-02-25,Prohibited Medication,Minor,Open,Scheduling Conflict,217
+DEV0676,SUB-1736,S29,2025-05-30,Visit Window,Minor,Closed,Protocol Ambiguity,22
+DEV0677,SUB-1736,S29,2025-06-23,Laboratory Procedure,Minor,Closed,Scheduling Conflict,22
+DEV0678,SUB-1744,S30,2026-09-02,Randomization Error,Major,Open,Lab Processing Delay,28
+DEV0679,SUB-1749,S30,2026-09-15,Randomization Error,Minor,Open,Subject Non-compliance,15
+DEV0680,SUB-1749,S30,2026-08-31,Inclusion/Exclusion Criteria,Minor,Closed,Lab Processing Delay,34
+DEV0681,SUB-1750,S30,2026-02-02,Laboratory Procedure,Minor,Closed,Protocol Ambiguity,57
+DEV0682,SUB-1751,S30,2026-03-18,Randomization Error,Minor,Open,Lab Processing Delay,196
+DEV0683,SUB-1756,S30,2026-09-17,Study Drug Dosing,Minor,Closed,Equipment Failure,40
+DEV0684,SUB-1758,S30,2025-12-09,Informed Consent,Minor,Closed,Subject Non-compliance,21
+DEV0685,SUB-1758,S30,2026-07-24,Source Document Missing,Minor,Closed,Subject Non-compliance,24
+DEV0686,SUB-1763,S30,2026-08-10,Inclusion/Exclusion Criteria,Minor,Open,Equipment Failure,51
+DEV0687,SUB-1765,S30,2026-09-20,Prohibited Medication,Minor,Open,Lab Processing Delay,10
+DEV0688,SUB-1766,S30,2026-09-27,Visit Window,Minor,Closed,Lab Processing Delay,31
+DEV0689,SUB-1770,S30,2026-09-05,Laboratory Procedure,Minor,Open,Protocol Ambiguity,25
+DEV0690,SUB-1773,S30,2025-11-01,Informed Consent,Minor,Closed,Subject Non-compliance,24
+DEV0691,SUB-1776,S30,2026-06-14,Laboratory Procedure,Minor,Open,Equipment Failure,108
+DEV0692,SUB-1776,S30,2026-03-30,Visit Window,Minor,Open,Subject Non-compliance,184
+DEV0693,SUB-1790,S30,2025-11-29,Source Document Missing,Minor,Closed,Subject Non-compliance,27
+DEV0694,SUB-1790,S30,2025-11-20,Prohibited Medication,Major,Open,Equipment Failure,314
+DEV0695,SUB-1791,S30,2026-09-29,Source Document Missing,Minor,Open,Subject Non-compliance,1
+DEV0696,SUB-1791,S30,2026-09-02,Laboratory Procedure,Major,Closed,Lab Processing Delay,4
+DEV0697,SUB-1793,S30,2026-09-10,Study Drug Dosing,Minor,Closed,Equipment Failure,36
+DEV0698,SUB-1793,S30,2026-09-01,Study Drug Dosing,Minor,Closed,Scheduling Conflict,43
+DEV0699,SUB-1796,S30,2026-06-16,Study Drug Dosing,Minor,Open,Subject Non-compliance,106
+DEV0700,SUB-1797,S30,2026-07-15,Visit Window,Minor,Closed,Scheduling Conflict,46
+DEV0701,SUB-1798,S30,2026-03-08,Laboratory Procedure,Major,Closed,Subject Non-compliance,32
+DEV0702,SUB-1798,S30,2026-07-10,Source Document Missing,Minor,Closed,Subject Non-compliance,17
+DEV0703,SUB-1800,S30,2026-08-06,Prohibited Medication,Minor,Open,Scheduling Conflict,55
+DEV0704,SUB-1803,S31,2026-06-20,Source Document Missing,Minor,Closed,Protocol Ambiguity,58
+DEV0705,SUB-1804,S31,2026-09-23,Prohibited Medication,Minor,Closed,Equipment Failure,12
+DEV0706,SUB-1804,S31,2026-09-12,Inclusion/Exclusion Criteria,Minor,Open,Protocol Ambiguity,18
+DEV0707,SUB-1805,S31,2026-09-26,Randomization Error,Minor,Open,Equipment Failure,4
+DEV0708,SUB-1806,S31,2026-01-16,Study Drug Dosing,Major,Closed,Site Staff Error,32
+DEV0709,SUB-1807,S31,2026-06-29,Informed Consent,Major,Closed,Site Staff Error,39
+DEV0710,SUB-1808,S31,2025-12-29,Source Document Missing,Minor,Closed,Protocol Ambiguity,34
+DEV0711,SUB-1808,S31,2026-07-17,Randomization Error,Major,Closed,Equipment Failure,48
+DEV0712,SUB-1810,S31,2026-09-18,Prohibited Medication,Major,Open,Lab Processing Delay,12
+DEV0713,SUB-1817,S31,2026-09-01,Informed Consent,Minor,Closed,Subject Non-compliance,34
+DEV0714,SUB-1817,S31,2026-09-21,Prohibited Medication,Minor,Open,Equipment Failure,9
+DEV0715,SUB-1818,S31,2026-08-31,Informed Consent,Minor,Open,Subject Non-compliance,30
+DEV0716,SUB-1827,S31,2026-09-20,Source Document Missing,Minor,Open,Site Staff Error,10
+DEV0717,SUB-1832,S31,2026-01-26,Informed Consent,Minor,Open,Equipment Failure,247
+DEV0718,SUB-1839,S31,2026-09-06,Prohibited Medication,Minor,Closed,Scheduling Conflict,38
+DEV0719,SUB-1840,S31,2026-08-24,Randomization Error,Major,Open,Protocol Ambiguity,37
+DEV0720,SUB-1840,S31,2026-02-18,Laboratory Procedure,Major,Closed,Scheduling Conflict,34
+DEV0721,SUB-1842,S31,2025-10-21,Informed Consent,Minor,Closed,Protocol Ambiguity,37
+DEV0722,SUB-1843,S31,2025-09-07,Randomization Error,Minor,Open,Site Staff Error,388
+DEV0723,SUB-1843,S31,2026-03-03,Study Drug Dosing,Minor,Closed,Scheduling Conflict,56
+DEV0724,SUB-1847,S31,2026-01-19,Inclusion/Exclusion Criteria,Major,Closed,Site Staff Error,13
+DEV0725,SUB-1848,S31,2026-07-13,Laboratory Procedure,Major,Closed,Lab Processing Delay,45
+DEV0726,SUB-1848,S31,2026-09-12,Informed Consent,Major,Open,Site Staff Error,18
+DEV0727,SUB-1851,S31,2026-09-26,Prohibited Medication,Minor,Open,Site Staff Error,4
+DEV0728,SUB-1856,S31,2026-09-14,Study Drug Dosing,Major,Open,Protocol Ambiguity,16
+DEV0729,SUB-1856,S31,2026-08-06,Laboratory Procedure,Major,Closed,Site Staff Error,11
+DEV0730,SUB-1858,S32,2026-09-01,Source Document Missing,Minor,Open,Scheduling Conflict,29
+DEV0731,SUB-1862,S32,2025-12-27,Prohibited Medication,Minor,Open,Site Staff Error,277
+DEV0732,SUB-1863,S32,2026-07-27,Source Document Missing,Major,Closed,Protocol Ambiguity,45
+DEV0733,SUB-1868,S32,2026-04-26,Laboratory Procedure,Minor,Closed,Lab Processing Delay,31
+DEV0734,SUB-1878,S32,2026-09-20,Laboratory Procedure,Minor,Closed,Equipment Failure,34
+DEV0735,SUB-1879,S32,2026-09-16,Source Document Missing,Minor,Closed,Lab Processing Delay,52
+DEV0736,SUB-1879,S32,2026-09-24,Study Drug Dosing,Major,Open,Lab Processing Delay,6
+DEV0737,SUB-1881,S32,2025-09-08,Source Document Missing,Minor,Closed,Subject Non-compliance,13
+DEV0738,SUB-1888,S32,2026-03-01,Prohibited Medication,Major,Closed,Protocol Ambiguity,57
+DEV0739,SUB-1889,S32,2025-09-06,Randomization Error,Minor,Closed,Scheduling Conflict,30
+DEV0740,SUB-1889,S32,2025-06-14,Informed Consent,Major,Closed,Scheduling Conflict,38
+DEV0741,SUB-1890,S32,2026-09-17,Informed Consent,Minor,Closed,Equipment Failure,15
+DEV0742,SUB-1893,S32,2026-09-06,Laboratory Procedure,Minor,Open,Lab Processing Delay,24
+DEV0743,SUB-1893,S32,2026-09-24,Study Drug Dosing,Minor,Closed,Scheduling Conflict,36
+DEV0744,SUB-1895,S32,2026-09-28,Prohibited Medication,Major,Open,Scheduling Conflict,2
+DEV0745,SUB-1896,S32,2025-11-14,Prohibited Medication,Major,Closed,Equipment Failure,50
+DEV0746,SUB-1899,S32,2026-09-17,Informed Consent,Minor,Closed,Protocol Ambiguity,6
+DEV0747,SUB-1912,S32,2026-08-21,Visit Window,Minor,Open,Scheduling Conflict,40
+DEV0748,SUB-1913,S32,2026-09-20,Inclusion/Exclusion Criteria,Minor,Open,Subject Non-compliance,10
+DEV0749,SUB-1913,S32,2026-09-11,Source Document Missing,Major,Open,Scheduling Conflict,19
+DEV0750,SUB-1921,S32,2026-01-22,Visit Window,Minor,Closed,Subject Non-compliance,34
+DEV0751,SUB-1922,S32,2025-06-28,Laboratory Procedure,Minor,Open,Equipment Failure,459
+DEV0752,SUB-1922,S32,2025-07-02,Laboratory Procedure,Minor,Closed,Protocol Ambiguity,7
+DEV0753,SUB-1924,S33,2026-09-23,Study Drug Dosing,Minor,Open,Lab Processing Delay,7
+DEV0754,SUB-1928,S33,2026-09-17,Laboratory Procedure,Minor,Closed,Scheduling Conflict,43
+DEV0755,SUB-1931,S33,2026-05-18,Randomization Error,Minor,Closed,Protocol Ambiguity,21
+DEV0756,SUB-1936,S33,2025-11-28,Visit Window,Major,Closed,Protocol Ambiguity,34
+DEV0757,SUB-1938,S33,2026-02-05,Prohibited Medication,Minor,Closed,Scheduling Conflict,17
+DEV0758,SUB-1942,S33,2026-02-20,Source Document Missing,Minor,Closed,Lab Processing Delay,51
+DEV0759,SUB-1946,S33,2026-09-05,Laboratory Procedure,Minor,Open,Lab Processing Delay,25
+DEV0760,SUB-1950,S33,2026-09-18,Study Drug Dosing,Minor,Closed,Subject Non-compliance,32
+DEV0761,SUB-1950,S33,2026-09-05,Prohibited Medication,Minor,Open,Equipment Failure,25
+DEV0762,SUB-1951,S33,2026-09-28,Laboratory Procedure,Major,Closed,Protocol Ambiguity,34
+DEV0763,SUB-1953,S33,2026-03-08,Source Document Missing,Major,Closed,Lab Processing Delay,28
+DEV0764,SUB-1954,S33,2026-09-13,Study Drug Dosing,Major,Open,Equipment Failure,17
+DEV0765,SUB-1954,S33,2026-09-14,Study Drug Dosing,Minor,Closed,Protocol Ambiguity,15
+DEV0766,SUB-1956,S33,2026-09-29,Inclusion/Exclusion Criteria,Minor,Open,Lab Processing Delay,1
+DEV0767,SUB-1957,S33,2026-09-06,Inclusion/Exclusion Criteria,Major,Open,Lab Processing Delay,24
+DEV0768,SUB-1958,S33,2026-09-08,Study Drug Dosing,Minor,Open,Scheduling Conflict,22
+DEV0769,SUB-1958,S33,2026-09-29,Laboratory Procedure,Major,Open,Scheduling Conflict,1
+DEV0770,SUB-1960,S33,2026-09-10,Source Document Missing,Major,Closed,Site Staff Error,31
+DEV0771,SUB-1961,S33,2026-09-06,Study Drug Dosing,Minor,Closed,Subject Non-compliance,7
+DEV0772,SUB-1968,S33,2026-09-28,Randomization Error,Minor,Closed,Site Staff Error,48
+DEV0773,SUB-1969,S33,2026-09-23,Informed Consent,Minor,Closed,Site Staff Error,18
+DEV0774,SUB-1972,S33,2026-09-21,Inclusion/Exclusion Criteria,Minor,Closed,Equipment Failure,7
+DEV0775,SUB-1972,S33,2026-09-20,Randomization Error,Minor,Open,Scheduling Conflict,10
+DEV0776,SUB-1973,S33,2026-09-26,Laboratory Procedure,Major,Closed,Equipment Failure,40
+DEV0777,SUB-1975,S33,2026-08-06,Prohibited Medication,Minor,Closed,Lab Processing Delay,16
+DEV0778,SUB-1977,S33,2026-07-06,Source Document Missing,Minor,Open,Scheduling Conflict,86
+DEV0779,SUB-1981,S33,2025-09-30,Visit Window,Minor,Open,Lab Processing Delay,365
+DEV0780,SUB-1982,S33,2026-09-18,Laboratory Procedure,Major,Open,Lab Processing Delay,12
+DEV0781,SUB-1982,S33,2026-02-13,Randomization Error,Minor,Closed,Equipment Failure,8
+DEV0782,SUB-1983,S33,2026-09-13,Inclusion/Exclusion Criteria,Minor,Closed,Protocol Ambiguity,52
+DEV0783,SUB-1984,S34,2026-09-22,Visit Window,Major,Closed,Equipment Failure,35
+DEV0784,SUB-1985,S34,2026-09-26,Laboratory Procedure,Major,Open,Scheduling Conflict,4
+DEV0785,SUB-1985,S34,2026-09-29,Laboratory Procedure,Minor,Closed,Equipment Failure,16
+DEV0786,SUB-1985,S34,2026-09-20,Inclusion/Exclusion Criteria,Major,Open,Protocol Ambiguity,10
+DEV0787,SUB-1987,S34,2026-09-18,Source Document Missing,Minor,Open,Equipment Failure,12
+DEV0788,SUB-1993,S34,2026-08-31,Visit Window,Minor,Open,Lab Processing Delay,30
+DEV0789,SUB-1997,S34,2026-09-18,Prohibited Medication,Minor,Closed,Site Staff Error,15
+DEV0790,SUB-2000,S34,2026-02-20,Source Document Missing,Major,Closed,Site Staff Error,26
+DEV0791,SUB-2000,S34,2026-01-17,Source Document Missing,Major,Open,Scheduling Conflict,256
+DEV0792,SUB-2000,S34,2026-09-04,Laboratory Procedure,Minor,Closed,Subject Non-compliance,29
+DEV0793,SUB-2003,S34,2026-09-28,Visit Window,Minor,Closed,Protocol Ambiguity,44
+DEV0794,SUB-2006,S34,2026-09-18,Randomization Error,Major,Closed,Scheduling Conflict,52
+DEV0795,SUB-2006,S34,2026-09-03,Laboratory Procedure,Minor,Open,Site Staff Error,27
+DEV0796,SUB-2011,S34,2026-09-26,Randomization Error,Minor,Closed,Site Staff Error,28
+DEV0797,SUB-2015,S34,2026-09-09,Source Document Missing,Minor,Open,Lab Processing Delay,21
+DEV0798,SUB-2016,S34,2026-09-09,Visit Window,Minor,Closed,Lab Processing Delay,46
+DEV0799,SUB-2030,S34,2026-09-23,Study Drug Dosing,Minor,Closed,Scheduling Conflict,39
+DEV0800,SUB-2030,S34,2026-09-13,Source Document Missing,Major,Closed,Subject Non-compliance,40
+DEV0801,SUB-2033,S34,2026-09-16,Informed Consent,Minor,Open,Equipment Failure,14
+DEV0802,SUB-2040,S35,2025-10-17,Prohibited Medication,Minor,Open,Scheduling Conflict,348
+DEV0803,SUB-2045,S35,2026-09-14,Randomization Error,Minor,Closed,Lab Processing Delay,54
+DEV0804,SUB-2046,S35,2025-12-30,Inclusion/Exclusion Criteria,Major,Open,Scheduling Conflict,274
+DEV0805,SUB-2048,S35,2026-04-18,Inclusion/Exclusion Criteria,Minor,Open,Site Staff Error,165
+DEV0806,SUB-2048,S35,2026-05-10,Laboratory Procedure,Minor,Closed,Equipment Failure,8
+DEV0807,SUB-2048,S35,2026-06-15,Source Document Missing,Minor,Open,Site Staff Error,107
+DEV0808,SUB-2054,S35,2026-07-22,Prohibited Medication,Minor,Closed,Subject Non-compliance,12
+DEV0809,SUB-2055,S35,2026-06-07,Informed Consent,Minor,Open,Subject Non-compliance,115
+DEV0810,SUB-2057,S35,2026-04-09,Prohibited Medication,Major,Closed,Site Staff Error,34
+DEV0811,SUB-2057,S35,2026-05-20,Informed Consent,Minor,Closed,Lab Processing Delay,53
+DEV0812,SUB-2058,S35,2026-09-05,Visit Window,Minor,Closed,Site Staff Error,12
+DEV0813,SUB-2061,S35,2026-09-10,Source Document Missing,Minor,Open,Site Staff Error,20
+DEV0814,SUB-2062,S35,2025-12-31,Randomization Error,Major,Closed,Protocol Ambiguity,40
+DEV0815,SUB-2062,S35,2025-10-24,Source Document Missing,Major,Open,Protocol Ambiguity,341
+DEV0816,SUB-2062,S35,2026-05-04,Source Document Missing,Major,Open,Site Staff Error,149
+DEV0817,SUB-2067,S35,2026-08-28,Visit Window,Minor,Open,Subject Non-compliance,33
+DEV0818,SUB-2073,S35,2026-09-29,Informed Consent,Major,Closed,Site Staff Error,12
+DEV0819,SUB-2073,S35,2026-09-22,Visit Window,Minor,Open,Scheduling Conflict,8
+DEV0820,SUB-2075,S35,2025-07-24,Study Drug Dosing,Minor,Open,Scheduling Conflict,433
+DEV0821,SUB-2077,S35,2026-09-25,Prohibited Medication,Minor,Closed,Scheduling Conflict,59
+DEV0822,SUB-2077,S35,2026-09-29,Prohibited Medication,Minor,Closed,Site Staff Error,55
+DEV0823,SUB-2087,S35,2026-01-14,Informed Consent,Minor,Open,Scheduling Conflict,259
+DEV0824,SUB-2087,S35,2026-03-19,Study Drug Dosing,Minor,Closed,Lab Processing Delay,10
+DEV0825,SUB-2088,S35,2025-07-17,Study Drug Dosing,Minor,Open,Subject Non-compliance,440
+DEV0826,SUB-2088,S35,2025-11-22,Laboratory Procedure,Minor,Closed,Lab Processing Delay,29
+DEV0827,SUB-2088,S35,2026-01-28,Visit Window,Major,Closed,Protocol Ambiguity,9
+DEV0828,SUB-2090,S35,2026-02-27,Visit Window,Minor,Open,Subject Non-compliance,215
+DEV0829,SUB-2094,S35,2026-08-18,Informed Consent,Minor,Closed,Equipment Failure,42
+DEV0830,SUB-2095,S35,2026-05-27,Randomization Error,Major,Open,Scheduling Conflict,126
+DEV0831,SUB-2095,S35,2026-03-10,Laboratory Procedure,Minor,Closed,Scheduling Conflict,20
+DEV0832,SUB-2102,S35,2025-10-17,Source Document Missing,Minor,Open,Site Staff Error,348
+DEV0833,SUB-2102,S35,2025-08-26,Inclusion/Exclusion Criteria,Minor,Closed,Subject Non-compliance,27
+DEV0834,SUB-2103,S35,2026-09-20,Laboratory Procedure,Minor,Open,Site Staff Error,10
+DEV0835,SUB-2110,S36,2026-08-03,Study Drug Dosing,Minor,Closed,Protocol Ambiguity,47
+DEV0836,SUB-2114,S36,2026-09-02,Visit Window,Minor,Open,Equipment Failure,28
+DEV0837,SUB-2124,S36,2026-06-29,Informed Consent,Minor,Closed,Scheduling Conflict,58
+DEV0838,SUB-2128,S36,2026-05-15,Study Drug Dosing,Minor,Open,Scheduling Conflict,138
+DEV0839,SUB-2130,S36,2025-12-24,Prohibited Medication,Minor,Open,Scheduling Conflict,280
+DEV0840,SUB-2134,S36,2026-03-14,Visit Window,Minor,Open,Equipment Failure,200
+DEV0841,SUB-2137,S36,2026-09-14,Randomization Error,Minor,Closed,Equipment Failure,56
+DEV0842,SUB-2142,S36,2025-05-14,Prohibited Medication,Minor,Closed,Scheduling Conflict,57
+DEV0843,SUB-2143,S36,2025-09-03,Source Document Missing,Major,Open,Protocol Ambiguity,392
+DEV0844,SUB-2144,S36,2026-01-11,Study Drug Dosing,Minor,Closed,Protocol Ambiguity,5
+DEV0845,SUB-2148,S36,2025-07-05,Informed Consent,Minor,Open,Site Staff Error,452
+DEV0846,SUB-2149,S36,2025-11-24,Prohibited Medication,Minor,Open,Site Staff Error,310
+DEV0847,SUB-2152,S36,2026-09-11,Randomization Error,Minor,Closed,Lab Processing Delay,38
+DEV0848,SUB-2154,S36,2025-07-09,Laboratory Procedure,Major,Closed,Subject Non-compliance,22
+DEV0849,SUB-2156,S36,2026-09-04,Visit Window,Major,Open,Protocol Ambiguity,26
+DEV0850,SUB-2161,S36,2026-09-03,Source Document Missing,Minor,Closed,Protocol Ambiguity,34
+DEV0851,SUB-2162,S37,2026-09-09,Laboratory Procedure,Minor,Closed,Equipment Failure,49
+DEV0852,SUB-2163,S37,2026-05-22,Randomization Error,Minor,Closed,Equipment Failure,16
+DEV0853,SUB-2171,S37,2026-09-27,Visit Window,Minor,Closed,Site Staff Error,20
+DEV0854,SUB-2172,S37,2025-07-07,Source Document Missing,Major,Open,Protocol Ambiguity,450
+DEV0855,SUB-2174,S37,2025-06-23,Informed Consent,Major,Closed,Lab Processing Delay,10
+DEV0856,SUB-2181,S37,2026-03-31,Prohibited Medication,Minor,Open,Subject Non-compliance,183
+DEV0857,SUB-2191,S37,2025-10-25,Laboratory Procedure,Minor,Open,Subject Non-compliance,340
+DEV0858,SUB-2193,S37,2026-08-10,Prohibited Medication,Major,Open,Subject Non-compliance,51
+DEV0859,SUB-2194,S37,2026-09-07,Prohibited Medication,Major,Open,Equipment Failure,23
+DEV0860,SUB-2196,S37,2026-09-05,Prohibited Medication,Major,Open,Subject Non-compliance,25
+DEV0861,SUB-2197,S37,2026-09-16,Prohibited Medication,Major,Closed,Protocol Ambiguity,52
+DEV0862,SUB-2197,S37,2026-07-10,Randomization Error,Major,Open,Protocol Ambiguity,82
+DEV0863,SUB-2203,S37,2026-06-03,Informed Consent,Major,Open,Equipment Failure,119
+DEV0864,SUB-2204,S37,2026-09-02,Prohibited Medication,Major,Open,Protocol Ambiguity,28
+DEV0865,SUB-2207,S37,2025-09-26,Prohibited Medication,Minor,Open,Equipment Failure,369
+DEV0866,SUB-2212,S37,2026-09-19,Randomization Error,Minor,Closed,Scheduling Conflict,23
+DEV0867,SUB-2213,S37,2025-10-20,Source Document Missing,Major,Closed,Lab Processing Delay,54
+DEV0868,SUB-2215,S37,2026-09-11,Prohibited Medication,Major,Closed,Subject Non-compliance,8
+DEV0869,SUB-2218,S37,2026-04-29,Laboratory Procedure,Minor,Closed,Lab Processing Delay,31
+DEV0870,SUB-2220,S37,2025-11-22,Prohibited Medication,Minor,Open,Equipment Failure,312
+DEV0871,SUB-2221,S37,2026-09-04,Randomization Error,Minor,Closed,Equipment Failure,16
+DEV0872,SUB-2224,S38,2026-05-16,Visit Window,Minor,Closed,Scheduling Conflict,43
+DEV0873,SUB-2227,S38,2026-09-16,Study Drug Dosing,Minor,Open,Equipment Failure,14
+DEV0874,SUB-2227,S38,2026-09-14,Laboratory Procedure,Minor,Closed,Equipment Failure,60
+DEV0875,SUB-2228,S38,2026-09-13,Visit Window,Minor,Open,Protocol Ambiguity,17
+DEV0876,SUB-2235,S38,2026-01-23,Source Document Missing,Minor,Open,Equipment Failure,250
+DEV0877,SUB-2236,S38,2026-02-12,Study Drug Dosing,Minor,Closed,Scheduling Conflict,7
+DEV0878,SUB-2246,S38,2025-12-25,Visit Window,Minor,Open,Scheduling Conflict,279
+DEV0879,SUB-2247,S38,2026-09-01,Source Document Missing,Minor,Closed,Protocol Ambiguity,3
+DEV0880,SUB-2247,S38,2026-09-14,Laboratory Procedure,Major,Open,Subject Non-compliance,16
+DEV0881,SUB-2247,S38,2026-06-28,Informed Consent,Minor,Open,Subject Non-compliance,94
+DEV0882,SUB-2249,S38,2026-05-18,Study Drug Dosing,Minor,Open,Scheduling Conflict,135
+DEV0883,SUB-2249,S38,2026-07-07,Source Document Missing,Major,Open,Protocol Ambiguity,85
+DEV0884,SUB-2252,S38,2026-09-15,Study Drug Dosing,Minor,Open,Equipment Failure,15
+DEV0885,SUB-2253,S38,2026-05-05,Visit Window,Minor,Closed,Subject Non-compliance,15
+DEV0886,SUB-2255,S38,2026-01-25,Prohibited Medication,Minor,Closed,Protocol Ambiguity,25
+DEV0887,SUB-2256,S38,2025-06-17,Source Document Missing,Minor,Closed,Protocol Ambiguity,36
+DEV0888,SUB-2256,S38,2025-08-02,Source Document Missing,Minor,Closed,Subject Non-compliance,42
+DEV0889,SUB-2263,S38,2026-07-03,Informed Consent,Major,Open,Equipment Failure,89
+DEV0890,SUB-2264,S38,2025-12-16,Informed Consent,Major,Closed,Subject Non-compliance,17
+DEV0891,SUB-2265,S38,2026-03-23,Inclusion/Exclusion Criteria,Major,Open,Lab Processing Delay,191
+DEV0892,SUB-2266,S38,2026-03-07,Prohibited Medication,Major,Closed,Protocol Ambiguity,24
+DEV0893,SUB-2266,S38,2026-05-20,Prohibited Medication,Minor,Closed,Equipment Failure,37
+DEV0894,SUB-2266,S38,2026-02-11,Randomization Error,Minor,Closed,Protocol Ambiguity,58
+DEV0895,SUB-2269,S38,2025-06-27,Randomization Error,Minor,Open,Site Staff Error,460
+DEV0896,SUB-2269,S38,2025-12-03,Prohibited Medication,Minor,Closed,Lab Processing Delay,12
+DEV0897,SUB-2269,S38,2025-04-13,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,43
+DEV0898,SUB-2276,S39,2025-12-28,Inclusion/Exclusion Criteria,Minor,Closed,Scheduling Conflict,47
+DEV0899,SUB-2282,S39,2025-09-24,Prohibited Medication,Minor,Closed,Lab Processing Delay,14
+DEV0900,SUB-2285,S39,2025-11-17,Prohibited Medication,Minor,Closed,Subject Non-compliance,58
+DEV0901,SUB-2289,S39,2026-03-18,Laboratory Procedure,Minor,Closed,Equipment Failure,26
+DEV0902,SUB-2294,S39,2026-09-13,Visit Window,Minor,Open,Subject Non-compliance,17
+DEV0903,SUB-2300,S39,2026-09-19,Laboratory Procedure,Minor,Open,Scheduling Conflict,11
+DEV0904,SUB-2300,S39,2026-09-25,Informed Consent,Minor,Open,Equipment Failure,5
+DEV0905,SUB-2304,S39,2026-08-31,Visit Window,Minor,Closed,Site Staff Error,49
+DEV0906,SUB-2305,S39,2026-09-20,Prohibited Medication,Major,Closed,Lab Processing Delay,21
+DEV0907,SUB-2307,S39,2026-09-23,Prohibited Medication,Major,Open,Site Staff Error,7
+DEV0908,SUB-2311,S39,2026-08-25,Study Drug Dosing,Minor,Closed,Lab Processing Delay,35
+DEV0909,SUB-2313,S39,2026-09-08,Visit Window,Minor,Open,Lab Processing Delay,22
+DEV0910,SUB-2318,S39,2026-06-27,Inclusion/Exclusion Criteria,Major,Closed,Lab Processing Delay,38
+DEV0911,SUB-2318,S39,2026-09-21,Visit Window,Minor,Closed,Equipment Failure,20
+DEV0912,SUB-2320,S39,2026-04-25,Randomization Error,Minor,Closed,Lab Processing Delay,9
+DEV0913,SUB-2321,S39,2026-02-21,Prohibited Medication,Minor,Open,Subject Non-compliance,221
+DEV0914,SUB-2322,S39,2026-03-28,Randomization Error,Minor,Closed,Scheduling Conflict,48
+DEV0915,SUB-2323,S39,2026-04-17,Visit Window,Minor,Open,Lab Processing Delay,166
+DEV0916,SUB-2331,S40,2026-09-23,Inclusion/Exclusion Criteria,Minor,Open,Lab Processing Delay,7
+DEV0917,SUB-2331,S40,2026-06-18,Inclusion/Exclusion Criteria,Major,Closed,Lab Processing Delay,60
+DEV0918,SUB-2335,S40,2026-09-13,Randomization Error,Minor,Open,Site Staff Error,17
+DEV0919,SUB-2339,S40,2026-09-29,Informed Consent,Minor,Open,Site Staff Error,1
+DEV0920,SUB-2341,S40,2026-04-12,Visit Window,Minor,Closed,Equipment Failure,60
+DEV0921,SUB-2342,S40,2026-03-26,Prohibited Medication,Major,Open,Protocol Ambiguity,188
+DEV0922,SUB-2348,S40,2026-06-13,Informed Consent,Major,Open,Equipment Failure,109
+DEV0923,SUB-2348,S40,2026-06-08,Randomization Error,Major,Closed,Subject Non-compliance,32
+DEV0924,SUB-2349,S40,2026-04-03,Source Document Missing,Minor,Closed,Site Staff Error,60
+DEV0925,SUB-2352,S40,2026-09-07,Laboratory Procedure,Minor,Open,Scheduling Conflict,23
+DEV0926,SUB-2353,S40,2026-07-01,Visit Window,Minor,Closed,Subject Non-compliance,39
+DEV0927,SUB-2362,S40,2026-04-11,Source Document Missing,Minor,Closed,Protocol Ambiguity,59
+DEV0928,SUB-2368,S40,2026-08-13,Visit Window,Minor,Closed,Scheduling Conflict,54
+DEV0929,SUB-2370,S40,2026-02-10,Source Document Missing,Minor,Open,Lab Processing Delay,232
+DEV0930,SUB-2379,S40,2026-09-18,Visit Window,Minor,Closed,Subject Non-compliance,26
+DEV0931,SUB-2380,S40,2026-09-13,Study Drug Dosing,Minor,Closed,Site Staff Error,20
+DEV0932,SUB-2382,S40,2026-09-24,Inclusion/Exclusion Criteria,Minor,Closed,Protocol Ambiguity,7
+DEV0933,SUB-2384,S40,2026-02-24,Informed Consent,Minor,Open,Subject Non-compliance,218
+DEV0934,SUB-2384,S40,2026-02-22,Randomization Error,Minor,Closed,Site Staff Error,26
+DEV0935,SUB-2384,S40,2026-05-16,Laboratory Procedure,Minor,Open,Protocol Ambiguity,137
+DEV0936,SUB-2388,S40,2026-05-18,Visit Window,Minor,Closed,Equipment Failure,35
+DEV0937,SUB-2388,S40,2026-09-29,Inclusion/Exclusion Criteria,Minor,Open,Subject Non-compliance,1
+DEV0938,SUB-2388,S40,2026-07-14,Prohibited Medication,Minor,Open,Scheduling Conflict,78
+DEV0939,SUB-2389,S40,2026-09-14,Source Document Missing,Minor,Open,Protocol Ambiguity,16
